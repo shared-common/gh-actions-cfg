@@ -2,8 +2,8 @@
   "version": 1,
   "targets": [
     {
-      "target_project_path": "",
-      "source_project_path": "",
+      "target_project_path": "glab-forks/kalilinux/kali-purple/documentation",
+      "source_project_path": "kalilinux/kali-purple/documentation",
       "branch_rev": "",
       "branches": [],
       "tags": []

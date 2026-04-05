@@ -63,11 +63,11 @@
       "branch_rev": "",
       "branches": [
         { "name": "debian/0.9.5-1", "protected": true, "upstream": true },
-        { "name": "upstream/0.9.5", "protected": true, "upstream": true }
+        { "name": "upstream/0.9.5", "protected": true, "upstream": true },
       ]
       "tags": [
         { "name": "debian/0.9.5-1", "protected": true, "upstream": true },
-        { "name": "upstream/0.9.5", "protected": true, "upstream": true }
+        { "name": "upstream/0.9.5", "protected": true, "upstream": true },
       ]
     }
   ]

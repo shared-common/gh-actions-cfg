@@ -56,6 +56,19 @@
       "branch_rev": "",
       "branches": [],
       "tags": []
+    },
+    {
+      "target_project_path": "glab-forks/debian/labwc",
+      "source_url": "https://salsa.debian.org/labwc-team/labwc",
+      "branch_rev": "",
+      "branches": [
+        { "name": "debian/0.9.5-1", "protected": true, "upstream": true },
+        { "name": "upstream/0.9.5", "protected": true, "upstream": true }
+      ]
+      "tags": [
+        { "name": "debian/0.9.5-1", "protected": true, "upstream": true },
+        { "name": "upstream/0.9.5", "protected": true, "upstream": true }
+      ]
     }
   ]
 }

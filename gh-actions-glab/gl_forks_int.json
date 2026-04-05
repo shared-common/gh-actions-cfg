@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "targets": [
+    {
+      "target_project_path": "glab-forks/system/yodl",
+      "source_project_path": "fbb-git/yodl",
+      "branch_rev": "",
+      "branches": [],
+      "tags": []
+    }
+  ]
+}

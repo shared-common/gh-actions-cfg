@@ -1,0 +1,61 @@
+{
+  "version": 1,
+  "targets": [
+    {
+      "target_project_path": "ghgl-forks/mainline/extra-cmake-modules",
+      "source_url": "https://invent.kde.org/frameworks/extra-cmake-modules",
+      "branch_rev": "",
+      "branches": [],
+      "tags": []
+    },
+    {
+      "target_project_path": "ghgl-forks/mainline/gtk",
+      "source_url": "https://gitlab.gnome.org/GNOME/gtk",
+      "branch_rev": "",
+      "branches": [],
+      "tags": []
+    },
+    {
+      "target_project_path": "ghgl-forks/mainline/kate",
+      "source_url": "https://invent.kde.org/utilities/kate",
+      "branch_rev": "",
+      "branches": [],
+      "tags": []
+    },
+    {
+      "target_project_path": "ghgl-forks/mainline/keepsecret",
+      "source_url": "https://invent.kde.org/utilities/keepsecret",
+      "branch_rev": "",
+      "branches": [],
+      "tags": []
+    },
+    {
+      "target_project_path": "ghgl-forks/mainline/kirigami",
+      "source_url": "https://invent.kde.org/frameworks/kirigami",
+      "branch_rev": "",
+      "branches": [],
+      "tags": []
+    },
+    {
+      "target_project_path": "ghgl-forks/mainline/switcheroo-control",
+      "source_url": "https://gitlab.freedesktop.org/hadess/switcheroo-control",
+      "branch_rev": "",
+      "branches": [],
+      "tags": []
+    },
+    {
+      "target_project_path": "ghgl-forks/mainline/wlroots",
+      "source_url": "https://gitlab.freedesktop.org/wlroots/wlroots",
+      "branch_rev": "",
+      "branches": [],
+      "tags": []
+    },
+    {
+      "target_project_path": "ghgl-forks/mainline/zsh",
+      "source_url": "https://git.code.sf.net/p/zsh/code",
+      "branch_rev": "",
+      "branches": [],
+      "tags": []
+    }
+  ]
+}

@@ -497,6 +497,20 @@
       ]
     },
     {
+      "target_project_path": "glab-forks/debian/dbus-broker",
+      "target_mirror_path": "workyard/glab-forks/debian/dbus-broker",
+      "source_url": "https://salsa.debian.org/utopia-team/dbus-broker",
+      "branch_rev": "",
+      "branches": [],
+      "tags": [
+        {
+          "name": "debian/37-4",
+          "protected": true,
+          "upstream": true
+        }
+      ]
+    },
+    {
       "target_project_path": "glab-forks/netfilter/nftables",
       "target_mirror_path": "",
       "source_url": "https://git.netfilter.org/nftables",

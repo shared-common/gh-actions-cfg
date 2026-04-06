@@ -9,15 +9,32 @@
     "targets": [
       {
         "target_project_path": "ghgl-forks/mainline/example-project",
+        "target_mirror_path": "",
         "source_url": "https://gitlab.example.org/group/example-project",
         "branch_rev": "feature/login",
         "branches": [
-          { "name": "dev/test", "protected": true, "upstream": false },
-          { "name": "fix/bug123", "protected": true, "upstream": true }
+          {
+            "name": "dev/test",
+            "protected": true,
+            "upstream": false
+          },
+          {
+            "name": "fix/bug123",
+            "protected": true,
+            "upstream": true
+          }
         ],
         "tags": [
-          { "name": "v1.2.3", "protected": true, "upstream": true },
-          { "name": "qa-build-2026-04-05", "protected": false, "upstream": false }
+          {
+            "name": "v1.2.3",
+            "protected": true,
+            "upstream": true
+          },
+          {
+            "name": "qa-build-2026-04-05",
+            "protected": false,
+            "upstream": false
+          }
         ]
       }
     ]
@@ -27,15 +44,32 @@
     "targets": [
       {
         "target_project_path": "glab-forks/system/example-project",
+        "target_mirror_path": "",
         "source_project_path": "upstream-group/example-project",
         "branch_rev": "feature/login",
         "branches": [
-          { "name": "dev/test", "protected": true, "upstream": false },
-          { "name": "fix/bug123", "protected": true, "upstream": true }
+          {
+            "name": "dev/test",
+            "protected": true,
+            "upstream": false
+          },
+          {
+            "name": "fix/bug123",
+            "protected": true,
+            "upstream": true
+          }
         ],
         "tags": [
-          { "name": "v1.2.3", "protected": true, "upstream": true },
-          { "name": "qa-build-2026-04-05", "protected": false, "upstream": false }
+          {
+            "name": "v1.2.3",
+            "protected": true,
+            "upstream": true
+          },
+          {
+            "name": "qa-build-2026-04-05",
+            "protected": false,
+            "upstream": false
+          }
         ]
       }
     ]

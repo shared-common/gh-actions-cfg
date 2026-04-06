@@ -3,6 +3,7 @@
   "targets": [
     {
       "target_project_path": "glab-forks/kalilinux/kali-purple/documentation",
+      "target_mirror_path": "",
       "source_project_path": "kalilinux/kali-purple/documentation",
       "branch_rev": "",
       "branches": [],

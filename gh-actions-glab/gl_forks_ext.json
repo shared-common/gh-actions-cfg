@@ -3,6 +3,7 @@
   "targets": [
     {
       "target_project_path": "glab-forks/kde/extra-cmake-modules",
+      "target_mirror_path": "",
       "source_url": "https://invent.kde.org/frameworks/extra-cmake-modules",
       "branch_rev": "",
       "branches": [],
@@ -10,6 +11,7 @@
     },
     {
       "target_project_path": "glab-forks/gnome/gtk",
+      "target_mirror_path": "",
       "source_url": "https://gitlab.gnome.org/GNOME/gtk",
       "branch_rev": "",
       "branches": [],
@@ -17,6 +19,7 @@
     },
     {
       "target_project_path": "glab-forks/kde/kate",
+      "target_mirror_path": "",
       "source_url": "https://invent.kde.org/utilities/kate",
       "branch_rev": "",
       "branches": [],
@@ -24,6 +27,7 @@
     },
     {
       "target_project_path": "glab-forks/kde/keepsecret",
+      "target_mirror_path": "",
       "source_url": "https://invent.kde.org/utilities/keepsecret",
       "branch_rev": "",
       "branches": [],
@@ -31,6 +35,7 @@
     },
     {
       "target_project_path": "glab-forks/kde/kirigami",
+      "target_mirror_path": "",
       "source_url": "https://invent.kde.org/frameworks/kirigami",
       "branch_rev": "",
       "branches": [],
@@ -38,6 +43,7 @@
     },
     {
       "target_project_path": "glab-forks/freedesktop/switcheroo-control",
+      "target_mirror_path": "",
       "source_url": "https://gitlab.freedesktop.org/hadess/switcheroo-control",
       "branch_rev": "",
       "branches": [],
@@ -45,6 +51,7 @@
     },
     {
       "target_project_path": "glab-forks/freedesktop/wlroots",
+      "target_mirror_path": "",
       "source_url": "https://gitlab.freedesktop.org/wlroots/wlroots",
       "branch_rev": "",
       "branches": [],
@@ -52,6 +59,7 @@
     },
     {
       "target_project_path": "glab-forks/sourceforge/zsh",
+      "target_mirror_path": "",
       "source_url": "https://git.code.sf.net/p/zsh/code",
       "branch_rev": "",
       "branches": [],
@@ -59,248 +67,449 @@
     },
     {
       "target_project_path": "glab-forks/debian/labwc",
+      "target_mirror_path": "workyard/glab-forks/debian/labwc",
       "source_url": "https://salsa.debian.org/labwc-team/labwc",
       "branch_rev": "",
       "branches": [
-        { "name": "debian/0.9.5-1", "protected": true, "upstream": true },
-        { "name": "upstream/0.9.5", "protected": true, "upstream": true }
+        {
+          "name": "debian/0.9.5-1",
+          "protected": true,
+          "upstream": true
+        },
+        {
+          "name": "upstream/0.9.5",
+          "protected": true,
+          "upstream": true
+        }
       ],
       "tags": [
-        { "name": "debian/0.9.5-1", "protected": true, "upstream": true },
-        { "name": "upstream/0.9.5", "protected": true, "upstream": true }
+        {
+          "name": "debian/0.9.5-1",
+          "protected": true,
+          "upstream": true
+        },
+        {
+          "name": "upstream/0.9.5",
+          "protected": true,
+          "upstream": true
+        }
       ]
     },
     {
       "target_project_path": "glab-forks/debian/wlroots",
+      "target_mirror_path": "workyard/glab-forks/debian/wlroots",
       "source_url": "https://salsa.debian.org/swaywm-team/wlroots",
       "branch_rev": "",
       "branches": [
-        { "name": "debian/0.19.x", "protected": true, "upstream": true },
-        { "name": "upstream/0.19.x", "protected": true, "upstream": true }
+        {
+          "name": "debian/0.19.x",
+          "protected": true,
+          "upstream": true
+        },
+        {
+          "name": "upstream/0.19.x",
+          "protected": true,
+          "upstream": true
+        }
       ],
       "tags": [
-        { "name": "debian/0.19.3-1", "protected": true, "upstream": true },
-        { "name": "upstream/0.19.3", "protected": true, "upstream": true }
+        {
+          "name": "debian/0.19.3-1",
+          "protected": true,
+          "upstream": true
+        },
+        {
+          "name": "upstream/0.19.3",
+          "protected": true,
+          "upstream": true
+        }
       ]
     },
     {
       "target_project_path": "glab-forks/debian/kf6-extra-cmake-modules",
+      "target_mirror_path": "workyard/glab-forks/debian/kf6-extra-cmake-modules",
       "source_url": "https://salsa.debian.org/qt-kde-team/kde/kf6-extra-cmake-modules",
       "branch_rev": "",
       "branches": [],
       "tags": [
-        { "name": "debian/6.23.0-1", "protected": true, "upstream": true }
+        {
+          "name": "debian/6.23.0-1",
+          "protected": true,
+          "upstream": true
+        }
       ]
     },
     {
       "target_project_path": "glab-forks/debian/devscripts",
+      "target_mirror_path": "workyard/glab-forks/debian/devscripts",
       "source_url": "https://salsa.debian.org/debian/devscripts",
       "branch_rev": "",
       "branches": [
-        { "name": "trixie-backports", "protected": true, "upstream": true }
+        {
+          "name": "trixie-backports",
+          "protected": true,
+          "upstream": true
+        }
       ],
       "tags": [
-        { "name": "v2.26.7_bpo13+1", "protected": true, "upstream": true }
+        {
+          "name": "v2.26.7_bpo13+1",
+          "protected": true,
+          "upstream": true
+        }
       ]
     },
     {
       "target_project_path": "glab-forks/debian/gtk4",
+      "target_mirror_path": "workyard/glab-forks/debian/gtk4",
       "source_url": "https://salsa.debian.org/gnome-team/gtk4",
       "branch_rev": "",
       "branches": [],
       "tags": [
-        { "name": "debian/4.21.5+ds-5", "protected": true, "upstream": true }
+        {
+          "name": "debian/4.21.5+ds-5",
+          "protected": true,
+          "upstream": true
+        }
       ]
     },
     {
       "target_project_path": "glab-forks/debian/greetd",
+      "target_mirror_path": "workyard/glab-forks/debian/greetd",
       "source_url": "https://salsa.debian.org/debian/greetd",
       "branch_rev": "",
       "branches": [],
       "tags": [
-        { "name": "debian/0.10.3-5", "protected": true, "upstream": true }
+        {
+          "name": "debian/0.10.3-5",
+          "protected": true,
+          "upstream": true
+        }
       ]
     },
     {
       "target_project_path": "glab-forks/debian/waybar",
+      "target_mirror_path": "workyard/glab-forks/debian/waybar",
       "source_url": "https://salsa.debian.org/swaywm-team/waybar",
       "branch_rev": "",
       "branches": [],
       "tags": [
-        { "name": "debian/0.14.0-1", "protected": true, "upstream": true },
-        { "name": "upstream/0.14.0", "protected": true, "upstream": true }
+        {
+          "name": "debian/0.14.0-1",
+          "protected": true,
+          "upstream": true
+        },
+        {
+          "name": "upstream/0.14.0",
+          "protected": true,
+          "upstream": true
+        }
       ]
     },
     {
       "target_project_path": "glab-forks/debian/pkg-nftables",
+      "target_mirror_path": "workyard/glab-forks/debian/pkg-nftables",
       "source_url": "https://salsa.debian.org/pkg-netfilter-team/pkg-nftables",
       "branch_rev": "",
       "branches": [
-        { "name": "debian/trixie", "protected": true, "upstream": true }
+        {
+          "name": "debian/trixie",
+          "protected": true,
+          "upstream": true
+        }
       ],
       "tags": [
-        { "name": "debian/1.1.6-1", "protected": true, "upstream": true },
-        { "name": "upstream/1.1.6", "protected": true, "upstream": true }
+        {
+          "name": "debian/1.1.6-1",
+          "protected": true,
+          "upstream": true
+        },
+        {
+          "name": "upstream/1.1.6",
+          "protected": true,
+          "upstream": true
+        }
       ]
     },
     {
       "target_project_path": "glab-forks/debian/wayland",
+      "target_mirror_path": "workyard/glab-forks/debian/wayland",
       "source_url": "https://salsa.debian.org/xorg-team/wayland/wayland",
       "branch_rev": "",
       "branches": [],
       "tags": [
-        { "name": "debian/1.24.0-2", "protected": true, "upstream": true }
+        {
+          "name": "debian/1.24.0-2",
+          "protected": true,
+          "upstream": true
+        }
       ]
     },
     {
       "target_project_path": "glab-forks/debian/wayland-protocols",
+      "target_mirror_path": "workyard/glab-forks/debian/wayland-protocols",
       "source_url": "https://salsa.debian.org/xorg-team/wayland/wayland-protocols",
       "branch_rev": "",
       "branches": [],
       "tags": [
-        { "name": "debian/1.48-1", "protected": true, "upstream": true }
+        {
+          "name": "debian/1.48-1",
+          "protected": true,
+          "upstream": true
+        }
       ]
     },
     {
       "target_project_path": "glab-forks/debian/wayland-utils",
+      "target_mirror_path": "workyard/glab-forks/debian/wayland-utils",
       "source_url": "https://salsa.debian.org/xorg-team/wayland/wayland-utils",
       "branch_rev": "",
       "branches": [],
       "tags": [
-        { "name": "debian/1.3.0-1", "protected": true, "upstream": true }
+        {
+          "name": "debian/1.3.0-1",
+          "protected": true,
+          "upstream": true
+        }
       ]
     },
     {
       "target_project_path": "glab-forks/debian/xwayland",
+      "target_mirror_path": "workyard/glab-forks/debian/xwayland",
       "source_url": "https://salsa.debian.org/xorg-team/wayland/xwayland",
       "branch_rev": "",
       "branches": [],
       "tags": [
-        { "name": "debian/2%24.1.9-1", "protected": true, "upstream": true }
+        {
+          "name": "debian/2%24.1.9-1",
+          "protected": true,
+          "upstream": true
+        }
       ]
     },
     {
       "target_project_path": "glab-forks/debian/wofi",
+      "target_mirror_path": "workyard/glab-forks/debian/wofi",
       "source_url": "https://salsa.debian.org/swaywm-team/wofi",
       "branch_rev": "",
       "branches": [],
       "tags": [
-        { "name": "debian/1.5.1", "protected": true, "upstream": true }
+        {
+          "name": "debian/1.5.1",
+          "protected": true,
+          "upstream": true
+        }
       ]
     },
     {
       "target_project_path": "glab-forks/debian/cage",
+      "target_mirror_path": "workyard/glab-forks/debian/cage",
       "source_url": "https://salsa.debian.org/swaywm-team/cage",
       "branch_rev": "",
       "branches": [],
       "tags": [
-        { "name": "debian/0.2.1-1", "protected": true, "upstream": true },
-        { "name": "v0.2.1", "protected": true, "upstream": true }
+        {
+          "name": "debian/0.2.1-1",
+          "protected": true,
+          "upstream": true
+        },
+        {
+          "name": "v0.2.1",
+          "protected": true,
+          "upstream": true
+        }
       ]
     },
     {
       "target_project_path": "glab-forks/debian/kanshi",
+      "target_mirror_path": "workyard/glab-forks/debian/kanshi",
       "source_url": "https://salsa.debian.org/swaywm-team/kanshi",
       "branch_rev": "",
       "branches": [],
       "tags": [
-        { "name": "debian/1.9.0-3", "protected": true, "upstream": true },
-        { "name": "upstream/1.9.0", "protected": true, "upstream": true }
+        {
+          "name": "debian/1.9.0-3",
+          "protected": true,
+          "upstream": true
+        },
+        {
+          "name": "upstream/1.9.0",
+          "protected": true,
+          "upstream": true
+        }
       ]
     },
     {
       "target_project_path": "glab-forks/debian/mako",
+      "target_mirror_path": "workyard/glab-forks/debian/mako",
       "source_url": "https://salsa.debian.org/swaywm-team/mako",
       "branch_rev": "",
       "branches": [],
       "tags": [
-        { "name": "debian/1.11.0-1", "protected": true, "upstream": true },
-        { "name": "upstream/1.11.0", "protected": true, "upstream": true }
+        {
+          "name": "debian/1.11.0-1",
+          "protected": true,
+          "upstream": true
+        },
+        {
+          "name": "upstream/1.11.0",
+          "protected": true,
+          "upstream": true
+        }
       ]
     },
     {
       "target_project_path": "glab-forks/debian/wf-recorder",
+      "target_mirror_path": "workyard/glab-forks/debian/wf-recorder",
       "source_url": "https://salsa.debian.org/swaywm-team/wf-recorder",
       "branch_rev": "",
       "branches": [],
       "tags": [
-        { "name": "debian/0.6.0-1", "protected": true, "upstream": true },
-        { "name": "v0.6.0", "protected": true, "upstream": true }
+        {
+          "name": "debian/0.6.0-1",
+          "protected": true,
+          "upstream": true
+        },
+        {
+          "name": "v0.6.0",
+          "protected": true,
+          "upstream": true
+        }
       ]
     },
     {
       "target_project_path": "glab-forks/debian/wlogout",
+      "target_mirror_path": "workyard/glab-forks/debian/wlogout",
       "source_url": "https://salsa.debian.org/swaywm-team/wlogout",
       "branch_rev": "",
       "branches": [],
       "tags": [
-        { "name": "debian/1.2.2-1", "protected": true, "upstream": true },
-        { "name": "1.2.2", "protected": true, "upstream": true }
+        {
+          "name": "debian/1.2.2-1",
+          "protected": true,
+          "upstream": true
+        },
+        {
+          "name": "1.2.2",
+          "protected": true,
+          "upstream": true
+        }
       ]
     },
     {
       "target_project_path": "glab-forks/debian/wlrctl",
+      "target_mirror_path": "workyard/glab-forks/debian/wlrctl",
       "source_url": "https://salsa.debian.org/swaywm-team/wlrctl",
       "branch_rev": "",
       "branches": [],
       "tags": [
-        { "name": "debian/0.2.2-2", "protected": true, "upstream": true },
-        { "name": "upstream/0.2.2", "protected": true, "upstream": true }
+        {
+          "name": "debian/0.2.2-2",
+          "protected": true,
+          "upstream": true
+        },
+        {
+          "name": "upstream/0.2.2",
+          "protected": true,
+          "upstream": true
+        }
       ]
     },
     {
       "target_project_path": "glab-forks/debian/wlclock",
+      "target_mirror_path": "workyard/glab-forks/debian/wlclock",
       "source_url": "https://salsa.debian.org/swaywm-team/wlclock",
       "branch_rev": "",
       "branches": [],
       "tags": [
-        { "name": "debian/1.0.1-1", "protected": true, "upstream": true }
+        {
+          "name": "debian/1.0.1-1",
+          "protected": true,
+          "upstream": true
+        }
       ]
     },
     {
       "target_project_path": "glab-forks/debian/wlopm",
+      "target_mirror_path": "workyard/glab-forks/debian/wlopm",
       "source_url": "https://salsa.debian.org/swaywm-team/wlopm",
       "branch_rev": "",
       "branches": [],
       "tags": [
-        { "name": "debian/1.0.0-1", "protected": true, "upstream": true },
-        { "name": "v1.0.0", "protected": true, "upstream": true }
+        {
+          "name": "debian/1.0.0-1",
+          "protected": true,
+          "upstream": true
+        },
+        {
+          "name": "v1.0.0",
+          "protected": true,
+          "upstream": true
+        }
       ]
     },
     {
       "target_project_path": "glab-forks/debian/xdg-desktop-portal-wlr",
+      "target_mirror_path": "workyard/glab-forks/debian/xdg-desktop-portal-wlr",
       "source_url": "https://salsa.debian.org/swaywm-team/xdg-desktop-portal-wlr",
       "branch_rev": "",
       "branches": [],
       "tags": [
-        { "name": "debian/0.8.1-1", "protected": true, "upstream": true },
-        { "name": "upstream/0.8.1", "protected": true, "upstream": true }
+        {
+          "name": "debian/0.8.1-1",
+          "protected": true,
+          "upstream": true
+        },
+        {
+          "name": "upstream/0.8.1",
+          "protected": true,
+          "upstream": true
+        }
       ]
     },
     {
       "target_project_path": "glab-forks/debian/xdg-desktop-portal",
+      "target_mirror_path": "workyard/glab-forks/debian/xdg-desktop-portal",
       "source_url": "https://salsa.debian.org/debian/xdg-desktop-portal",
       "branch_rev": "",
       "branches": [
-        { "name": "debian/trixie", "protected": true, "upstream": true }
+        {
+          "name": "debian/trixie",
+          "protected": true,
+          "upstream": true
+        }
       ],
       "tags": [
-        { "name": "debian/1.20.3+ds-3", "protected": true, "upstream": true }
+        {
+          "name": "debian/1.20.3+ds-3",
+          "protected": true,
+          "upstream": true
+        }
       ]
     },
     {
       "target_project_path": "glab-forks/debian/xdg-desktop-portal-gtk",
+      "target_mirror_path": "workyard/glab-forks/debian/xdg-desktop-portal-gtk",
       "source_url": "https://salsa.debian.org/debian/xdg-desktop-portal-gtk",
       "branch_rev": "",
       "branches": [
-        { "name": "debian/trixie", "protected": true, "upstream": true }
+        {
+          "name": "debian/trixie",
+          "protected": true,
+          "upstream": true
+        }
       ],
       "tags": [
-        { "name": "debian/1.15.3-2", "protected": true, "upstream": true }
+        {
+          "name": "debian/1.15.3-2",
+          "protected": true,
+          "upstream": true
+        }
       ]
     },
     {
       "target_project_path": "glab-forks/netfilter/nftables",
+      "target_mirror_path": "",
       "source_url": "https://git.netfilter.org/nftables",
       "branch_rev": "",
       "branches": [],

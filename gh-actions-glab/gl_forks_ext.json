@@ -519,12 +519,61 @@
       "tags": []
     },
     {
-      "target_project_path": "glab-forks/microsoft/converter",
-      "target_mirror_path": "workyard/glab-forks/microsoft/converter",
+      "target_project_path": "glab-forks/microsoft/uupdump/converter",
+      "target_mirror_path": "workyard/glab-forks/microsoft/uupdump/converter",
       "source_url": "https://git.uupdump.net/uup-dump/converter",
       "branch_rev": "",
       "branches": [],
       "tags": []
+    },
+    {
+      "target_project_path": "glab-forks/microsoft/uupdump/misc",
+      "target_mirror_path": "workyard/glab-forks/microsoft/uupdump/misc",
+      "source_url": "https://git.uupdump.net/uup-dump/misc",
+      "branch_rev": "",
+      "branches": [],
+      "tags": []
+    },
+    {
+      "target_project_path": "glab-forks/microsoft/uupdump/standalone",
+      "target_mirror_path": "workyard/glab-forks/microsoft/uupdump/standalone",
+      "source_url": "https://git.uupdump.net/uup-dump/standalone",
+      "branch_rev": "",
+      "branches": [],
+      "tags": []
+    },
+    {
+      "target_project_path": "glab-forks/microsoft/uupdump/api",
+      "target_mirror_path": "workyard/glab-forks/microsoft/uupdump/api",
+      "source_url": "https://git.uupdump.net/uup-dump/api",
+      "branch_rev": "",
+      "branches": [],
+      "tags": []
+    },
+    {
+      "target_project_path": "glab-forks/microsoft/uupdump/contrib",
+      "target_mirror_path": "workyard/glab-forks/microsoft/uupdump/contrib",
+      "source_url": "https://git.uupdump.net/uup-dump/contrib",
+      "branch_rev": "",
+      "branches": [],
+      "tags": []
+    },
+    {
+      "target_project_path": "glab-forks/microsoft/uupdump/lightuup",
+      "target_mirror_path": "workyard/glab-forks/microsoft/uupdump/lightuup",
+      "source_url": "https://git.uupdump.net/uup-dump/lightuup",
+      "branch_rev": "",
+      "branches": [],
+      "tags": []
+    },
+    {
+      "target_project_path": "glab-forks/microsoft/uupdump/json-api",
+      "target_mirror_path": "workyard/glab-forks/microsoft/uupdump/json-api",
+      "source_url": "https://git.uupdump.net/uup-dump/json-api",
+      "branch_rev": "",
+      "branches": [],
+      "tags": []
+
     }
   ]
 }

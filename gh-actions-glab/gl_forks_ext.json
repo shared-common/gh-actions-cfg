@@ -519,12 +519,12 @@
       "tags": []
     },
     {
-      "target_project_path": "glab-forks/microsoft/uup-dump",
-      "target_mirror_path": "workyard/glab-forks/microsoft/uup-dump",
-      "source_url": "https://git.uupdump.net/uup-dump",
-      "branch_rev": "",
-      "branches": [],
-      "tags": []
+#      "target_project_path": "glab-forks/microsoft/uup-dump",
+#      "target_mirror_path": "workyard/glab-forks/microsoft/uup-dump",
+#      "source_url": "https://git.uupdump.net/uup-dump",
+#      "branch_rev": "",
+#      "branches": [],
+#      "tags": []
     }
   ]
 }

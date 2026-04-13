@@ -70,7 +70,13 @@
       "target_mirror_path": "workyard/glab-forks/debian/labwc",
       "source_url": "https://salsa.debian.org/labwc-team/labwc",
       "branch_rev": "",
-      "branches": [],
+      "branches": [
+        {
+          "name": "pristine-tar",
+          "protected": true,
+          "upstream": true
+        }
+      ],
       "tags": [
         {
           "name": "debian/0.9.5-1",
@@ -99,6 +105,11 @@
           "name": "upstream/0.19.x",
           "protected": true,
           "upstream": true
+        },
+        {
+          "name": "pristine-tar",
+          "protected": true,
+          "upstream": true
         }
       ],
       "tags": [
@@ -119,7 +130,13 @@
       "target_mirror_path": "workyard/glab-forks/debian/kf6-extra-cmake-modules",
       "source_url": "https://salsa.debian.org/qt-kde-team/kde/kf6-extra-cmake-modules",
       "branch_rev": "",
-      "branches": [],
+      "branches": [
+        {
+          "name": "pristine-tar",
+          "protected": true,
+          "upstream": true
+        }
+      ],
       "tags": [
         {
           "name": "debian/6.23.0-1",
@@ -138,6 +155,11 @@
           "name": "trixie-backports",
           "protected": true,
           "upstream": true
+        },
+        {
+          "name": "pristine-tar",
+          "protected": true,
+          "upstream": true
         }
       ],
       "tags": [
@@ -153,7 +175,13 @@
       "target_mirror_path": "workyard/glab-forks/debian/gtk4",
       "source_url": "https://salsa.debian.org/gnome-team/gtk4",
       "branch_rev": "",
-      "branches": [],
+      "branches": [
+        {
+          "name": "pristine-tar",
+          "protected": true,
+          "upstream": true
+        }
+      ],
       "tags": [
         {
           "name": "debian/4.21.5+ds-5",
@@ -167,7 +195,13 @@
       "target_mirror_path": "workyard/glab-forks/debian/greetd",
       "source_url": "https://salsa.debian.org/debian/greetd",
       "branch_rev": "",
-      "branches": [],
+      "branches": [
+        {
+          "name": "pristine-tar",
+          "protected": true,
+          "upstream": true
+        }
+      ],
       "tags": [
         {
           "name": "debian/0.10.3-5",
@@ -181,7 +215,13 @@
       "target_mirror_path": "workyard/glab-forks/debian/waybar",
       "source_url": "https://salsa.debian.org/swaywm-team/waybar",
       "branch_rev": "",
-      "branches": [],
+      "branches": [
+        {
+          "name": "pristine-tar",
+          "protected": true,
+          "upstream": true
+        }
+      ],
       "tags": [
         {
           "name": "debian/0.14.0-1",
@@ -205,6 +245,11 @@
           "name": "debian/trixie",
           "protected": true,
           "upstream": true
+        },
+        {
+          "name": "pristine-tar",
+          "protected": true,
+          "upstream": true
         }
       ],
       "tags": [
@@ -225,7 +270,13 @@
       "target_mirror_path": "workyard/glab-forks/debian/wayland",
       "source_url": "https://salsa.debian.org/xorg-team/wayland/wayland",
       "branch_rev": "",
-      "branches": [],
+      "branches": [
+        {
+          "name": "pristine-tar",
+          "protected": true,
+          "upstream": true
+        }
+      ],
       "tags": [
         {
           "name": "debian/1.24.0-2",
@@ -239,7 +290,13 @@
       "target_mirror_path": "workyard/glab-forks/debian/wayland-protocols",
       "source_url": "https://salsa.debian.org/xorg-team/wayland/wayland-protocols",
       "branch_rev": "",
-      "branches": [],
+      "branches": [
+        {
+          "name": "pristine-tar",
+          "protected": true,
+          "upstream": true
+        }
+      ],
       "tags": [
         {
           "name": "debian/1.48-1",
@@ -253,7 +310,13 @@
       "target_mirror_path": "workyard/glab-forks/debian/wayland-utils",
       "source_url": "https://salsa.debian.org/xorg-team/wayland/wayland-utils",
       "branch_rev": "",
-      "branches": [],
+      "branches": [
+        {
+          "name": "pristine-tar",
+          "protected": true,
+          "upstream": true
+        }
+      ],
       "tags": [
         {
           "name": "debian/1.3.0-1",
@@ -267,7 +330,13 @@
       "target_mirror_path": "workyard/glab-forks/debian/xwayland",
       "source_url": "https://salsa.debian.org/xorg-team/wayland/xwayland",
       "branch_rev": "",
-      "branches": [],
+      "branches": [
+        {
+          "name": "pristine-tar",
+          "protected": true,
+          "upstream": true
+        }
+      ],
       "tags": [
         {
           "name": "debian/2%24.1.9-1",
@@ -281,7 +350,13 @@
       "target_mirror_path": "workyard/glab-forks/debian/wofi",
       "source_url": "https://salsa.debian.org/swaywm-team/wofi",
       "branch_rev": "",
-      "branches": [],
+      "branches": [
+        {
+          "name": "pristine-tar",
+          "protected": true,
+          "upstream": true
+        }
+      ],
       "tags": [
         {
           "name": "upstream/1.5.1",
@@ -295,7 +370,13 @@
       "target_mirror_path": "workyard/glab-forks/debian/cage",
       "source_url": "https://salsa.debian.org/swaywm-team/cage",
       "branch_rev": "",
-      "branches": [],
+      "branches": [
+        {
+          "name": "pristine-tar",
+          "protected": true,
+          "upstream": true
+        }
+      ],
       "tags": [
         {
           "name": "debian/0.2.1-1",
@@ -314,7 +395,13 @@
       "target_mirror_path": "workyard/glab-forks/debian/kanshi",
       "source_url": "https://salsa.debian.org/swaywm-team/kanshi",
       "branch_rev": "",
-      "branches": [],
+      "branches": [
+        {
+          "name": "pristine-tar",
+          "protected": true,
+          "upstream": true
+        }
+      ],
       "tags": [
         {
           "name": "debian/1.9.0-3",
@@ -333,7 +420,13 @@
       "target_mirror_path": "workyard/glab-forks/debian/mako",
       "source_url": "https://salsa.debian.org/swaywm-team/mako",
       "branch_rev": "",
-      "branches": [],
+      "branches": [
+        {
+          "name": "pristine-tar",
+          "protected": true,
+          "upstream": true
+        }
+      ],
       "tags": [
         {
           "name": "debian/1.11.0-1",
@@ -352,7 +445,13 @@
       "target_mirror_path": "workyard/glab-forks/debian/wf-recorder",
       "source_url": "https://salsa.debian.org/swaywm-team/wf-recorder",
       "branch_rev": "",
-      "branches": [],
+      "branches": [
+        {
+          "name": "pristine-tar",
+          "protected": true,
+          "upstream": true
+        }
+      ],
       "tags": [
         {
           "name": "debian/0.6.0-1",
@@ -371,7 +470,13 @@
       "target_mirror_path": "workyard/glab-forks/debian/wlogout",
       "source_url": "https://salsa.debian.org/swaywm-team/wlogout",
       "branch_rev": "",
-      "branches": [],
+      "branches": [
+        {
+          "name": "pristine-tar",
+          "protected": true,
+          "upstream": true
+        }
+      ],
       "tags": [
         {
           "name": "debian/1.2.2-1",
@@ -390,7 +495,13 @@
       "target_mirror_path": "workyard/glab-forks/debian/wlrctl",
       "source_url": "https://salsa.debian.org/swaywm-team/wlrctl",
       "branch_rev": "",
-      "branches": [],
+      "branches": [
+        {
+          "name": "pristine-tar",
+          "protected": true,
+          "upstream": true
+        }
+      ],
       "tags": [
         {
           "name": "debian/0.2.2-2",
@@ -409,7 +520,13 @@
       "target_mirror_path": "workyard/glab-forks/debian/wlclock",
       "source_url": "https://salsa.debian.org/swaywm-team/wlclock",
       "branch_rev": "",
-      "branches": [],
+      "branches": [
+        {
+          "name": "pristine-tar",
+          "protected": true,
+          "upstream": true
+        }
+      ],
       "tags": [
         {
           "name": "debian/1.0.1-1",
@@ -423,7 +540,13 @@
       "target_mirror_path": "workyard/glab-forks/debian/wlopm",
       "source_url": "https://salsa.debian.org/swaywm-team/wlopm",
       "branch_rev": "",
-      "branches": [],
+      "branches": [
+        {
+          "name": "pristine-tar",
+          "protected": true,
+          "upstream": true
+        }
+      ],
       "tags": [
         {
           "name": "debian/1.0.0-1",
@@ -442,7 +565,13 @@
       "target_mirror_path": "workyard/glab-forks/debian/xdg-desktop-portal-wlr",
       "source_url": "https://salsa.debian.org/swaywm-team/xdg-desktop-portal-wlr",
       "branch_rev": "",
-      "branches": [],
+      "branches": [
+        {
+          "name": "pristine-tar",
+          "protected": true,
+          "upstream": true
+        }
+      ],
       "tags": [
         {
           "name": "debian/0.8.1-1",
@@ -466,6 +595,11 @@
           "name": "debian/trixie",
           "protected": true,
           "upstream": true
+        },
+        {
+          "name": "pristine-tar",
+          "protected": true,
+          "upstream": true
         }
       ],
       "tags": [
@@ -486,6 +620,11 @@
           "name": "debian/trixie",
           "protected": true,
           "upstream": true
+        },
+        {
+          "name": "pristine-tar",
+          "protected": true,
+          "upstream": true
         }
       ],
       "tags": [
@@ -501,7 +640,13 @@
       "target_mirror_path": "workyard/glab-forks/debian/dbus-broker",
       "source_url": "https://salsa.debian.org/utopia-team/dbus-broker",
       "branch_rev": "",
-      "branches": [],
+      "branches": [
+        {
+          "name": "pristine-tar",
+          "protected": true,
+          "upstream": true
+        }
+      ],
       "tags": [
         {
           "name": "debian/37-4",
@@ -573,7 +718,6 @@
       "branch_rev": "",
       "branches": [],
       "tags": []
-
     }
   ]
 }

@@ -130,13 +130,7 @@
       "target_mirror_path": "workyard/glab-forks/debian/kf6-extra-cmake-modules",
       "source_url": "https://salsa.debian.org/qt-kde-team/kde/kf6-extra-cmake-modules",
       "branch_rev": "",
-      "branches": [
-        {
-          "name": "pristine-tar",
-          "protected": true,
-          "upstream": true
-        }
-      ],
+      "branches": [],
       "tags": [
         {
           "name": "debian/6.23.0-1",
@@ -153,11 +147,6 @@
       "branches": [
         {
           "name": "trixie-backports",
-          "protected": true,
-          "upstream": true
-        },
-        {
-          "name": "pristine-tar",
           "protected": true,
           "upstream": true
         }
@@ -330,13 +319,7 @@
       "target_mirror_path": "workyard/glab-forks/debian/xwayland",
       "source_url": "https://salsa.debian.org/xorg-team/wayland/xwayland",
       "branch_rev": "",
-      "branches": [
-        {
-          "name": "pristine-tar",
-          "protected": true,
-          "upstream": true
-        }
-      ],
+      "branches": [],
       "tags": [
         {
           "name": "debian/2%24.1.9-1",
@@ -520,13 +503,7 @@
       "target_mirror_path": "workyard/glab-forks/debian/wlclock",
       "source_url": "https://salsa.debian.org/swaywm-team/wlclock",
       "branch_rev": "",
-      "branches": [
-        {
-          "name": "pristine-tar",
-          "protected": true,
-          "upstream": true
-        }
-      ],
+      "branches": [],
       "tags": [
         {
           "name": "debian/1.0.1-1",
@@ -540,13 +517,7 @@
       "target_mirror_path": "workyard/glab-forks/debian/wlopm",
       "source_url": "https://salsa.debian.org/swaywm-team/wlopm",
       "branch_rev": "",
-      "branches": [
-        {
-          "name": "pristine-tar",
-          "protected": true,
-          "upstream": true
-        }
-      ],
+      "branches": [],
       "tags": [
         {
           "name": "debian/1.0.0-1",

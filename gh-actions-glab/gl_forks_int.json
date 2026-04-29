@@ -8,6 +8,414 @@
       "branch_rev": "",
       "branches": [],
       "tags": []
+    },
+    {
+      "target_project_path": "glab-forks/kalilinux/kali-purple/purple-hub",
+      "target_mirror_path": "",
+      "source_project_path": "kalilinux/kali-purple/purple-hub",
+      "branch_rev": "",
+      "branches": [],
+      "tags": []
+    },
+    {
+      "target_project_path": "glab-forks/kalilinux/kali-purple/malcolm",
+      "target_mirror_path": "",
+      "source_project_path": "kalilinux/kali-purple/malcolm",
+      "branch_rev": "",
+      "branches": [],
+      "tags": []
+    },
+    {
+      "target_project_path": "glab-forks/kalilinux/recipes/kali-preseed-examples",
+      "target_mirror_path": "",
+      "source_project_path": "kalilinux/recipes/kali-preseed-examples",
+      "branch_rev": "",
+      "branches": [],
+      "tags": []
+    },
+    {
+      "target_project_path": "glab-forks/kalilinux/recipes/live-build-config-examples",
+      "target_mirror_path": "",
+      "source_project_path": "kalilinux/recipes/live-build-config-examples",
+      "branch_rev": "",
+      "branches": [],
+      "tags": []
+    },
+    {
+      "target_project_path": "glab-forks/kalilinux/recipes/kali-scripts",
+      "target_mirror_path": "",
+      "source_project_path": "kalilinux/recipes/kali-scripts",
+      "branch_rev": "",
+      "branches": [],
+      "tags": []
+    },
+    {
+      "target_project_path": "glab-forks/kalilinux/documentation/kali-docs",
+      "target_mirror_path": "",
+      "source_project_path": "kalilinux/documentation/kali-docs",
+      "branch_rev": "",
+      "branches": [],
+      "tags": []
+    },
+    {
+      "target_project_path": "glab-forks/kalilinux/documentation/kali-tools",
+      "target_mirror_path": "",
+      "source_project_path": "kalilinux/documentation/kali-tools",
+      "branch_rev": "",
+      "branches": [],
+      "tags": []
+    },
+    {
+      "target_project_path": "glab-forks/kalilinux/documentation/10-year",
+      "target_mirror_path": "",
+      "source_project_path": "kalilinux/documentation/10-year",
+      "branch_rev": "",
+      "branches": [],
+      "tags": []
+    },
+    {
+      "target_project_path": "glab-forks/kalilinux/documentation/graphic-resources",
+      "target_mirror_path": "",
+      "source_project_path": "kalilinux/documentation/graphic-resources",
+      "branch_rev": "",
+      "branches": [],
+      "tags": []
+    },
+    {
+      "target_project_path": "glab-forks/kalilinux/documentation/governance",
+      "target_mirror_path": "",
+      "source_project_path": "kalilinux/documentation/governance",
+      "branch_rev": "",
+      "branches": [],
+      "tags": []
+    },
+    {
+      "target_project_path": "glab-forks/kalilinux/documentation/press-pack",
+      "target_mirror_path": "",
+      "source_project_path": "kalilinux/documentation/press-pack",
+      "branch_rev": "",
+      "branches": [],
+      "tags": []
+    },
+    {
+      "target_project_path": "glab-forks/kalilinux/documentation/kali-tips",
+      "target_mirror_path": "",
+      "source_project_path": "kalilinux/documentation/kali-tips",
+      "branch_rev": "",
+      "branches": [],
+      "tags": []
+    },
+    {
+      "target_project_path": "glab-forks/kalilinux/build-scripts/kali-docker",
+      "target_mirror_path": "",
+      "source_project_path": "kalilinux/build-scripts/kali-docker",
+      "branch_rev": "",
+      "branches": [],
+      "tags": []
+    },
+    {
+      "target_project_path": "glab-forks/kalilinux/build-scripts/kali-cloud",
+      "target_mirror_path": "",
+      "source_project_path": "kalilinux/build-scripts/kali-cloud",
+      "branch_rev": "",
+      "branches": [],
+      "tags": []
+    },
+    {
+      "target_project_path": "glab-forks/kalilinux/build-scripts/kali-wsl-rootfs",
+      "target_mirror_path": "",
+      "source_project_path": "kalilinux/build-scripts/kali-wsl-rootfs",
+      "branch_rev": "",
+      "branches": [],
+      "tags": []
+    },
+    {
+      "target_project_path": "glab-forks/kalilinux/build-scripts/kali-vm",
+      "target_mirror_path": "",
+      "source_project_path": "kalilinux/build-scripts/kali-vm",
+      "branch_rev": "",
+      "branches": [],
+      "tags": []
+    },
+    {
+      "target_project_path": "glab-forks/kalilinux/build-scripts/kali-live",
+      "target_mirror_path": "",
+      "source_project_path": "kalilinux/build-scripts/kali-live",
+      "branch_rev": "",
+      "branches": [],
+      "tags": []
+    },
+    {
+      "target_project_path": "glab-forks/kalilinux/build-scripts/kali-installer",
+      "target_mirror_path": "",
+      "source_project_path": "kalilinux/build-scripts/kali-installer",
+      "branch_rev": "",
+      "branches": [],
+      "tags": []
+    },
+    {
+      "target_project_path": "glab-forks/kalilinux/build-scripts/kali-wsl-app",
+      "target_mirror_path": "",
+      "source_project_path": "kalilinux/build-scripts/kali-wsl-app",
+      "branch_rev": "",
+      "branches": [],
+      "tags": []
+    },
+    {
+      "target_project_path": "glab-forks/kalilinux/build-scripts/kali-packer",
+      "target_mirror_path": "",
+      "source_project_path": "kalilinux/build-scripts/kali-packer",
+      "branch_rev": "",
+      "branches": [],
+      "tags": []
+    },
+    {
+      "target_project_path": "glab-forks/kalilinux/build-scripts/kali-arm",
+      "target_mirror_path": "",
+      "source_project_path": "kalilinux/build-scripts/kali-arm",
+      "branch_rev": "",
+      "branches": [],
+      "tags": []
+    },
+    {
+      "target_project_path": "glab-forks/kalilinux/tools/britney2",
+      "target_mirror_path": "",
+      "source_project_path": "kalilinux/tools/britney2",
+      "branch_rev": "",
+      "branches": [],
+      "tags": []
+    },
+    {
+      "target_project_path": "glab-forks/kalilinux/tools/packaging",
+      "target_mirror_path": "",
+      "source_project_path": "kalilinux/tools/packaging",
+      "branch_rev": "",
+      "branches": [],
+      "tags": []
+    },
+    {
+      "target_project_path": "glab-forks/kalilinux/tools/kali-ci-autopkgtest-lxc",
+      "target_mirror_path": "",
+      "source_project_path": "kalilinux/tools/kali-ci-autopkgtest-lxc",
+      "branch_rev": "",
+      "branches": [],
+      "tags": []
+    },
+    {
+      "target_project_path": "glab-forks/kalilinux/tools/mirror-status",
+      "target_mirror_path": "",
+      "source_project_path": "kalilinux/tools/mirror-status",
+      "branch_rev": "",
+      "branches": [],
+      "tags": []
+    },
+    {
+      "target_project_path": "glab-forks/kalilinux/tools/kali-ci-pipeline",
+      "target_mirror_path": "",
+      "source_project_path": "kalilinux/tools/kali-ci-pipeline",
+      "branch_rev": "",
+      "branches": [],
+      "tags": []
+    },
+    {
+      "target_project_path": "glab-forks/kalilinux/tools/upstream-watch",
+      "target_mirror_path": "",
+      "source_project_path": "kalilinux/tools/upstream-watch",
+      "branch_rev": "",
+      "branches": [],
+      "tags": []
+    },
+    {
+      "target_project_path": "glab-forks/kalilinux/tools/mirrorbits-scripts",
+      "target_mirror_path": "",
+      "source_project_path": "kalilinux/tools/mirrorbits-scripts",
+      "branch_rev": "",
+      "branches": [],
+      "tags": []
+    },
+    {
+      "target_project_path": "glab-forks/kalilinux/tools/archvsync",
+      "target_mirror_path": "",
+      "source_project_path": "kalilinux/tools/archvsync",
+      "branch_rev": "",
+      "branches": [],
+      "tags": []
+    },
+    {
+      "target_project_path": "glab-forks/kalilinux/tools/gitlab-ci-arm64-shared-runners",
+      "target_mirror_path": "",
+      "source_project_path": "kalilinux/tools/gitlab-ci-arm64-shared-runners",
+      "branch_rev": "",
+      "branches": [],
+      "tags": []
+    },
+    {
+      "target_project_path": "glab-forks/kalilinux/tools/mirrorbits",
+      "target_mirror_path": "",
+      "source_project_path": "kalilinux/tools/mirrorbits",
+      "branch_rev": "",
+      "branches": [],
+      "tags": []
+    },
+    {
+      "target_project_path": "glab-forks/kalilinux/tools/kaboxer",
+      "target_mirror_path": "",
+      "source_project_path": "kalilinux/tools/kaboxer",
+      "branch_rev": "",
+      "branches": [],
+      "tags": []
+    },
+    {
+      "target_project_path": "glab-forks/kalilinux/nethunter/nh-scripts",
+      "target_mirror_path": "",
+      "source_project_path": "kalilinux/nethunter/nh-scripts",
+      "branch_rev": "",
+      "branches": [],
+      "tags": []
+    },
+    {
+      "target_project_path": "glab-forks/kalilinux/nethunter/nh-resources",
+      "target_mirror_path": "",
+      "source_project_path": "kalilinux/nethunter/nh-resources",
+      "branch_rev": "",
+      "branches": [],
+      "tags": []
+    },
+    {
+      "target_project_path": "glab-forks/kalilinux/nethunter/apps/kali-nethunter-app",
+      "target_mirror_path": "",
+      "source_project_path": "kalilinux/nethunter/apps/kali-nethunter-app",
+      "branch_rev": "",
+      "branches": [],
+      "tags": []
+    },
+    {
+      "target_project_path": "glab-forks/kalilinux/nethunter/apps/kali-nethunter-kex",
+      "target_mirror_path": "",
+      "source_project_path": "kalilinux/nethunter/apps/kali-nethunter-kex",
+      "branch_rev": "",
+      "branches": [],
+      "tags": []
+    },
+    {
+      "target_project_path": "glab-forks/kalilinux/nethunter/apps/kali-nethunter-store-privileged-extension",
+      "target_mirror_path": "",
+      "source_project_path": "kalilinux/nethunter/apps/kali-nethunter-store-privileged-extension",
+      "branch_rev": "",
+      "branches": [],
+      "tags": []
+    },
+    {
+      "target_project_path": "glab-forks/kalilinux/nethunter/apps/kali-nethunter-term",
+      "target_mirror_path": "",
+      "source_project_path": "kalilinux/nethunter/apps/kali-nethunter-term",
+      "branch_rev": "",
+      "branches": [],
+      "tags": []
+    },
+    {
+      "target_project_path": "glab-forks/kalilinux/nethunter/apps/kali-nethunter-store-client",
+      "target_mirror_path": "",
+      "source_project_path": "kalilinux/nethunter/apps/kali-nethunter-store-client",
+      "branch_rev": "",
+      "branches": [],
+      "tags": []
+    },
+    {
+      "target_project_path": "glab-forks/kalilinux/nethunter/build-scripts/kali-nethunter-installer",
+      "target_mirror_path": "",
+      "source_project_path": "kalilinux/nethunter/build-scripts/kali-nethunter-installer",
+      "branch_rev": "",
+      "branches": [],
+      "tags": []
+    },
+    {
+      "target_project_path": "glab-forks/kalilinux/nethunter/build-scripts/kali-nethunter-kernel-builder",
+      "target_mirror_path": "",
+      "source_project_path": "kalilinux/nethunter/build-scripts/kali-nethunter-kernel-builder",
+      "branch_rev": "",
+      "branches": [],
+      "tags": []
+    },
+    {
+      "target_project_path": "glab-forks/kalilinux/nethunter/build-scripts/kali-nethunter-kernels",
+      "target_mirror_path": "",
+      "source_project_path": "kalilinux/nethunter/build-scripts/kali-nethunter-kernels",
+      "branch_rev": "",
+      "branches": [],
+      "tags": []
+    },
+    {
+      "target_project_path": "glab-forks/kalilinux/nethunter/build-scripts/kali-nethunter-project",
+      "target_mirror_path": "",
+      "source_project_path": "kalilinux/nethunter/build-scripts/kali-nethunter-project",
+      "branch_rev": "",
+      "branches": [],
+      "tags": []
+    },
+    {
+      "target_project_path": "glab-forks/kalilinux/nethunter/build-scripts/kali-nethunter-pro",
+      "target_mirror_path": "",
+      "source_project_path": "kalilinux/nethunter/build-scripts/kali-nethunter-pro",
+      "branch_rev": "",
+      "branches": [],
+      "tags": []
+    },
+    {
+      "target_project_path": "glab-forks/kalilinux/nethunter/build-scripts/kali-nethunter-rootless",
+      "target_mirror_path": "",
+      "source_project_path": "kalilinux/nethunter/build-scripts/kali-nethunter-rootless",
+      "branch_rev": "",
+      "branches": [],
+      "tags": []
+    },
+    {
+      "target_project_path": "glab-forks/kalilinux/nethunter/build-scripts/kali-nethunter-rootfs",
+      "target_mirror_path": "",
+      "source_project_path": "kalilinux/nethunter/build-scripts/kali-nethunter-rootfs",
+      "branch_rev": "",
+      "branches": [],
+      "tags": []
+    },
+    {
+      "target_project_path": "glab-forks/kalilinux/nethunter/build-scripts/kali-nethunter-bootanimation",
+      "target_mirror_path": "",
+      "source_project_path": "kalilinux/nethunter/build-scripts/kali-nethunter-bootanimation",
+      "branch_rev": "",
+      "branches": [],
+      "tags": []
+    },
+    {
+      "target_project_path": "glab-forks/kalilinux/nethunter/build-scripts/kali-nethunter-webinstall",
+      "target_mirror_path": "",
+      "source_project_path": "kalilinux/nethunter/build-scripts/kali-nethunter-webinstall",
+      "branch_rev": "",
+      "branches": [],
+      "tags": []
+    },
+    {
+      "target_project_path": "glab-forks/kalilinux/nethunter/store/nethunter-store-data",
+      "target_mirror_path": "",
+      "source_project_path": "kalilinux/nethunter/store/nethunter-store-data",
+      "branch_rev": "",
+      "branches": [],
+      "tags": []
+    },
+    {
+      "target_project_path": "glab-forks/kalilinux/nethunter/store/nethunter-store-website",
+      "target_mirror_path": "",
+      "source_project_path": "kalilinux/nethunter/store/nethunter-store-website",
+      "branch_rev": "",
+      "branches": [],
+      "tags": []
+    },
+    {
+      "target_project_path": "glab-forks/kalilinux/nethunter/store/rfp",
+      "target_mirror_path": "",
+      "source_project_path": "kalilinux/nethunter/store/rfp",
+      "branch_rev": "",
+      "branches": [],
+      "tags": []
     }
   ]
 }

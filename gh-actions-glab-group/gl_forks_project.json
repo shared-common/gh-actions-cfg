@@ -4,42 +4,42 @@
     {
       "target_project_path": "glab-forks/kalilinux/packages/bloodhound",
       "git_lfs": true,
-      "git_timeout_seconds": 1800
+      "git_timeout_seconds": 900
     },
     {
       "target_project_path": "glab-forks/kalilinux/packages/burpsuite",
       "git_lfs": true,
-      "git_timeout_seconds": 1800
+      "git_timeout_seconds": 900
     },
     {
       "target_project_path": "glab-forks/kalilinux/packages/burpsuite-prior2022",
       "git_lfs": true,
-      "git_timeout_seconds": 1800
+      "git_timeout_seconds": 900
     },
     {
       "target_project_path": "glab-forks/kalilinux/packages/burpsuite-prior2023",
       "git_lfs": true,
-      "git_timeout_seconds": 1800
+      "git_timeout_seconds": 900
     },
     {
       "target_project_path": "glab-forks/kalilinux/packages/caido",
       "git_lfs": true,
-      "git_timeout_seconds": 1800
+      "git_timeout_seconds": 900
     },
     {
       "target_project_path": "glab-forks/kalilinux/packages/caido-cli",
       "git_lfs": true,
-      "git_timeout_seconds": 1800
+      "git_timeout_seconds": 900
     },
     {
       "target_project_path": "glab-forks/kalilinux/packages/cipheydists",
       "git_lfs": true,
-      "git_timeout_seconds": 1800
+      "git_timeout_seconds": 900
     },
     {
       "target_project_path": "glab-forks/kalilinux/packages/jadx",
       "git_lfs": true,
-      "git_timeout_seconds": 1800
+      "git_timeout_seconds": 900
     }
   ]
 }

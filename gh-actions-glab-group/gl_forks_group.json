@@ -6,16 +6,6 @@
       "target_mirror_group": "workyard/glab-forks/kalilinux/packages",
       "source_project_group_url": "https://gitlab.com/kalilinux/packages",
       "branch_rev": "",
-      "git_lfs_project": [
-        "bloodhound",
-        "burpsuite",
-        "burpsuite-prior2022",
-        "burpsuite-prior2023",
-        "caido",
-        "caido-cli",
-        "cipheydists",
-        "jadx"
-      ],
       "branches": [
         {
           "name": "upstream",

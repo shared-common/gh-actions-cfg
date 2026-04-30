@@ -6,7 +6,13 @@
       "target_mirror_group": "workyard/glab-forks/kalilinux/packages",
       "source_project_group_url": "https://gitlab.com/kalilinux/packages",
       "branch_rev": "",
-      "git_lfs_project": [],
+      "git_lfs_project": [
+        {
+          "glab-forks/kalilinux/packages/bloodhound",
+          "glab-forks/kalilinux/packages/burpsuite",
+          "glab-forks/kalilinux/packages/burpsuite-prior2022"
+        }
+      ],
       "branches": [
         {
           "name": "upstream",

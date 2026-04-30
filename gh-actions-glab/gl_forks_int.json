@@ -385,7 +385,6 @@
       "source_project_path": "kalilinux/nethunter/build-scripts/kali-nethunter-kernels",
       "source_import": true,
       "git_lfs": true,
-      "git_timeout_seconds": 1800,
       "branch_rev": "",
       "branches": [],
       "tags": []

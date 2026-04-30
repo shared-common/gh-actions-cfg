@@ -3,41 +3,49 @@
   "targets": [
     {
       "target_project_path": "glab-forks/kalilinux/packages/bloodhound",
+      "source_import": true,
       "git_lfs": true,
       "git_timeout_seconds": 900
     },
     {
       "target_project_path": "glab-forks/kalilinux/packages/burpsuite",
+      "source_import": true,
       "git_lfs": true,
       "git_timeout_seconds": 900
     },
     {
       "target_project_path": "glab-forks/kalilinux/packages/burpsuite-prior2022",
+      "source_import": true,
       "git_lfs": true,
       "git_timeout_seconds": 900
     },
     {
       "target_project_path": "glab-forks/kalilinux/packages/burpsuite-prior2023",
+      "source_import": true,
       "git_lfs": true,
       "git_timeout_seconds": 900
     },
     {
       "target_project_path": "glab-forks/kalilinux/packages/caido",
+      "source_import": true,
       "git_lfs": true,
       "git_timeout_seconds": 900
     },
     {
       "target_project_path": "glab-forks/kalilinux/packages/caido-cli",
+      "source_import": true,
       "git_lfs": true,
       "git_timeout_seconds": 900
     },
     {
       "target_project_path": "glab-forks/kalilinux/packages/cipheydists",
+      "source_import": true,
       "git_lfs": true,
       "git_timeout_seconds": 900
     },
     {
       "target_project_path": "glab-forks/kalilinux/packages/jadx",
+      "source_import": true,
       "git_lfs": true,
       "git_timeout_seconds": 900
     }

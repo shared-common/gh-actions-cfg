@@ -10,7 +10,11 @@
         {
           "glab-forks/kalilinux/packages/bloodhound",
           "glab-forks/kalilinux/packages/burpsuite",
-          "glab-forks/kalilinux/packages/burpsuite-prior2022"
+          "glab-forks/kalilinux/packages/burpsuite-prior2022",
+          "glab-forks/kalilinux/packages/burpsuite-prior2023",
+          "glab-forks/kalilinux/packages/caido",
+          "glab-forks/kalilinux/packages/caido-cli",
+          "glab-forks/kalilinux/packages/cipheydists"
         }
       ],
       "branches": [

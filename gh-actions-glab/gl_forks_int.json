@@ -8,7 +8,18 @@
       "source_import": false,
       "git_lfs": false,
       "branch_rev": "",
-      "branches": [],
+      "branches": [
+        {
+          "name": "upstream",
+          "protected": true,
+          "upstream": true
+        },
+        {
+          "name": "pristine-tar",
+          "protected": true,
+          "upstream": true
+        }
+      ],
       "tags": []
     },
     {
@@ -18,7 +29,18 @@
       "source_import": false,
       "git_lfs": false,
       "branch_rev": "",
-      "branches": [],
+      "branches": [
+        {
+          "name": "upstream",
+          "protected": true,
+          "upstream": true
+        },
+        {
+          "name": "pristine-tar",
+          "protected": true,
+          "upstream": true
+        }
+      ],
       "tags": []
     },
     {
@@ -28,7 +50,18 @@
       "source_import": false,
       "git_lfs": false,
       "branch_rev": "",
-      "branches": [],
+      "branches": [
+        {
+          "name": "upstream",
+          "protected": true,
+          "upstream": true
+        },
+        {
+          "name": "pristine-tar",
+          "protected": true,
+          "upstream": true
+        }
+      ],
       "tags": []
     },
     {
@@ -38,7 +71,18 @@
       "source_import": false,
       "git_lfs": false,
       "branch_rev": "",
-      "branches": [],
+      "branches": [
+        {
+          "name": "upstream",
+          "protected": true,
+          "upstream": true
+        },
+        {
+          "name": "pristine-tar",
+          "protected": true,
+          "upstream": true
+        }
+      ],
       "tags": []
     },
     {
@@ -48,7 +92,18 @@
       "source_import": false,
       "git_lfs": false,
       "branch_rev": "",
-      "branches": [],
+      "branches": [
+        {
+          "name": "upstream",
+          "protected": true,
+          "upstream": true
+        },
+        {
+          "name": "pristine-tar",
+          "protected": true,
+          "upstream": true
+        }
+      ],
       "tags": []
     },
     {
@@ -58,7 +113,18 @@
       "source_import": false,
       "git_lfs": false,
       "branch_rev": "",
-      "branches": [],
+      "branches": [
+        {
+          "name": "upstream",
+          "protected": true,
+          "upstream": true
+        },
+        {
+          "name": "pristine-tar",
+          "protected": true,
+          "upstream": true
+        }
+      ],
       "tags": []
     },
     {
@@ -68,7 +134,18 @@
       "source_import": false,
       "git_lfs": false,
       "branch_rev": "",
-      "branches": [],
+      "branches": [
+        {
+          "name": "upstream",
+          "protected": true,
+          "upstream": true
+        },
+        {
+          "name": "pristine-tar",
+          "protected": true,
+          "upstream": true
+        }
+      ],
       "tags": []
     },
     {
@@ -78,7 +155,18 @@
       "source_import": false,
       "git_lfs": false,
       "branch_rev": "",
-      "branches": [],
+      "branches": [
+        {
+          "name": "upstream",
+          "protected": true,
+          "upstream": true
+        },
+        {
+          "name": "pristine-tar",
+          "protected": true,
+          "upstream": true
+        }
+      ],
       "tags": []
     },
     {
@@ -88,7 +176,18 @@
       "source_import": false,
       "git_lfs": false,
       "branch_rev": "",
-      "branches": [],
+      "branches": [
+        {
+          "name": "upstream",
+          "protected": true,
+          "upstream": true
+        },
+        {
+          "name": "pristine-tar",
+          "protected": true,
+          "upstream": true
+        }
+      ],
       "tags": []
     },
     {
@@ -98,7 +197,18 @@
       "source_import": false,
       "git_lfs": false,
       "branch_rev": "",
-      "branches": [],
+      "branches": [
+        {
+          "name": "upstream",
+          "protected": true,
+          "upstream": true
+        },
+        {
+          "name": "pristine-tar",
+          "protected": true,
+          "upstream": true
+        }
+      ],
       "tags": []
     },
     {
@@ -108,7 +218,18 @@
       "source_import": false,
       "git_lfs": false,
       "branch_rev": "",
-      "branches": [],
+      "branches": [
+        {
+          "name": "upstream",
+          "protected": true,
+          "upstream": true
+        },
+        {
+          "name": "pristine-tar",
+          "protected": true,
+          "upstream": true
+        }
+      ],
       "tags": []
     },
     {
@@ -118,7 +239,18 @@
       "source_import": false,
       "git_lfs": false,
       "branch_rev": "",
-      "branches": [],
+      "branches": [
+        {
+          "name": "upstream",
+          "protected": true,
+          "upstream": true
+        },
+        {
+          "name": "pristine-tar",
+          "protected": true,
+          "upstream": true
+        }
+      ],
       "tags": []
     },
     {
@@ -128,7 +260,18 @@
       "source_import": false,
       "git_lfs": false,
       "branch_rev": "",
-      "branches": [],
+      "branches": [
+        {
+          "name": "upstream",
+          "protected": true,
+          "upstream": true
+        },
+        {
+          "name": "pristine-tar",
+          "protected": true,
+          "upstream": true
+        }
+      ],
       "tags": []
     },
     {
@@ -138,7 +281,18 @@
       "source_import": false,
       "git_lfs": false,
       "branch_rev": "",
-      "branches": [],
+      "branches": [
+        {
+          "name": "upstream",
+          "protected": true,
+          "upstream": true
+        },
+        {
+          "name": "pristine-tar",
+          "protected": true,
+          "upstream": true
+        }
+      ],
       "tags": []
     },
     {
@@ -148,7 +302,18 @@
       "source_import": false,
       "git_lfs": false,
       "branch_rev": "",
-      "branches": [],
+      "branches": [
+        {
+          "name": "upstream",
+          "protected": true,
+          "upstream": true
+        },
+        {
+          "name": "pristine-tar",
+          "protected": true,
+          "upstream": true
+        }
+      ],
       "tags": []
     },
     {
@@ -158,7 +323,18 @@
       "source_import": false,
       "git_lfs": false,
       "branch_rev": "",
-      "branches": [],
+      "branches": [
+        {
+          "name": "upstream",
+          "protected": true,
+          "upstream": true
+        },
+        {
+          "name": "pristine-tar",
+          "protected": true,
+          "upstream": true
+        }
+      ],
       "tags": []
     },
     {
@@ -168,7 +344,18 @@
       "source_import": false,
       "git_lfs": false,
       "branch_rev": "",
-      "branches": [],
+      "branches": [
+        {
+          "name": "upstream",
+          "protected": true,
+          "upstream": true
+        },
+        {
+          "name": "pristine-tar",
+          "protected": true,
+          "upstream": true
+        }
+      ],
       "tags": []
     },
     {
@@ -178,7 +365,18 @@
       "source_import": false,
       "git_lfs": false,
       "branch_rev": "",
-      "branches": [],
+      "branches": [
+        {
+          "name": "upstream",
+          "protected": true,
+          "upstream": true
+        },
+        {
+          "name": "pristine-tar",
+          "protected": true,
+          "upstream": true
+        }
+      ],
       "tags": []
     },
     {
@@ -188,7 +386,18 @@
       "source_import": false,
       "git_lfs": false,
       "branch_rev": "",
-      "branches": [],
+      "branches": [
+        {
+          "name": "upstream",
+          "protected": true,
+          "upstream": true
+        },
+        {
+          "name": "pristine-tar",
+          "protected": true,
+          "upstream": true
+        }
+      ],
       "tags": []
     },
     {
@@ -198,7 +407,18 @@
       "source_import": false,
       "git_lfs": false,
       "branch_rev": "",
-      "branches": [],
+      "branches": [
+        {
+          "name": "upstream",
+          "protected": true,
+          "upstream": true
+        },
+        {
+          "name": "pristine-tar",
+          "protected": true,
+          "upstream": true
+        }
+      ],
       "tags": []
     },
     {
@@ -208,7 +428,18 @@
       "source_import": false,
       "git_lfs": false,
       "branch_rev": "",
-      "branches": [],
+      "branches": [
+        {
+          "name": "upstream",
+          "protected": true,
+          "upstream": true
+        },
+        {
+          "name": "pristine-tar",
+          "protected": true,
+          "upstream": true
+        }
+      ],
       "tags": []
     },
     {
@@ -218,7 +449,18 @@
       "source_import": false,
       "git_lfs": false,
       "branch_rev": "",
-      "branches": [],
+      "branches": [
+        {
+          "name": "upstream",
+          "protected": true,
+          "upstream": true
+        },
+        {
+          "name": "pristine-tar",
+          "protected": true,
+          "upstream": true
+        }
+      ],
       "tags": []
     },
     {
@@ -228,7 +470,18 @@
       "source_import": false,
       "git_lfs": false,
       "branch_rev": "",
-      "branches": [],
+      "branches": [
+        {
+          "name": "upstream",
+          "protected": true,
+          "upstream": true
+        },
+        {
+          "name": "pristine-tar",
+          "protected": true,
+          "upstream": true
+        }
+      ],
       "tags": []
     },
     {
@@ -238,7 +491,18 @@
       "source_import": false,
       "git_lfs": false,
       "branch_rev": "",
-      "branches": [],
+      "branches": [
+        {
+          "name": "upstream",
+          "protected": true,
+          "upstream": true
+        },
+        {
+          "name": "pristine-tar",
+          "protected": true,
+          "upstream": true
+        }
+      ],
       "tags": []
     },
     {
@@ -248,7 +512,18 @@
       "source_import": false,
       "git_lfs": false,
       "branch_rev": "",
-      "branches": [],
+      "branches": [
+        {
+          "name": "upstream",
+          "protected": true,
+          "upstream": true
+        },
+        {
+          "name": "pristine-tar",
+          "protected": true,
+          "upstream": true
+        }
+      ],
       "tags": []
     },
     {
@@ -258,7 +533,18 @@
       "source_import": false,
       "git_lfs": false,
       "branch_rev": "",
-      "branches": [],
+      "branches": [
+        {
+          "name": "upstream",
+          "protected": true,
+          "upstream": true
+        },
+        {
+          "name": "pristine-tar",
+          "protected": true,
+          "upstream": true
+        }
+      ],
       "tags": []
     },
     {
@@ -268,7 +554,18 @@
       "source_import": false,
       "git_lfs": false,
       "branch_rev": "",
-      "branches": [],
+      "branches": [
+        {
+          "name": "upstream",
+          "protected": true,
+          "upstream": true
+        },
+        {
+          "name": "pristine-tar",
+          "protected": true,
+          "upstream": true
+        }
+      ],
       "tags": []
     },
     {
@@ -278,7 +575,18 @@
       "source_import": false,
       "git_lfs": false,
       "branch_rev": "",
-      "branches": [],
+      "branches": [
+        {
+          "name": "upstream",
+          "protected": true,
+          "upstream": true
+        },
+        {
+          "name": "pristine-tar",
+          "protected": true,
+          "upstream": true
+        }
+      ],
       "tags": []
     },
     {
@@ -288,7 +596,18 @@
       "source_import": false,
       "git_lfs": false,
       "branch_rev": "",
-      "branches": [],
+      "branches": [
+        {
+          "name": "upstream",
+          "protected": true,
+          "upstream": true
+        },
+        {
+          "name": "pristine-tar",
+          "protected": true,
+          "upstream": true
+        }
+      ],
       "tags": []
     },
     {
@@ -298,7 +617,18 @@
       "source_import": false,
       "git_lfs": false,
       "branch_rev": "",
-      "branches": [],
+      "branches": [
+        {
+          "name": "upstream",
+          "protected": true,
+          "upstream": true
+        },
+        {
+          "name": "pristine-tar",
+          "protected": true,
+          "upstream": true
+        }
+      ],
       "tags": []
     },
     {
@@ -308,7 +638,18 @@
       "source_import": false,
       "git_lfs": false,
       "branch_rev": "",
-      "branches": [],
+      "branches": [
+        {
+          "name": "upstream",
+          "protected": true,
+          "upstream": true
+        },
+        {
+          "name": "pristine-tar",
+          "protected": true,
+          "upstream": true
+        }
+      ],
       "tags": []
     },
     {
@@ -318,7 +659,18 @@
       "source_import": false,
       "git_lfs": false,
       "branch_rev": "",
-      "branches": [],
+      "branches": [
+        {
+          "name": "upstream",
+          "protected": true,
+          "upstream": true
+        },
+        {
+          "name": "pristine-tar",
+          "protected": true,
+          "upstream": true
+        }
+      ],
       "tags": []
     },
     {
@@ -328,7 +680,18 @@
       "source_import": false,
       "git_lfs": false,
       "branch_rev": "",
-      "branches": [],
+      "branches": [
+        {
+          "name": "upstream",
+          "protected": true,
+          "upstream": true
+        },
+        {
+          "name": "pristine-tar",
+          "protected": true,
+          "upstream": true
+        }
+      ],
       "tags": []
     },
     {
@@ -338,7 +701,18 @@
       "source_import": false,
       "git_lfs": false,
       "branch_rev": "",
-      "branches": [],
+      "branches": [
+        {
+          "name": "upstream",
+          "protected": true,
+          "upstream": true
+        },
+        {
+          "name": "pristine-tar",
+          "protected": true,
+          "upstream": true
+        }
+      ],
       "tags": []
     },
     {
@@ -348,7 +722,18 @@
       "source_import": false,
       "git_lfs": false,
       "branch_rev": "",
-      "branches": [],
+      "branches": [
+        {
+          "name": "upstream",
+          "protected": true,
+          "upstream": true
+        },
+        {
+          "name": "pristine-tar",
+          "protected": true,
+          "upstream": true
+        }
+      ],
       "tags": []
     },
     {
@@ -358,7 +743,18 @@
       "source_import": false,
       "git_lfs": false,
       "branch_rev": "",
-      "branches": [],
+      "branches": [
+        {
+          "name": "upstream",
+          "protected": true,
+          "upstream": true
+        },
+        {
+          "name": "pristine-tar",
+          "protected": true,
+          "upstream": true
+        }
+      ],
       "tags": []
     },
     {
@@ -368,7 +764,18 @@
       "source_import": false,
       "git_lfs": false,
       "branch_rev": "",
-      "branches": [],
+      "branches": [
+        {
+          "name": "upstream",
+          "protected": true,
+          "upstream": true
+        },
+        {
+          "name": "pristine-tar",
+          "protected": true,
+          "upstream": true
+        }
+      ],
       "tags": []
     },
     {
@@ -378,7 +785,18 @@
       "source_import": false,
       "git_lfs": false,
       "branch_rev": "",
-      "branches": [],
+      "branches": [
+        {
+          "name": "upstream",
+          "protected": true,
+          "upstream": true
+        },
+        {
+          "name": "pristine-tar",
+          "protected": true,
+          "upstream": true
+        }
+      ],
       "tags": []
     },
     {
@@ -388,7 +806,18 @@
       "source_import": false,
       "git_lfs": false,
       "branch_rev": "",
-      "branches": [],
+      "branches": [
+        {
+          "name": "upstream",
+          "protected": true,
+          "upstream": true
+        },
+        {
+          "name": "pristine-tar",
+          "protected": true,
+          "upstream": true
+        }
+      ],
       "tags": []
     },
     {
@@ -398,7 +827,18 @@
       "source_import": false,
       "git_lfs": false,
       "branch_rev": "",
-      "branches": [],
+      "branches": [
+        {
+          "name": "upstream",
+          "protected": true,
+          "upstream": true
+        },
+        {
+          "name": "pristine-tar",
+          "protected": true,
+          "upstream": true
+        }
+      ],
       "tags": []
     },
     {
@@ -408,7 +848,18 @@
       "source_import": false,
       "git_lfs": false,
       "branch_rev": "",
-      "branches": [],
+      "branches": [
+        {
+          "name": "upstream",
+          "protected": true,
+          "upstream": true
+        },
+        {
+          "name": "pristine-tar",
+          "protected": true,
+          "upstream": true
+        }
+      ],
       "tags": []
     },
     {
@@ -418,7 +869,18 @@
       "source_import": false,
       "git_lfs": false,
       "branch_rev": "",
-      "branches": [],
+      "branches": [
+        {
+          "name": "upstream",
+          "protected": true,
+          "upstream": true
+        },
+        {
+          "name": "pristine-tar",
+          "protected": true,
+          "upstream": true
+        }
+      ],
       "tags": []
     },
     {
@@ -428,7 +890,18 @@
       "source_import": true,
       "git_lfs": true,
       "branch_rev": "",
-      "branches": [],
+      "branches": [
+        {
+          "name": "upstream",
+          "protected": true,
+          "upstream": true
+        },
+        {
+          "name": "pristine-tar",
+          "protected": true,
+          "upstream": true
+        }
+      ],
       "tags": []
     },
     {
@@ -438,7 +911,18 @@
       "source_import": false,
       "git_lfs": false,
       "branch_rev": "",
-      "branches": [],
+      "branches": [
+        {
+          "name": "upstream",
+          "protected": true,
+          "upstream": true
+        },
+        {
+          "name": "pristine-tar",
+          "protected": true,
+          "upstream": true
+        }
+      ],
       "tags": []
     },
     {
@@ -448,7 +932,18 @@
       "source_import": false,
       "git_lfs": false,
       "branch_rev": "",
-      "branches": [],
+      "branches": [
+        {
+          "name": "upstream",
+          "protected": true,
+          "upstream": true
+        },
+        {
+          "name": "pristine-tar",
+          "protected": true,
+          "upstream": true
+        }
+      ],
       "tags": []
     },
     {
@@ -458,7 +953,18 @@
       "source_import": false,
       "git_lfs": false,
       "branch_rev": "",
-      "branches": [],
+      "branches": [
+        {
+          "name": "upstream",
+          "protected": true,
+          "upstream": true
+        },
+        {
+          "name": "pristine-tar",
+          "protected": true,
+          "upstream": true
+        }
+      ],
       "tags": []
     },
     {
@@ -468,7 +974,18 @@
       "source_import": false,
       "git_lfs": false,
       "branch_rev": "",
-      "branches": [],
+      "branches": [
+        {
+          "name": "upstream",
+          "protected": true,
+          "upstream": true
+        },
+        {
+          "name": "pristine-tar",
+          "protected": true,
+          "upstream": true
+        }
+      ],
       "tags": []
     },
     {
@@ -478,7 +995,18 @@
       "source_import": false,
       "git_lfs": false,
       "branch_rev": "",
-      "branches": [],
+      "branches": [
+        {
+          "name": "upstream",
+          "protected": true,
+          "upstream": true
+        },
+        {
+          "name": "pristine-tar",
+          "protected": true,
+          "upstream": true
+        }
+      ],
       "tags": []
     },
     {
@@ -488,7 +1016,18 @@
       "source_import": false,
       "git_lfs": false,
       "branch_rev": "",
-      "branches": [],
+      "branches": [
+        {
+          "name": "upstream",
+          "protected": true,
+          "upstream": true
+        },
+        {
+          "name": "pristine-tar",
+          "protected": true,
+          "upstream": true
+        }
+      ],
       "tags": []
     },
     {
@@ -498,7 +1037,18 @@
       "source_import": false,
       "git_lfs": false,
       "branch_rev": "",
-      "branches": [],
+      "branches": [
+        {
+          "name": "upstream",
+          "protected": true,
+          "upstream": true
+        },
+        {
+          "name": "pristine-tar",
+          "protected": true,
+          "upstream": true
+        }
+      ],
       "tags": []
     },
     {
@@ -508,7 +1058,18 @@
       "source_import": false,
       "git_lfs": false,
       "branch_rev": "",
-      "branches": [],
+      "branches": [
+        {
+          "name": "upstream",
+          "protected": true,
+          "upstream": true
+        },
+        {
+          "name": "pristine-tar",
+          "protected": true,
+          "upstream": true
+        }
+      ],
       "tags": []
     },
     {
@@ -518,7 +1079,18 @@
       "source_import": false,
       "git_lfs": false,
       "branch_rev": "",
-      "branches": [],
+      "branches": [
+        {
+          "name": "upstream",
+          "protected": true,
+          "upstream": true
+        },
+        {
+          "name": "pristine-tar",
+          "protected": true,
+          "upstream": true
+        }
+      ],
       "tags": []
     }
   ]

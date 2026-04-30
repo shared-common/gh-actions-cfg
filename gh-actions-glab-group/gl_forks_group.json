@@ -20,26 +20,6 @@
         }
       ],
       "tags": []
-    },
-    {
-      "target_project_group": "",
-      "target_mirror_group": "",
-      "source_project_group_url": "",
-      "branch_rev": "",
-      "git_lfs_project": [],
-      "branches": [
-        {
-          "name": "upstream",
-          "protected": true,
-          "upstream": true
-        },
-        {
-          "name": "pristine-tar",
-          "protected": true,
-          "upstream": true
-        }
-      ],
-      "tags": []
     }
   ]
 }

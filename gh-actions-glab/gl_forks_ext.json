@@ -5,6 +5,7 @@
       "target_project_path": "glab-forks/kde/extra-cmake-modules",
       "target_mirror_path": "",
       "source_url": "https://invent.kde.org/frameworks/extra-cmake-modules",
+      "source_import": false,
       "branch_rev": "",
       "branches": [],
       "tags": []
@@ -13,6 +14,7 @@
       "target_project_path": "glab-forks/gnome/gtk",
       "target_mirror_path": "",
       "source_url": "https://gitlab.gnome.org/GNOME/gtk",
+      "source_import": false,
       "branch_rev": "",
       "branches": [],
       "tags": []
@@ -21,6 +23,7 @@
       "target_project_path": "glab-forks/kde/kate",
       "target_mirror_path": "",
       "source_url": "https://invent.kde.org/utilities/kate",
+      "source_import": false,
       "branch_rev": "",
       "branches": [],
       "tags": []
@@ -29,6 +32,7 @@
       "target_project_path": "glab-forks/kde/keepsecret",
       "target_mirror_path": "",
       "source_url": "https://invent.kde.org/utilities/keepsecret",
+      "source_import": false,
       "branch_rev": "",
       "branches": [],
       "tags": []
@@ -37,6 +41,7 @@
       "target_project_path": "glab-forks/kde/kirigami",
       "target_mirror_path": "",
       "source_url": "https://invent.kde.org/frameworks/kirigami",
+      "source_import": false,
       "branch_rev": "",
       "branches": [],
       "tags": []
@@ -45,6 +50,7 @@
       "target_project_path": "glab-forks/freedesktop/switcheroo-control",
       "target_mirror_path": "",
       "source_url": "https://gitlab.freedesktop.org/hadess/switcheroo-control",
+      "source_import": false,
       "branch_rev": "",
       "branches": [],
       "tags": []
@@ -53,6 +59,7 @@
       "target_project_path": "glab-forks/freedesktop/wlroots",
       "target_mirror_path": "",
       "source_url": "https://gitlab.freedesktop.org/wlroots/wlroots",
+      "source_import": false,
       "branch_rev": "",
       "branches": [],
       "tags": []
@@ -61,6 +68,7 @@
       "target_project_path": "glab-forks/sourceforge/zsh",
       "target_mirror_path": "",
       "source_url": "https://git.code.sf.net/p/zsh/code",
+      "source_import": false,
       "branch_rev": "",
       "branches": [],
       "tags": []
@@ -69,6 +77,7 @@
       "target_project_path": "glab-forks/debian/labwc",
       "target_mirror_path": "glab-mirror/desktop/labwc",
       "source_url": "https://salsa.debian.org/labwc-team/labwc",
+      "source_import": false,
       "branch_rev": "",
       "branches": [
         {
@@ -94,6 +103,7 @@
       "target_project_path": "glab-forks/debian/wlroots",
       "target_mirror_path": "workyard/glab-forks/debian/wlroots",
       "source_url": "https://salsa.debian.org/swaywm-team/wlroots",
+      "source_import": false,
       "branch_rev": "",
       "branches": [
         {
@@ -129,6 +139,7 @@
       "target_project_path": "glab-forks/debian/kf6-extra-cmake-modules",
       "target_mirror_path": "workyard/glab-forks/debian/kf6-extra-cmake-modules",
       "source_url": "https://salsa.debian.org/qt-kde-team/kde/kf6-extra-cmake-modules",
+      "source_import": false,
       "branch_rev": "",
       "branches": [],
       "tags": [
@@ -143,6 +154,7 @@
       "target_project_path": "glab-forks/debian/devscripts",
       "target_mirror_path": "workyard/glab-forks/debian/devscripts",
       "source_url": "https://salsa.debian.org/debian/devscripts",
+      "source_import": false,
       "branch_rev": "",
       "branches": [
         {
@@ -163,6 +175,7 @@
       "target_project_path": "glab-forks/debian/gtk4",
       "target_mirror_path": "workyard/glab-forks/debian/gtk4",
       "source_url": "https://salsa.debian.org/gnome-team/gtk4",
+      "source_import": false,
       "branch_rev": "",
       "branches": [
         {
@@ -183,6 +196,7 @@
       "target_project_path": "glab-forks/debian/greetd",
       "target_mirror_path": "workyard/glab-forks/debian/greetd",
       "source_url": "https://salsa.debian.org/debian/greetd",
+      "source_import": false,
       "branch_rev": "",
       "branches": [
         {
@@ -203,6 +217,7 @@
       "target_project_path": "glab-forks/debian/waybar",
       "target_mirror_path": "workyard/glab-forks/debian/waybar",
       "source_url": "https://salsa.debian.org/swaywm-team/waybar",
+      "source_import": false,
       "branch_rev": "",
       "branches": [
         {
@@ -228,6 +243,7 @@
       "target_project_path": "glab-forks/debian/pkg-nftables",
       "target_mirror_path": "workyard/glab-forks/debian/pkg-nftables",
       "source_url": "https://salsa.debian.org/pkg-netfilter-team/pkg-nftables",
+      "source_import": false,
       "branch_rev": "",
       "branches": [
         {
@@ -258,6 +274,7 @@
       "target_project_path": "glab-forks/debian/wayland",
       "target_mirror_path": "workyard/glab-forks/debian/wayland",
       "source_url": "https://salsa.debian.org/xorg-team/wayland/wayland",
+      "source_import": false,
       "branch_rev": "",
       "branches": [
         {
@@ -278,6 +295,7 @@
       "target_project_path": "glab-forks/debian/wayland-protocols",
       "target_mirror_path": "workyard/glab-forks/debian/wayland-protocols",
       "source_url": "https://salsa.debian.org/xorg-team/wayland/wayland-protocols",
+      "source_import": false,
       "branch_rev": "",
       "branches": [
         {
@@ -298,6 +316,7 @@
       "target_project_path": "glab-forks/debian/wayland-utils",
       "target_mirror_path": "workyard/glab-forks/debian/wayland-utils",
       "source_url": "https://salsa.debian.org/xorg-team/wayland/wayland-utils",
+      "source_import": false,
       "branch_rev": "",
       "branches": [
         {
@@ -318,6 +337,7 @@
       "target_project_path": "glab-forks/debian/xwayland",
       "target_mirror_path": "workyard/glab-forks/debian/xwayland",
       "source_url": "https://salsa.debian.org/xorg-team/wayland/xwayland",
+      "source_import": false,
       "branch_rev": "",
       "branches": [],
       "tags": [
@@ -332,6 +352,7 @@
       "target_project_path": "glab-forks/debian/wofi",
       "target_mirror_path": "workyard/glab-forks/debian/wofi",
       "source_url": "https://salsa.debian.org/swaywm-team/wofi",
+      "source_import": false,
       "branch_rev": "",
       "branches": [
         {
@@ -352,6 +373,7 @@
       "target_project_path": "glab-forks/debian/cage",
       "target_mirror_path": "workyard/glab-forks/debian/cage",
       "source_url": "https://salsa.debian.org/swaywm-team/cage",
+      "source_import": false,
       "branch_rev": "",
       "branches": [
         {
@@ -377,6 +399,7 @@
       "target_project_path": "glab-forks/debian/kanshi",
       "target_mirror_path": "workyard/glab-forks/debian/kanshi",
       "source_url": "https://salsa.debian.org/swaywm-team/kanshi",
+      "source_import": false,
       "branch_rev": "",
       "branches": [
         {
@@ -402,6 +425,7 @@
       "target_project_path": "glab-forks/debian/mako",
       "target_mirror_path": "workyard/glab-forks/debian/mako",
       "source_url": "https://salsa.debian.org/swaywm-team/mako",
+      "source_import": false,
       "branch_rev": "",
       "branches": [
         {
@@ -427,6 +451,7 @@
       "target_project_path": "glab-forks/debian/wf-recorder",
       "target_mirror_path": "workyard/glab-forks/debian/wf-recorder",
       "source_url": "https://salsa.debian.org/swaywm-team/wf-recorder",
+      "source_import": false,
       "branch_rev": "",
       "branches": [
         {
@@ -452,6 +477,7 @@
       "target_project_path": "glab-forks/debian/wlogout",
       "target_mirror_path": "workyard/glab-forks/debian/wlogout",
       "source_url": "https://salsa.debian.org/swaywm-team/wlogout",
+      "source_import": false,
       "branch_rev": "",
       "branches": [
         {
@@ -477,6 +503,7 @@
       "target_project_path": "glab-forks/debian/wlrctl",
       "target_mirror_path": "workyard/glab-forks/debian/wlrctl",
       "source_url": "https://salsa.debian.org/swaywm-team/wlrctl",
+      "source_import": false,
       "branch_rev": "",
       "branches": [
         {
@@ -502,6 +529,7 @@
       "target_project_path": "glab-forks/debian/wlclock",
       "target_mirror_path": "workyard/glab-forks/debian/wlclock",
       "source_url": "https://salsa.debian.org/swaywm-team/wlclock",
+      "source_import": false,
       "branch_rev": "",
       "branches": [],
       "tags": [
@@ -516,6 +544,7 @@
       "target_project_path": "glab-forks/debian/wlopm",
       "target_mirror_path": "workyard/glab-forks/debian/wlopm",
       "source_url": "https://salsa.debian.org/swaywm-team/wlopm",
+      "source_import": false,
       "branch_rev": "",
       "branches": [],
       "tags": [
@@ -535,6 +564,7 @@
       "target_project_path": "glab-forks/debian/xdg-desktop-portal-wlr",
       "target_mirror_path": "workyard/glab-forks/debian/xdg-desktop-portal-wlr",
       "source_url": "https://salsa.debian.org/swaywm-team/xdg-desktop-portal-wlr",
+      "source_import": false,
       "branch_rev": "",
       "branches": [
         {
@@ -560,6 +590,7 @@
       "target_project_path": "glab-forks/debian/xdg-desktop-portal",
       "target_mirror_path": "workyard/glab-forks/debian/xdg-desktop-portal",
       "source_url": "https://salsa.debian.org/debian/xdg-desktop-portal",
+      "source_import": false,
       "branch_rev": "",
       "branches": [
         {
@@ -585,6 +616,7 @@
       "target_project_path": "glab-forks/debian/xdg-desktop-portal-gtk",
       "target_mirror_path": "workyard/glab-forks/debian/xdg-desktop-portal-gtk",
       "source_url": "https://salsa.debian.org/debian/xdg-desktop-portal-gtk",
+      "source_import": false,
       "branch_rev": "",
       "branches": [
         {
@@ -610,6 +642,7 @@
       "target_project_path": "glab-forks/debian/dbus-broker",
       "target_mirror_path": "workyard/glab-forks/debian/dbus-broker",
       "source_url": "https://salsa.debian.org/utopia-team/dbus-broker",
+      "source_import": false,
       "branch_rev": "",
       "branches": [
         {
@@ -630,6 +663,7 @@
       "target_project_path": "glab-forks/netfilter/nftables",
       "target_mirror_path": "workyard/glab-forks/netfilter/nftables",
       "source_url": "https://git.netfilter.org/nftables",
+      "source_import": false,
       "branch_rev": "",
       "branches": [],
       "tags": []
@@ -638,6 +672,7 @@
       "target_project_path": "glab-forks/microsoft/uupdump/converter",
       "target_mirror_path": "workyard/glab-forks/microsoft/uupdump/converter",
       "source_url": "https://git.uupdump.net/uup-dump/converter",
+      "source_import": false,
       "branch_rev": "",
       "branches": [],
       "tags": []
@@ -646,6 +681,7 @@
       "target_project_path": "glab-forks/microsoft/uupdump/misc",
       "target_mirror_path": "workyard/glab-forks/microsoft/uupdump/misc",
       "source_url": "https://git.uupdump.net/uup-dump/misc",
+      "source_import": false,
       "branch_rev": "",
       "branches": [],
       "tags": []
@@ -654,6 +690,7 @@
       "target_project_path": "glab-forks/microsoft/uupdump/standalone",
       "target_mirror_path": "workyard/glab-forks/microsoft/uupdump/standalone",
       "source_url": "https://git.uupdump.net/uup-dump/standalone",
+      "source_import": false,
       "branch_rev": "",
       "branches": [],
       "tags": []
@@ -662,6 +699,7 @@
       "target_project_path": "glab-forks/microsoft/uupdump/api",
       "target_mirror_path": "workyard/glab-forks/microsoft/uupdump/api",
       "source_url": "https://git.uupdump.net/uup-dump/api",
+      "source_import": false,
       "branch_rev": "",
       "branches": [],
       "tags": []
@@ -670,6 +708,7 @@
       "target_project_path": "glab-forks/microsoft/uupdump/contrib",
       "target_mirror_path": "workyard/glab-forks/microsoft/uupdump/contrib",
       "source_url": "https://git.uupdump.net/uup-dump/contrib",
+      "source_import": false,
       "branch_rev": "",
       "branches": [],
       "tags": []
@@ -678,6 +717,7 @@
       "target_project_path": "glab-forks/microsoft/uupdump/lightuup",
       "target_mirror_path": "workyard/glab-forks/microsoft/uupdump/lightuup",
       "source_url": "https://git.uupdump.net/uup-dump/lightuup",
+      "source_import": false,
       "branch_rev": "",
       "branches": [],
       "tags": []
@@ -686,6 +726,7 @@
       "target_project_path": "glab-forks/microsoft/uupdump/json-api",
       "target_mirror_path": "workyard/glab-forks/microsoft/uupdump/json-api",
       "source_url": "https://git.uupdump.net/uup-dump/json-api",
+      "source_import": false,
       "branch_rev": "",
       "branches": [],
       "tags": []

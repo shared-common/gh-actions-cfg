@@ -11,6 +11,7 @@
         "target_project_path": "ghgl-forks/mainline/example-project",
         "target_mirror_path": "",
         "source_url": "https://gitlab.example.org/group/example-project",
+        "source_import": false,
         "branch_rev": "feature/login",
         "branches": [
           {
@@ -44,8 +45,9 @@
     "targets": [
       {
         "target_project_path": "glab-forks/system/example-project",
-        "target_mirror_path": "",
+        "target_mirror_path": "workyard/glab-forks/system/example-project",
         "source_project_path": "upstream-group/example-project",
+        "source_import": false,
         "branch_rev": "feature/login",
         "branches": [
           {

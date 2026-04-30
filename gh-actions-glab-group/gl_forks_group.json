@@ -7,15 +7,14 @@
       "source_project_group_url": "https://gitlab.com/kalilinux/packages",
       "branch_rev": "",
       "git_lfs_project": [
-        {
-          "glab-forks/kalilinux/packages/bloodhound",
-          "glab-forks/kalilinux/packages/burpsuite",
-          "glab-forks/kalilinux/packages/burpsuite-prior2022",
-          "glab-forks/kalilinux/packages/burpsuite-prior2023",
-          "glab-forks/kalilinux/packages/caido",
-          "glab-forks/kalilinux/packages/caido-cli",
-          "glab-forks/kalilinux/packages/cipheydists"
-        }
+        "bloodhound",
+        "burpsuite",
+        "burpsuite-prior2022",
+        "burpsuite-prior2023",
+        "caido",
+        "caido-cli",
+        "cipheydists",
+        "jadx"
       ],
       "branches": [
         {

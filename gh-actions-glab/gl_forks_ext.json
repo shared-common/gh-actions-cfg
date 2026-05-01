@@ -781,6 +781,16 @@
       "branch_rev": "",
       "branches": [],
       "tags": []
+    },
+    {
+      "target_project_path": "glab-forks/sourceforge/gptfdisk",
+      "target_mirror_path": "workyard/glab-forks/sourceforge/gptfdisk",
+      "source_url": "https://git.code.sf.net/p/gptfdisk/code",
+      "source_import": false,
+      "git_lfs": false,
+      "branch_rev": "",
+      "branches": [],
+      "tags": []
     }
   ]
 }

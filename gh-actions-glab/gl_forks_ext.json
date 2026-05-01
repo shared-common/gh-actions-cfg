@@ -801,16 +801,6 @@
       "branch_rev": "",
       "branches": [],
       "tags": []
-    },
-    {
-      "target_project_path": "glab-forks/google/chromiumos",
-      "target_mirror_path": "workyard/glab-forks/google/chromiumos",
-      "source_url": "https://chromium.googlesource.com/chromiumos",
-      "source_import": false,
-      "git_lfs": false,
-      "branch_rev": "",
-      "branches": [],
-      "tags": []
     }
   ]
 }

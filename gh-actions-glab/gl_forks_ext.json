@@ -791,6 +791,16 @@
       "branch_rev": "",
       "branches": [],
       "tags": []
+    },
+    {
+      "target_project_path": "glab-forks/google/user-recovery-tools",
+      "target_mirror_path": "workyard/glab-forks/google/user-recovery-tools",
+      "source_url": "https://chromium.googlesource.com/chromiumos/user-recovery-tools",
+      "source_import": false,
+      "git_lfs": false,
+      "branch_rev": "",
+      "branches": [],
+      "tags": []
     }
   ]
 }

@@ -771,6 +771,16 @@
       "branch_rev": "",
       "branches": [],
       "tags": []
+    },
+    {
+      "target_project_path": "glab-forks/sourceforge/refind",
+      "target_mirror_path": "workyard/glab-forks/sourceforge/refind",
+      "source_url": "https://git.code.sf.net/p/refind/code",
+      "source_import": false,
+      "git_lfs": false,
+      "branch_rev": "",
+      "branches": [],
+      "tags": []
     }
   ]
 }

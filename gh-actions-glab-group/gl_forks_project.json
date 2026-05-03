@@ -67,7 +67,19 @@
     {
       "target_project_path": "glab-forks/kalilinux/packages/king-phisher",
       "source_import": true,
-      "git_timeout_seconds": 900
+      "git_timeout_seconds": 90
+    },
+    {
+      "target_project_path": "glab-forks/kalilinux/packages/libpostal",
+      "source_import": true,
+      "git_lft": true,
+      "git_timeout_seconds": 90
+    },
+    {
+      "target_project_path": "glab-forks/kalilinux/packages/maltego-teeth",
+      "source_import": true,
+      "git_lfs": true,
+      "git_timeout_seconds": 90
     }
   ]
 }

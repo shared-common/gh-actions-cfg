@@ -46,32 +46,42 @@
     {
       "target_project_path": "glab-forks/kalilinux/packages/joplin",
       "source_import": true,
+      "git_lfs": true,
       "git_timeout_seconds": 900
     },
     {
       "target_project_path": "glab-forks/kalilinux/packages/juice-shop",
       "source_import": true,
+      "git_lfs": true,
       "git_timeout_seconds": 900
     },
     {
       "target_project_path": "glab-forks/kalilinux/packages/kali-screensaver",
       "source_import": true,
+      "git_lfs": true,
       "git_timeout_seconds": 900
     },
     {
       "target_project_path": "glab-forks/kalilinux/packages/king-phisher",
       "source_import": true,
+      "git_lfs": true,
       "git_timeout_seconds": 900
     },
     {
       "target_project_path": "glab-forks/kalilinux/packages/libpostal",
       "source_import": true,
-      "git_lft": true,
+      "git_lfs": true,
       "git_timeout_seconds": 900
     },
     {
       "target_project_path": "glab-forks/kalilinux/packages/maltego-teeth",
       "source_import": true,
+      "git_lfs": true,
+      "git_timeout_seconds": 900
+    },
+    {
+      "target_project_path": "glab-forks/kalilinux/packages/burpsuite",
+      "source_import": false,
       "git_lfs": true,
       "git_timeout_seconds": 900
     }

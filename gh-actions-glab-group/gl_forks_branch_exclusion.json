@@ -1,0 +1,245 @@
+{
+  "version": 1,
+  "targets": [
+    {
+      "target_project_path": "glab-forks/kalilinux/packages/WIP"
+    },
+    {
+      "target_project_path": "glab-forks/kalilinux/packages/adw-gtk3-kali"
+    },
+    {
+      "target_project_path": "glab-forks/kalilinux/packages/apt"
+    },
+    {
+      "target_project_path": "glab-forks/kalilinux/packages/apt-btrfs-snapshot"
+    },
+    {
+      "target_project_path": "glab-forks/kalilinux/packages/apt-setup"
+    },
+    {
+      "target_project_path": "glab-forks/kalilinux/packages/base-files"
+    },
+    {
+      "target_project_path": "glab-forks/kalilinux/packages/brcmfmac-nexmon-dkms"
+    },
+    {
+      "target_project_path": "glab-forks/kalilinux/packages/brutespray"
+    },
+    {
+      "target_project_path": "glab-forks/kalilinux/packages/conky-manager"
+    },
+    {
+      "target_project_path": "glab-forks/kalilinux/packages/cryptsetup-nuke-keys"
+    },
+    {
+      "target_project_path": "glab-forks/kalilinux/packages/cryptsetup-nuke-password"
+    },
+    {
+      "target_project_path": "glab-forks/kalilinux/packages/cuckoo-kbx"
+    },
+    {
+      "target_project_path": "glab-forks/kalilinux/packages/debian-cd"
+    },
+    {
+      "target_project_path": "glab-forks/kalilinux/packages/debian-installer"
+    },
+    {
+      "target_project_path": "glab-forks/kalilinux/packages/debian-installer-launcher"
+    },
+    {
+      "target_project_path": "glab-forks/kalilinux/packages/debootstrap"
+    },
+    {
+      "target_project_path": "glab-forks/kalilinux/packages/desktop-base"
+    },
+    {
+      "target_project_path": "glab-forks/kalilinux/packages/dpkg"
+    },
+    {
+      "target_project_path": "glab-forks/kalilinux/packages/exploitdb-papers"
+    },
+    {
+      "target_project_path": "glab-forks/kalilinux/packages/firefox-developer-edition-kbx"
+    },
+    {
+      "target_project_path": "glab-forks/kalilinux/packages/firmware-nexmon"
+    },
+    {
+      "target_project_path": "glab-forks/kalilinux/packages/gcc-arm-eabi-linaro-4-6-2"
+    },
+    {
+      "target_project_path": "glab-forks/kalilinux/packages/gcc-arm-linux-gnueabihf-4-7"
+    },
+    {
+      "target_project_path": "glab-forks/kalilinux/packages/gem2deb"
+    },
+    {
+      "target_project_path": "glab-forks/kalilinux/packages/glx-alternatives"
+    },
+    {
+      "target_project_path": "glab-forks/kalilinux/packages/gnome-shell-extension-vpnip"
+    },
+    {
+      "target_project_path": "glab-forks/kalilinux/packages/gnome-theme-kali"
+    },
+    {
+      "target_project_path": "glab-forks/kalilinux/packages/grub-cloud"
+    },
+    {
+      "target_project_path": "glab-forks/kalilinux/packages/gvm"
+    },
+    {
+      "target_project_path": "glab-forks/kalilinux/packages/ieee-data"
+    },
+    {
+      "target_project_path": "glab-forks/kalilinux/packages/impacket-scripts"
+    },
+    {
+      "target_project_path": "glab-forks/kalilinux/packages/init-system-helpers"
+    },
+    {
+      "target_project_path": "glab-forks/kalilinux/packages/initramfs-tools"
+    },
+    {
+      "target_project_path": "glab-forks/kalilinux/packages/javatools"
+    },
+    {
+      "target_project_path": "glab-forks/kalilinux/packages/joplin-kbx"
+    },
+    {
+      "target_project_path": "glab-forks/kalilinux/packages/kali-archive-keyring"
+    },
+    {
+      "target_project_path": "glab-forks/kalilinux/packages/kali-community-wallpapers"
+    },
+    {
+      "target_project_path": "glab-forks/kalilinux/packages/kali-debtags"
+    },
+    {
+      "target_project_path": "glab-forks/kalilinux/packages/kali-defaults"
+    },
+    {
+      "target_project_path": "glab-forks/kalilinux/packages/kali-grant-root"
+    },
+    {
+      "target_project_path": "glab-forks/kalilinux/packages/kali-hidpi-mode"
+    },
+    {
+      "target_project_path": "glab-forks/kalilinux/packages/kali-hw-gemini"
+    },
+    {
+      "target_project_path": "glab-forks/kalilinux/packages/kali-hw-pinephone"
+    },
+    {
+      "target_project_path": "glab-forks/kalilinux/packages/kali-hw-pinephonepro"
+    },
+    {
+      "target_project_path": "glab-forks/kalilinux/packages/kali-legacy-wallpapers"
+    },
+    {
+      "target_project_path": "glab-forks/kalilinux/packages/kali-menu"
+    },
+    {
+      "target_project_path": "glab-forks/kalilinux/packages/kali-meta"
+    },
+    {
+      "target_project_path": "glab-forks/kalilinux/packages/kali-root-login"
+    },
+    {
+      "target_project_path": "glab-forks/kalilinux/packages/kali-themes"
+    },
+    {
+      "target_project_path": "glab-forks/kalilinux/packages/kali-tweaks"
+    },
+    {
+      "target_project_path": "glab-forks/kalilinux/packages/kali-undercover"
+    },
+    {
+      "target_project_path": "glab-forks/kalilinux/packages/kali-wallpapers"
+    },
+    {
+      "target_project_path": "glab-forks/kalilinux/packages/kali-win-kex"
+    },
+    {
+      "target_project_path": "glab-forks/kalilinux/packages/kalipi-config"
+    },
+    {
+      "target_project_path": "glab-forks/kalilinux/packages/kalipi-tft-config"
+    },
+    {
+      "target_project_path": "glab-forks/kalilinux/packages/kdecoration"
+    },
+    {
+      "target_project_path": "glab-forks/kalilinux/packages/kwin-style-kali"
+    },
+    {
+      "target_project_path": "glab-forks/kalilinux/packages/linux-latest"
+    },
+    {
+      "target_project_path": "glab-forks/kalilinux/packages/live-installer"
+    },
+    {
+      "target_project_path": "glab-forks/kalilinux/packages/net-retriever"
+    },
+    {
+      "target_project_path": "glab-forks/kalilinux/packages/netcfg"
+    },
+    {
+      "target_project_path": "glab-forks/kalilinux/packages/nvidia-graphics-modules"
+    },
+    {
+      "target_project_path": "glab-forks/kalilinux/packages/offsec-courses"
+    },
+    {
+      "target_project_path": "glab-forks/kalilinux/packages/partman-auto"
+    },
+    {
+      "target_project_path": "glab-forks/kalilinux/packages/partman-btrfs"
+    },
+    {
+      "target_project_path": "glab-forks/kalilinux/packages/partman-crypto"
+    },
+    {
+      "target_project_path": "glab-forks/kalilinux/packages/passing-the-hash"
+    },
+    {
+      "target_project_path": "glab-forks/kalilinux/packages/pi-bluetooth"
+    },
+    {
+      "target_project_path": "glab-forks/kalilinux/packages/preseed"
+    },
+    {
+      "target_project_path": "glab-forks/kalilinux/packages/python-fontawesomefree"
+    },
+    {
+      "target_project_path": "glab-forks/kalilinux/packages/raspberry-pi-firmware"
+    },
+    {
+      "target_project_path": "glab-forks/kalilinux/packages/raspberry-pi-modules"
+    },
+    {
+      "target_project_path": "glab-forks/kalilinux/packages/rekono-kbx"
+    },
+    {
+      "target_project_path": "glab-forks/kalilinux/packages/rootskel-gtk"
+    },
+    {
+      "target_project_path": "glab-forks/kalilinux/packages/tailscale"
+    },
+    {
+      "target_project_path": "glab-forks/kalilinux/packages/tasksel"
+    },
+    {
+      "target_project_path": "glab-forks/kalilinux/packages/tzsetup"
+    },
+    {
+      "target_project_path": "glab-forks/kalilinux/packages/wireless-patches"
+    },
+    {
+      "target_project_path": "glab-forks/kalilinux/packages/xautoresize"
+    },
+    {
+      "target_project_path": "glab-forks/kalilinux/packages/zenmap-kbx"
+    }
+  ]
+}

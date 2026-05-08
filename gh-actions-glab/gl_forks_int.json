@@ -549,6 +549,7 @@
       "source_project_path": "xanmod/linux",
       "source_import": false,
       "git_lfs": false,
+      "git_timeout_seconds": 1800,
       "branch_rev": "",
       "branches": [
         {

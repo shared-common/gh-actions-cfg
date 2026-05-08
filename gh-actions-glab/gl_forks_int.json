@@ -548,7 +548,7 @@
       "target_mirror_path": "workyard/glab-forks/xanmod/linux",
       "source_project_path": "xanmod/linux",
       "source_import": false,
-      "git_lfs": true,
+      "git_lfs": false,
       "branch_rev": "",
       "branches": [
         {

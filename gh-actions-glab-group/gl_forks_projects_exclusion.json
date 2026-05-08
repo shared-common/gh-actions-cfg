@@ -1,0 +1,8 @@
+{
+  "version": 1,
+  "targets": [
+    {
+      "target_project_path": "glab-forks/kalilinux/packages/burpsuite"
+    }
+  ]
+}

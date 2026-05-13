@@ -19,7 +19,7 @@
         }
       ],
       "tags": []
-    }
+    },
     {
       "target_project_group": "glab-forks/debian/live-team",
       "target_mirror_group": "workyard/glab-forks/live-team",
@@ -30,7 +30,6 @@
     }
   ]
 }
-
 
 
 

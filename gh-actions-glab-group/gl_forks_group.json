@@ -20,5 +20,17 @@
       ],
       "tags": []
     }
+    {
+      "target_project_group": "glab-forks/debian/live-team",
+      "target_mirror_group": "workyard/glab-forks/live-team",
+      "source_project_group_url": "https://salsa.debian.org/live-team",
+      "branch_rev": "",
+      "branches": [],
+      "tags": []
+    }
   ]
 }
+
+
+
+

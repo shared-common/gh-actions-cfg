@@ -1,0 +1,76 @@
+{
+  "kind": "glab-groups/project-overrides",
+  "version": 1,
+  "projects": [
+    {
+      "target_project_path": "glab-forks/kalilinux/packages/bloodhound",
+      "force_lfs": true,
+      "git_timeout_seconds": 900
+    },
+    {
+      "target_project_path": "glab-forks/kalilinux/packages/burpsuite-prior2022",
+      "force_lfs": true,
+      "git_timeout_seconds": 900
+    },
+    {
+      "target_project_path": "glab-forks/kalilinux/packages/burpsuite-prior2023",
+      "force_lfs": true,
+      "git_timeout_seconds": 900
+    },
+    {
+      "target_project_path": "glab-forks/kalilinux/packages/caido",
+      "force_lfs": true,
+      "git_timeout_seconds": 900
+    },
+    {
+      "target_project_path": "glab-forks/kalilinux/packages/caido-cli",
+      "force_lfs": true,
+      "git_timeout_seconds": 900
+    },
+    {
+      "target_project_path": "glab-forks/kalilinux/packages/cipheydists",
+      "force_lfs": true,
+      "git_timeout_seconds": 900
+    },
+    {
+      "target_project_path": "glab-forks/kalilinux/packages/jadx",
+      "force_lfs": true,
+      "git_timeout_seconds": 900
+    },
+    {
+      "target_project_path": "glab-forks/kalilinux/packages/joplin",
+      "force_lfs": true,
+      "git_timeout_seconds": 900
+    },
+    {
+      "target_project_path": "glab-forks/kalilinux/packages/juice-shop",
+      "force_lfs": true,
+      "git_timeout_seconds": 900
+    },
+    {
+      "target_project_path": "glab-forks/kalilinux/packages/kali-screensaver",
+      "force_lfs": true,
+      "git_timeout_seconds": 900
+    },
+    {
+      "target_project_path": "glab-forks/kalilinux/packages/king-phisher",
+      "force_lfs": true,
+      "git_timeout_seconds": 900
+    },
+    {
+      "target_project_path": "glab-forks/kalilinux/packages/libpostal",
+      "force_lfs": true,
+      "git_timeout_seconds": 900
+    },
+    {
+      "target_project_path": "glab-forks/kalilinux/packages/maltego-teeth",
+      "force_lfs": true,
+      "git_timeout_seconds": 900
+    },
+    {
+      "target_project_path": "glab-forks/kalilinux/packages/burpsuite",
+      "force_lfs": true,
+      "git_timeout_seconds": 900
+    }
+  ]
+}

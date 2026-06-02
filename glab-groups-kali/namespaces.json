@@ -1,0 +1,12 @@
+{
+  "kind": "glab-groups/namespaces",
+  "version": 1,
+  "namespaces": [
+    {
+      "name": "kalilinux-root",
+      "source_group_url": "https://gitlab.com/kalilinux",
+      "target_namespace_path": "glab-forks/kalilinux",
+      "visibility": "public"
+    }
+  ]
+}

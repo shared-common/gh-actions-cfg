@@ -1,13 +1,32 @@
 # gh-actions-cfg
 
-## Group sync configs
+## Legacy configs
 
-Each `gh-actions-glab-group` group sync config must contain source groups from a
-single GitLab host. The group-sync workflow expands every target with one
-`GL_BASE_URL` client, so source groups from different hosts must live in
-separate config files.
+The historical `gh-actions-glab-group/*` files remain in this repository for the
+older Python-based group sync wrappers.
 
-- `gh-actions-glab-group/gl_forks_group.json` is the active GitLab.com group
-  config.
-- `gh-actions-glab-group/salsa/gl_forks_group.json` is the Salsa group config
-  and requires a workflow run configured with `GL_BASE_URL=https://salsa.debian.org`.
+## Shared group-mirror configs
+
+The new Perl/Python group mirror flow consumes per-wrapper config directories:
+
+- `glab-groups-kali/`
+- `glab-groups-debian/`
+
+Each directory contains JSON files keyed by `kind`:
+
+- `glab-groups/defaults`
+- `glab-groups/namespaces`
+- `glab-groups/project-overrides`
+- `glab-groups/project-exclusions`
+
+## Kali
+
+`glab-groups-kali/namespaces.json` mirrors the full public
+`https://gitlab.com/kalilinux` hierarchy into `glab-forks/kalilinux`.
+
+## Debian
+
+`glab-groups-debian/namespaces.json` is generated from the current public Salsa
+top-level group catalog and maps each source namespace into
+`glab-forks/debian/...`, with `debian/*` itself rooted directly at
+`glab-forks/debian`.

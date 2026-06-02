@@ -1,0 +1,3408 @@
+{
+  "kind": "glab-groups/namespaces",
+  "version": 1,
+  "namespaces": [
+    {
+      "name": "salsa-233-team",
+      "source_group_url": "https://salsa.debian.org/233-team",
+      "target_namespace_path": "glab-forks/debian/233-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-3dprinting-team",
+      "source_group_url": "https://salsa.debian.org/3dprinting-team",
+      "target_namespace_path": "glab-forks/debian/3dprinting-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-Anonymous86-team",
+      "source_group_url": "https://salsa.debian.org/Anonymous86-team",
+      "target_namespace_path": "glab-forks/debian/Anonymous86-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-BengalOS-team",
+      "source_group_url": "https://salsa.debian.org/BengalOS-team",
+      "target_namespace_path": "glab-forks/debian/BengalOS-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-Brazilian-team",
+      "source_group_url": "https://salsa.debian.org/Brazilian-team",
+      "target_namespace_path": "glab-forks/debian/Brazilian-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-ChromeOS-team",
+      "source_group_url": "https://salsa.debian.org/ChromeOS-team",
+      "target_namespace_path": "glab-forks/debian/ChromeOS-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-Debian-Contributors-team",
+      "source_group_url": "https://salsa.debian.org/Debian-Contributors-team",
+      "target_namespace_path": "glab-forks/debian/Debian-Contributors-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-DebianOnMobile-team",
+      "source_group_url": "https://salsa.debian.org/DebianOnMobile-team",
+      "target_namespace_path": "glab-forks/debian/DebianOnMobile-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-Developers-team",
+      "source_group_url": "https://salsa.debian.org/Developers-team",
+      "target_namespace_path": "glab-forks/debian/Developers-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-Federated-I-team",
+      "source_group_url": "https://salsa.debian.org/Federated-I-team",
+      "target_namespace_path": "glab-forks/debian/Federated-I-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-FocalPointing-team",
+      "source_group_url": "https://salsa.debian.org/FocalPointing-team",
+      "target_namespace_path": "glab-forks/debian/FocalPointing-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-GNUKhata-team",
+      "source_group_url": "https://salsa.debian.org/GNUKhata-team",
+      "target_namespace_path": "glab-forks/debian/GNUKhata-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-IG-Future-team",
+      "source_group_url": "https://salsa.debian.org/IG-Future-team",
+      "target_namespace_path": "glab-forks/debian/IG-Future-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-IMaster-team",
+      "source_group_url": "https://salsa.debian.org/IMaster-team",
+      "target_namespace_path": "glab-forks/debian/IMaster-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-Imsidag-team",
+      "source_group_url": "https://salsa.debian.org/Imsidag-team",
+      "target_namespace_path": "glab-forks/debian/Imsidag-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-Kaalad12-team",
+      "source_group_url": "https://salsa.debian.org/Kaalad12-team",
+      "target_namespace_path": "glab-forks/debian/Kaalad12-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-Kazan-team",
+      "source_group_url": "https://salsa.debian.org/Kazan-team",
+      "target_namespace_path": "glab-forks/debian/Kazan-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-Kenloch1-team",
+      "source_group_url": "https://salsa.debian.org/Kenloch1-team",
+      "target_namespace_path": "glab-forks/debian/Kenloch1-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-Kenneth_Dunning-team",
+      "source_group_url": "https://salsa.debian.org/Kenneth_Dunning-team",
+      "target_namespace_path": "glab-forks/debian/Kenneth_Dunning-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-LINUX-team",
+      "source_group_url": "https://salsa.debian.org/LINUX-team",
+      "target_namespace_path": "glab-forks/debian/LINUX-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-LeopardsLab-team",
+      "source_group_url": "https://salsa.debian.org/LeopardsLab-team",
+      "target_namespace_path": "glab-forks/debian/LeopardsLab-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-Mama-team",
+      "source_group_url": "https://salsa.debian.org/Mama-team",
+      "target_namespace_path": "glab-forks/debian/Mama-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-Master-id-team",
+      "source_group_url": "https://salsa.debian.org/Master-id-team",
+      "target_namespace_path": "glab-forks/debian/Master-id-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-Master-team",
+      "source_group_url": "https://salsa.debian.org/Master-team",
+      "target_namespace_path": "glab-forks/debian/Master-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-Me-team",
+      "source_group_url": "https://salsa.debian.org/Me-team",
+      "target_namespace_path": "glab-forks/debian/Me-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-Meta-team",
+      "source_group_url": "https://salsa.debian.org/Meta-team",
+      "target_namespace_path": "glab-forks/debian/Meta-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-Mobian-team",
+      "source_group_url": "https://salsa.debian.org/Mobian-team",
+      "target_namespace_path": "glab-forks/debian/Mobian-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-Project-team",
+      "source_group_url": "https://salsa.debian.org/Project-team",
+      "target_namespace_path": "glab-forks/debian/Project-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-QuantumDecay-Games-team",
+      "source_group_url": "https://salsa.debian.org/QuantumDecay-Games-team",
+      "target_namespace_path": "glab-forks/debian/QuantumDecay-Games-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-QuantumDecay-team",
+      "source_group_url": "https://salsa.debian.org/QuantumDecay-team",
+      "target_namespace_path": "glab-forks/debian/QuantumDecay-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-STUDIO-team",
+      "source_group_url": "https://salsa.debian.org/STUDIO-team",
+      "target_namespace_path": "glab-forks/debian/STUDIO-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-SociOS-team",
+      "source_group_url": "https://salsa.debian.org/SociOS-team",
+      "target_namespace_path": "glab-forks/debian/SociOS-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-StrongsGetIt-team",
+      "source_group_url": "https://salsa.debian.org/StrongsGetIt-team",
+      "target_namespace_path": "glab-forks/debian/StrongsGetIt-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-Tomorrowwillbebetter-team",
+      "source_group_url": "https://salsa.debian.org/Tomorrowwillbebetter-team",
+      "target_namespace_path": "glab-forks/debian/Tomorrowwillbebetter-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-Tomorrowwillbebetter2-team",
+      "source_group_url": "https://salsa.debian.org/Tomorrowwillbebetter2-team",
+      "target_namespace_path": "glab-forks/debian/Tomorrowwillbebetter2-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-Tomorrowwillbebetter3-team",
+      "source_group_url": "https://salsa.debian.org/Tomorrowwillbebetter3-team",
+      "target_namespace_path": "glab-forks/debian/Tomorrowwillbebetter3-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-Tomorrowwillbebetter4-team",
+      "source_group_url": "https://salsa.debian.org/Tomorrowwillbebetter4-team",
+      "target_namespace_path": "glab-forks/debian/Tomorrowwillbebetter4-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-a11y-team",
+      "source_group_url": "https://salsa.debian.org/a11y-team",
+      "target_namespace_path": "glab-forks/debian/a11y-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-achim-team",
+      "source_group_url": "https://salsa.debian.org/achim-team",
+      "target_namespace_path": "glab-forks/debian/achim-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-aims-desktop-team",
+      "source_group_url": "https://salsa.debian.org/aims-desktop-team",
+      "target_namespace_path": "glab-forks/debian/aims-desktop-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-ajhalili2006-experiments-team",
+      "source_group_url": "https://salsa.debian.org/ajhalili2006-experiments-team",
+      "target_namespace_path": "glab-forks/debian/ajhalili2006-experiments-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-alioth-lists-team",
+      "source_group_url": "https://salsa.debian.org/alioth-lists-team",
+      "target_namespace_path": "glab-forks/debian/alioth-lists-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-alsa-team",
+      "source_group_url": "https://salsa.debian.org/alsa-team",
+      "target_namespace_path": "glab-forks/debian/alsa-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-android-tools-team",
+      "source_group_url": "https://salsa.debian.org/android-tools-team",
+      "target_namespace_path": "glab-forks/debian/android-tools-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-anime-team",
+      "source_group_url": "https://salsa.debian.org/anime-team",
+      "target_namespace_path": "glab-forks/debian/anime-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-apache-team",
+      "source_group_url": "https://salsa.debian.org/apache-team",
+      "target_namespace_path": "glab-forks/debian/apache-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-apparmor-team",
+      "source_group_url": "https://salsa.debian.org/apparmor-team",
+      "target_namespace_path": "glab-forks/debian/apparmor-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-apt-team",
+      "source_group_url": "https://salsa.debian.org/apt-team",
+      "target_namespace_path": "glab-forks/debian/apt-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-aqbanking-team",
+      "source_group_url": "https://salsa.debian.org/aqbanking-team",
+      "target_namespace_path": "glab-forks/debian/aqbanking-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-arabia-team",
+      "source_group_url": "https://salsa.debian.org/arabia-team",
+      "target_namespace_path": "glab-forks/debian/arabia-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-atolab-team",
+      "source_group_url": "https://salsa.debian.org/atolab-team",
+      "target_namespace_path": "glab-forks/debian/atolab-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-auth-team",
+      "source_group_url": "https://salsa.debian.org/auth-team",
+      "target_namespace_path": "glab-forks/debian/auth-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-autodeb-team",
+      "source_group_url": "https://salsa.debian.org/autodeb-team",
+      "target_namespace_path": "glab-forks/debian/autodeb-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-backports-team",
+      "source_group_url": "https://salsa.debian.org/backports-team",
+      "target_namespace_path": "glab-forks/debian/backports-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-bacula-team",
+      "source_group_url": "https://salsa.debian.org/bacula-team",
+      "target_namespace_path": "glab-forks/debian/bacula-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-baltix-team",
+      "source_group_url": "https://salsa.debian.org/baltix-team",
+      "target_namespace_path": "glab-forks/debian/baltix-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-bananas-team",
+      "source_group_url": "https://salsa.debian.org/bananas-team",
+      "target_namespace_path": "glab-forks/debian/bananas-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-bats-team",
+      "source_group_url": "https://salsa.debian.org/bats-team",
+      "target_namespace_path": "glab-forks/debian/bats-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-bazel-team",
+      "source_group_url": "https://salsa.debian.org/bazel-team",
+      "target_namespace_path": "glab-forks/debian/bazel-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-bbb-team",
+      "source_group_url": "https://salsa.debian.org/bbb-team",
+      "target_namespace_path": "glab-forks/debian/bbb-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-bcfg2-team",
+      "source_group_url": "https://salsa.debian.org/bcfg2-team",
+      "target_namespace_path": "glab-forks/debian/bcfg2-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-belin-team",
+      "source_group_url": "https://salsa.debian.org/belin-team",
+      "target_namespace_path": "glab-forks/debian/belin-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-benchmarksgame-team",
+      "source_group_url": "https://salsa.debian.org/benchmarksgame-team",
+      "target_namespace_path": "glab-forks/debian/benchmarksgame-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-blends-parl-team",
+      "source_group_url": "https://salsa.debian.org/blends-parl-team",
+      "target_namespace_path": "glab-forks/debian/blends-parl-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-blends-team",
+      "source_group_url": "https://salsa.debian.org/blends-team",
+      "target_namespace_path": "glab-forks/debian/blends-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-bluefield-team",
+      "source_group_url": "https://salsa.debian.org/bluefield-team",
+      "target_namespace_path": "glab-forks/debian/bluefield-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-bluetooth-team",
+      "source_group_url": "https://salsa.debian.org/bluetooth-team",
+      "target_namespace_path": "glab-forks/debian/bluetooth-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-boxer-team",
+      "source_group_url": "https://salsa.debian.org/boxer-team",
+      "target_namespace_path": "glab-forks/debian/boxer-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-breezy-team",
+      "source_group_url": "https://salsa.debian.org/breezy-team",
+      "target_namespace_path": "glab-forks/debian/breezy-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-bridges-team",
+      "source_group_url": "https://salsa.debian.org/bridges-team",
+      "target_namespace_path": "glab-forks/debian/bridges-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-bro-team",
+      "source_group_url": "https://salsa.debian.org/bro-team",
+      "target_namespace_path": "glab-forks/debian/bro-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-broadcom-sta-team",
+      "source_group_url": "https://salsa.debian.org/broadcom-sta-team",
+      "target_namespace_path": "glab-forks/debian/broadcom-sta-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-bsd-team",
+      "source_group_url": "https://salsa.debian.org/bsd-team",
+      "target_namespace_path": "glab-forks/debian/bsd-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-bts-link-team",
+      "source_group_url": "https://salsa.debian.org/bts-link-team",
+      "target_namespace_path": "glab-forks/debian/bts-link-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-build-common-team",
+      "source_group_url": "https://salsa.debian.org/build-common-team",
+      "target_namespace_path": "glab-forks/debian/build-common-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-buttplug-team",
+      "source_group_url": "https://salsa.debian.org/buttplug-team",
+      "target_namespace_path": "glab-forks/debian/buttplug-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-cairo-dock-team",
+      "source_group_url": "https://salsa.debian.org/cairo-dock-team",
+      "target_namespace_path": "glab-forks/debian/cairo-dock-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-calendarserver-team",
+      "source_group_url": "https://salsa.debian.org/calendarserver-team",
+      "target_namespace_path": "glab-forks/debian/calendarserver-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-ceph-team",
+      "source_group_url": "https://salsa.debian.org/ceph-team",
+      "target_namespace_path": "glab-forks/debian/ceph-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-cfengine-team",
+      "source_group_url": "https://salsa.debian.org/cfengine-team",
+      "target_namespace_path": "glab-forks/debian/cfengine-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-check_mk_agent-team",
+      "source_group_url": "https://salsa.debian.org/check_mk_agent-team",
+      "target_namespace_path": "glab-forks/debian/check_mk_agent-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-chinese-team",
+      "source_group_url": "https://salsa.debian.org/chinese-team",
+      "target_namespace_path": "glab-forks/debian/chinese-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-chromium-team",
+      "source_group_url": "https://salsa.debian.org/chromium-team",
+      "target_namespace_path": "glab-forks/debian/chromium-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-chronicles-team",
+      "source_group_url": "https://salsa.debian.org/chronicles-team",
+      "target_namespace_path": "glab-forks/debian/chronicles-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-ci-team",
+      "source_group_url": "https://salsa.debian.org/ci-team",
+      "target_namespace_path": "glab-forks/debian/ci-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-cinnamon-team",
+      "source_group_url": "https://salsa.debian.org/cinnamon-team",
+      "target_namespace_path": "glab-forks/debian/cinnamon-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-clamav-team",
+      "source_group_url": "https://salsa.debian.org/clamav-team",
+      "target_namespace_path": "glab-forks/debian/clamav-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-claws-mail-team",
+      "source_group_url": "https://salsa.debian.org/claws-mail-team",
+      "target_namespace_path": "glab-forks/debian/claws-mail-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-click-to-dial-team",
+      "source_group_url": "https://salsa.debian.org/click-to-dial-team",
+      "target_namespace_path": "glab-forks/debian/click-to-dial-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-clojure-team",
+      "source_group_url": "https://salsa.debian.org/clojure-team",
+      "target_namespace_path": "glab-forks/debian/clojure-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-cloud-admin-team",
+      "source_group_url": "https://salsa.debian.org/cloud-admin-team",
+      "target_namespace_path": "glab-forks/debian/cloud-admin-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-cloud-team",
+      "source_group_url": "https://salsa.debian.org/cloud-team",
+      "target_namespace_path": "glab-forks/debian/cloud-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-cmake-team",
+      "source_group_url": "https://salsa.debian.org/cmake-team",
+      "target_namespace_path": "glab-forks/debian/cmake-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-code-inc-team",
+      "source_group_url": "https://salsa.debian.org/code-inc-team",
+      "target_namespace_path": "glab-forks/debian/code-inc-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-collabora-team",
+      "source_group_url": "https://salsa.debian.org/collabora-team",
+      "target_namespace_path": "glab-forks/debian/collabora-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-common-lisp-team",
+      "source_group_url": "https://salsa.debian.org/common-lisp-team",
+      "target_namespace_path": "glab-forks/debian/common-lisp-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-community-team",
+      "source_group_url": "https://salsa.debian.org/community-team",
+      "target_namespace_path": "glab-forks/debian/community-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-communitywlan-team",
+      "source_group_url": "https://salsa.debian.org/communitywlan-team",
+      "target_namespace_path": "glab-forks/debian/communitywlan-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-compiz-team",
+      "source_group_url": "https://salsa.debian.org/compiz-team",
+      "target_namespace_path": "glab-forks/debian/compiz-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-consolation-team",
+      "source_group_url": "https://salsa.debian.org/consolation-team",
+      "target_namespace_path": "glab-forks/debian/consolation-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-cowsql-team",
+      "source_group_url": "https://salsa.debian.org/cowsql-team",
+      "target_namespace_path": "glab-forks/debian/cowsql-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-cowstack-team",
+      "source_group_url": "https://salsa.debian.org/cowstack-team",
+      "target_namespace_path": "glab-forks/debian/cowstack-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-coz-team",
+      "source_group_url": "https://salsa.debian.org/coz-team",
+      "target_namespace_path": "glab-forks/debian/coz-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-cpython-team",
+      "source_group_url": "https://salsa.debian.org/cpython-team",
+      "target_namespace_path": "glab-forks/debian/cpython-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-crossgrading-team",
+      "source_group_url": "https://salsa.debian.org/crossgrading-team",
+      "target_namespace_path": "glab-forks/debian/crossgrading-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-crosstoolchain-team",
+      "source_group_url": "https://salsa.debian.org/crosstoolchain-team",
+      "target_namespace_path": "glab-forks/debian/crosstoolchain-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-cryptocoin-team",
+      "source_group_url": "https://salsa.debian.org/cryptocoin-team",
+      "target_namespace_path": "glab-forks/debian/cryptocoin-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-cryptsetup-team",
+      "source_group_url": "https://salsa.debian.org/cryptsetup-team",
+      "target_namespace_path": "glab-forks/debian/cryptsetup-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-cs-studies-team",
+      "source_group_url": "https://salsa.debian.org/cs-studies-team",
+      "target_namespace_path": "glab-forks/debian/cs-studies-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-cutefish-team",
+      "source_group_url": "https://salsa.debian.org/cutefish-team",
+      "target_namespace_path": "glab-forks/debian/cutefish-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-cwidget-team",
+      "source_group_url": "https://salsa.debian.org/cwidget-team",
+      "target_namespace_path": "glab-forks/debian/cwidget-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-cyrus-imap-team",
+      "source_group_url": "https://salsa.debian.org/cyrus-imap-team",
+      "target_namespace_path": "glab-forks/debian/cyrus-imap-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-cyrus-sasl-team",
+      "source_group_url": "https://salsa.debian.org/cyrus-sasl-team",
+      "target_namespace_path": "glab-forks/debian/cyrus-sasl-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-d-team",
+      "source_group_url": "https://salsa.debian.org/d-team",
+      "target_namespace_path": "glab-forks/debian/d-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-dbnpolicy",
+      "source_group_url": "https://salsa.debian.org/dbnpolicy",
+      "target_namespace_path": "glab-forks/debian/dbnpolicy",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-ddccontrol-team",
+      "source_group_url": "https://salsa.debian.org/ddccontrol-team",
+      "target_namespace_path": "glab-forks/debian/ddccontrol-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-ddp-team",
+      "source_group_url": "https://salsa.debian.org/ddp-team",
+      "target_namespace_path": "glab-forks/debian/ddp-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-debbugs-team",
+      "source_group_url": "https://salsa.debian.org/debbugs-team",
+      "target_namespace_path": "glab-forks/debian/debbugs-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-debconf-subs-team",
+      "source_group_url": "https://salsa.debian.org/debconf-subs-team",
+      "target_namespace_path": "glab-forks/debian/debconf-subs-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-debconf-team",
+      "source_group_url": "https://salsa.debian.org/debconf-team",
+      "target_namespace_path": "glab-forks/debian/debconf-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-debconf-video-team",
+      "source_group_url": "https://salsa.debian.org/debconf-video-team",
+      "target_namespace_path": "glab-forks/debian/debconf-video-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-debian",
+      "source_group_url": "https://salsa.debian.org/debian",
+      "target_namespace_path": "glab-forks/debian",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-debian-astro-team",
+      "source_group_url": "https://salsa.debian.org/debian-astro-team",
+      "target_namespace_path": "glab-forks/debian/debian-astro-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-debian-astrology-team",
+      "source_group_url": "https://salsa.debian.org/debian-astrology-team",
+      "target_namespace_path": "glab-forks/debian/debian-astrology-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-debian-ayatana-team",
+      "source_group_url": "https://salsa.debian.org/debian-ayatana-team",
+      "target_namespace_path": "glab-forks/debian/debian-ayatana-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-debian-bootstrap-team",
+      "source_group_url": "https://salsa.debian.org/debian-bootstrap-team",
+      "target_namespace_path": "glab-forks/debian/debian-bootstrap-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-debian-brasil-team",
+      "source_group_url": "https://salsa.debian.org/debian-brasil-team",
+      "target_namespace_path": "glab-forks/debian/debian-brasil-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-debian-brasilia-team",
+      "source_group_url": "https://salsa.debian.org/debian-brasilia-team",
+      "target_namespace_path": "glab-forks/debian/debian-brasilia-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-debian-camp-team",
+      "source_group_url": "https://salsa.debian.org/debian-camp-team",
+      "target_namespace_path": "glab-forks/debian/debian-camp-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-debian-ch-team",
+      "source_group_url": "https://salsa.debian.org/debian-ch-team",
+      "target_namespace_path": "glab-forks/debian/debian-ch-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-debian-desktop-team",
+      "source_group_url": "https://salsa.debian.org/debian-desktop-team",
+      "target_namespace_path": "glab-forks/debian/debian-desktop-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-debian-dpl",
+      "source_group_url": "https://salsa.debian.org/debian-dpl",
+      "target_namespace_path": "glab-forks/debian/debian-dpl",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-debian-edu",
+      "source_group_url": "https://salsa.debian.org/debian-edu",
+      "target_namespace_path": "glab-forks/debian/debian-edu",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-debian-edu-pkg-team",
+      "source_group_url": "https://salsa.debian.org/debian-edu-pkg-team",
+      "target_namespace_path": "glab-forks/debian/debian-edu-pkg-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-debian-facile-team",
+      "source_group_url": "https://salsa.debian.org/debian-facile-team",
+      "target_namespace_path": "glab-forks/debian/debian-facile-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-debian-france-team",
+      "source_group_url": "https://salsa.debian.org/debian-france-team",
+      "target_namespace_path": "glab-forks/debian/debian-france-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-debian-gis-team",
+      "source_group_url": "https://salsa.debian.org/debian-gis-team",
+      "target_namespace_path": "glab-forks/debian/debian-gis-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-debian-gps-team",
+      "source_group_url": "https://salsa.debian.org/debian-gps-team",
+      "target_namespace_path": "glab-forks/debian/debian-gps-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-debian-graphite-team",
+      "source_group_url": "https://salsa.debian.org/debian-graphite-team",
+      "target_namespace_path": "glab-forks/debian/debian-graphite-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-debian-hamradio-team",
+      "source_group_url": "https://salsa.debian.org/debian-hamradio-team",
+      "target_namespace_path": "glab-forks/debian/debian-hamradio-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-debian-in-team",
+      "source_group_url": "https://salsa.debian.org/debian-in-team",
+      "target_namespace_path": "glab-forks/debian/debian-in-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-debian-iot-team",
+      "source_group_url": "https://salsa.debian.org/debian-iot-team",
+      "target_namespace_path": "glab-forks/debian/debian-iot-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-debian-irc-team",
+      "source_group_url": "https://salsa.debian.org/debian-irc-team",
+      "target_namespace_path": "glab-forks/debian/debian-irc-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-debian-jr-team",
+      "source_group_url": "https://salsa.debian.org/debian-jr-team",
+      "target_namespace_path": "glab-forks/debian/debian-jr-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-debian-keyring",
+      "source_group_url": "https://salsa.debian.org/debian-keyring",
+      "target_namespace_path": "glab-forks/debian/debian-keyring",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-debian-l10n-pt-team",
+      "source_group_url": "https://salsa.debian.org/debian-l10n-pt-team",
+      "target_namespace_path": "glab-forks/debian/debian-l10n-pt-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-debian-latam-team",
+      "source_group_url": "https://salsa.debian.org/debian-latam-team",
+      "target_namespace_path": "glab-forks/debian/debian-latam-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-debian-lego-team",
+      "source_group_url": "https://salsa.debian.org/debian-lego-team",
+      "target_namespace_path": "glab-forks/debian/debian-lego-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-debian-listmasters",
+      "source_group_url": "https://salsa.debian.org/debian-listmasters",
+      "target_namespace_path": "glab-forks/debian/debian-listmasters",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-debian-mate-team",
+      "source_group_url": "https://salsa.debian.org/debian-mate-team",
+      "target_namespace_path": "glab-forks/debian/debian-mate-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-debian-menu-team",
+      "source_group_url": "https://salsa.debian.org/debian-menu-team",
+      "target_namespace_path": "glab-forks/debian/debian-menu-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-debian-mobcom-team",
+      "source_group_url": "https://salsa.debian.org/debian-mobcom-team",
+      "target_namespace_path": "glab-forks/debian/debian-mobcom-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-debian-nantes-team",
+      "source_group_url": "https://salsa.debian.org/debian-nantes-team",
+      "target_namespace_path": "glab-forks/debian/debian-nantes-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-debian-nis-team",
+      "source_group_url": "https://salsa.debian.org/debian-nis-team",
+      "target_namespace_path": "glab-forks/debian/debian-nis-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-debian-paraiba-team",
+      "source_group_url": "https://salsa.debian.org/debian-paraiba-team",
+      "target_namespace_path": "glab-forks/debian/debian-paraiba-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-debian-phototools-team",
+      "source_group_url": "https://salsa.debian.org/debian-phototools-team",
+      "target_namespace_path": "glab-forks/debian/debian-phototools-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-debian-ports-team",
+      "source_group_url": "https://salsa.debian.org/debian-ports-team",
+      "target_namespace_path": "glab-forks/debian/debian-ports-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-debian-proftpd-team",
+      "source_group_url": "https://salsa.debian.org/debian-proftpd-team",
+      "target_namespace_path": "glab-forks/debian/debian-proftpd-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-debian-remote-team",
+      "source_group_url": "https://salsa.debian.org/debian-remote-team",
+      "target_namespace_path": "glab-forks/debian/debian-remote-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-debian-rs-team",
+      "source_group_url": "https://salsa.debian.org/debian-rs-team",
+      "target_namespace_path": "glab-forks/debian/debian-rs-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-debian-social-team",
+      "source_group_url": "https://salsa.debian.org/debian-social-team",
+      "target_namespace_path": "glab-forks/debian/debian-social-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-debian-sp-team",
+      "source_group_url": "https://salsa.debian.org/debian-sp-team",
+      "target_namespace_path": "glab-forks/debian/debian-sp-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-debian.de-team",
+      "source_group_url": "https://salsa.debian.org/debian.de-team",
+      "target_namespace_path": "glab-forks/debian/debian.de-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-debianbrasil-team",
+      "source_group_url": "https://salsa.debian.org/debianbrasil-team",
+      "target_namespace_path": "glab-forks/debian/debianbrasil-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-debiancat-team",
+      "source_group_url": "https://salsa.debian.org/debiancat-team",
+      "target_namespace_path": "glab-forks/debian/debiancat-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-debianjp-team",
+      "source_group_url": "https://salsa.debian.org/debianjp-team",
+      "target_namespace_path": "glab-forks/debian/debianjp-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-debiankorea",
+      "source_group_url": "https://salsa.debian.org/debiankorea",
+      "target_namespace_path": "glab-forks/debian/debiankorea",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-debiannet-team",
+      "source_group_url": "https://salsa.debian.org/debiannet-team",
+      "target_namespace_path": "glab-forks/debian/debiannet-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-debiansocial-team",
+      "source_group_url": "https://salsa.debian.org/debiansocial-team",
+      "target_namespace_path": "glab-forks/debian/debiansocial-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-debichem-team",
+      "source_group_url": "https://salsa.debian.org/debichem-team",
+      "target_namespace_path": "glab-forks/debian/debichem-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-debsso-team",
+      "source_group_url": "https://salsa.debian.org/debsso-team",
+      "target_namespace_path": "glab-forks/debian/debsso-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-debtags-team",
+      "source_group_url": "https://salsa.debian.org/debtags-team",
+      "target_namespace_path": "glab-forks/debian/debtags-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-deeplearning-team",
+      "source_group_url": "https://salsa.debian.org/deeplearning-team",
+      "target_namespace_path": "glab-forks/debian/deeplearning-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-deflate-team",
+      "source_group_url": "https://salsa.debian.org/deflate-team",
+      "target_namespace_path": "glab-forks/debian/deflate-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-dep-team",
+      "source_group_url": "https://salsa.debian.org/dep-team",
+      "target_namespace_path": "glab-forks/debian/dep-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-deriv-team",
+      "source_group_url": "https://salsa.debian.org/deriv-team",
+      "target_namespace_path": "glab-forks/debian/deriv-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-design-team",
+      "source_group_url": "https://salsa.debian.org/design-team",
+      "target_namespace_path": "glab-forks/debian/design-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-desktop-themes-team",
+      "source_group_url": "https://salsa.debian.org/desktop-themes-team",
+      "target_namespace_path": "glab-forks/debian/desktop-themes-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-dev-team",
+      "source_group_url": "https://salsa.debian.org/dev-team",
+      "target_namespace_path": "glab-forks/debian/dev-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-dfsg-team",
+      "source_group_url": "https://salsa.debian.org/dfsg-team",
+      "target_namespace_path": "glab-forks/debian/dfsg-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-dgit-team",
+      "source_group_url": "https://salsa.debian.org/dgit-team",
+      "target_namespace_path": "glab-forks/debian/dgit-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-ding-team",
+      "source_group_url": "https://salsa.debian.org/ding-team",
+      "target_namespace_path": "glab-forks/debian/ding-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-djgpp-team",
+      "source_group_url": "https://salsa.debian.org/djgpp-team",
+      "target_namespace_path": "glab-forks/debian/djgpp-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-dns-team",
+      "source_group_url": "https://salsa.debian.org/dns-team",
+      "target_namespace_path": "glab-forks/debian/dns-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-docker-compose-team",
+      "source_group_url": "https://salsa.debian.org/docker-compose-team",
+      "target_namespace_path": "glab-forks/debian/docker-compose-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-docker-team",
+      "source_group_url": "https://salsa.debian.org/docker-team",
+      "target_namespace_path": "glab-forks/debian/docker-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-dotnet-team",
+      "source_group_url": "https://salsa.debian.org/dotnet-team",
+      "target_namespace_path": "glab-forks/debian/dotnet-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-dpkg-team",
+      "source_group_url": "https://salsa.debian.org/dpkg-team",
+      "target_namespace_path": "glab-forks/debian/dpkg-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-drugs-team",
+      "source_group_url": "https://salsa.debian.org/drugs-team",
+      "target_namespace_path": "glab-forks/debian/drugs-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-dsa-team",
+      "source_group_url": "https://salsa.debian.org/dsa-team",
+      "target_namespace_path": "glab-forks/debian/dsa-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-ecere-team",
+      "source_group_url": "https://salsa.debian.org/ecere-team",
+      "target_namespace_path": "glab-forks/debian/ecere-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-efi-team",
+      "source_group_url": "https://salsa.debian.org/efi-team",
+      "target_namespace_path": "glab-forks/debian/efi-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-eidas-team",
+      "source_group_url": "https://salsa.debian.org/eidas-team",
+      "target_namespace_path": "glab-forks/debian/eidas-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-ejabberd-packaging-team",
+      "source_group_url": "https://salsa.debian.org/ejabberd-packaging-team",
+      "target_namespace_path": "glab-forks/debian/ejabberd-packaging-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-electronics-team",
+      "source_group_url": "https://salsa.debian.org/electronics-team",
+      "target_namespace_path": "glab-forks/debian/electronics-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-emacsen-team",
+      "source_group_url": "https://salsa.debian.org/emacsen-team",
+      "target_namespace_path": "glab-forks/debian/emacsen-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-erlang-team",
+      "source_group_url": "https://salsa.debian.org/erlang-team",
+      "target_namespace_path": "glab-forks/debian/erlang-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-ethio.me-team",
+      "source_group_url": "https://salsa.debian.org/ethio.me-team",
+      "target_namespace_path": "glab-forks/debian/ethio.me-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-events-team",
+      "source_group_url": "https://salsa.debian.org/events-team",
+      "target_namespace_path": "glab-forks/debian/events-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-ex-rileys-team",
+      "source_group_url": "https://salsa.debian.org/ex-rileys-team",
+      "target_namespace_path": "glab-forks/debian/ex-rileys-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-exim-team",
+      "source_group_url": "https://salsa.debian.org/exim-team",
+      "target_namespace_path": "glab-forks/debian/exim-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-extrepo-team",
+      "source_group_url": "https://salsa.debian.org/extrepo-team",
+      "target_namespace_path": "glab-forks/debian/extrepo-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-fasttrack-team",
+      "source_group_url": "https://salsa.debian.org/fasttrack-team",
+      "target_namespace_path": "glab-forks/debian/fasttrack-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-fcoe-team",
+      "source_group_url": "https://salsa.debian.org/fcoe-team",
+      "target_namespace_path": "glab-forks/debian/fcoe-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-ffac-team",
+      "source_group_url": "https://salsa.debian.org/ffac-team",
+      "target_namespace_path": "glab-forks/debian/ffac-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-firebird-team",
+      "source_group_url": "https://salsa.debian.org/firebird-team",
+      "target_namespace_path": "glab-forks/debian/firebird-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-fltk-team",
+      "source_group_url": "https://salsa.debian.org/fltk-team",
+      "target_namespace_path": "glab-forks/debian/fltk-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-fonts-team",
+      "source_group_url": "https://salsa.debian.org/fonts-team",
+      "target_namespace_path": "glab-forks/debian/fonts-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-fossology-team",
+      "source_group_url": "https://salsa.debian.org/fossology-team",
+      "target_namespace_path": "glab-forks/debian/fossology-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-freedesktop-team",
+      "source_group_url": "https://salsa.debian.org/freedesktop-team",
+      "target_namespace_path": "glab-forks/debian/freedesktop-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-freedict-team",
+      "source_group_url": "https://salsa.debian.org/freedict-team",
+      "target_namespace_path": "glab-forks/debian/freedict-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-freedombox-team",
+      "source_group_url": "https://salsa.debian.org/freedombox-team",
+      "target_namespace_path": "glab-forks/debian/freedombox-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-freeipa-team",
+      "source_group_url": "https://salsa.debian.org/freeipa-team",
+      "target_namespace_path": "glab-forks/debian/freeipa-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-freeradius-team",
+      "source_group_url": "https://salsa.debian.org/freeradius-team",
+      "target_namespace_path": "glab-forks/debian/freeradius-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-freewx-team",
+      "source_group_url": "https://salsa.debian.org/freewx-team",
+      "target_namespace_path": "glab-forks/debian/freewx-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-freexian-team",
+      "source_group_url": "https://salsa.debian.org/freexian-team",
+      "target_namespace_path": "glab-forks/debian/freexian-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-frr-team",
+      "source_group_url": "https://salsa.debian.org/frr-team",
+      "target_namespace_path": "glab-forks/debian/frr-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-fsmi-team",
+      "source_group_url": "https://salsa.debian.org/fsmi-team",
+      "target_namespace_path": "glab-forks/debian/fsmi-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-ftgl-team",
+      "source_group_url": "https://salsa.debian.org/ftgl-team",
+      "target_namespace_path": "glab-forks/debian/ftgl-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-ftp-team",
+      "source_group_url": "https://salsa.debian.org/ftp-team",
+      "target_namespace_path": "glab-forks/debian/ftp-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-gambas-team",
+      "source_group_url": "https://salsa.debian.org/gambas-team",
+      "target_namespace_path": "glab-forks/debian/gambas-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-games-team",
+      "source_group_url": "https://salsa.debian.org/games-team",
+      "target_namespace_path": "glab-forks/debian/games-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-ganeti-team",
+      "source_group_url": "https://salsa.debian.org/ganeti-team",
+      "target_namespace_path": "glab-forks/debian/ganeti-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-gap-packaging-team",
+      "source_group_url": "https://salsa.debian.org/gap-packaging-team",
+      "target_namespace_path": "glab-forks/debian/gap-packaging-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-gattolino-team",
+      "source_group_url": "https://salsa.debian.org/gattolino-team",
+      "target_namespace_path": "glab-forks/debian/gattolino-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-gbdev-team",
+      "source_group_url": "https://salsa.debian.org/gbdev-team",
+      "target_namespace_path": "glab-forks/debian/gbdev-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-gbp-team",
+      "source_group_url": "https://salsa.debian.org/gbp-team",
+      "target_namespace_path": "glab-forks/debian/gbp-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-gdb-team",
+      "source_group_url": "https://salsa.debian.org/gdb-team",
+      "target_namespace_path": "glab-forks/debian/gdb-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-geany-team",
+      "source_group_url": "https://salsa.debian.org/geany-team",
+      "target_namespace_path": "glab-forks/debian/geany-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-giraffe-team",
+      "source_group_url": "https://salsa.debian.org/giraffe-team",
+      "target_namespace_path": "glab-forks/debian/giraffe-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-gitolite-team",
+      "source_group_url": "https://salsa.debian.org/gitolite-team",
+      "target_namespace_path": "glab-forks/debian/gitolite-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-glibc-team",
+      "source_group_url": "https://salsa.debian.org/glibc-team",
+      "target_namespace_path": "glab-forks/debian/glibc-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-gnome-team",
+      "source_group_url": "https://salsa.debian.org/gnome-team",
+      "target_namespace_path": "glab-forks/debian/gnome-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-gnuk-team",
+      "source_group_url": "https://salsa.debian.org/gnuk-team",
+      "target_namespace_path": "glab-forks/debian/gnuk-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-gnustep-team",
+      "source_group_url": "https://salsa.debian.org/gnustep-team",
+      "target_namespace_path": "glab-forks/debian/gnustep-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-gnutls-team",
+      "source_group_url": "https://salsa.debian.org/gnutls-team",
+      "target_namespace_path": "glab-forks/debian/gnutls-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-go-team",
+      "source_group_url": "https://salsa.debian.org/go-team",
+      "target_namespace_path": "glab-forks/debian/go-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-google-android-tools-team",
+      "source_group_url": "https://salsa.debian.org/google-android-tools-team",
+      "target_namespace_path": "glab-forks/debian/google-android-tools-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-gridcoin-team",
+      "source_group_url": "https://salsa.debian.org/gridcoin-team",
+      "target_namespace_path": "glab-forks/debian/gridcoin-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-grub-team",
+      "source_group_url": "https://salsa.debian.org/grub-team",
+      "target_namespace_path": "glab-forks/debian/grub-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-gsoc-team",
+      "source_group_url": "https://salsa.debian.org/gsoc-team",
+      "target_namespace_path": "glab-forks/debian/gsoc-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-gstreamer-team",
+      "source_group_url": "https://salsa.debian.org/gstreamer-team",
+      "target_namespace_path": "glab-forks/debian/gstreamer-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-ha-team",
+      "source_group_url": "https://salsa.debian.org/ha-team",
+      "target_namespace_path": "glab-forks/debian/ha-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-haproxy-team",
+      "source_group_url": "https://salsa.debian.org/haproxy-team",
+      "target_namespace_path": "glab-forks/debian/haproxy-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-hare-team",
+      "source_group_url": "https://salsa.debian.org/hare-team",
+      "target_namespace_path": "glab-forks/debian/hare-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-haskell-team",
+      "source_group_url": "https://salsa.debian.org/haskell-team",
+      "target_namespace_path": "glab-forks/debian/haskell-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-headscale-team",
+      "source_group_url": "https://salsa.debian.org/headscale-team",
+      "target_namespace_path": "glab-forks/debian/headscale-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-hebrew-team",
+      "source_group_url": "https://salsa.debian.org/hebrew-team",
+      "target_namespace_path": "glab-forks/debian/hebrew-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-heyalter-team",
+      "source_group_url": "https://salsa.debian.org/heyalter-team",
+      "target_namespace_path": "glab-forks/debian/heyalter-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-home-team",
+      "source_group_url": "https://salsa.debian.org/home-team",
+      "target_namespace_path": "glab-forks/debian/home-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-homeassistant-team",
+      "source_group_url": "https://salsa.debian.org/homeassistant-team",
+      "target_namespace_path": "glab-forks/debian/homeassistant-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-horde-team",
+      "source_group_url": "https://salsa.debian.org/horde-team",
+      "target_namespace_path": "glab-forks/debian/horde-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-hpc-team",
+      "source_group_url": "https://salsa.debian.org/hpc-team",
+      "target_namespace_path": "glab-forks/debian/hpc-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-hurd-team",
+      "source_group_url": "https://salsa.debian.org/hurd-team",
+      "target_namespace_path": "glab-forks/debian/hurd-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-hy-team",
+      "source_group_url": "https://salsa.debian.org/hy-team",
+      "target_namespace_path": "glab-forks/debian/hy-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-hyphanet-team",
+      "source_group_url": "https://salsa.debian.org/hyphanet-team",
+      "target_namespace_path": "glab-forks/debian/hyphanet-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-hypra-team",
+      "source_group_url": "https://salsa.debian.org/hypra-team",
+      "target_namespace_path": "glab-forks/debian/hypra-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-hyprland-team",
+      "source_group_url": "https://salsa.debian.org/hyprland-team",
+      "target_namespace_path": "glab-forks/debian/hyprland-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-i3-team",
+      "source_group_url": "https://salsa.debian.org/i3-team",
+      "target_namespace_path": "glab-forks/debian/i3-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-ict_virtual-team",
+      "source_group_url": "https://salsa.debian.org/ict_virtual-team",
+      "target_namespace_path": "glab-forks/debian/ict_virtual-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-ictl-team",
+      "source_group_url": "https://salsa.debian.org/ictl-team",
+      "target_namespace_path": "glab-forks/debian/ictl-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-idoxtreme-team",
+      "source_group_url": "https://salsa.debian.org/idoxtreme-team",
+      "target_namespace_path": "glab-forks/debian/idoxtreme-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-images-team",
+      "source_group_url": "https://salsa.debian.org/images-team",
+      "target_namespace_path": "glab-forks/debian/images-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-imobiledevice-team",
+      "source_group_url": "https://salsa.debian.org/imobiledevice-team",
+      "target_namespace_path": "glab-forks/debian/imobiledevice-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-ineteng-team",
+      "source_group_url": "https://salsa.debian.org/ineteng-team",
+      "target_namespace_path": "glab-forks/debian/ineteng-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-init-diversity-team",
+      "source_group_url": "https://salsa.debian.org/init-diversity-team",
+      "target_namespace_path": "glab-forks/debian/init-diversity-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-input-method-team",
+      "source_group_url": "https://salsa.debian.org/input-method-team",
+      "target_namespace_path": "glab-forks/debian/input-method-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-installer-team",
+      "source_group_url": "https://salsa.debian.org/installer-team",
+      "target_namespace_path": "glab-forks/debian/installer-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-intevation-team",
+      "source_group_url": "https://salsa.debian.org/intevation-team",
+      "target_namespace_path": "glab-forks/debian/intevation-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-ios-dev-team",
+      "source_group_url": "https://salsa.debian.org/ios-dev-team",
+      "target_namespace_path": "glab-forks/debian/ios-dev-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-ipvs-team",
+      "source_group_url": "https://salsa.debian.org/ipvs-team",
+      "target_namespace_path": "glab-forks/debian/ipvs-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-islamic-team",
+      "source_group_url": "https://salsa.debian.org/islamic-team",
+      "target_namespace_path": "glab-forks/debian/islamic-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-iso-codes-team",
+      "source_group_url": "https://salsa.debian.org/iso-codes-team",
+      "target_namespace_path": "glab-forks/debian/iso-codes-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-ixit-team",
+      "source_group_url": "https://salsa.debian.org/ixit-team",
+      "target_namespace_path": "glab-forks/debian/ixit-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-jadesktop-team",
+      "source_group_url": "https://salsa.debian.org/jadesktop-team",
+      "target_namespace_path": "glab-forks/debian/jadesktop-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-janitor-team",
+      "source_group_url": "https://salsa.debian.org/janitor-team",
+      "target_namespace_path": "glab-forks/debian/janitor-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-java-team",
+      "source_group_url": "https://salsa.debian.org/java-team",
+      "target_namespace_path": "glab-forks/debian/java-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-jruby-team",
+      "source_group_url": "https://salsa.debian.org/jruby-team",
+      "target_namespace_path": "glab-forks/debian/jruby-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-js-team",
+      "source_group_url": "https://salsa.debian.org/js-team",
+      "target_namespace_path": "glab-forks/debian/js-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-julia-team",
+      "source_group_url": "https://salsa.debian.org/julia-team",
+      "target_namespace_path": "glab-forks/debian/julia-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-juniorengbr-team",
+      "source_group_url": "https://salsa.debian.org/juniorengbr-team",
+      "target_namespace_path": "glab-forks/debian/juniorengbr-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-kafka-team",
+      "source_group_url": "https://salsa.debian.org/kafka-team",
+      "target_namespace_path": "glab-forks/debian/kafka-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-kaidan-team",
+      "source_group_url": "https://salsa.debian.org/kaidan-team",
+      "target_namespace_path": "glab-forks/debian/kaidan-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-kali-team",
+      "source_group_url": "https://salsa.debian.org/kali-team",
+      "target_namespace_path": "glab-forks/debian/kali-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-kernel-team",
+      "source_group_url": "https://salsa.debian.org/kernel-team",
+      "target_namespace_path": "glab-forks/debian/kernel-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-kgb-team",
+      "source_group_url": "https://salsa.debian.org/kgb-team",
+      "target_namespace_path": "glab-forks/debian/kgb-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-killer-team",
+      "source_group_url": "https://salsa.debian.org/killer-team",
+      "target_namespace_path": "glab-forks/debian/killer-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-kubernetes-team",
+      "source_group_url": "https://salsa.debian.org/kubernetes-team",
+      "target_namespace_path": "glab-forks/debian/kubernetes-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-kylin-team",
+      "source_group_url": "https://salsa.debian.org/kylin-team",
+      "target_namespace_path": "glab-forks/debian/kylin-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-l10n-br-team",
+      "source_group_url": "https://salsa.debian.org/l10n-br-team",
+      "target_namespace_path": "glab-forks/debian/l10n-br-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-l10n-fr-team",
+      "source_group_url": "https://salsa.debian.org/l10n-fr-team",
+      "target_namespace_path": "glab-forks/debian/l10n-fr-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-l10n-korean-team",
+      "source_group_url": "https://salsa.debian.org/l10n-korean-team",
+      "target_namespace_path": "glab-forks/debian/l10n-korean-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-l10n-team",
+      "source_group_url": "https://salsa.debian.org/l10n-team",
+      "target_namespace_path": "glab-forks/debian/l10n-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-labwc-team",
+      "source_group_url": "https://salsa.debian.org/labwc-team",
+      "target_namespace_path": "glab-forks/debian/labwc-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-laniakea-team",
+      "source_group_url": "https://salsa.debian.org/laniakea-team",
+      "target_namespace_path": "glab-forks/debian/laniakea-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-ldap-account-manager-team",
+      "source_group_url": "https://salsa.debian.org/ldap-account-manager-team",
+      "target_namespace_path": "glab-forks/debian/ldap-account-manager-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-letsencrypt-team",
+      "source_group_url": "https://salsa.debian.org/letsencrypt-team",
+      "target_namespace_path": "glab-forks/debian/letsencrypt-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-lg-team",
+      "source_group_url": "https://salsa.debian.org/lg-team",
+      "target_namespace_path": "glab-forks/debian/lg-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-liberty-one-team",
+      "source_group_url": "https://salsa.debian.org/liberty-one-team",
+      "target_namespace_path": "glab-forks/debian/liberty-one-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-libreoffice-team",
+      "source_group_url": "https://salsa.debian.org/libreoffice-team",
+      "target_namespace_path": "glab-forks/debian/libreoffice-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-libvirt-team",
+      "source_group_url": "https://salsa.debian.org/libvirt-team",
+      "target_namespace_path": "glab-forks/debian/libvirt-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-lingmoos-team",
+      "source_group_url": "https://salsa.debian.org/lingmoos-team",
+      "target_namespace_path": "glab-forks/debian/lingmoos-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-lintian",
+      "source_group_url": "https://salsa.debian.org/lintian",
+      "target_namespace_path": "glab-forks/debian/lintian",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-linux-blocks-team",
+      "source_group_url": "https://salsa.debian.org/linux-blocks-team",
+      "target_namespace_path": "glab-forks/debian/linux-blocks-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-live-team",
+      "source_group_url": "https://salsa.debian.org/live-team",
+      "target_namespace_path": "glab-forks/debian/live-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-lts-team",
+      "source_group_url": "https://salsa.debian.org/lts-team",
+      "target_namespace_path": "glab-forks/debian/lts-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-ltsp-team",
+      "source_group_url": "https://salsa.debian.org/ltsp-team",
+      "target_namespace_path": "glab-forks/debian/ltsp-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-lua-team",
+      "source_group_url": "https://salsa.debian.org/lua-team",
+      "target_namespace_path": "glab-forks/debian/lua-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-lumina-team",
+      "source_group_url": "https://salsa.debian.org/lumina-team",
+      "target_namespace_path": "glab-forks/debian/lumina-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-lvm-team",
+      "source_group_url": "https://salsa.debian.org/lvm-team",
+      "target_namespace_path": "glab-forks/debian/lvm-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-lxc-team",
+      "source_group_url": "https://salsa.debian.org/lxc-team",
+      "target_namespace_path": "glab-forks/debian/lxc-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-lxde-team",
+      "source_group_url": "https://salsa.debian.org/lxde-team",
+      "target_namespace_path": "glab-forks/debian/lxde-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-lxqt-team",
+      "source_group_url": "https://salsa.debian.org/lxqt-team",
+      "target_namespace_path": "glab-forks/debian/lxqt-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-lynx-team",
+      "source_group_url": "https://salsa.debian.org/lynx-team",
+      "target_namespace_path": "glab-forks/debian/lynx-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-mactel-team",
+      "source_group_url": "https://salsa.debian.org/mactel-team",
+      "target_namespace_path": "glab-forks/debian/mactel-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-mailman-team",
+      "source_group_url": "https://salsa.debian.org/mailman-team",
+      "target_namespace_path": "glab-forks/debian/mailman-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-malaysia-team",
+      "source_group_url": "https://salsa.debian.org/malaysia-team",
+      "target_namespace_path": "glab-forks/debian/malaysia-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-manpages-l10n-team",
+      "source_group_url": "https://salsa.debian.org/manpages-l10n-team",
+      "target_namespace_path": "glab-forks/debian/manpages-l10n-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-manpages-team",
+      "source_group_url": "https://salsa.debian.org/manpages-team",
+      "target_namespace_path": "glab-forks/debian/manpages-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-mariadb-team",
+      "source_group_url": "https://salsa.debian.org/mariadb-team",
+      "target_namespace_path": "glab-forks/debian/mariadb-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-mastodonochrome-team",
+      "source_group_url": "https://salsa.debian.org/mastodonochrome-team",
+      "target_namespace_path": "glab-forks/debian/mastodonochrome-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-matchbox-team",
+      "source_group_url": "https://salsa.debian.org/matchbox-team",
+      "target_namespace_path": "glab-forks/debian/matchbox-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-math-team",
+      "source_group_url": "https://salsa.debian.org/math-team",
+      "target_namespace_path": "glab-forks/debian/math-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-matomo-team",
+      "source_group_url": "https://salsa.debian.org/matomo-team",
+      "target_namespace_path": "glab-forks/debian/matomo-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-matrix-team",
+      "source_group_url": "https://salsa.debian.org/matrix-team",
+      "target_namespace_path": "glab-forks/debian/matrix-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-med-team",
+      "source_group_url": "https://salsa.debian.org/med-team",
+      "target_namespace_path": "glab-forks/debian/med-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-mediawiki-team",
+      "source_group_url": "https://salsa.debian.org/mediawiki-team",
+      "target_namespace_path": "glab-forks/debian/mediawiki-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-mentors.debian.net-team",
+      "source_group_url": "https://salsa.debian.org/mentors.debian.net-team",
+      "target_namespace_path": "glab-forks/debian/mentors.debian.net-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-metasnap-team",
+      "source_group_url": "https://salsa.debian.org/metasnap-team",
+      "target_namespace_path": "glab-forks/debian/metasnap-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-metify-team",
+      "source_group_url": "https://salsa.debian.org/metify-team",
+      "target_namespace_path": "glab-forks/debian/metify-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-middleware-team",
+      "source_group_url": "https://salsa.debian.org/middleware-team",
+      "target_namespace_path": "glab-forks/debian/middleware-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-mingw-w64-team",
+      "source_group_url": "https://salsa.debian.org/mingw-w64-team",
+      "target_namespace_path": "glab-forks/debian/mingw-w64-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-minicom-team",
+      "source_group_url": "https://salsa.debian.org/minicom-team",
+      "target_namespace_path": "glab-forks/debian/minicom-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-minidebconf-france",
+      "source_group_url": "https://salsa.debian.org/minidebconf-france",
+      "target_namespace_path": "glab-forks/debian/minidebconf-france",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-miniupnp-team",
+      "source_group_url": "https://salsa.debian.org/miniupnp-team",
+      "target_namespace_path": "glab-forks/debian/miniupnp-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-mips-team",
+      "source_group_url": "https://salsa.debian.org/mips-team",
+      "target_namespace_path": "glab-forks/debian/mips-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-mir-server-team",
+      "source_group_url": "https://salsa.debian.org/mir-server-team",
+      "target_namespace_path": "glab-forks/debian/mir-server-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-mirror-team",
+      "source_group_url": "https://salsa.debian.org/mirror-team",
+      "target_namespace_path": "glab-forks/debian/mirror-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-mlmmj-team",
+      "source_group_url": "https://salsa.debian.org/mlmmj-team",
+      "target_namespace_path": "glab-forks/debian/mlmmj-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-mod-player-team",
+      "source_group_url": "https://salsa.debian.org/mod-player-team",
+      "target_namespace_path": "glab-forks/debian/mod-player-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-modsecurity-packaging-team",
+      "source_group_url": "https://salsa.debian.org/modsecurity-packaging-team",
+      "target_namespace_path": "glab-forks/debian/modsecurity-packaging-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-moin-team",
+      "source_group_url": "https://salsa.debian.org/moin-team",
+      "target_namespace_path": "glab-forks/debian/moin-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-monado-team",
+      "source_group_url": "https://salsa.debian.org/monado-team",
+      "target_namespace_path": "glab-forks/debian/monado-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-mongodb-team",
+      "source_group_url": "https://salsa.debian.org/mongodb-team",
+      "target_namespace_path": "glab-forks/debian/mongodb-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-monitoring-team",
+      "source_group_url": "https://salsa.debian.org/monitoring-team",
+      "target_namespace_path": "glab-forks/debian/monitoring-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-moosefs-team",
+      "source_group_url": "https://salsa.debian.org/moosefs-team",
+      "target_namespace_path": "glab-forks/debian/moosefs-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-morpheus-team",
+      "source_group_url": "https://salsa.debian.org/morpheus-team",
+      "target_namespace_path": "glab-forks/debian/morpheus-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-mozilla-team",
+      "source_group_url": "https://salsa.debian.org/mozilla-team",
+      "target_namespace_path": "glab-forks/debian/mozilla-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-mpd-team",
+      "source_group_url": "https://salsa.debian.org/mpd-team",
+      "target_namespace_path": "glab-forks/debian/mpd-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-mtx-team",
+      "source_group_url": "https://salsa.debian.org/mtx-team",
+      "target_namespace_path": "glab-forks/debian/mtx-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-multimedia-team",
+      "source_group_url": "https://salsa.debian.org/multimedia-team",
+      "target_namespace_path": "glab-forks/debian/multimedia-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-mutt-team",
+      "source_group_url": "https://salsa.debian.org/mutt-team",
+      "target_namespace_path": "glab-forks/debian/mutt-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-mycroftai-team",
+      "source_group_url": "https://salsa.debian.org/mycroftai-team",
+      "target_namespace_path": "glab-forks/debian/mycroftai-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-nagios-team",
+      "source_group_url": "https://salsa.debian.org/nagios-team",
+      "target_namespace_path": "glab-forks/debian/nagios-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-nativelabs-team",
+      "source_group_url": "https://salsa.debian.org/nativelabs-team",
+      "target_namespace_path": "glab-forks/debian/nativelabs-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-netatalk-team",
+      "source_group_url": "https://salsa.debian.org/netatalk-team",
+      "target_namespace_path": "glab-forks/debian/netatalk-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-netconf-team",
+      "source_group_url": "https://salsa.debian.org/netconf-team",
+      "target_namespace_path": "glab-forks/debian/netconf-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-networking-team",
+      "source_group_url": "https://salsa.debian.org/networking-team",
+      "target_namespace_path": "glab-forks/debian/networking-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-neurodebian-team",
+      "source_group_url": "https://salsa.debian.org/neurodebian-team",
+      "target_namespace_path": "glab-forks/debian/neurodebian-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-new-contributor-wizard-team",
+      "source_group_url": "https://salsa.debian.org/new-contributor-wizard-team",
+      "target_namespace_path": "glab-forks/debian/new-contributor-wizard-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-newgateway-team",
+      "source_group_url": "https://salsa.debian.org/newgateway-team",
+      "target_namespace_path": "glab-forks/debian/newgateway-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-nginx-diva-team",
+      "source_group_url": "https://salsa.debian.org/nginx-diva-team",
+      "target_namespace_path": "glab-forks/debian/nginx-diva-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-nginx-team",
+      "source_group_url": "https://salsa.debian.org/nginx-team",
+      "target_namespace_path": "glab-forks/debian/nginx-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-nim-team",
+      "source_group_url": "https://salsa.debian.org/nim-team",
+      "target_namespace_path": "glab-forks/debian/nim-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-nlp-ja-team",
+      "source_group_url": "https://salsa.debian.org/nlp-ja-team",
+      "target_namespace_path": "glab-forks/debian/nlp-ja-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-nm-team",
+      "source_group_url": "https://salsa.debian.org/nm-team",
+      "target_namespace_path": "glab-forks/debian/nm-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-numbas-team",
+      "source_group_url": "https://salsa.debian.org/numbas-team",
+      "target_namespace_path": "glab-forks/debian/numbas-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-nvidia-team",
+      "source_group_url": "https://salsa.debian.org/nvidia-team",
+      "target_namespace_path": "glab-forks/debian/nvidia-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-obs-team",
+      "source_group_url": "https://salsa.debian.org/obs-team",
+      "target_namespace_path": "glab-forks/debian/obs-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-ocaml-team",
+      "source_group_url": "https://salsa.debian.org/ocaml-team",
+      "target_namespace_path": "glab-forks/debian/ocaml-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-octave-team",
+      "source_group_url": "https://salsa.debian.org/octave-team",
+      "target_namespace_path": "glab-forks/debian/octave-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-ogre-team",
+      "source_group_url": "https://salsa.debian.org/ogre-team",
+      "target_namespace_path": "glab-forks/debian/ogre-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-omunroe.com-team",
+      "source_group_url": "https://salsa.debian.org/omunroe.com-team",
+      "target_namespace_path": "glab-forks/debian/omunroe.com-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-open-team",
+      "source_group_url": "https://salsa.debian.org/open-team",
+      "target_namespace_path": "glab-forks/debian/open-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-opencl-team",
+      "source_group_url": "https://salsa.debian.org/opencl-team",
+      "target_namespace_path": "glab-forks/debian/opencl-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-openjdk-team",
+      "source_group_url": "https://salsa.debian.org/openjdk-team",
+      "target_namespace_path": "glab-forks/debian/openjdk-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-openldap-team",
+      "source_group_url": "https://salsa.debian.org/openldap-team",
+      "target_namespace_path": "glab-forks/debian/openldap-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-openpaperwork-team",
+      "source_group_url": "https://salsa.debian.org/openpaperwork-team",
+      "target_namespace_path": "glab-forks/debian/openpaperwork-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-openpgp-applet-team",
+      "source_group_url": "https://salsa.debian.org/openpgp-applet-team",
+      "target_namespace_path": "glab-forks/debian/openpgp-applet-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-opensbi-team",
+      "source_group_url": "https://salsa.debian.org/opensbi-team",
+      "target_namespace_path": "glab-forks/debian/opensbi-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-opensc-team",
+      "source_group_url": "https://salsa.debian.org/opensc-team",
+      "target_namespace_path": "glab-forks/debian/opensc-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-openscenegraph-team",
+      "source_group_url": "https://salsa.debian.org/openscenegraph-team",
+      "target_namespace_path": "glab-forks/debian/openscenegraph-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-openstack-team",
+      "source_group_url": "https://salsa.debian.org/openstack-team",
+      "target_namespace_path": "glab-forks/debian/openstack-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-opentalk-team",
+      "source_group_url": "https://salsa.debian.org/opentalk-team",
+      "target_namespace_path": "glab-forks/debian/opentalk-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-openttd-team",
+      "source_group_url": "https://salsa.debian.org/openttd-team",
+      "target_namespace_path": "glab-forks/debian/openttd-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-openxr-team",
+      "source_group_url": "https://salsa.debian.org/openxr-team",
+      "target_namespace_path": "glab-forks/debian/openxr-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-optical-media-team",
+      "source_group_url": "https://salsa.debian.org/optical-media-team",
+      "target_namespace_path": "glab-forks/debian/optical-media-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-outreach-team",
+      "source_group_url": "https://salsa.debian.org/outreach-team",
+      "target_namespace_path": "glab-forks/debian/outreach-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-owncloud-team",
+      "source_group_url": "https://salsa.debian.org/owncloud-team",
+      "target_namespace_path": "glab-forks/debian/owncloud-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-pan-team",
+      "source_group_url": "https://salsa.debian.org/pan-team",
+      "target_namespace_path": "glab-forks/debian/pan-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-parted-team",
+      "source_group_url": "https://salsa.debian.org/parted-team",
+      "target_namespace_path": "glab-forks/debian/parted-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-pascal-team",
+      "source_group_url": "https://salsa.debian.org/pascal-team",
+      "target_namespace_path": "glab-forks/debian/pascal-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-pbuilder-team",
+      "source_group_url": "https://salsa.debian.org/pbuilder-team",
+      "target_namespace_path": "glab-forks/debian/pbuilder-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-pd-team",
+      "source_group_url": "https://salsa.debian.org/pd-team",
+      "target_namespace_path": "glab-forks/debian/pd-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-perl-team",
+      "source_group_url": "https://salsa.debian.org/perl-team",
+      "target_namespace_path": "glab-forks/debian/perl-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-perl6-team",
+      "source_group_url": "https://salsa.debian.org/perl6-team",
+      "target_namespace_path": "glab-forks/debian/perl6-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-pet-team",
+      "source_group_url": "https://salsa.debian.org/pet-team",
+      "target_namespace_path": "glab-forks/debian/pet-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-php-team",
+      "source_group_url": "https://salsa.debian.org/php-team",
+      "target_namespace_path": "glab-forks/debian/php-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-phpmyadmin-team",
+      "source_group_url": "https://salsa.debian.org/phpmyadmin-team",
+      "target_namespace_path": "glab-forks/debian/phpmyadmin-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-pkg-bareos-team",
+      "source_group_url": "https://salsa.debian.org/pkg-bareos-team",
+      "target_namespace_path": "glab-forks/debian/pkg-bareos-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-pkg-boinc-team",
+      "source_group_url": "https://salsa.debian.org/pkg-boinc-team",
+      "target_namespace_path": "glab-forks/debian/pkg-boinc-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-pkg-crosswire-team",
+      "source_group_url": "https://salsa.debian.org/pkg-crosswire-team",
+      "target_namespace_path": "glab-forks/debian/pkg-crosswire-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-pkg-curry-team",
+      "source_group_url": "https://salsa.debian.org/pkg-curry-team",
+      "target_namespace_path": "glab-forks/debian/pkg-curry-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-pkg-debconf",
+      "source_group_url": "https://salsa.debian.org/pkg-debconf",
+      "target_namespace_path": "glab-forks/debian/pkg-debconf",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-pkg-deepin-team",
+      "source_group_url": "https://salsa.debian.org/pkg-deepin-team",
+      "target_namespace_path": "glab-forks/debian/pkg-deepin-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-pkg-e-team",
+      "source_group_url": "https://salsa.debian.org/pkg-e-team",
+      "target_namespace_path": "glab-forks/debian/pkg-e-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-pkg-fusiondirectory-team",
+      "source_group_url": "https://salsa.debian.org/pkg-fusiondirectory-team",
+      "target_namespace_path": "glab-forks/debian/pkg-fusiondirectory-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-pkg-hare-team",
+      "source_group_url": "https://salsa.debian.org/pkg-hare-team",
+      "target_namespace_path": "glab-forks/debian/pkg-hare-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-pkg-lava-team",
+      "source_group_url": "https://salsa.debian.org/pkg-lava-team",
+      "target_namespace_path": "glab-forks/debian/pkg-lava-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-pkg-llvm-team",
+      "source_group_url": "https://salsa.debian.org/pkg-llvm-team",
+      "target_namespace_path": "glab-forks/debian/pkg-llvm-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-pkg-netfilter-team",
+      "source_group_url": "https://salsa.debian.org/pkg-netfilter-team",
+      "target_namespace_path": "glab-forks/debian/pkg-netfilter-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-pkg-ntp-team",
+      "source_group_url": "https://salsa.debian.org/pkg-ntp-team",
+      "target_namespace_path": "glab-forks/debian/pkg-ntp-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-pkg-privacy-team",
+      "source_group_url": "https://salsa.debian.org/pkg-privacy-team",
+      "target_namespace_path": "glab-forks/debian/pkg-privacy-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-pkg-rpm-team",
+      "source_group_url": "https://salsa.debian.org/pkg-rpm-team",
+      "target_namespace_path": "glab-forks/debian/pkg-rpm-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-pkg-security-team",
+      "source_group_url": "https://salsa.debian.org/pkg-security-team",
+      "target_namespace_path": "glab-forks/debian/pkg-security-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-pkg-sugar-team",
+      "source_group_url": "https://salsa.debian.org/pkg-sugar-team",
+      "target_namespace_path": "glab-forks/debian/pkg-sugar-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-pkg-suricata-team",
+      "source_group_url": "https://salsa.debian.org/pkg-suricata-team",
+      "target_namespace_path": "glab-forks/debian/pkg-suricata-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-pkg-virtualbox-team",
+      "source_group_url": "https://salsa.debian.org/pkg-virtualbox-team",
+      "target_namespace_path": "glab-forks/debian/pkg-virtualbox-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-pkg-voip-team",
+      "source_group_url": "https://salsa.debian.org/pkg-voip-team",
+      "target_namespace_path": "glab-forks/debian/pkg-voip-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-pkgconf-team",
+      "source_group_url": "https://salsa.debian.org/pkgconf-team",
+      "target_namespace_path": "glab-forks/debian/pkgconf-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-pkgutopia-team",
+      "source_group_url": "https://salsa.debian.org/pkgutopia-team",
+      "target_namespace_path": "glab-forks/debian/pkgutopia-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-planet-team",
+      "source_group_url": "https://salsa.debian.org/planet-team",
+      "target_namespace_path": "glab-forks/debian/planet-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-popularity-contest-team",
+      "source_group_url": "https://salsa.debian.org/popularity-contest-team",
+      "target_namespace_path": "glab-forks/debian/popularity-contest-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-postfix-team",
+      "source_group_url": "https://salsa.debian.org/postfix-team",
+      "target_namespace_path": "glab-forks/debian/postfix-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-postgresql",
+      "source_group_url": "https://salsa.debian.org/postgresql",
+      "target_namespace_path": "glab-forks/debian/postgresql",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-potentiallabs-team",
+      "source_group_url": "https://salsa.debian.org/potentiallabs-team",
+      "target_namespace_path": "glab-forks/debian/potentiallabs-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-printing-team",
+      "source_group_url": "https://salsa.debian.org/printing-team",
+      "target_namespace_path": "glab-forks/debian/printing-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-pristine-lfs-team",
+      "source_group_url": "https://salsa.debian.org/pristine-lfs-team",
+      "target_namespace_path": "glab-forks/debian/pristine-lfs-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-projecthamster-team",
+      "source_group_url": "https://salsa.debian.org/projecthamster-team",
+      "target_namespace_path": "glab-forks/debian/projecthamster-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-protected-branch-test-group-team",
+      "source_group_url": "https://salsa.debian.org/protected-branch-test-group-team",
+      "target_namespace_path": "glab-forks/debian/protected-branch-test-group-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-publicity-team",
+      "source_group_url": "https://salsa.debian.org/publicity-team",
+      "target_namespace_path": "glab-forks/debian/publicity-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-pulseaudio-team",
+      "source_group_url": "https://salsa.debian.org/pulseaudio-team",
+      "target_namespace_path": "glab-forks/debian/pulseaudio-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-puppet-team",
+      "source_group_url": "https://salsa.debian.org/puppet-team",
+      "target_namespace_path": "glab-forks/debian/puppet-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-python-debian-team",
+      "source_group_url": "https://salsa.debian.org/python-debian-team",
+      "target_namespace_path": "glab-forks/debian/python-debian-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-python-team",
+      "source_group_url": "https://salsa.debian.org/python-team",
+      "target_namespace_path": "glab-forks/debian/python-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-qa",
+      "source_group_url": "https://salsa.debian.org/qa",
+      "target_namespace_path": "glab-forks/debian/qa",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-qemu-team",
+      "source_group_url": "https://salsa.debian.org/qemu-team",
+      "target_namespace_path": "glab-forks/debian/qemu-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-qt-kde-team",
+      "source_group_url": "https://salsa.debian.org/qt-kde-team",
+      "target_namespace_path": "glab-forks/debian/qt-kde-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-qucs-team",
+      "source_group_url": "https://salsa.debian.org/qucs-team",
+      "target_namespace_path": "glab-forks/debian/qucs-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-r-pkg-team",
+      "source_group_url": "https://salsa.debian.org/r-pkg-team",
+      "target_namespace_path": "glab-forks/debian/r-pkg-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-raspi-team",
+      "source_group_url": "https://salsa.debian.org/raspi-team",
+      "target_namespace_path": "glab-forks/debian/raspi-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-recaptimedev-team",
+      "source_group_url": "https://salsa.debian.org/recaptimedev-team",
+      "target_namespace_path": "glab-forks/debian/recaptimedev-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-redict-team",
+      "source_group_url": "https://salsa.debian.org/redict-team",
+      "target_namespace_path": "glab-forks/debian/redict-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-reform-team",
+      "source_group_url": "https://salsa.debian.org/reform-team",
+      "target_namespace_path": "glab-forks/debian/reform-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-reimbursements-team",
+      "source_group_url": "https://salsa.debian.org/reimbursements-team",
+      "target_namespace_path": "glab-forks/debian/reimbursements-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-release-team",
+      "source_group_url": "https://salsa.debian.org/release-team",
+      "target_namespace_path": "glab-forks/debian/release-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-remarkable-pkg-team",
+      "source_group_url": "https://salsa.debian.org/remarkable-pkg-team",
+      "target_namespace_path": "glab-forks/debian/remarkable-pkg-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-reportbug-team",
+      "source_group_url": "https://salsa.debian.org/reportbug-team",
+      "target_namespace_path": "glab-forks/debian/reportbug-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-reproducible-builds",
+      "source_group_url": "https://salsa.debian.org/reproducible-builds",
+      "target_namespace_path": "glab-forks/debian/reproducible-builds",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-request-tracker-team",
+      "source_group_url": "https://salsa.debian.org/request-tracker-team",
+      "target_namespace_path": "glab-forks/debian/request-tracker-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-revolution-team",
+      "source_group_url": "https://salsa.debian.org/revolution-team",
+      "target_namespace_path": "glab-forks/debian/revolution-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-robotics-team",
+      "source_group_url": "https://salsa.debian.org/robotics-team",
+      "target_namespace_path": "glab-forks/debian/robotics-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-rocm-team",
+      "source_group_url": "https://salsa.debian.org/rocm-team",
+      "target_namespace_path": "glab-forks/debian/rocm-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-roundcube-team",
+      "source_group_url": "https://salsa.debian.org/roundcube-team",
+      "target_namespace_path": "glab-forks/debian/roundcube-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-rrdtool-team",
+      "source_group_url": "https://salsa.debian.org/rrdtool-team",
+      "target_namespace_path": "glab-forks/debian/rrdtool-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-rsvanos-team",
+      "source_group_url": "https://salsa.debian.org/rsvanos-team",
+      "target_namespace_path": "glab-forks/debian/rsvanos-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-rtc-team",
+      "source_group_url": "https://salsa.debian.org/rtc-team",
+      "target_namespace_path": "glab-forks/debian/rtc-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-ruby-team",
+      "source_group_url": "https://salsa.debian.org/ruby-team",
+      "target_namespace_path": "glab-forks/debian/ruby-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-runit-team",
+      "source_group_url": "https://salsa.debian.org/runit-team",
+      "target_namespace_path": "glab-forks/debian/runit-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-russian-l10n-team",
+      "source_group_url": "https://salsa.debian.org/russian-l10n-team",
+      "target_namespace_path": "glab-forks/debian/russian-l10n-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-rust-team",
+      "source_group_url": "https://salsa.debian.org/rust-team",
+      "target_namespace_path": "glab-forks/debian/rust-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-s390-team",
+      "source_group_url": "https://salsa.debian.org/s390-team",
+      "target_namespace_path": "glab-forks/debian/s390-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-salsa",
+      "source_group_url": "https://salsa.debian.org/salsa",
+      "target_namespace_path": "glab-forks/debian/salsa",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-salsa-ci-team",
+      "source_group_url": "https://salsa.debian.org/salsa-ci-team",
+      "target_namespace_path": "glab-forks/debian/salsa-ci-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-salt-team",
+      "source_group_url": "https://salsa.debian.org/salt-team",
+      "target_namespace_path": "glab-forks/debian/salt-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-salvage-team",
+      "source_group_url": "https://salsa.debian.org/salvage-team",
+      "target_namespace_path": "glab-forks/debian/salvage-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-samba-team",
+      "source_group_url": "https://salsa.debian.org/samba-team",
+      "target_namespace_path": "glab-forks/debian/samba-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-samueloph-forks-team",
+      "source_group_url": "https://salsa.debian.org/samueloph-forks-team",
+      "target_namespace_path": "glab-forks/debian/samueloph-forks-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-sandstorm.io-team",
+      "source_group_url": "https://salsa.debian.org/sandstorm.io-team",
+      "target_namespace_path": "glab-forks/debian/sandstorm.io-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-sass-team",
+      "source_group_url": "https://salsa.debian.org/sass-team",
+      "target_namespace_path": "glab-forks/debian/sass-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-savvius-team",
+      "source_group_url": "https://salsa.debian.org/savvius-team",
+      "target_namespace_path": "glab-forks/debian/savvius-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-scheme-team",
+      "source_group_url": "https://salsa.debian.org/scheme-team",
+      "target_namespace_path": "glab-forks/debian/scheme-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-science-team",
+      "source_group_url": "https://salsa.debian.org/science-team",
+      "target_namespace_path": "glab-forks/debian/science-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-sdl-team",
+      "source_group_url": "https://salsa.debian.org/sdl-team",
+      "target_namespace_path": "glab-forks/debian/sdl-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-seafile-team",
+      "source_group_url": "https://salsa.debian.org/seafile-team",
+      "target_namespace_path": "glab-forks/debian/seafile-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-security-team",
+      "source_group_url": "https://salsa.debian.org/security-team",
+      "target_namespace_path": "glab-forks/debian/security-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-security-tracker-team",
+      "source_group_url": "https://salsa.debian.org/security-tracker-team",
+      "target_namespace_path": "glab-forks/debian/security-tracker-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-selinux-team",
+      "source_group_url": "https://salsa.debian.org/selinux-team",
+      "target_namespace_path": "glab-forks/debian/selinux-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-shib-team",
+      "source_group_url": "https://salsa.debian.org/shib-team",
+      "target_namespace_path": "glab-forks/debian/shib-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-shorewall-team",
+      "source_group_url": "https://salsa.debian.org/shorewall-team",
+      "target_namespace_path": "glab-forks/debian/shorewall-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-signing-party-team",
+      "source_group_url": "https://salsa.debian.org/signing-party-team",
+      "target_namespace_path": "glab-forks/debian/signing-party-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-siridb-team",
+      "source_group_url": "https://salsa.debian.org/siridb-team",
+      "target_namespace_path": "glab-forks/debian/siridb-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-sms4you-team",
+      "source_group_url": "https://salsa.debian.org/sms4you-team",
+      "target_namespace_path": "glab-forks/debian/sms4you-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-snakes-team",
+      "source_group_url": "https://salsa.debian.org/snakes-team",
+      "target_namespace_path": "glab-forks/debian/snakes-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-snapshot-team",
+      "source_group_url": "https://salsa.debian.org/snapshot-team",
+      "target_namespace_path": "glab-forks/debian/snapshot-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-solidbox-team",
+      "source_group_url": "https://salsa.debian.org/solidbox-team",
+      "target_namespace_path": "glab-forks/debian/solidbox-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-sosreport-team",
+      "source_group_url": "https://salsa.debian.org/sosreport-team",
+      "target_namespace_path": "glab-forks/debian/sosreport-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-sourcehut-team",
+      "source_group_url": "https://salsa.debian.org/sourcehut-team",
+      "target_namespace_path": "glab-forks/debian/sourcehut-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-sqlitebrowser-team",
+      "source_group_url": "https://salsa.debian.org/sqlitebrowser-team",
+      "target_namespace_path": "glab-forks/debian/sqlitebrowser-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-squeak-team",
+      "source_group_url": "https://salsa.debian.org/squeak-team",
+      "target_namespace_path": "glab-forks/debian/squeak-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-squid-team",
+      "source_group_url": "https://salsa.debian.org/squid-team",
+      "target_namespace_path": "glab-forks/debian/squid-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-srs-team",
+      "source_group_url": "https://salsa.debian.org/srs-team",
+      "target_namespace_path": "glab-forks/debian/srs-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-ssh-team",
+      "source_group_url": "https://salsa.debian.org/ssh-team",
+      "target_namespace_path": "glab-forks/debian/ssh-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-sssd-team",
+      "source_group_url": "https://salsa.debian.org/sssd-team",
+      "target_namespace_path": "glab-forks/debian/sssd-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-sudo-team",
+      "source_group_url": "https://salsa.debian.org/sudo-team",
+      "target_namespace_path": "glab-forks/debian/sudo-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-swaywm-team",
+      "source_group_url": "https://salsa.debian.org/swaywm-team",
+      "target_namespace_path": "glab-forks/debian/swaywm-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-sylpheed-team",
+      "source_group_url": "https://salsa.debian.org/sylpheed-team",
+      "target_namespace_path": "glab-forks/debian/sylpheed-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-sympa-team",
+      "source_group_url": "https://salsa.debian.org/sympa-team",
+      "target_namespace_path": "glab-forks/debian/sympa-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-systemd-team",
+      "source_group_url": "https://salsa.debian.org/systemd-team",
+      "target_namespace_path": "glab-forks/debian/systemd-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-systems-management-team",
+      "source_group_url": "https://salsa.debian.org/systems-management-team",
+      "target_namespace_path": "glab-forks/debian/systems-management-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-tails-team",
+      "source_group_url": "https://salsa.debian.org/tails-team",
+      "target_namespace_path": "glab-forks/debian/tails-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-tasktools-team",
+      "source_group_url": "https://salsa.debian.org/tasktools-team",
+      "target_namespace_path": "glab-forks/debian/tasktools-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-tcltk-team",
+      "source_group_url": "https://salsa.debian.org/tcltk-team",
+      "target_namespace_path": "glab-forks/debian/tcltk-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-tdtf-team",
+      "source_group_url": "https://salsa.debian.org/tdtf-team",
+      "target_namespace_path": "glab-forks/debian/tdtf-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-team-team",
+      "source_group_url": "https://salsa.debian.org/team-team",
+      "target_namespace_path": "glab-forks/debian/team-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-teammetrics-team",
+      "source_group_url": "https://salsa.debian.org/teammetrics-team",
+      "target_namespace_path": "glab-forks/debian/teammetrics-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-telepathy-team",
+      "source_group_url": "https://salsa.debian.org/telepathy-team",
+      "target_namespace_path": "glab-forks/debian/telepathy-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-televic-team",
+      "source_group_url": "https://salsa.debian.org/televic-team",
+      "target_namespace_path": "glab-forks/debian/televic-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-tex-team",
+      "source_group_url": "https://salsa.debian.org/tex-team",
+      "target_namespace_path": "glab-forks/debian/tex-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-ti-team",
+      "source_group_url": "https://salsa.debian.org/ti-team",
+      "target_namespace_path": "glab-forks/debian/ti-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-tinker-team",
+      "source_group_url": "https://salsa.debian.org/tinker-team",
+      "target_namespace_path": "glab-forks/debian/tinker-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-tokyodebian-team",
+      "source_group_url": "https://salsa.debian.org/tokyodebian-team",
+      "target_namespace_path": "glab-forks/debian/tokyodebian-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-toolchain-team",
+      "source_group_url": "https://salsa.debian.org/toolchain-team",
+      "target_namespace_path": "glab-forks/debian/toolchain-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-touchlinux",
+      "source_group_url": "https://salsa.debian.org/touchlinux",
+      "target_namespace_path": "glab-forks/debian/touchlinux",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-tree-sitter-team",
+      "source_group_url": "https://salsa.debian.org/tree-sitter-team",
+      "target_namespace_path": "glab-forks/debian/tree-sitter-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-tryton-team",
+      "source_group_url": "https://salsa.debian.org/tryton-team",
+      "target_namespace_path": "glab-forks/debian/tryton-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-tts-team",
+      "source_group_url": "https://salsa.debian.org/tts-team",
+      "target_namespace_path": "glab-forks/debian/tts-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-tux4kids-pkg-team",
+      "source_group_url": "https://salsa.debian.org/tux4kids-pkg-team",
+      "target_namespace_path": "glab-forks/debian/tux4kids-pkg-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-typesense-team",
+      "source_group_url": "https://salsa.debian.org/typesense-team",
+      "target_namespace_path": "glab-forks/debian/typesense-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-ubports-team",
+      "source_group_url": "https://salsa.debian.org/ubports-team",
+      "target_namespace_path": "glab-forks/debian/ubports-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-ubuntu-ci-team",
+      "source_group_url": "https://salsa.debian.org/ubuntu-ci-team",
+      "target_namespace_path": "glab-forks/debian/ubuntu-ci-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-ubuntu-dev-team",
+      "source_group_url": "https://salsa.debian.org/ubuntu-dev-team",
+      "target_namespace_path": "glab-forks/debian/ubuntu-dev-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-ubuntulumina-team",
+      "source_group_url": "https://salsa.debian.org/ubuntulumina-team",
+      "target_namespace_path": "glab-forks/debian/ubuntulumina-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-uml-team",
+      "source_group_url": "https://salsa.debian.org/uml-team",
+      "target_namespace_path": "glab-forks/debian/uml-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-up-team",
+      "source_group_url": "https://salsa.debian.org/up-team",
+      "target_namespace_path": "glab-forks/debian/up-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-use-team",
+      "source_group_url": "https://salsa.debian.org/use-team",
+      "target_namespace_path": "glab-forks/debian/use-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-utopia-team",
+      "source_group_url": "https://salsa.debian.org/utopia-team",
+      "target_namespace_path": "glab-forks/debian/utopia-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-uwsgi-team",
+      "source_group_url": "https://salsa.debian.org/uwsgi-team",
+      "target_namespace_path": "glab-forks/debian/uwsgi-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-vagrant-boxes-admin-team",
+      "source_group_url": "https://salsa.debian.org/vagrant-boxes-admin-team",
+      "target_namespace_path": "glab-forks/debian/vagrant-boxes-admin-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-varnish-team",
+      "source_group_url": "https://salsa.debian.org/varnish-team",
+      "target_namespace_path": "glab-forks/debian/varnish-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-varosi-team",
+      "source_group_url": "https://salsa.debian.org/varosi-team",
+      "target_namespace_path": "glab-forks/debian/varosi-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-vdr-team",
+      "source_group_url": "https://salsa.debian.org/vdr-team",
+      "target_namespace_path": "glab-forks/debian/vdr-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-vim-team",
+      "source_group_url": "https://salsa.debian.org/vim-team",
+      "target_namespace_path": "glab-forks/debian/vim-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-virtualsquare-team",
+      "source_group_url": "https://salsa.debian.org/virtualsquare-team",
+      "target_namespace_path": "glab-forks/debian/virtualsquare-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-vlang-team",
+      "source_group_url": "https://salsa.debian.org/vlang-team",
+      "target_namespace_path": "glab-forks/debian/vlang-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-vmware-packaging-team",
+      "source_group_url": "https://salsa.debian.org/vmware-packaging-team",
+      "target_namespace_path": "glab-forks/debian/vmware-packaging-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-volian-team",
+      "source_group_url": "https://salsa.debian.org/volian-team",
+      "target_namespace_path": "glab-forks/debian/volian-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-wasta-linux-team",
+      "source_group_url": "https://salsa.debian.org/wasta-linux-team",
+      "target_namespace_path": "glab-forks/debian/wasta-linux-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-wb-team",
+      "source_group_url": "https://salsa.debian.org/wb-team",
+      "target_namespace_path": "glab-forks/debian/wb-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-webext-team",
+      "source_group_url": "https://salsa.debian.org/webext-team",
+      "target_namespace_path": "glab-forks/debian/webext-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-webkit-team",
+      "source_group_url": "https://salsa.debian.org/webkit-team",
+      "target_namespace_path": "glab-forks/debian/webkit-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-webmaster-team",
+      "source_group_url": "https://salsa.debian.org/webmaster-team",
+      "target_namespace_path": "glab-forks/debian/webmaster-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-wiki-team",
+      "source_group_url": "https://salsa.debian.org/wiki-team",
+      "target_namespace_path": "glab-forks/debian/wiki-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-wine-team",
+      "source_group_url": "https://salsa.debian.org/wine-team",
+      "target_namespace_path": "glab-forks/debian/wine-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-wmaker-team",
+      "source_group_url": "https://salsa.debian.org/wmaker-team",
+      "target_namespace_path": "glab-forks/debian/wmaker-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-women-team",
+      "source_group_url": "https://salsa.debian.org/women-team",
+      "target_namespace_path": "glab-forks/debian/women-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-wrbsp-team",
+      "source_group_url": "https://salsa.debian.org/wrbsp-team",
+      "target_namespace_path": "glab-forks/debian/wrbsp-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-xd-team",
+      "source_group_url": "https://salsa.debian.org/xd-team",
+      "target_namespace_path": "glab-forks/debian/xd-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-xen-security-team",
+      "source_group_url": "https://salsa.debian.org/xen-security-team",
+      "target_namespace_path": "glab-forks/debian/xen-security-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-xen-team",
+      "source_group_url": "https://salsa.debian.org/xen-team",
+      "target_namespace_path": "glab-forks/debian/xen-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-xfce-extras-team",
+      "source_group_url": "https://salsa.debian.org/xfce-extras-team",
+      "target_namespace_path": "glab-forks/debian/xfce-extras-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-xfce-team",
+      "source_group_url": "https://salsa.debian.org/xfce-team",
+      "target_namespace_path": "glab-forks/debian/xfce-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-xilinx-packages-team",
+      "source_group_url": "https://salsa.debian.org/xilinx-packages-team",
+      "target_namespace_path": "glab-forks/debian/xilinx-packages-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-xmake-team",
+      "source_group_url": "https://salsa.debian.org/xmake-team",
+      "target_namespace_path": "glab-forks/debian/xmake-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-xml-sgml-team",
+      "source_group_url": "https://salsa.debian.org/xml-sgml-team",
+      "target_namespace_path": "glab-forks/debian/xml-sgml-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-xml2rfc-team",
+      "source_group_url": "https://salsa.debian.org/xml2rfc-team",
+      "target_namespace_path": "glab-forks/debian/xml2rfc-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-xmpp-team",
+      "source_group_url": "https://salsa.debian.org/xmpp-team",
+      "target_namespace_path": "glab-forks/debian/xmpp-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-xorg-team",
+      "source_group_url": "https://salsa.debian.org/xorg-team",
+      "target_namespace_path": "glab-forks/debian/xorg-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-xr-team",
+      "source_group_url": "https://salsa.debian.org/xr-team",
+      "target_namespace_path": "glab-forks/debian/xr-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-xrdesktop-team",
+      "source_group_url": "https://salsa.debian.org/xrdesktop-team",
+      "target_namespace_path": "glab-forks/debian/xrdesktop-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-xtradeb-team",
+      "source_group_url": "https://salsa.debian.org/xtradeb-team",
+      "target_namespace_path": "glab-forks/debian/xtradeb-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-xtuple-maintainers-team",
+      "source_group_url": "https://salsa.debian.org/xtuple-maintainers-team",
+      "target_namespace_path": "glab-forks/debian/xtuple-maintainers-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-yasi-team",
+      "source_group_url": "https://salsa.debian.org/yasi-team",
+      "target_namespace_path": "glab-forks/debian/yasi-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-yesik-team",
+      "source_group_url": "https://salsa.debian.org/yesik-team",
+      "target_namespace_path": "glab-forks/debian/yesik-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-yogdaan-team",
+      "source_group_url": "https://salsa.debian.org/yogdaan-team",
+      "target_namespace_path": "glab-forks/debian/yogdaan-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-zfsonlinux-team",
+      "source_group_url": "https://salsa.debian.org/zfsonlinux-team",
+      "target_namespace_path": "glab-forks/debian/zfsonlinux-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-zig-team",
+      "source_group_url": "https://salsa.debian.org/zig-team",
+      "target_namespace_path": "glab-forks/debian/zig-team",
+      "visibility": "public"
+    }
+  ]
+}

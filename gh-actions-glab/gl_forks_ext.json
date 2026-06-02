@@ -83,7 +83,7 @@
     },
     {
       "target_project_path": "glab-forks/debian/labwc",
-      "target_mirror_path": "glab-mirror/desktop/labwc",
+      "target_mirror_path": "workyard/glab-forks/debian/labwc",
       "source_url": "https://salsa.debian.org/labwc-team/labwc",
       "source_import": false,
       "git_lfs": false,

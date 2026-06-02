@@ -552,23 +552,23 @@
       "git_timeout_seconds": 1800,
       "branch_rev": "",
       "branches": [
-        {
-          "name": "6.19",
-          "protected": true,
-          "upstream": true
-        }
+#        {
+#          "name": "6.19",
+#          "protected": true,
+#          "upstream": true
+#        }
       ],
       "tags": [
-        {
-          "name": "6.19.14-xanmod1",
-          "protected": true,
-          "upstream": true
-        },
-        {
-          "name": "7.0.4-xanmod1",
-          "protected": true,
-          "upstream": true
-        }
+#        {
+#          "name": "6.19.14-xanmod1",
+#          "protected": true,
+#          "upstream": true
+#        },
+#        {
+#          "name": "7.0.4-xanmod1",
+#          "protected": true,
+#          "upstream": true
+#        }
       ]
     }
   ]

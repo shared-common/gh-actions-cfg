@@ -5,98 +5,82 @@
     {
       "name": "salsa-ha-team",
       "source_group_url": "https://salsa.debian.org/ha-team",
-      "target_namespace_path": "debian/ha-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/ha-team"
     },
     {
       "name": "salsa-haproxy-team",
       "source_group_url": "https://salsa.debian.org/haproxy-team",
-      "target_namespace_path": "debian/haproxy-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/haproxy-team"
     },
     {
       "name": "salsa-hare-team",
       "source_group_url": "https://salsa.debian.org/hare-team",
-      "target_namespace_path": "debian/hare-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/hare-team"
     },
     {
       "name": "salsa-haskell-team",
       "source_group_url": "https://salsa.debian.org/haskell-team",
-      "target_namespace_path": "debian/haskell-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/haskell-team"
     },
     {
       "name": "salsa-headscale-team",
       "source_group_url": "https://salsa.debian.org/headscale-team",
-      "target_namespace_path": "debian/headscale-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/headscale-team"
     },
     {
       "name": "salsa-hebrew-team",
       "source_group_url": "https://salsa.debian.org/hebrew-team",
-      "target_namespace_path": "debian/hebrew-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/hebrew-team"
     },
     {
       "name": "salsa-heyalter-team",
       "source_group_url": "https://salsa.debian.org/heyalter-team",
-      "target_namespace_path": "debian/heyalter-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/heyalter-team"
     },
     {
       "name": "salsa-home-team",
       "source_group_url": "https://salsa.debian.org/home-team",
-      "target_namespace_path": "debian/home-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/home-team"
     },
     {
       "name": "salsa-homeassistant-team",
       "source_group_url": "https://salsa.debian.org/homeassistant-team",
-      "target_namespace_path": "debian/homeassistant-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/homeassistant-team"
     },
     {
       "name": "salsa-horde-team",
       "source_group_url": "https://salsa.debian.org/horde-team",
-      "target_namespace_path": "debian/horde-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/horde-team"
     },
     {
       "name": "salsa-hpc-team",
       "source_group_url": "https://salsa.debian.org/hpc-team",
-      "target_namespace_path": "debian/hpc-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/hpc-team"
     },
     {
       "name": "salsa-hurd-team",
       "source_group_url": "https://salsa.debian.org/hurd-team",
-      "target_namespace_path": "debian/hurd-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/hurd-team"
     },
     {
       "name": "salsa-hy-team",
       "source_group_url": "https://salsa.debian.org/hy-team",
-      "target_namespace_path": "debian/hy-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/hy-team"
     },
     {
       "name": "salsa-hyphanet-team",
       "source_group_url": "https://salsa.debian.org/hyphanet-team",
-      "target_namespace_path": "debian/hyphanet-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/hyphanet-team"
     },
     {
       "name": "salsa-hypra-team",
       "source_group_url": "https://salsa.debian.org/hypra-team",
-      "target_namespace_path": "debian/hypra-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/hypra-team"
     },
     {
       "name": "salsa-hyprland-team",
       "source_group_url": "https://salsa.debian.org/hyprland-team",
-      "target_namespace_path": "debian/hyprland-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/hyprland-team"
     }
   ]
 }

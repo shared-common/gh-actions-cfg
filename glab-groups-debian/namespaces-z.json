@@ -5,14 +5,12 @@
     {
       "name": "salsa-zfsonlinux-team",
       "source_group_url": "https://salsa.debian.org/zfsonlinux-team",
-      "target_namespace_path": "debian/zfsonlinux-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/zfsonlinux-team"
     },
     {
       "name": "salsa-zig-team",
       "source_group_url": "https://salsa.debian.org/zig-team",
-      "target_namespace_path": "debian/zig-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/zig-team"
     }
   ]
 }

@@ -5,134 +5,112 @@
     {
       "name": "salsa-r-pkg-team",
       "source_group_url": "https://salsa.debian.org/r-pkg-team",
-      "target_namespace_path": "debian/r-pkg-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/r-pkg-team"
     },
     {
       "name": "salsa-raspi-team",
       "source_group_url": "https://salsa.debian.org/raspi-team",
-      "target_namespace_path": "debian/raspi-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/raspi-team"
     },
     {
       "name": "salsa-recaptimedev-team",
       "source_group_url": "https://salsa.debian.org/recaptimedev-team",
-      "target_namespace_path": "debian/recaptimedev-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/recaptimedev-team"
     },
     {
       "name": "salsa-redict-team",
       "source_group_url": "https://salsa.debian.org/redict-team",
-      "target_namespace_path": "debian/redict-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/redict-team"
     },
     {
       "name": "salsa-reform-team",
       "source_group_url": "https://salsa.debian.org/reform-team",
-      "target_namespace_path": "debian/reform-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/reform-team"
     },
     {
       "name": "salsa-reimbursements-team",
       "source_group_url": "https://salsa.debian.org/reimbursements-team",
-      "target_namespace_path": "debian/reimbursements-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/reimbursements-team"
     },
     {
       "name": "salsa-release-team",
       "source_group_url": "https://salsa.debian.org/release-team",
-      "target_namespace_path": "debian/release-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/release-team"
     },
     {
       "name": "salsa-remarkable-pkg-team",
       "source_group_url": "https://salsa.debian.org/remarkable-pkg-team",
-      "target_namespace_path": "debian/remarkable-pkg-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/remarkable-pkg-team"
     },
     {
       "name": "salsa-reportbug-team",
       "source_group_url": "https://salsa.debian.org/reportbug-team",
-      "target_namespace_path": "debian/reportbug-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/reportbug-team"
     },
     {
       "name": "salsa-reproducible-builds",
       "source_group_url": "https://salsa.debian.org/reproducible-builds",
-      "target_namespace_path": "debian/reproducible-builds",
-      "visibility": "public"
+      "target_namespace_path": "debian/reproducible-builds"
     },
     {
       "name": "salsa-request-tracker-team",
       "source_group_url": "https://salsa.debian.org/request-tracker-team",
-      "target_namespace_path": "debian/request-tracker-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/request-tracker-team"
     },
     {
       "name": "salsa-revolution-team",
       "source_group_url": "https://salsa.debian.org/revolution-team",
-      "target_namespace_path": "debian/revolution-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/revolution-team"
     },
     {
       "name": "salsa-robotics-team",
       "source_group_url": "https://salsa.debian.org/robotics-team",
-      "target_namespace_path": "debian/robotics-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/robotics-team"
     },
     {
       "name": "salsa-rocm-team",
       "source_group_url": "https://salsa.debian.org/rocm-team",
-      "target_namespace_path": "debian/rocm-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/rocm-team"
     },
     {
       "name": "salsa-roundcube-team",
       "source_group_url": "https://salsa.debian.org/roundcube-team",
-      "target_namespace_path": "debian/roundcube-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/roundcube-team"
     },
     {
       "name": "salsa-rrdtool-team",
       "source_group_url": "https://salsa.debian.org/rrdtool-team",
-      "target_namespace_path": "debian/rrdtool-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/rrdtool-team"
     },
     {
       "name": "salsa-rsvanos-team",
       "source_group_url": "https://salsa.debian.org/rsvanos-team",
-      "target_namespace_path": "debian/rsvanos-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/rsvanos-team"
     },
     {
       "name": "salsa-rtc-team",
       "source_group_url": "https://salsa.debian.org/rtc-team",
-      "target_namespace_path": "debian/rtc-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/rtc-team"
     },
     {
       "name": "salsa-ruby-team",
       "source_group_url": "https://salsa.debian.org/ruby-team",
-      "target_namespace_path": "debian/ruby-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/ruby-team"
     },
     {
       "name": "salsa-runit-team",
       "source_group_url": "https://salsa.debian.org/runit-team",
-      "target_namespace_path": "debian/runit-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/runit-team"
     },
     {
       "name": "salsa-russian-l10n-team",
       "source_group_url": "https://salsa.debian.org/russian-l10n-team",
-      "target_namespace_path": "debian/russian-l10n-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/russian-l10n-team"
     },
     {
       "name": "salsa-rust-team",
       "source_group_url": "https://salsa.debian.org/rust-team",
-      "target_namespace_path": "debian/rust-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/rust-team"
     }
   ]
 }

@@ -5,284 +5,237 @@
     {
       "name": "salsa-Project-team",
       "source_group_url": "https://salsa.debian.org/Project-team",
-      "target_namespace_path": "debian/Project-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/Project-team"
     },
     {
       "name": "salsa-pan-team",
       "source_group_url": "https://salsa.debian.org/pan-team",
-      "target_namespace_path": "debian/pan-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/pan-team"
     },
     {
       "name": "salsa-parted-team",
       "source_group_url": "https://salsa.debian.org/parted-team",
-      "target_namespace_path": "debian/parted-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/parted-team"
     },
     {
       "name": "salsa-pascal-team",
       "source_group_url": "https://salsa.debian.org/pascal-team",
-      "target_namespace_path": "debian/pascal-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/pascal-team"
     },
     {
       "name": "salsa-pbuilder-team",
       "source_group_url": "https://salsa.debian.org/pbuilder-team",
-      "target_namespace_path": "debian/pbuilder-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/pbuilder-team"
     },
     {
       "name": "salsa-pd-team",
       "source_group_url": "https://salsa.debian.org/pd-team",
-      "target_namespace_path": "debian/pd-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/pd-team"
     },
     {
       "name": "salsa-perl-team",
       "source_group_url": "https://salsa.debian.org/perl-team",
-      "target_namespace_path": "debian/perl-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/perl-team"
     },
     {
       "name": "salsa-perl6-team",
       "source_group_url": "https://salsa.debian.org/perl6-team",
-      "target_namespace_path": "debian/perl6-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/perl6-team"
     },
     {
       "name": "salsa-pet-team",
       "source_group_url": "https://salsa.debian.org/pet-team",
-      "target_namespace_path": "debian/pet-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/pet-team"
     },
     {
       "name": "salsa-php-team",
       "source_group_url": "https://salsa.debian.org/php-team",
-      "target_namespace_path": "debian/php-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/php-team"
     },
     {
       "name": "salsa-phpmyadmin-team",
       "source_group_url": "https://salsa.debian.org/phpmyadmin-team",
-      "target_namespace_path": "debian/phpmyadmin-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/phpmyadmin-team"
     },
     {
       "name": "salsa-pkg-bareos-team",
       "source_group_url": "https://salsa.debian.org/pkg-bareos-team",
-      "target_namespace_path": "debian/pkg-bareos-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/pkg-bareos-team"
     },
     {
       "name": "salsa-pkg-boinc-team",
       "source_group_url": "https://salsa.debian.org/pkg-boinc-team",
-      "target_namespace_path": "debian/pkg-boinc-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/pkg-boinc-team"
     },
     {
       "name": "salsa-pkg-crosswire-team",
       "source_group_url": "https://salsa.debian.org/pkg-crosswire-team",
-      "target_namespace_path": "debian/pkg-crosswire-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/pkg-crosswire-team"
     },
     {
       "name": "salsa-pkg-curry-team",
       "source_group_url": "https://salsa.debian.org/pkg-curry-team",
-      "target_namespace_path": "debian/pkg-curry-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/pkg-curry-team"
     },
     {
       "name": "salsa-pkg-debconf",
       "source_group_url": "https://salsa.debian.org/pkg-debconf",
-      "target_namespace_path": "debian/pkg-debconf",
-      "visibility": "public"
+      "target_namespace_path": "debian/pkg-debconf"
     },
     {
       "name": "salsa-pkg-deepin-team",
       "source_group_url": "https://salsa.debian.org/pkg-deepin-team",
-      "target_namespace_path": "debian/pkg-deepin-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/pkg-deepin-team"
     },
     {
       "name": "salsa-pkg-e-team",
       "source_group_url": "https://salsa.debian.org/pkg-e-team",
-      "target_namespace_path": "debian/pkg-e-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/pkg-e-team"
     },
     {
       "name": "salsa-pkg-fusiondirectory-team",
       "source_group_url": "https://salsa.debian.org/pkg-fusiondirectory-team",
-      "target_namespace_path": "debian/pkg-fusiondirectory-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/pkg-fusiondirectory-team"
     },
     {
       "name": "salsa-pkg-hare-team",
       "source_group_url": "https://salsa.debian.org/pkg-hare-team",
-      "target_namespace_path": "debian/pkg-hare-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/pkg-hare-team"
     },
     {
       "name": "salsa-pkg-lava-team",
       "source_group_url": "https://salsa.debian.org/pkg-lava-team",
-      "target_namespace_path": "debian/pkg-lava-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/pkg-lava-team"
     },
     {
       "name": "salsa-pkg-llvm-team",
       "source_group_url": "https://salsa.debian.org/pkg-llvm-team",
-      "target_namespace_path": "debian/pkg-llvm-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/pkg-llvm-team"
     },
     {
       "name": "salsa-pkg-netfilter-team",
       "source_group_url": "https://salsa.debian.org/pkg-netfilter-team",
-      "target_namespace_path": "debian/pkg-netfilter-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/pkg-netfilter-team"
     },
     {
       "name": "salsa-pkg-ntp-team",
       "source_group_url": "https://salsa.debian.org/pkg-ntp-team",
-      "target_namespace_path": "debian/pkg-ntp-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/pkg-ntp-team"
     },
     {
       "name": "salsa-pkg-privacy-team",
       "source_group_url": "https://salsa.debian.org/pkg-privacy-team",
-      "target_namespace_path": "debian/pkg-privacy-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/pkg-privacy-team"
     },
     {
       "name": "salsa-pkg-rpm-team",
       "source_group_url": "https://salsa.debian.org/pkg-rpm-team",
-      "target_namespace_path": "debian/pkg-rpm-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/pkg-rpm-team"
     },
     {
       "name": "salsa-pkg-security-team",
       "source_group_url": "https://salsa.debian.org/pkg-security-team",
-      "target_namespace_path": "debian/pkg-security-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/pkg-security-team"
     },
     {
       "name": "salsa-pkg-sugar-team",
       "source_group_url": "https://salsa.debian.org/pkg-sugar-team",
-      "target_namespace_path": "debian/pkg-sugar-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/pkg-sugar-team"
     },
     {
       "name": "salsa-pkg-suricata-team",
       "source_group_url": "https://salsa.debian.org/pkg-suricata-team",
-      "target_namespace_path": "debian/pkg-suricata-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/pkg-suricata-team"
     },
     {
       "name": "salsa-pkg-virtualbox-team",
       "source_group_url": "https://salsa.debian.org/pkg-virtualbox-team",
-      "target_namespace_path": "debian/pkg-virtualbox-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/pkg-virtualbox-team"
     },
     {
       "name": "salsa-pkg-voip-team",
       "source_group_url": "https://salsa.debian.org/pkg-voip-team",
-      "target_namespace_path": "debian/pkg-voip-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/pkg-voip-team"
     },
     {
       "name": "salsa-pkgconf-team",
       "source_group_url": "https://salsa.debian.org/pkgconf-team",
-      "target_namespace_path": "debian/pkgconf-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/pkgconf-team"
     },
     {
       "name": "salsa-pkgutopia-team",
       "source_group_url": "https://salsa.debian.org/pkgutopia-team",
-      "target_namespace_path": "debian/pkgutopia-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/pkgutopia-team"
     },
     {
       "name": "salsa-planet-team",
       "source_group_url": "https://salsa.debian.org/planet-team",
-      "target_namespace_path": "debian/planet-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/planet-team"
     },
     {
       "name": "salsa-popularity-contest-team",
       "source_group_url": "https://salsa.debian.org/popularity-contest-team",
-      "target_namespace_path": "debian/popularity-contest-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/popularity-contest-team"
     },
     {
       "name": "salsa-postfix-team",
       "source_group_url": "https://salsa.debian.org/postfix-team",
-      "target_namespace_path": "debian/postfix-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/postfix-team"
     },
     {
       "name": "salsa-postgresql",
       "source_group_url": "https://salsa.debian.org/postgresql",
-      "target_namespace_path": "debian/postgresql",
-      "visibility": "public"
+      "target_namespace_path": "debian/postgresql"
     },
     {
       "name": "salsa-potentiallabs-team",
       "source_group_url": "https://salsa.debian.org/potentiallabs-team",
-      "target_namespace_path": "debian/potentiallabs-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/potentiallabs-team"
     },
     {
       "name": "salsa-printing-team",
       "source_group_url": "https://salsa.debian.org/printing-team",
-      "target_namespace_path": "debian/printing-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/printing-team"
     },
     {
       "name": "salsa-pristine-lfs-team",
       "source_group_url": "https://salsa.debian.org/pristine-lfs-team",
-      "target_namespace_path": "debian/pristine-lfs-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/pristine-lfs-team"
     },
     {
       "name": "salsa-projecthamster-team",
       "source_group_url": "https://salsa.debian.org/projecthamster-team",
-      "target_namespace_path": "debian/projecthamster-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/projecthamster-team"
     },
     {
       "name": "salsa-protected-branch-test-group-team",
       "source_group_url": "https://salsa.debian.org/protected-branch-test-group-team",
-      "target_namespace_path": "debian/protected-branch-test-group-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/protected-branch-test-group-team"
     },
     {
       "name": "salsa-publicity-team",
       "source_group_url": "https://salsa.debian.org/publicity-team",
-      "target_namespace_path": "debian/publicity-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/publicity-team"
     },
     {
       "name": "salsa-pulseaudio-team",
       "source_group_url": "https://salsa.debian.org/pulseaudio-team",
-      "target_namespace_path": "debian/pulseaudio-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/pulseaudio-team"
     },
     {
       "name": "salsa-puppet-team",
       "source_group_url": "https://salsa.debian.org/puppet-team",
-      "target_namespace_path": "debian/puppet-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/puppet-team"
     },
     {
       "name": "salsa-python-debian-team",
       "source_group_url": "https://salsa.debian.org/python-debian-team",
-      "target_namespace_path": "debian/python-debian-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/python-debian-team"
     },
     {
       "name": "salsa-python-team",
       "source_group_url": "https://salsa.debian.org/python-team",
-      "target_namespace_path": "debian/python-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/python-team"
     }
   ]
 }

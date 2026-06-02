@@ -5,8 +5,7 @@
     {
       "name": "kalilinux-root",
       "source_group_url": "https://gitlab.com/kalilinux",
-      "target_namespace_path": "kalilinux",
-      "visibility": "public"
+      "target_namespace_path": "kalilinux"
     }
   ]
 }

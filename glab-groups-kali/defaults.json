@@ -13,6 +13,6 @@
     "retry_attempts": 3,
     "retry_backoff_seconds": 2,
     "size_limit_bytes": 10737418240,
-    "visibility": "public"
+    "visibility": "private"
   }
 }

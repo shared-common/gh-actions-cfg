@@ -5,74 +5,62 @@
     {
       "name": "salsa-ecere-team",
       "source_group_url": "https://salsa.debian.org/ecere-team",
-      "target_namespace_path": "debian/ecere-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/ecere-team"
     },
     {
       "name": "salsa-efi-team",
       "source_group_url": "https://salsa.debian.org/efi-team",
-      "target_namespace_path": "debian/efi-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/efi-team"
     },
     {
       "name": "salsa-eidas-team",
       "source_group_url": "https://salsa.debian.org/eidas-team",
-      "target_namespace_path": "debian/eidas-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/eidas-team"
     },
     {
       "name": "salsa-ejabberd-packaging-team",
       "source_group_url": "https://salsa.debian.org/ejabberd-packaging-team",
-      "target_namespace_path": "debian/ejabberd-packaging-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/ejabberd-packaging-team"
     },
     {
       "name": "salsa-electronics-team",
       "source_group_url": "https://salsa.debian.org/electronics-team",
-      "target_namespace_path": "debian/electronics-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/electronics-team"
     },
     {
       "name": "salsa-emacsen-team",
       "source_group_url": "https://salsa.debian.org/emacsen-team",
-      "target_namespace_path": "debian/emacsen-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/emacsen-team"
     },
     {
       "name": "salsa-erlang-team",
       "source_group_url": "https://salsa.debian.org/erlang-team",
-      "target_namespace_path": "debian/erlang-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/erlang-team"
     },
     {
       "name": "salsa-ethio.me-team",
       "source_group_url": "https://salsa.debian.org/ethio.me-team",
-      "target_namespace_path": "debian/ethio.me-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/ethio.me-team"
     },
     {
       "name": "salsa-events-team",
       "source_group_url": "https://salsa.debian.org/events-team",
-      "target_namespace_path": "debian/events-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/events-team"
     },
     {
       "name": "salsa-ex-rileys-team",
       "source_group_url": "https://salsa.debian.org/ex-rileys-team",
-      "target_namespace_path": "debian/ex-rileys-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/ex-rileys-team"
     },
     {
       "name": "salsa-exim-team",
       "source_group_url": "https://salsa.debian.org/exim-team",
-      "target_namespace_path": "debian/exim-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/exim-team"
     },
     {
       "name": "salsa-extrepo-team",
       "source_group_url": "https://salsa.debian.org/extrepo-team",
-      "target_namespace_path": "debian/extrepo-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/extrepo-team"
     }
   ]
 }

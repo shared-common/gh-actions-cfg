@@ -5,128 +5,107 @@
     {
       "name": "salsa-obs-team",
       "source_group_url": "https://salsa.debian.org/obs-team",
-      "target_namespace_path": "debian/obs-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/obs-team"
     },
     {
       "name": "salsa-ocaml-team",
       "source_group_url": "https://salsa.debian.org/ocaml-team",
-      "target_namespace_path": "debian/ocaml-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/ocaml-team"
     },
     {
       "name": "salsa-octave-team",
       "source_group_url": "https://salsa.debian.org/octave-team",
-      "target_namespace_path": "debian/octave-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/octave-team"
     },
     {
       "name": "salsa-ogre-team",
       "source_group_url": "https://salsa.debian.org/ogre-team",
-      "target_namespace_path": "debian/ogre-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/ogre-team"
     },
     {
       "name": "salsa-omunroe.com-team",
       "source_group_url": "https://salsa.debian.org/omunroe.com-team",
-      "target_namespace_path": "debian/omunroe.com-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/omunroe.com-team"
     },
     {
       "name": "salsa-open-team",
       "source_group_url": "https://salsa.debian.org/open-team",
-      "target_namespace_path": "debian/open-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/open-team"
     },
     {
       "name": "salsa-opencl-team",
       "source_group_url": "https://salsa.debian.org/opencl-team",
-      "target_namespace_path": "debian/opencl-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/opencl-team"
     },
     {
       "name": "salsa-openjdk-team",
       "source_group_url": "https://salsa.debian.org/openjdk-team",
-      "target_namespace_path": "debian/openjdk-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/openjdk-team"
     },
     {
       "name": "salsa-openldap-team",
       "source_group_url": "https://salsa.debian.org/openldap-team",
-      "target_namespace_path": "debian/openldap-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/openldap-team"
     },
     {
       "name": "salsa-openpaperwork-team",
       "source_group_url": "https://salsa.debian.org/openpaperwork-team",
-      "target_namespace_path": "debian/openpaperwork-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/openpaperwork-team"
     },
     {
       "name": "salsa-openpgp-applet-team",
       "source_group_url": "https://salsa.debian.org/openpgp-applet-team",
-      "target_namespace_path": "debian/openpgp-applet-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/openpgp-applet-team"
     },
     {
       "name": "salsa-opensbi-team",
       "source_group_url": "https://salsa.debian.org/opensbi-team",
-      "target_namespace_path": "debian/opensbi-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/opensbi-team"
     },
     {
       "name": "salsa-opensc-team",
       "source_group_url": "https://salsa.debian.org/opensc-team",
-      "target_namespace_path": "debian/opensc-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/opensc-team"
     },
     {
       "name": "salsa-openscenegraph-team",
       "source_group_url": "https://salsa.debian.org/openscenegraph-team",
-      "target_namespace_path": "debian/openscenegraph-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/openscenegraph-team"
     },
     {
       "name": "salsa-openstack-team",
       "source_group_url": "https://salsa.debian.org/openstack-team",
-      "target_namespace_path": "debian/openstack-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/openstack-team"
     },
     {
       "name": "salsa-opentalk-team",
       "source_group_url": "https://salsa.debian.org/opentalk-team",
-      "target_namespace_path": "debian/opentalk-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/opentalk-team"
     },
     {
       "name": "salsa-openttd-team",
       "source_group_url": "https://salsa.debian.org/openttd-team",
-      "target_namespace_path": "debian/openttd-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/openttd-team"
     },
     {
       "name": "salsa-openxr-team",
       "source_group_url": "https://salsa.debian.org/openxr-team",
-      "target_namespace_path": "debian/openxr-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/openxr-team"
     },
     {
       "name": "salsa-optical-media-team",
       "source_group_url": "https://salsa.debian.org/optical-media-team",
-      "target_namespace_path": "debian/optical-media-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/optical-media-team"
     },
     {
       "name": "salsa-outreach-team",
       "source_group_url": "https://salsa.debian.org/outreach-team",
-      "target_namespace_path": "debian/outreach-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/outreach-team"
     },
     {
       "name": "salsa-owncloud-team",
       "source_group_url": "https://salsa.debian.org/owncloud-team",
-      "target_namespace_path": "debian/owncloud-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/owncloud-team"
     }
   ]
 }

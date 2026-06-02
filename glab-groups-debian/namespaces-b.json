@@ -5,152 +5,127 @@
     {
       "name": "salsa-BengalOS-team",
       "source_group_url": "https://salsa.debian.org/BengalOS-team",
-      "target_namespace_path": "debian/BengalOS-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/BengalOS-team"
     },
     {
       "name": "salsa-Brazilian-team",
       "source_group_url": "https://salsa.debian.org/Brazilian-team",
-      "target_namespace_path": "debian/Brazilian-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/Brazilian-team"
     },
     {
       "name": "salsa-backports-team",
       "source_group_url": "https://salsa.debian.org/backports-team",
-      "target_namespace_path": "debian/backports-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/backports-team"
     },
     {
       "name": "salsa-bacula-team",
       "source_group_url": "https://salsa.debian.org/bacula-team",
-      "target_namespace_path": "debian/bacula-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/bacula-team"
     },
     {
       "name": "salsa-baltix-team",
       "source_group_url": "https://salsa.debian.org/baltix-team",
-      "target_namespace_path": "debian/baltix-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/baltix-team"
     },
     {
       "name": "salsa-bananas-team",
       "source_group_url": "https://salsa.debian.org/bananas-team",
-      "target_namespace_path": "debian/bananas-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/bananas-team"
     },
     {
       "name": "salsa-bats-team",
       "source_group_url": "https://salsa.debian.org/bats-team",
-      "target_namespace_path": "debian/bats-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/bats-team"
     },
     {
       "name": "salsa-bazel-team",
       "source_group_url": "https://salsa.debian.org/bazel-team",
-      "target_namespace_path": "debian/bazel-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/bazel-team"
     },
     {
       "name": "salsa-bbb-team",
       "source_group_url": "https://salsa.debian.org/bbb-team",
-      "target_namespace_path": "debian/bbb-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/bbb-team"
     },
     {
       "name": "salsa-bcfg2-team",
       "source_group_url": "https://salsa.debian.org/bcfg2-team",
-      "target_namespace_path": "debian/bcfg2-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/bcfg2-team"
     },
     {
       "name": "salsa-belin-team",
       "source_group_url": "https://salsa.debian.org/belin-team",
-      "target_namespace_path": "debian/belin-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/belin-team"
     },
     {
       "name": "salsa-benchmarksgame-team",
       "source_group_url": "https://salsa.debian.org/benchmarksgame-team",
-      "target_namespace_path": "debian/benchmarksgame-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/benchmarksgame-team"
     },
     {
       "name": "salsa-blends-parl-team",
       "source_group_url": "https://salsa.debian.org/blends-parl-team",
-      "target_namespace_path": "debian/blends-parl-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/blends-parl-team"
     },
     {
       "name": "salsa-blends-team",
       "source_group_url": "https://salsa.debian.org/blends-team",
-      "target_namespace_path": "debian/blends-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/blends-team"
     },
     {
       "name": "salsa-bluefield-team",
       "source_group_url": "https://salsa.debian.org/bluefield-team",
-      "target_namespace_path": "debian/bluefield-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/bluefield-team"
     },
     {
       "name": "salsa-bluetooth-team",
       "source_group_url": "https://salsa.debian.org/bluetooth-team",
-      "target_namespace_path": "debian/bluetooth-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/bluetooth-team"
     },
     {
       "name": "salsa-boxer-team",
       "source_group_url": "https://salsa.debian.org/boxer-team",
-      "target_namespace_path": "debian/boxer-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/boxer-team"
     },
     {
       "name": "salsa-breezy-team",
       "source_group_url": "https://salsa.debian.org/breezy-team",
-      "target_namespace_path": "debian/breezy-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/breezy-team"
     },
     {
       "name": "salsa-bridges-team",
       "source_group_url": "https://salsa.debian.org/bridges-team",
-      "target_namespace_path": "debian/bridges-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/bridges-team"
     },
     {
       "name": "salsa-bro-team",
       "source_group_url": "https://salsa.debian.org/bro-team",
-      "target_namespace_path": "debian/bro-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/bro-team"
     },
     {
       "name": "salsa-broadcom-sta-team",
       "source_group_url": "https://salsa.debian.org/broadcom-sta-team",
-      "target_namespace_path": "debian/broadcom-sta-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/broadcom-sta-team"
     },
     {
       "name": "salsa-bsd-team",
       "source_group_url": "https://salsa.debian.org/bsd-team",
-      "target_namespace_path": "debian/bsd-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/bsd-team"
     },
     {
       "name": "salsa-bts-link-team",
       "source_group_url": "https://salsa.debian.org/bts-link-team",
-      "target_namespace_path": "debian/bts-link-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/bts-link-team"
     },
     {
       "name": "salsa-build-common-team",
       "source_group_url": "https://salsa.debian.org/build-common-team",
-      "target_namespace_path": "debian/build-common-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/build-common-team"
     },
     {
       "name": "salsa-buttplug-team",
       "source_group_url": "https://salsa.debian.org/buttplug-team",
-      "target_namespace_path": "debian/buttplug-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/buttplug-team"
     }
   ]
 }

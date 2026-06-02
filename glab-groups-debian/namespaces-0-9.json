@@ -5,14 +5,12 @@
     {
       "name": "salsa-233-team",
       "source_group_url": "https://salsa.debian.org/233-team",
-      "target_namespace_path": "debian/233-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/233-team"
     },
     {
       "name": "salsa-3dprinting-team",
       "source_group_url": "https://salsa.debian.org/3dprinting-team",
-      "target_namespace_path": "debian/3dprinting-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/3dprinting-team"
     }
   ]
 }

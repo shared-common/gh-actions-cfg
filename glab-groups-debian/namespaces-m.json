@@ -5,272 +5,227 @@
     {
       "name": "salsa-Mama-team",
       "source_group_url": "https://salsa.debian.org/Mama-team",
-      "target_namespace_path": "debian/Mama-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/Mama-team"
     },
     {
       "name": "salsa-Master-id-team",
       "source_group_url": "https://salsa.debian.org/Master-id-team",
-      "target_namespace_path": "debian/Master-id-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/Master-id-team"
     },
     {
       "name": "salsa-Master-team",
       "source_group_url": "https://salsa.debian.org/Master-team",
-      "target_namespace_path": "debian/Master-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/Master-team"
     },
     {
       "name": "salsa-Me-team",
       "source_group_url": "https://salsa.debian.org/Me-team",
-      "target_namespace_path": "debian/Me-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/Me-team"
     },
     {
       "name": "salsa-Meta-team",
       "source_group_url": "https://salsa.debian.org/Meta-team",
-      "target_namespace_path": "debian/Meta-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/Meta-team"
     },
     {
       "name": "salsa-Mobian-team",
       "source_group_url": "https://salsa.debian.org/Mobian-team",
-      "target_namespace_path": "debian/Mobian-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/Mobian-team"
     },
     {
       "name": "salsa-mactel-team",
       "source_group_url": "https://salsa.debian.org/mactel-team",
-      "target_namespace_path": "debian/mactel-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/mactel-team"
     },
     {
       "name": "salsa-mailman-team",
       "source_group_url": "https://salsa.debian.org/mailman-team",
-      "target_namespace_path": "debian/mailman-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/mailman-team"
     },
     {
       "name": "salsa-malaysia-team",
       "source_group_url": "https://salsa.debian.org/malaysia-team",
-      "target_namespace_path": "debian/malaysia-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/malaysia-team"
     },
     {
       "name": "salsa-manpages-l10n-team",
       "source_group_url": "https://salsa.debian.org/manpages-l10n-team",
-      "target_namespace_path": "debian/manpages-l10n-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/manpages-l10n-team"
     },
     {
       "name": "salsa-manpages-team",
       "source_group_url": "https://salsa.debian.org/manpages-team",
-      "target_namespace_path": "debian/manpages-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/manpages-team"
     },
     {
       "name": "salsa-mariadb-team",
       "source_group_url": "https://salsa.debian.org/mariadb-team",
-      "target_namespace_path": "debian/mariadb-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/mariadb-team"
     },
     {
       "name": "salsa-mastodonochrome-team",
       "source_group_url": "https://salsa.debian.org/mastodonochrome-team",
-      "target_namespace_path": "debian/mastodonochrome-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/mastodonochrome-team"
     },
     {
       "name": "salsa-matchbox-team",
       "source_group_url": "https://salsa.debian.org/matchbox-team",
-      "target_namespace_path": "debian/matchbox-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/matchbox-team"
     },
     {
       "name": "salsa-math-team",
       "source_group_url": "https://salsa.debian.org/math-team",
-      "target_namespace_path": "debian/math-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/math-team"
     },
     {
       "name": "salsa-matomo-team",
       "source_group_url": "https://salsa.debian.org/matomo-team",
-      "target_namespace_path": "debian/matomo-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/matomo-team"
     },
     {
       "name": "salsa-matrix-team",
       "source_group_url": "https://salsa.debian.org/matrix-team",
-      "target_namespace_path": "debian/matrix-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/matrix-team"
     },
     {
       "name": "salsa-med-team",
       "source_group_url": "https://salsa.debian.org/med-team",
-      "target_namespace_path": "debian/med-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/med-team"
     },
     {
       "name": "salsa-mediawiki-team",
       "source_group_url": "https://salsa.debian.org/mediawiki-team",
-      "target_namespace_path": "debian/mediawiki-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/mediawiki-team"
     },
     {
       "name": "salsa-mentors.debian.net-team",
       "source_group_url": "https://salsa.debian.org/mentors.debian.net-team",
-      "target_namespace_path": "debian/mentors.debian.net-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/mentors.debian.net-team"
     },
     {
       "name": "salsa-metasnap-team",
       "source_group_url": "https://salsa.debian.org/metasnap-team",
-      "target_namespace_path": "debian/metasnap-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/metasnap-team"
     },
     {
       "name": "salsa-metify-team",
       "source_group_url": "https://salsa.debian.org/metify-team",
-      "target_namespace_path": "debian/metify-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/metify-team"
     },
     {
       "name": "salsa-middleware-team",
       "source_group_url": "https://salsa.debian.org/middleware-team",
-      "target_namespace_path": "debian/middleware-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/middleware-team"
     },
     {
       "name": "salsa-mingw-w64-team",
       "source_group_url": "https://salsa.debian.org/mingw-w64-team",
-      "target_namespace_path": "debian/mingw-w64-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/mingw-w64-team"
     },
     {
       "name": "salsa-minicom-team",
       "source_group_url": "https://salsa.debian.org/minicom-team",
-      "target_namespace_path": "debian/minicom-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/minicom-team"
     },
     {
       "name": "salsa-minidebconf-france",
       "source_group_url": "https://salsa.debian.org/minidebconf-france",
-      "target_namespace_path": "debian/minidebconf-france",
-      "visibility": "public"
+      "target_namespace_path": "debian/minidebconf-france"
     },
     {
       "name": "salsa-miniupnp-team",
       "source_group_url": "https://salsa.debian.org/miniupnp-team",
-      "target_namespace_path": "debian/miniupnp-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/miniupnp-team"
     },
     {
       "name": "salsa-mips-team",
       "source_group_url": "https://salsa.debian.org/mips-team",
-      "target_namespace_path": "debian/mips-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/mips-team"
     },
     {
       "name": "salsa-mir-server-team",
       "source_group_url": "https://salsa.debian.org/mir-server-team",
-      "target_namespace_path": "debian/mir-server-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/mir-server-team"
     },
     {
       "name": "salsa-mirror-team",
       "source_group_url": "https://salsa.debian.org/mirror-team",
-      "target_namespace_path": "debian/mirror-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/mirror-team"
     },
     {
       "name": "salsa-mlmmj-team",
       "source_group_url": "https://salsa.debian.org/mlmmj-team",
-      "target_namespace_path": "debian/mlmmj-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/mlmmj-team"
     },
     {
       "name": "salsa-mod-player-team",
       "source_group_url": "https://salsa.debian.org/mod-player-team",
-      "target_namespace_path": "debian/mod-player-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/mod-player-team"
     },
     {
       "name": "salsa-modsecurity-packaging-team",
       "source_group_url": "https://salsa.debian.org/modsecurity-packaging-team",
-      "target_namespace_path": "debian/modsecurity-packaging-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/modsecurity-packaging-team"
     },
     {
       "name": "salsa-moin-team",
       "source_group_url": "https://salsa.debian.org/moin-team",
-      "target_namespace_path": "debian/moin-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/moin-team"
     },
     {
       "name": "salsa-monado-team",
       "source_group_url": "https://salsa.debian.org/monado-team",
-      "target_namespace_path": "debian/monado-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/monado-team"
     },
     {
       "name": "salsa-mongodb-team",
       "source_group_url": "https://salsa.debian.org/mongodb-team",
-      "target_namespace_path": "debian/mongodb-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/mongodb-team"
     },
     {
       "name": "salsa-monitoring-team",
       "source_group_url": "https://salsa.debian.org/monitoring-team",
-      "target_namespace_path": "debian/monitoring-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/monitoring-team"
     },
     {
       "name": "salsa-moosefs-team",
       "source_group_url": "https://salsa.debian.org/moosefs-team",
-      "target_namespace_path": "debian/moosefs-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/moosefs-team"
     },
     {
       "name": "salsa-morpheus-team",
       "source_group_url": "https://salsa.debian.org/morpheus-team",
-      "target_namespace_path": "debian/morpheus-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/morpheus-team"
     },
     {
       "name": "salsa-mozilla-team",
       "source_group_url": "https://salsa.debian.org/mozilla-team",
-      "target_namespace_path": "debian/mozilla-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/mozilla-team"
     },
     {
       "name": "salsa-mpd-team",
       "source_group_url": "https://salsa.debian.org/mpd-team",
-      "target_namespace_path": "debian/mpd-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/mpd-team"
     },
     {
       "name": "salsa-mtx-team",
       "source_group_url": "https://salsa.debian.org/mtx-team",
-      "target_namespace_path": "debian/mtx-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/mtx-team"
     },
     {
       "name": "salsa-multimedia-team",
       "source_group_url": "https://salsa.debian.org/multimedia-team",
-      "target_namespace_path": "debian/multimedia-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/multimedia-team"
     },
     {
       "name": "salsa-mutt-team",
       "source_group_url": "https://salsa.debian.org/mutt-team",
-      "target_namespace_path": "debian/mutt-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/mutt-team"
     },
     {
       "name": "salsa-mycroftai-team",
       "source_group_url": "https://salsa.debian.org/mycroftai-team",
-      "target_namespace_path": "debian/mycroftai-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/mycroftai-team"
     }
   ]
 }

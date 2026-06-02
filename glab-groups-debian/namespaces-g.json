@@ -5,140 +5,117 @@
     {
       "name": "salsa-GNUKhata-team",
       "source_group_url": "https://salsa.debian.org/GNUKhata-team",
-      "target_namespace_path": "debian/GNUKhata-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/GNUKhata-team"
     },
     {
       "name": "salsa-gambas-team",
       "source_group_url": "https://salsa.debian.org/gambas-team",
-      "target_namespace_path": "debian/gambas-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/gambas-team"
     },
     {
       "name": "salsa-games-team",
       "source_group_url": "https://salsa.debian.org/games-team",
-      "target_namespace_path": "debian/games-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/games-team"
     },
     {
       "name": "salsa-ganeti-team",
       "source_group_url": "https://salsa.debian.org/ganeti-team",
-      "target_namespace_path": "debian/ganeti-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/ganeti-team"
     },
     {
       "name": "salsa-gap-packaging-team",
       "source_group_url": "https://salsa.debian.org/gap-packaging-team",
-      "target_namespace_path": "debian/gap-packaging-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/gap-packaging-team"
     },
     {
       "name": "salsa-gattolino-team",
       "source_group_url": "https://salsa.debian.org/gattolino-team",
-      "target_namespace_path": "debian/gattolino-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/gattolino-team"
     },
     {
       "name": "salsa-gbdev-team",
       "source_group_url": "https://salsa.debian.org/gbdev-team",
-      "target_namespace_path": "debian/gbdev-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/gbdev-team"
     },
     {
       "name": "salsa-gbp-team",
       "source_group_url": "https://salsa.debian.org/gbp-team",
-      "target_namespace_path": "debian/gbp-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/gbp-team"
     },
     {
       "name": "salsa-gdb-team",
       "source_group_url": "https://salsa.debian.org/gdb-team",
-      "target_namespace_path": "debian/gdb-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/gdb-team"
     },
     {
       "name": "salsa-geany-team",
       "source_group_url": "https://salsa.debian.org/geany-team",
-      "target_namespace_path": "debian/geany-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/geany-team"
     },
     {
       "name": "salsa-giraffe-team",
       "source_group_url": "https://salsa.debian.org/giraffe-team",
-      "target_namespace_path": "debian/giraffe-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/giraffe-team"
     },
     {
       "name": "salsa-gitolite-team",
       "source_group_url": "https://salsa.debian.org/gitolite-team",
-      "target_namespace_path": "debian/gitolite-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/gitolite-team"
     },
     {
       "name": "salsa-glibc-team",
       "source_group_url": "https://salsa.debian.org/glibc-team",
-      "target_namespace_path": "debian/glibc-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/glibc-team"
     },
     {
       "name": "salsa-gnome-team",
       "source_group_url": "https://salsa.debian.org/gnome-team",
-      "target_namespace_path": "debian/gnome-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/gnome-team"
     },
     {
       "name": "salsa-gnuk-team",
       "source_group_url": "https://salsa.debian.org/gnuk-team",
-      "target_namespace_path": "debian/gnuk-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/gnuk-team"
     },
     {
       "name": "salsa-gnustep-team",
       "source_group_url": "https://salsa.debian.org/gnustep-team",
-      "target_namespace_path": "debian/gnustep-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/gnustep-team"
     },
     {
       "name": "salsa-gnutls-team",
       "source_group_url": "https://salsa.debian.org/gnutls-team",
-      "target_namespace_path": "debian/gnutls-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/gnutls-team"
     },
     {
       "name": "salsa-go-team",
       "source_group_url": "https://salsa.debian.org/go-team",
-      "target_namespace_path": "debian/go-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/go-team"
     },
     {
       "name": "salsa-google-android-tools-team",
       "source_group_url": "https://salsa.debian.org/google-android-tools-team",
-      "target_namespace_path": "debian/google-android-tools-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/google-android-tools-team"
     },
     {
       "name": "salsa-gridcoin-team",
       "source_group_url": "https://salsa.debian.org/gridcoin-team",
-      "target_namespace_path": "debian/gridcoin-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/gridcoin-team"
     },
     {
       "name": "salsa-grub-team",
       "source_group_url": "https://salsa.debian.org/grub-team",
-      "target_namespace_path": "debian/grub-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/grub-team"
     },
     {
       "name": "salsa-gsoc-team",
       "source_group_url": "https://salsa.debian.org/gsoc-team",
-      "target_namespace_path": "debian/gsoc-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/gsoc-team"
     },
     {
       "name": "salsa-gstreamer-team",
       "source_group_url": "https://salsa.debian.org/gstreamer-team",
-      "target_namespace_path": "debian/gstreamer-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/gstreamer-team"
     }
   ]
 }

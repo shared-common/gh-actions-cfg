@@ -5,56 +5,47 @@
     {
       "name": "salsa-ubports-team",
       "source_group_url": "https://salsa.debian.org/ubports-team",
-      "target_namespace_path": "debian/ubports-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/ubports-team"
     },
     {
       "name": "salsa-ubuntu-ci-team",
       "source_group_url": "https://salsa.debian.org/ubuntu-ci-team",
-      "target_namespace_path": "debian/ubuntu-ci-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/ubuntu-ci-team"
     },
     {
       "name": "salsa-ubuntu-dev-team",
       "source_group_url": "https://salsa.debian.org/ubuntu-dev-team",
-      "target_namespace_path": "debian/ubuntu-dev-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/ubuntu-dev-team"
     },
     {
       "name": "salsa-ubuntulumina-team",
       "source_group_url": "https://salsa.debian.org/ubuntulumina-team",
-      "target_namespace_path": "debian/ubuntulumina-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/ubuntulumina-team"
     },
     {
       "name": "salsa-uml-team",
       "source_group_url": "https://salsa.debian.org/uml-team",
-      "target_namespace_path": "debian/uml-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/uml-team"
     },
     {
       "name": "salsa-up-team",
       "source_group_url": "https://salsa.debian.org/up-team",
-      "target_namespace_path": "debian/up-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/up-team"
     },
     {
       "name": "salsa-use-team",
       "source_group_url": "https://salsa.debian.org/use-team",
-      "target_namespace_path": "debian/use-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/use-team"
     },
     {
       "name": "salsa-utopia-team",
       "source_group_url": "https://salsa.debian.org/utopia-team",
-      "target_namespace_path": "debian/utopia-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/utopia-team"
     },
     {
       "name": "salsa-uwsgi-team",
       "source_group_url": "https://salsa.debian.org/uwsgi-team",
-      "target_namespace_path": "debian/uwsgi-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/uwsgi-team"
     }
   ]
 }

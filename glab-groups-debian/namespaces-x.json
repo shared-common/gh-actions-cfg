@@ -5,92 +5,77 @@
     {
       "name": "salsa-xd-team",
       "source_group_url": "https://salsa.debian.org/xd-team",
-      "target_namespace_path": "debian/xd-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/xd-team"
     },
     {
       "name": "salsa-xen-security-team",
       "source_group_url": "https://salsa.debian.org/xen-security-team",
-      "target_namespace_path": "debian/xen-security-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/xen-security-team"
     },
     {
       "name": "salsa-xen-team",
       "source_group_url": "https://salsa.debian.org/xen-team",
-      "target_namespace_path": "debian/xen-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/xen-team"
     },
     {
       "name": "salsa-xfce-extras-team",
       "source_group_url": "https://salsa.debian.org/xfce-extras-team",
-      "target_namespace_path": "debian/xfce-extras-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/xfce-extras-team"
     },
     {
       "name": "salsa-xfce-team",
       "source_group_url": "https://salsa.debian.org/xfce-team",
-      "target_namespace_path": "debian/xfce-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/xfce-team"
     },
     {
       "name": "salsa-xilinx-packages-team",
       "source_group_url": "https://salsa.debian.org/xilinx-packages-team",
-      "target_namespace_path": "debian/xilinx-packages-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/xilinx-packages-team"
     },
     {
       "name": "salsa-xmake-team",
       "source_group_url": "https://salsa.debian.org/xmake-team",
-      "target_namespace_path": "debian/xmake-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/xmake-team"
     },
     {
       "name": "salsa-xml-sgml-team",
       "source_group_url": "https://salsa.debian.org/xml-sgml-team",
-      "target_namespace_path": "debian/xml-sgml-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/xml-sgml-team"
     },
     {
       "name": "salsa-xml2rfc-team",
       "source_group_url": "https://salsa.debian.org/xml2rfc-team",
-      "target_namespace_path": "debian/xml2rfc-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/xml2rfc-team"
     },
     {
       "name": "salsa-xmpp-team",
       "source_group_url": "https://salsa.debian.org/xmpp-team",
-      "target_namespace_path": "debian/xmpp-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/xmpp-team"
     },
     {
       "name": "salsa-xorg-team",
       "source_group_url": "https://salsa.debian.org/xorg-team",
-      "target_namespace_path": "debian/xorg-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/xorg-team"
     },
     {
       "name": "salsa-xr-team",
       "source_group_url": "https://salsa.debian.org/xr-team",
-      "target_namespace_path": "debian/xr-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/xr-team"
     },
     {
       "name": "salsa-xrdesktop-team",
       "source_group_url": "https://salsa.debian.org/xrdesktop-team",
-      "target_namespace_path": "debian/xrdesktop-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/xrdesktop-team"
     },
     {
       "name": "salsa-xtradeb-team",
       "source_group_url": "https://salsa.debian.org/xtradeb-team",
-      "target_namespace_path": "debian/xtradeb-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/xtradeb-team"
     },
     {
       "name": "salsa-xtuple-maintainers-team",
       "source_group_url": "https://salsa.debian.org/xtuple-maintainers-team",
-      "target_namespace_path": "debian/xtuple-maintainers-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/xtuple-maintainers-team"
     }
   ]
 }

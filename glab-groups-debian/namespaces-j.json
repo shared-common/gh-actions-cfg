@@ -5,44 +5,37 @@
     {
       "name": "salsa-jadesktop-team",
       "source_group_url": "https://salsa.debian.org/jadesktop-team",
-      "target_namespace_path": "debian/jadesktop-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/jadesktop-team"
     },
     {
       "name": "salsa-janitor-team",
       "source_group_url": "https://salsa.debian.org/janitor-team",
-      "target_namespace_path": "debian/janitor-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/janitor-team"
     },
     {
       "name": "salsa-java-team",
       "source_group_url": "https://salsa.debian.org/java-team",
-      "target_namespace_path": "debian/java-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/java-team"
     },
     {
       "name": "salsa-jruby-team",
       "source_group_url": "https://salsa.debian.org/jruby-team",
-      "target_namespace_path": "debian/jruby-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/jruby-team"
     },
     {
       "name": "salsa-js-team",
       "source_group_url": "https://salsa.debian.org/js-team",
-      "target_namespace_path": "debian/js-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/js-team"
     },
     {
       "name": "salsa-julia-team",
       "source_group_url": "https://salsa.debian.org/julia-team",
-      "target_namespace_path": "debian/julia-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/julia-team"
     },
     {
       "name": "salsa-juniorengbr-team",
       "source_group_url": "https://salsa.debian.org/juniorengbr-team",
-      "target_namespace_path": "debian/juniorengbr-team",
-      "visibility": "public"
+      "target_namespace_path": "debian/juniorengbr-team"
     }
   ]
 }

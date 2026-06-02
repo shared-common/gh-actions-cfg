@@ -1,0 +1,42 @@
+{
+  "kind": "glab-groups/namespaces",
+  "version": 1,
+  "namespaces": [
+    {
+      "name": "salsa-QuantumDecay-Games-team",
+      "source_group_url": "https://salsa.debian.org/QuantumDecay-Games-team",
+      "target_namespace_path": "debian/QuantumDecay-Games-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-QuantumDecay-team",
+      "source_group_url": "https://salsa.debian.org/QuantumDecay-team",
+      "target_namespace_path": "debian/QuantumDecay-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-qa",
+      "source_group_url": "https://salsa.debian.org/qa",
+      "target_namespace_path": "debian/qa",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-qemu-team",
+      "source_group_url": "https://salsa.debian.org/qemu-team",
+      "target_namespace_path": "debian/qemu-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-qt-kde-team",
+      "source_group_url": "https://salsa.debian.org/qt-kde-team",
+      "target_namespace_path": "debian/qt-kde-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-qucs-team",
+      "source_group_url": "https://salsa.debian.org/qucs-team",
+      "target_namespace_path": "debian/qucs-team",
+      "visibility": "public"
+    }
+  ]
+}

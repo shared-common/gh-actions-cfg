@@ -1,0 +1,78 @@
+{
+  "kind": "glab-groups/namespaces",
+  "version": 1,
+  "namespaces": [
+    {
+      "name": "salsa-Kaalad12-team",
+      "source_group_url": "https://salsa.debian.org/Kaalad12-team",
+      "target_namespace_path": "debian/Kaalad12-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-Kazan-team",
+      "source_group_url": "https://salsa.debian.org/Kazan-team",
+      "target_namespace_path": "debian/Kazan-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-Kenloch1-team",
+      "source_group_url": "https://salsa.debian.org/Kenloch1-team",
+      "target_namespace_path": "debian/Kenloch1-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-Kenneth_Dunning-team",
+      "source_group_url": "https://salsa.debian.org/Kenneth_Dunning-team",
+      "target_namespace_path": "debian/Kenneth_Dunning-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-kafka-team",
+      "source_group_url": "https://salsa.debian.org/kafka-team",
+      "target_namespace_path": "debian/kafka-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-kaidan-team",
+      "source_group_url": "https://salsa.debian.org/kaidan-team",
+      "target_namespace_path": "debian/kaidan-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-kali-team",
+      "source_group_url": "https://salsa.debian.org/kali-team",
+      "target_namespace_path": "debian/kali-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-kernel-team",
+      "source_group_url": "https://salsa.debian.org/kernel-team",
+      "target_namespace_path": "debian/kernel-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-kgb-team",
+      "source_group_url": "https://salsa.debian.org/kgb-team",
+      "target_namespace_path": "debian/kgb-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-killer-team",
+      "source_group_url": "https://salsa.debian.org/killer-team",
+      "target_namespace_path": "debian/killer-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-kubernetes-team",
+      "source_group_url": "https://salsa.debian.org/kubernetes-team",
+      "target_namespace_path": "debian/kubernetes-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-kylin-team",
+      "source_group_url": "https://salsa.debian.org/kylin-team",
+      "target_namespace_path": "debian/kylin-team",
+      "visibility": "public"
+    }
+  ]
+}

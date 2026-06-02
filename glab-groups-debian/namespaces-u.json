@@ -1,0 +1,60 @@
+{
+  "kind": "glab-groups/namespaces",
+  "version": 1,
+  "namespaces": [
+    {
+      "name": "salsa-ubports-team",
+      "source_group_url": "https://salsa.debian.org/ubports-team",
+      "target_namespace_path": "debian/ubports-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-ubuntu-ci-team",
+      "source_group_url": "https://salsa.debian.org/ubuntu-ci-team",
+      "target_namespace_path": "debian/ubuntu-ci-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-ubuntu-dev-team",
+      "source_group_url": "https://salsa.debian.org/ubuntu-dev-team",
+      "target_namespace_path": "debian/ubuntu-dev-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-ubuntulumina-team",
+      "source_group_url": "https://salsa.debian.org/ubuntulumina-team",
+      "target_namespace_path": "debian/ubuntulumina-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-uml-team",
+      "source_group_url": "https://salsa.debian.org/uml-team",
+      "target_namespace_path": "debian/uml-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-up-team",
+      "source_group_url": "https://salsa.debian.org/up-team",
+      "target_namespace_path": "debian/up-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-use-team",
+      "source_group_url": "https://salsa.debian.org/use-team",
+      "target_namespace_path": "debian/use-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-utopia-team",
+      "source_group_url": "https://salsa.debian.org/utopia-team",
+      "target_namespace_path": "debian/utopia-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-uwsgi-team",
+      "source_group_url": "https://salsa.debian.org/uwsgi-team",
+      "target_namespace_path": "debian/uwsgi-team",
+      "visibility": "public"
+    }
+  ]
+}

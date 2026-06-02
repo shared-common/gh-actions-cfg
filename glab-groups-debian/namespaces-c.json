@@ -1,0 +1,234 @@
+{
+  "kind": "glab-groups/namespaces",
+  "version": 1,
+  "namespaces": [
+    {
+      "name": "salsa-ChromeOS-team",
+      "source_group_url": "https://salsa.debian.org/ChromeOS-team",
+      "target_namespace_path": "debian/ChromeOS-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-cairo-dock-team",
+      "source_group_url": "https://salsa.debian.org/cairo-dock-team",
+      "target_namespace_path": "debian/cairo-dock-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-calendarserver-team",
+      "source_group_url": "https://salsa.debian.org/calendarserver-team",
+      "target_namespace_path": "debian/calendarserver-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-ceph-team",
+      "source_group_url": "https://salsa.debian.org/ceph-team",
+      "target_namespace_path": "debian/ceph-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-cfengine-team",
+      "source_group_url": "https://salsa.debian.org/cfengine-team",
+      "target_namespace_path": "debian/cfengine-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-check_mk_agent-team",
+      "source_group_url": "https://salsa.debian.org/check_mk_agent-team",
+      "target_namespace_path": "debian/check_mk_agent-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-chinese-team",
+      "source_group_url": "https://salsa.debian.org/chinese-team",
+      "target_namespace_path": "debian/chinese-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-chromium-team",
+      "source_group_url": "https://salsa.debian.org/chromium-team",
+      "target_namespace_path": "debian/chromium-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-chronicles-team",
+      "source_group_url": "https://salsa.debian.org/chronicles-team",
+      "target_namespace_path": "debian/chronicles-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-ci-team",
+      "source_group_url": "https://salsa.debian.org/ci-team",
+      "target_namespace_path": "debian/ci-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-cinnamon-team",
+      "source_group_url": "https://salsa.debian.org/cinnamon-team",
+      "target_namespace_path": "debian/cinnamon-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-clamav-team",
+      "source_group_url": "https://salsa.debian.org/clamav-team",
+      "target_namespace_path": "debian/clamav-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-claws-mail-team",
+      "source_group_url": "https://salsa.debian.org/claws-mail-team",
+      "target_namespace_path": "debian/claws-mail-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-click-to-dial-team",
+      "source_group_url": "https://salsa.debian.org/click-to-dial-team",
+      "target_namespace_path": "debian/click-to-dial-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-clojure-team",
+      "source_group_url": "https://salsa.debian.org/clojure-team",
+      "target_namespace_path": "debian/clojure-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-cloud-admin-team",
+      "source_group_url": "https://salsa.debian.org/cloud-admin-team",
+      "target_namespace_path": "debian/cloud-admin-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-cloud-team",
+      "source_group_url": "https://salsa.debian.org/cloud-team",
+      "target_namespace_path": "debian/cloud-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-cmake-team",
+      "source_group_url": "https://salsa.debian.org/cmake-team",
+      "target_namespace_path": "debian/cmake-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-code-inc-team",
+      "source_group_url": "https://salsa.debian.org/code-inc-team",
+      "target_namespace_path": "debian/code-inc-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-collabora-team",
+      "source_group_url": "https://salsa.debian.org/collabora-team",
+      "target_namespace_path": "debian/collabora-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-common-lisp-team",
+      "source_group_url": "https://salsa.debian.org/common-lisp-team",
+      "target_namespace_path": "debian/common-lisp-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-community-team",
+      "source_group_url": "https://salsa.debian.org/community-team",
+      "target_namespace_path": "debian/community-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-communitywlan-team",
+      "source_group_url": "https://salsa.debian.org/communitywlan-team",
+      "target_namespace_path": "debian/communitywlan-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-compiz-team",
+      "source_group_url": "https://salsa.debian.org/compiz-team",
+      "target_namespace_path": "debian/compiz-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-consolation-team",
+      "source_group_url": "https://salsa.debian.org/consolation-team",
+      "target_namespace_path": "debian/consolation-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-cowsql-team",
+      "source_group_url": "https://salsa.debian.org/cowsql-team",
+      "target_namespace_path": "debian/cowsql-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-cowstack-team",
+      "source_group_url": "https://salsa.debian.org/cowstack-team",
+      "target_namespace_path": "debian/cowstack-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-coz-team",
+      "source_group_url": "https://salsa.debian.org/coz-team",
+      "target_namespace_path": "debian/coz-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-cpython-team",
+      "source_group_url": "https://salsa.debian.org/cpython-team",
+      "target_namespace_path": "debian/cpython-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-crossgrading-team",
+      "source_group_url": "https://salsa.debian.org/crossgrading-team",
+      "target_namespace_path": "debian/crossgrading-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-crosstoolchain-team",
+      "source_group_url": "https://salsa.debian.org/crosstoolchain-team",
+      "target_namespace_path": "debian/crosstoolchain-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-cryptocoin-team",
+      "source_group_url": "https://salsa.debian.org/cryptocoin-team",
+      "target_namespace_path": "debian/cryptocoin-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-cryptsetup-team",
+      "source_group_url": "https://salsa.debian.org/cryptsetup-team",
+      "target_namespace_path": "debian/cryptsetup-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-cs-studies-team",
+      "source_group_url": "https://salsa.debian.org/cs-studies-team",
+      "target_namespace_path": "debian/cs-studies-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-cutefish-team",
+      "source_group_url": "https://salsa.debian.org/cutefish-team",
+      "target_namespace_path": "debian/cutefish-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-cwidget-team",
+      "source_group_url": "https://salsa.debian.org/cwidget-team",
+      "target_namespace_path": "debian/cwidget-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-cyrus-imap-team",
+      "source_group_url": "https://salsa.debian.org/cyrus-imap-team",
+      "target_namespace_path": "debian/cyrus-imap-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-cyrus-sasl-team",
+      "source_group_url": "https://salsa.debian.org/cyrus-sasl-team",
+      "target_namespace_path": "debian/cyrus-sasl-team",
+      "visibility": "public"
+    }
+  ]
+}

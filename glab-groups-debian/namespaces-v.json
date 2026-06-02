@@ -1,0 +1,60 @@
+{
+  "kind": "glab-groups/namespaces",
+  "version": 1,
+  "namespaces": [
+    {
+      "name": "salsa-vagrant-boxes-admin-team",
+      "source_group_url": "https://salsa.debian.org/vagrant-boxes-admin-team",
+      "target_namespace_path": "debian/vagrant-boxes-admin-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-varnish-team",
+      "source_group_url": "https://salsa.debian.org/varnish-team",
+      "target_namespace_path": "debian/varnish-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-varosi-team",
+      "source_group_url": "https://salsa.debian.org/varosi-team",
+      "target_namespace_path": "debian/varosi-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-vdr-team",
+      "source_group_url": "https://salsa.debian.org/vdr-team",
+      "target_namespace_path": "debian/vdr-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-vim-team",
+      "source_group_url": "https://salsa.debian.org/vim-team",
+      "target_namespace_path": "debian/vim-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-virtualsquare-team",
+      "source_group_url": "https://salsa.debian.org/virtualsquare-team",
+      "target_namespace_path": "debian/virtualsquare-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-vlang-team",
+      "source_group_url": "https://salsa.debian.org/vlang-team",
+      "target_namespace_path": "debian/vlang-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-vmware-packaging-team",
+      "source_group_url": "https://salsa.debian.org/vmware-packaging-team",
+      "target_namespace_path": "debian/vmware-packaging-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-volian-team",
+      "source_group_url": "https://salsa.debian.org/volian-team",
+      "target_namespace_path": "debian/volian-team",
+      "visibility": "public"
+    }
+  ]
+}

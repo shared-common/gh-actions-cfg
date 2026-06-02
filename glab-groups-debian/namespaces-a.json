@@ -1,0 +1,108 @@
+{
+  "kind": "glab-groups/namespaces",
+  "version": 1,
+  "namespaces": [
+    {
+      "name": "salsa-Anonymous86-team",
+      "source_group_url": "https://salsa.debian.org/Anonymous86-team",
+      "target_namespace_path": "debian/Anonymous86-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-a11y-team",
+      "source_group_url": "https://salsa.debian.org/a11y-team",
+      "target_namespace_path": "debian/a11y-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-achim-team",
+      "source_group_url": "https://salsa.debian.org/achim-team",
+      "target_namespace_path": "debian/achim-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-aims-desktop-team",
+      "source_group_url": "https://salsa.debian.org/aims-desktop-team",
+      "target_namespace_path": "debian/aims-desktop-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-ajhalili2006-experiments-team",
+      "source_group_url": "https://salsa.debian.org/ajhalili2006-experiments-team",
+      "target_namespace_path": "debian/ajhalili2006-experiments-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-alioth-lists-team",
+      "source_group_url": "https://salsa.debian.org/alioth-lists-team",
+      "target_namespace_path": "debian/alioth-lists-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-alsa-team",
+      "source_group_url": "https://salsa.debian.org/alsa-team",
+      "target_namespace_path": "debian/alsa-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-android-tools-team",
+      "source_group_url": "https://salsa.debian.org/android-tools-team",
+      "target_namespace_path": "debian/android-tools-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-anime-team",
+      "source_group_url": "https://salsa.debian.org/anime-team",
+      "target_namespace_path": "debian/anime-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-apache-team",
+      "source_group_url": "https://salsa.debian.org/apache-team",
+      "target_namespace_path": "debian/apache-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-apparmor-team",
+      "source_group_url": "https://salsa.debian.org/apparmor-team",
+      "target_namespace_path": "debian/apparmor-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-apt-team",
+      "source_group_url": "https://salsa.debian.org/apt-team",
+      "target_namespace_path": "debian/apt-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-aqbanking-team",
+      "source_group_url": "https://salsa.debian.org/aqbanking-team",
+      "target_namespace_path": "debian/aqbanking-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-arabia-team",
+      "source_group_url": "https://salsa.debian.org/arabia-team",
+      "target_namespace_path": "debian/arabia-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-atolab-team",
+      "source_group_url": "https://salsa.debian.org/atolab-team",
+      "target_namespace_path": "debian/atolab-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-auth-team",
+      "source_group_url": "https://salsa.debian.org/auth-team",
+      "target_namespace_path": "debian/auth-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-autodeb-team",
+      "source_group_url": "https://salsa.debian.org/autodeb-team",
+      "target_namespace_path": "debian/autodeb-team",
+      "visibility": "public"
+    }
+  ]
+}

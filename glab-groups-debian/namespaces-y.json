@@ -1,0 +1,24 @@
+{
+  "kind": "glab-groups/namespaces",
+  "version": 1,
+  "namespaces": [
+    {
+      "name": "salsa-yasi-team",
+      "source_group_url": "https://salsa.debian.org/yasi-team",
+      "target_namespace_path": "debian/yasi-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-yesik-team",
+      "source_group_url": "https://salsa.debian.org/yesik-team",
+      "target_namespace_path": "debian/yesik-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-yogdaan-team",
+      "source_group_url": "https://salsa.debian.org/yogdaan-team",
+      "target_namespace_path": "debian/yogdaan-team",
+      "visibility": "public"
+    }
+  ]
+}

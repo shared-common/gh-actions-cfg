@@ -1,0 +1,144 @@
+{
+  "kind": "glab-groups/namespaces",
+  "version": 1,
+  "namespaces": [
+    {
+      "name": "salsa-Tomorrowwillbebetter-team",
+      "source_group_url": "https://salsa.debian.org/Tomorrowwillbebetter-team",
+      "target_namespace_path": "debian/Tomorrowwillbebetter-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-Tomorrowwillbebetter2-team",
+      "source_group_url": "https://salsa.debian.org/Tomorrowwillbebetter2-team",
+      "target_namespace_path": "debian/Tomorrowwillbebetter2-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-Tomorrowwillbebetter3-team",
+      "source_group_url": "https://salsa.debian.org/Tomorrowwillbebetter3-team",
+      "target_namespace_path": "debian/Tomorrowwillbebetter3-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-Tomorrowwillbebetter4-team",
+      "source_group_url": "https://salsa.debian.org/Tomorrowwillbebetter4-team",
+      "target_namespace_path": "debian/Tomorrowwillbebetter4-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-tails-team",
+      "source_group_url": "https://salsa.debian.org/tails-team",
+      "target_namespace_path": "debian/tails-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-tasktools-team",
+      "source_group_url": "https://salsa.debian.org/tasktools-team",
+      "target_namespace_path": "debian/tasktools-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-tcltk-team",
+      "source_group_url": "https://salsa.debian.org/tcltk-team",
+      "target_namespace_path": "debian/tcltk-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-tdtf-team",
+      "source_group_url": "https://salsa.debian.org/tdtf-team",
+      "target_namespace_path": "debian/tdtf-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-team-team",
+      "source_group_url": "https://salsa.debian.org/team-team",
+      "target_namespace_path": "debian/team-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-teammetrics-team",
+      "source_group_url": "https://salsa.debian.org/teammetrics-team",
+      "target_namespace_path": "debian/teammetrics-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-telepathy-team",
+      "source_group_url": "https://salsa.debian.org/telepathy-team",
+      "target_namespace_path": "debian/telepathy-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-televic-team",
+      "source_group_url": "https://salsa.debian.org/televic-team",
+      "target_namespace_path": "debian/televic-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-tex-team",
+      "source_group_url": "https://salsa.debian.org/tex-team",
+      "target_namespace_path": "debian/tex-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-ti-team",
+      "source_group_url": "https://salsa.debian.org/ti-team",
+      "target_namespace_path": "debian/ti-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-tinker-team",
+      "source_group_url": "https://salsa.debian.org/tinker-team",
+      "target_namespace_path": "debian/tinker-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-tokyodebian-team",
+      "source_group_url": "https://salsa.debian.org/tokyodebian-team",
+      "target_namespace_path": "debian/tokyodebian-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-toolchain-team",
+      "source_group_url": "https://salsa.debian.org/toolchain-team",
+      "target_namespace_path": "debian/toolchain-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-touchlinux",
+      "source_group_url": "https://salsa.debian.org/touchlinux",
+      "target_namespace_path": "debian/touchlinux",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-tree-sitter-team",
+      "source_group_url": "https://salsa.debian.org/tree-sitter-team",
+      "target_namespace_path": "debian/tree-sitter-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-tryton-team",
+      "source_group_url": "https://salsa.debian.org/tryton-team",
+      "target_namespace_path": "debian/tryton-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-tts-team",
+      "source_group_url": "https://salsa.debian.org/tts-team",
+      "target_namespace_path": "debian/tts-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-tux4kids-pkg-team",
+      "source_group_url": "https://salsa.debian.org/tux4kids-pkg-team",
+      "target_namespace_path": "debian/tux4kids-pkg-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-typesense-team",
+      "source_group_url": "https://salsa.debian.org/typesense-team",
+      "target_namespace_path": "debian/typesense-team",
+      "visibility": "public"
+    }
+  ]
+}

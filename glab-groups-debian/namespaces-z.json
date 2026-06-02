@@ -1,0 +1,18 @@
+{
+  "kind": "glab-groups/namespaces",
+  "version": 1,
+  "namespaces": [
+    {
+      "name": "salsa-zfsonlinux-team",
+      "source_group_url": "https://salsa.debian.org/zfsonlinux-team",
+      "target_namespace_path": "debian/zfsonlinux-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-zig-team",
+      "source_group_url": "https://salsa.debian.org/zig-team",
+      "target_namespace_path": "debian/zig-team",
+      "visibility": "public"
+    }
+  ]
+}

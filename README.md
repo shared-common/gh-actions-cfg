@@ -22,11 +22,13 @@ Each directory contains JSON files keyed by `kind`:
 ## Kali
 
 `glab-groups-kali/namespaces.json` mirrors the full public
-`https://gitlab.com/kalilinux` hierarchy into `glab-forks/kalilinux`.
+`https://gitlab.com/kalilinux` hierarchy into the relative namespace
+`kalilinux`, which the workflow prefixes at runtime with
+`GL_GROUP_TOP_GLAB_OWNER`.
 
 ## Debian
 
-`glab-groups-debian/namespaces.json` is generated from the current public Salsa
-top-level group catalog and maps each source namespace into
-`glab-forks/debian/...`, with `debian/*` itself rooted directly at
-`glab-forks/debian`.
+`glab-groups-debian/` is generated from the current public Salsa top-level group
+catalog and sharded into `namespaces-*.json` files. Each entry maps the source
+namespace into a relative `debian/...` target path, which the workflow prefixes
+at runtime with `GL_GROUP_TOP_GLAB_OWNER`.

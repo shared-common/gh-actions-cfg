@@ -1,0 +1,126 @@
+{
+  "kind": "glab-groups/namespaces",
+  "version": 1,
+  "namespaces": [
+    {
+      "name": "salsa-Federated-I-team",
+      "source_group_url": "https://salsa.debian.org/Federated-I-team",
+      "target_namespace_path": "debian/Federated-I-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-FocalPointing-team",
+      "source_group_url": "https://salsa.debian.org/FocalPointing-team",
+      "target_namespace_path": "debian/FocalPointing-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-fasttrack-team",
+      "source_group_url": "https://salsa.debian.org/fasttrack-team",
+      "target_namespace_path": "debian/fasttrack-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-fcoe-team",
+      "source_group_url": "https://salsa.debian.org/fcoe-team",
+      "target_namespace_path": "debian/fcoe-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-ffac-team",
+      "source_group_url": "https://salsa.debian.org/ffac-team",
+      "target_namespace_path": "debian/ffac-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-firebird-team",
+      "source_group_url": "https://salsa.debian.org/firebird-team",
+      "target_namespace_path": "debian/firebird-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-fltk-team",
+      "source_group_url": "https://salsa.debian.org/fltk-team",
+      "target_namespace_path": "debian/fltk-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-fonts-team",
+      "source_group_url": "https://salsa.debian.org/fonts-team",
+      "target_namespace_path": "debian/fonts-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-fossology-team",
+      "source_group_url": "https://salsa.debian.org/fossology-team",
+      "target_namespace_path": "debian/fossology-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-freedesktop-team",
+      "source_group_url": "https://salsa.debian.org/freedesktop-team",
+      "target_namespace_path": "debian/freedesktop-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-freedict-team",
+      "source_group_url": "https://salsa.debian.org/freedict-team",
+      "target_namespace_path": "debian/freedict-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-freedombox-team",
+      "source_group_url": "https://salsa.debian.org/freedombox-team",
+      "target_namespace_path": "debian/freedombox-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-freeipa-team",
+      "source_group_url": "https://salsa.debian.org/freeipa-team",
+      "target_namespace_path": "debian/freeipa-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-freeradius-team",
+      "source_group_url": "https://salsa.debian.org/freeradius-team",
+      "target_namespace_path": "debian/freeradius-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-freewx-team",
+      "source_group_url": "https://salsa.debian.org/freewx-team",
+      "target_namespace_path": "debian/freewx-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-freexian-team",
+      "source_group_url": "https://salsa.debian.org/freexian-team",
+      "target_namespace_path": "debian/freexian-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-frr-team",
+      "source_group_url": "https://salsa.debian.org/frr-team",
+      "target_namespace_path": "debian/frr-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-fsmi-team",
+      "source_group_url": "https://salsa.debian.org/fsmi-team",
+      "target_namespace_path": "debian/fsmi-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-ftgl-team",
+      "source_group_url": "https://salsa.debian.org/ftgl-team",
+      "target_namespace_path": "debian/ftgl-team",
+      "visibility": "public"
+    },
+    {
+      "name": "salsa-ftp-team",
+      "source_group_url": "https://salsa.debian.org/ftp-team",
+      "target_namespace_path": "debian/ftp-team",
+      "visibility": "public"
+    }
+  ]
+}

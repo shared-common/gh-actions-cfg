@@ -19,6 +19,16 @@ Each directory contains JSON files keyed by `kind`:
 - `glab-groups/project-overrides`
 - `glab-groups/project-exclusions`
 
+The `defaults.json` files keep the common run policy explicit:
+
+- `batch_size`: 25 repositories per batch
+- `mirror_pristine_tar`: mirrors detected `pristine-tar` branches or tags
+- `additional_branches`: user-managed extra branch names to mirror each run
+- `additional_tags`: user-managed extra tag names to mirror each run
+- `size_limit_bytes`: selected-ref repository budget, defaulting to 10 GiB
+- `max_blob_bytes`: blob limit, defaulting to 100 MiB
+- `retry_attempts` and `retry_backoff_seconds`: bounded retry policy
+
 ## Kali
 
 `glab-groups-kali/namespaces.json` mirrors the full public

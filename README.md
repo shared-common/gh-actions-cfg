@@ -29,6 +29,10 @@ The `defaults.json` files keep the common run policy explicit:
 - `max_blob_bytes`: blob limit, defaulting to 100 MiB
 - `retry_attempts` and `retry_backoff_seconds`: bounded retry policy
 
+Target visibility is intentionally absent from these configs. The shared mirror
+workflow does not set group or project visibility on GitLab targets; configure
+visibility on the target owner/group outside scheduled mirror runs.
+
 ## Kali
 
 `glab-groups-kali/namespaces.json` mirrors the full public

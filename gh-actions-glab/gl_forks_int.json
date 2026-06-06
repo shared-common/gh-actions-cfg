@@ -570,6 +570,16 @@
 #          "upstream": true
 #        }
       ]
+    },
+    {
+      "target_project_path": "glab-forks/WhyNotHugo/darkman",
+      "target_mirror_path": "workyard/glab-forks/WhyNotHugo/darkman",
+      "source_project_path": "WhyNotHugo/darkman",
+      "source_import": false,
+      "git_lfs": false,
+      "branch_rev": "",
+      "branches": [],
+      "tags": []
     }
   ]
 }

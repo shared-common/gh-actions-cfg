@@ -1,0 +1,39 @@
+# Each entry is a single explicit source project. The target project path is
+# always built as <target_group_path>/<name>.
+#
+# Keep per-project branch or tag control inline so adding a new mirror is a
+# one-entry edit:
+# - additional_branches: extra source branches to mirror when present
+# - additional_tags: extra source tags to mirror when present
+#
+# The source default branch always syncs to target gitlab/mcr/main. Target-only
+# branches mcr/main, mcr/feature/init, mcr/staging, and mcr/release are created
+# once when missing and are not force-synced on later runs.
+kind: glab-groups/projects
+version: 1
+projects:
+  - name: darkman
+    source_project_url: https://gitlab.com/WhyNotHugo/darkman
+    target_group_path: glab-forks/labwc
+    additional_branches: []
+    additional_tags: []
+  - name: user-recovery-tools
+    source_project_url: https://chromium.googlesource.com/chromiumos/user-recovery-tools
+    target_group_path: glab-forks/google
+    additional_branches: []
+    additional_tags: []
+  - name: gptfdisk
+    source_project_url: https://git.code.sf.net/p/gptfdisk/code
+    target_group_path: glab-forks/firmware
+    additional_branches: []
+    additional_tags: []
+  - name: refind
+    source_project_url: https://git.code.sf.net/p/refind/code
+    target_group_path: glab-forks/firmware
+    additional_branches: []
+    additional_tags: []
+  - name: zsh
+    source_project_url: https://git.code.sf.net/p/zsh/code
+    target_group_path: glab-forks/sourceforge
+    additional_branches: []
+    additional_tags: []

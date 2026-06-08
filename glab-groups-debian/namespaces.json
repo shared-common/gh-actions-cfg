@@ -3,9 +3,9 @@
   "version": 1,
   "namespaces": [
     {
-      "name": "gitlab-kde-root",
-      "source_group_url": "https://invent.kde.org",
-      "target_namespace_path": "kde",
+      "name": "salsa-debian-root",
+      "source_group_url": "https://salsa.debian.org",
+      "target_namespace_path": "debian",
       "target_owner_path": "glab-forks"
     }
   ]

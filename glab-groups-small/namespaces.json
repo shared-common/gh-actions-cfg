@@ -5,32 +5,38 @@
     {
       "name": "github-labwc",
       "source_group_url": "https://github.com/labwc",
-      "target_namespace_path": "labwc"
+      "target_namespace_path": "labwc",
+      "target_owner_path": "glab-forks"
     },
     {
       "name": "gitlab-xanmod",
       "source_group_url": "https://gitlab.com/xanmod",
-      "target_namespace_path": "xanmod"
+      "target_namespace_path": "xanmod",
+      "target_owner_path": "glab-forks"
     },
     {
       "name": "github-crowdsecurity",
       "source_group_url": "https://github.com/crowdsecurity",
-      "target_namespace_path": "crowdsecurity"
+      "target_namespace_path": "crowdsecurity",
+      "target_owner_path": "glab-forks"
     },
     {
       "name": "github-pi-hole",
       "source_group_url": "https://github.com/pi-hole",
-      "target_namespace_path": "pi-hole"
+      "target_namespace_path": "pi-hole",
+      "target_owner_path": "glab-forks"
     },
     {
       "name": "github-wazuh",
       "source_group_url": "https://github.com/wazuh",
-      "target_namespace_path": "wazuh"
+      "target_namespace_path": "wazuh",
+      "target_owner_path": "glab-forks"
     },
     {
       "name": "cgit-netfilter-root",
       "source_group_url": "https://git.netfilter.org",
-      "target_namespace_path": "netfilter"
+      "target_namespace_path": "netfilter",
+      "target_owner_path": "glab-forks"
     }
   ]
 }

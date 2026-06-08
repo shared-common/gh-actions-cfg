@@ -13,11 +13,6 @@
       "target_namespace_path": "freedesktop/allocator"
     },
     {
-      "name": "freedesktop-archived-projects",
-      "source_group_url": "https://gitlab.freedesktop.org/archived-projects",
-      "target_namespace_path": "freedesktop/archived-projects"
-    },
-    {
       "name": "freedesktop-asahi",
       "source_group_url": "https://gitlab.freedesktop.org/asahi",
       "target_namespace_path": "freedesktop/asahi"

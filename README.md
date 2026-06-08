@@ -68,11 +68,16 @@ prefix `freedesktop/`.
 
 - public GitHub organizations such as `https://github.com/labwc`
 - public GitLab groups such as `https://gitlab.com/xanmod`
-- the public cgit root at `https://git.netfilter.org`
 
 Each entry maps into a relative target namespace path beneath
 `target_owner_path`. GitHub-source entries authenticate through the shared
 GitHub App secrets `GH_ORG_SHARED_APP_ID` and `GH_ORG_SHARED_APP_PEM`.
+
+`glab-groups-small/projects.json` carries the full explicit Netfilter project
+set from the current `netfilter.org/projects/` listing. Those entries mirror
+directly from project clone URLs instead of scraping the root index, because
+`https://git.netfilter.org` is now fronted by an anti-bot challenge that makes
+root discovery unreliable in CI.
 
 ## KDE
 

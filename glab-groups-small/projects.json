@@ -1,0 +1,86 @@
+{
+  "kind": "glab-groups/projects",
+  "version": 1,
+  "projects": [
+    {
+      "name": "conntrack-tools",
+      "source_project_url": "https://git.netfilter.org/conntrack-tools",
+      "target_group_path": "glab-forks/netfilter"
+    },
+    {
+      "name": "ipset",
+      "source_project_url": "https://git.netfilter.org/ipset",
+      "target_group_path": "glab-forks/netfilter"
+    },
+    {
+      "name": "iptables",
+      "source_project_url": "https://git.netfilter.org/iptables",
+      "target_group_path": "glab-forks/netfilter"
+    },
+    {
+      "name": "libmnl",
+      "source_project_url": "https://git.netfilter.org/libmnl",
+      "target_group_path": "glab-forks/netfilter"
+    },
+    {
+      "name": "libnetfilter_acct",
+      "source_project_url": "https://git.netfilter.org/libnetfilter_acct",
+      "target_group_path": "glab-forks/netfilter"
+    },
+    {
+      "name": "libnetfilter_conntrack",
+      "source_project_url": "https://git.netfilter.org/libnetfilter_conntrack",
+      "target_group_path": "glab-forks/netfilter"
+    },
+    {
+      "name": "libnetfilter_cthelper",
+      "source_project_url": "https://git.netfilter.org/libnetfilter_cthelper",
+      "target_group_path": "glab-forks/netfilter"
+    },
+    {
+      "name": "libnetfilter_cttimeout",
+      "source_project_url": "https://git.netfilter.org/libnetfilter_cttimeout",
+      "target_group_path": "glab-forks/netfilter"
+    },
+    {
+      "name": "libnetfilter_log",
+      "source_project_url": "https://git.netfilter.org/libnetfilter_log",
+      "target_group_path": "glab-forks/netfilter"
+    },
+    {
+      "name": "libnetfilter_queue",
+      "source_project_url": "https://git.netfilter.org/libnetfilter_queue",
+      "target_group_path": "glab-forks/netfilter"
+    },
+    {
+      "name": "libnfnetlink",
+      "source_project_url": "https://git.netfilter.org/libnfnetlink",
+      "target_group_path": "glab-forks/netfilter"
+    },
+    {
+      "name": "libnftnl",
+      "source_project_url": "https://git.netfilter.org/libnftnl",
+      "target_group_path": "glab-forks/netfilter"
+    },
+    {
+      "name": "nfacct",
+      "source_project_url": "https://git.netfilter.org/nfacct",
+      "target_group_path": "glab-forks/netfilter"
+    },
+    {
+      "name": "nftables",
+      "source_project_url": "https://git.netfilter.org/nftables",
+      "target_group_path": "glab-forks/netfilter"
+    },
+    {
+      "name": "ulogd",
+      "source_project_url": "https://git.netfilter.org/ulogd",
+      "target_group_path": "glab-forks/netfilter"
+    },
+    {
+      "name": "xtables-addons",
+      "source_project_url": "https://git.netfilter.org/xtables-addons",
+      "target_group_path": "glab-forks/netfilter"
+    }
+  ]
+}

@@ -31,12 +31,6 @@
       "source_group_url": "https://github.com/wazuh",
       "target_namespace_path": "wazuh",
       "target_owner_path": "glab-forks"
-    },
-    {
-      "name": "cgit-netfilter-root",
-      "source_group_url": "https://git.netfilter.org",
-      "target_namespace_path": "netfilter",
-      "target_owner_path": "glab-forks"
     }
   ]
 }

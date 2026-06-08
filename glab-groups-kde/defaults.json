@@ -15,6 +15,6 @@
     "read_retry_backoff_seconds": 5,
     "retry_attempts": 2,
     "retry_backoff_seconds": 2,
-    "size_limit_bytes": 10737418240
+    "size_limit_bytes": 9663676416
   }
 }

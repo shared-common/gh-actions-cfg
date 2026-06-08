@@ -1,0 +1,17 @@
+{
+  "kind": "glab-groups/defaults",
+  "version": 1,
+  "defaults": {
+    "allow_blob_rewrite": true,
+    "additional_branches": [],
+    "additional_tags": [],
+    "batch_size": 25,
+    "force_lfs": false,
+    "git_timeout_seconds": 2400,
+    "max_blob_bytes": 104857600,
+    "mirror_pristine_tar": true,
+    "retry_attempts": 3,
+    "retry_backoff_seconds": 2,
+    "size_limit_bytes": 10737418240
+  }
+}

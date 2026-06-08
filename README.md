@@ -11,6 +11,7 @@ The new Perl/Python group mirror flow consumes per-wrapper config directories:
 
 - `glab-groups-kali/`
 - `glab-groups-debian/`
+- `glab-groups-freedesktop/`
 
 Each directory contains JSON files keyed by `kind`:
 
@@ -46,3 +47,11 @@ visibility on the target owner/group outside scheduled mirror runs.
 catalog and sharded into `namespaces-*.json` files. Each entry maps the source
 namespace into a relative `debian/...` target path, which the workflow prefixes
 at runtime with `GL_GROUP_TOP_GLAB_OWNER`.
+
+## Freedesktop
+
+`glab-groups-freedesktop/namespaces.json` is generated from the current public
+top-level group list exposed by
+`https://gitlab.freedesktop.org/api/v4/groups?top_level_only=true`. Each entry
+maps the source namespace into a relative `freedesktop/<group>` target path,
+which the workflow prefixes at runtime with `GL_GROUP_TOP_GLAB_OWNER`.

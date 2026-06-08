@@ -12,6 +12,9 @@ The new Perl/Python group mirror flow consumes per-wrapper config directories:
 - `glab-groups-kali/`
 - `glab-groups-debian/`
 - `glab-groups-freedesktop/`
+- `glab-groups-small/`
+- `glab-groups-kde/`
+- `glab-groups-gnome/`
 
 Each directory contains JSON files keyed by `kind`:
 
@@ -55,3 +58,29 @@ top-level group list exposed by
 `https://gitlab.freedesktop.org/api/v4/groups?top_level_only=true`. Each entry
 maps the source namespace into a relative `freedesktop/<group>` target path,
 which the workflow prefixes at runtime with `GL_GROUP_TOP_GLAB_OWNER`.
+
+## Small
+
+`glab-groups-small/namespaces.json` mirrors a curated mixed-source set:
+
+- public GitHub organizations such as `https://github.com/labwc`
+- public GitLab groups such as `https://gitlab.com/xanmod`
+- the public cgit root at `https://git.netfilter.org`
+
+Each entry maps into a relative target namespace path beneath
+`GL_GROUP_TOP_GLAB_OWNER`. GitHub-source entries authenticate through the shared
+GitHub App secrets `GH_ORG_SHARED_APP_ID` and `GH_ORG_SHARED_APP_PEM`.
+
+## KDE
+
+`glab-groups-kde/namespaces.json` points at the public root of
+`https://invent.kde.org`. The shared runtime expands that source into the
+current public top-level groups and maps them beneath the relative target prefix
+`kde/`.
+
+## GNOME
+
+`glab-groups-gnome/namespaces.json` points at the public root of
+`https://gitlab.gnome.org`. The shared runtime expands that source into the
+current public top-level groups and maps them beneath the relative target
+prefix `gnome/`.

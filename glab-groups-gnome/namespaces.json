@@ -1,0 +1,11 @@
+{
+  "kind": "glab-groups/namespaces",
+  "version": 1,
+  "namespaces": [
+    {
+      "name": "gitlab-gnome-root",
+      "source_group_url": "https://gitlab.gnome.org",
+      "target_namespace_path": "gnome"
+    }
+  ]
+}

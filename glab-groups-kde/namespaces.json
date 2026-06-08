@@ -1,0 +1,11 @@
+{
+  "kind": "glab-groups/namespaces",
+  "version": 1,
+  "namespaces": [
+    {
+      "name": "gitlab-kde-root",
+      "source_group_url": "https://invent.kde.org",
+      "target_namespace_path": "kde"
+    }
+  ]
+}

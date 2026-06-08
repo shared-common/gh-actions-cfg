@@ -10,7 +10,9 @@
     "git_timeout_seconds": 1800,
     "max_blob_bytes": 104857600,
     "mirror_pristine_tar": true,
-    "retry_attempts": 3,
+    "read_retry_attempts": 2,
+    "read_retry_backoff_seconds": 5,
+    "retry_attempts": 2,
     "retry_backoff_seconds": 2,
     "size_limit_bytes": 10737418240
   }

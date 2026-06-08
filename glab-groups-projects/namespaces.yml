@@ -24,12 +24,12 @@ projects:
     additional_tags: []
   - name: gptfdisk
     source_project_url: https://git.code.sf.net/p/gptfdisk/code
-    target_group_path: glab-forks/firmware
+    target_group_path: glab-forks/sourceforge
     additional_branches: []
     additional_tags: []
   - name: refind
     source_project_url: https://git.code.sf.net/p/refind/code
-    target_group_path: glab-forks/firmware
+    target_group_path: glab-forks/sourceforge
     additional_branches: []
     additional_tags: []
   - name: zsh

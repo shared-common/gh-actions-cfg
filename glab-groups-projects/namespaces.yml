@@ -70,3 +70,35 @@ projects:
     additional_tags: []
     target_branches_protect:
       - gitlab/mcr/main
+  - name: greetd
+    source_project_url: https://git.sr.ht/~kennylevinsen/greetd
+    target_group_id: 134128327
+    target_group_path: glab-forks/labwc
+    additional_branches: []
+    additional_tags: []
+    target_branches_protect:
+      - gitlab/mcr/main
+  - name: wlsunset
+    source_project_url: https://git.sr.ht/~kennylevinsen/wlsunset
+    target_group_id: 134128327
+    target_group_path: glab-forks/labwc
+    additional_branches: []
+    additional_tags: []
+    target_branches_protect:
+      - gitlab/mcr/main
+  - name: wldash
+    source_project_url: https://git.sr.ht/~kennylevinsen/wldash
+    target_group_id: 134128327
+    target_group_path: glab-forks/labwc
+    additional_branches: []
+    additional_tags: []
+    target_branches_protect:
+      - gitlab/mcr/main
+  - name: poweralertd
+    source_project_url: https://git.sr.ht/~kennylevinsen/poweralertd
+    target_group_id: 134128327
+    target_group_path: glab-forks/labwc
+    additional_branches: []
+    additional_tags: []
+    target_branches_protect:
+      - gitlab/mcr/main

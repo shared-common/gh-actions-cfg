@@ -4,7 +4,7 @@
   "namespaces": [
     {
       "name": "github-nvidia",
-      "source_group_url": "https://github.com/nvidia",
+      "source_group_url": "https://github.com/NVIDIA",
       "target_branches_protect": [
         "gitlab/mcr/main"
       ],

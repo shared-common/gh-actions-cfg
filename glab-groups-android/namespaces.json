@@ -1,0 +1,16 @@
+{
+  "kind": "glab-groups/namespaces",
+  "version": 1,
+  "namespaces": [
+    {
+      "name": "gitiles-android",
+      "source_group_url": "https://android.googlesource.com",
+      "target_branches_protect": [
+        "gitlab/mcr/main"
+      ],
+      "target_namespace_id": 134196652,
+      "target_namespace_path": "android",
+      "target_owner_path": "glab-forks"
+    }
+  ]
+}

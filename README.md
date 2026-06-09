@@ -13,6 +13,10 @@ The new Perl/Python group mirror flow consumes per-wrapper config directories:
 - `glab-groups-debian/`
 - `glab-groups-freedesktop/`
 - `glab-groups-small/`
+- `glab-groups-android/`
+- `glab-groups-chromium/`
+- `glab-groups-hashicorp/`
+- `glab-groups-microsoft/`
 - `glab-groups-openai/`
 - `glab-groups-nvidia/`
 - `glab-groups-kde/`
@@ -94,11 +98,37 @@ root discovery unreliable in CI.
 `https://github.com/openai`. The shared runtime mirrors the current public
 organization repositories beneath the relative target prefix `openai/`.
 
+## HashiCorp
+
+`glab-groups-hashicorp/namespaces.json` points at the public root of
+`https://github.com/hashicorp`. The shared runtime mirrors the current public
+organization repositories beneath the relative target prefix `hashicorp/`.
+
+## Microsoft
+
+`glab-groups-microsoft/namespaces.json` points at the public root of
+`https://github.com/microsoft`. The shared runtime mirrors the current public
+organization repositories beneath the relative target prefix `microsoft/`.
+
 ## NVIDIA
 
 `glab-groups-nvidia/namespaces.json` points at the public root of
 `https://github.com/nvidia`. The shared runtime mirrors the current public
 organization repositories beneath the relative target prefix `nvidia/`.
+
+## Android
+
+`glab-groups-android/namespaces.json` points at the public root of
+`https://android.googlesource.com`. The shared runtime scrapes the Gitiles root
+index, preserves nested repository paths such as `platform/...`, and maps them
+beneath the relative target prefix `android/`.
+
+## Chromium
+
+`glab-groups-chromium/namespaces.json` points at the public root of
+`https://chromium.googlesource.com`. The shared runtime scrapes the Gitiles
+root index, preserves nested repository paths such as `chromium/...`, and maps
+them beneath the relative target prefix `chromium/`.
 
 ## KDE
 

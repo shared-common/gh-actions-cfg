@@ -13,6 +13,8 @@ The new Perl/Python group mirror flow consumes per-wrapper config directories:
 - `glab-groups-debian/`
 - `glab-groups-freedesktop/`
 - `glab-groups-small/`
+- `glab-groups-openai/`
+- `glab-groups-nvidia/`
 - `glab-groups-kde/`
 - `glab-groups-gnome/`
 
@@ -78,6 +80,18 @@ set from the current `netfilter.org/projects/` listing. Those entries mirror
 directly from project clone URLs instead of scraping the root index, because
 `https://git.netfilter.org` is now fronted by an anti-bot challenge that makes
 root discovery unreliable in CI.
+
+## OpenAI
+
+`glab-groups-openai/namespaces.json` points at the public root of
+`https://github.com/openai`. The shared runtime mirrors the current public
+organization repositories beneath the relative target prefix `openai/`.
+
+## NVIDIA
+
+`glab-groups-nvidia/namespaces.json` points at the public root of
+`https://github.com/nvidia`. The shared runtime mirrors the current public
+organization repositories beneath the relative target prefix `nvidia/`.
 
 ## KDE
 

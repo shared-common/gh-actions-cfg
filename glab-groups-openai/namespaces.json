@@ -1,0 +1,12 @@
+{
+  "kind": "glab-groups/namespaces",
+  "version": 1,
+  "namespaces": [
+    {
+      "name": "github-openai",
+      "source_group_url": "https://github.com/openai",
+      "target_namespace_path": "openai",
+      "target_owner_path": "glab-forks"
+    }
+  ]
+}

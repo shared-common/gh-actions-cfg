@@ -39,6 +39,10 @@ Each namespace entry may also set:
 
 - `target_owner_path`: checked-in target owner/group path for that specific namespace entry
 
+Each namespace or explicit project entry may also set:
+
+- `target_branches_protect`: target branch names to protect after bootstrap
+
 Target visibility is intentionally absent from these configs. The shared mirror
 workflow does not set group or project visibility on GitLab targets; configure
 visibility on the target owner/group outside scheduled mirror runs.

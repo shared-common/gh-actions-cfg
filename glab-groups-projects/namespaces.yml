@@ -5,10 +5,12 @@
 # one-entry edit:
 # - additional_branches: extra source branches to mirror when present
 # - additional_tags: extra source tags to mirror when present
+# - target_branches_protect: target branches to protect after bootstrap
 #
 # The source default branch always syncs to target gitlab/mcr/main. Target-only
 # branches mcr/main, mcr/feature/init, mcr/staging, and mcr/release are created
-# once when missing and are not force-synced on later runs.
+# once when missing and are not force-synced on later runs. The checked-in
+# project entries currently protect only gitlab/mcr/main.
 kind: glab-groups/projects
 version: 1
 projects:
@@ -17,28 +19,40 @@ projects:
     target_group_path: glab-forks/labwc
     additional_branches: []
     additional_tags: []
+    target_branches_protect:
+      - gitlab/mcr/main
   - name: user-recovery-tools
     source_project_url: https://chromium.googlesource.com/chromiumos/user-recovery-tools
     target_group_path: glab-forks/google
     additional_branches: []
     additional_tags: []
+    target_branches_protect:
+      - gitlab/mcr/main
   - name: gptfdisk
     source_project_url: https://git.code.sf.net/p/gptfdisk/code
     target_group_path: glab-forks/sourceforge
     additional_branches: []
     additional_tags: []
+    target_branches_protect:
+      - gitlab/mcr/main
   - name: refind
     source_project_url: https://git.code.sf.net/p/refind/code
     target_group_path: glab-forks/sourceforge
     additional_branches: []
     additional_tags: []
+    target_branches_protect:
+      - gitlab/mcr/main
   - name: zsh
     source_project_url: https://git.code.sf.net/p/zsh/code
     target_group_path: glab-forks/sourceforge
     additional_branches: []
     additional_tags: []
+    target_branches_protect:
+      - gitlab/mcr/main
   - name: xtables-addons
     source_project_url: https://codeberg.org/jengelh/xtables-addons
     target_group_path: glab-forks/netfilter
     additional_branches: []
     additional_tags: []
+    target_branches_protect:
+      - gitlab/mcr/main

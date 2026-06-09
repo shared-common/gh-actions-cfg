@@ -5,6 +5,9 @@
     {
       "name": "gitlab-gnome-root",
       "source_group_url": "https://gitlab.gnome.org",
+      "target_branches_protect": [
+        "gitlab/mcr/main"
+      ],
       "target_namespace_path": "gnome",
       "target_owner_path": "glab-forks"
     }

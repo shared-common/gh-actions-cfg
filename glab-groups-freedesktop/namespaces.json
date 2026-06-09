@@ -5,6 +5,9 @@
     {
       "name": "gitlab-freedesktop-root",
       "source_group_url": "https://gitlab.freedesktop.org",
+      "target_branches_protect": [
+        "gitlab/mcr/main"
+      ],
       "target_namespace_path": "freedesktop",
       "target_owner_path": "glab-forks"
     }

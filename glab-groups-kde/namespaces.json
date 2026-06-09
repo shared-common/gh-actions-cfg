@@ -5,6 +5,9 @@
     {
       "name": "gitlab-kde-root",
       "source_group_url": "https://invent.kde.org",
+      "target_branches_protect": [
+        "gitlab/mcr/main"
+      ],
       "target_namespace_path": "kde",
       "target_owner_path": "glab-forks"
     }

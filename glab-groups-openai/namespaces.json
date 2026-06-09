@@ -5,6 +5,9 @@
     {
       "name": "github-openai",
       "source_group_url": "https://github.com/openai",
+      "target_branches_protect": [
+        "gitlab/mcr/main"
+      ],
       "target_namespace_path": "openai",
       "target_owner_path": "glab-forks"
     }

@@ -5,6 +5,9 @@
     {
       "name": "github-nvidia",
       "source_group_url": "https://github.com/nvidia",
+      "target_branches_protect": [
+        "gitlab/mcr/main"
+      ],
       "target_namespace_path": "nvidia",
       "target_owner_path": "glab-forks"
     }

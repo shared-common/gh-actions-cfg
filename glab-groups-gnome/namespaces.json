@@ -8,6 +8,7 @@
       "target_branches_protect": [
         "gitlab/mcr/main"
       ],
+      "target_namespace_id": 129055320,
       "target_namespace_path": "gnome",
       "target_owner_path": "glab-forks"
     }

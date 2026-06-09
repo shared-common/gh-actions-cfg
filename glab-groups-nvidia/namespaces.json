@@ -8,6 +8,7 @@
       "target_branches_protect": [
         "gitlab/mcr/main"
       ],
+      "target_namespace_id": 134158999,
       "target_namespace_path": "nvidia",
       "target_owner_path": "glab-forks"
     }

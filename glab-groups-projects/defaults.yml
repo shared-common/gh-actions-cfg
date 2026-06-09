@@ -7,6 +7,7 @@ defaults:
   batch_size: 25
   force_lfs: false
   git_timeout_seconds: 2400
+  inventory_cache_max_age_seconds: 432000
   max_blob_bytes: 104857600
   mirror_pristine_tar: true
   retry_attempts: 3

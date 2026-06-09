@@ -27,7 +27,8 @@ Each directory contains JSON files keyed by `kind`:
 
 The `defaults.json` files keep the common run policy explicit:
 
-- `batch_size`: 25 repositories per batch
+- `batch_size`: target-group-aware batch sizing that never splits one target subgroup across multiple mirror jobs
+- `inventory_cache_max_age_seconds`: cached source inventory freshness window, now defaulting to 5 days
 - `mirror_pristine_tar`: mirrors detected `pristine-tar` branches or tags
 - `additional_branches`: user-managed extra branch names to mirror each run
 - `additional_tags`: user-managed extra tag names to mirror each run
@@ -38,10 +39,12 @@ The `defaults.json` files keep the common run policy explicit:
 Each namespace entry may also set:
 
 - `target_owner_path`: checked-in target owner/group path for that specific namespace entry
+- `target_namespace_id`: checked-in target GitLab group ID for the managed target namespace root when known
 
 Each namespace or explicit project entry may also set:
 
 - `target_branches_protect`: target branch names to protect after bootstrap
+- `target_group_id` or `target_namespace_id`: checked-in GitLab group IDs for explicit-project targets or namespace roots
 
 Target visibility is intentionally absent from these configs. The shared mirror
 workflow does not set group or project visibility on GitLab targets; configure
@@ -77,7 +80,7 @@ prefix `freedesktop/`.
 
 Each entry maps into a relative target namespace path beneath
 `target_owner_path`. GitHub-source entries authenticate through the shared
-GitHub App secrets `GH_ORG_SHARED_APP_ID` and `GH_ORG_SHARED_APP_PEM`.
+GitHub App secrets `GH_ORG_READ_APP_ID` and `GH_ORG_READ_APP_PEM`.
 
 `glab-groups-small/projects.json` carries the full explicit Netfilter project
 set from the current `netfilter.org/projects/` listing. Those entries mirror

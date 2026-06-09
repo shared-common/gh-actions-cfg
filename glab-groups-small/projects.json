@@ -63,6 +63,11 @@
       "target_group_path": "glab-forks/netfilter"
     },
     {
+      "name": "knft",
+      "source_project_url": "https://git.netfilter.org/knft",
+      "target_group_path": "glab-forks/netfilter"
+    },
+    {
       "name": "nfacct",
       "source_project_url": "https://git.netfilter.org/nfacct",
       "target_group_path": "glab-forks/netfilter"
@@ -73,13 +78,43 @@
       "target_group_path": "glab-forks/netfilter"
     },
     {
+      "name": "nft-sync",
+      "source_project_url": "https://git.netfilter.org/nft-sync",
+      "target_group_path": "glab-forks/netfilter"
+    },
+    {
       "name": "ulogd",
       "source_project_url": "https://git.netfilter.org/ulogd",
       "target_group_path": "glab-forks/netfilter"
     },
     {
-      "name": "xtables-addons",
-      "source_project_url": "https://git.netfilter.org/xtables-addons",
+      "name": "ulogd2",
+      "source_project_url": "https://git.netfilter.org/ulogd2",
+      "target_group_path": "glab-forks/netfilter"
+    },
+    {
+      "name": "arptables",
+      "source_project_url": "https://git.netfilter.org/arptables",
+      "target_group_path": "glab-forks/netfilter"
+    },
+    {
+      "name": "ebtables",
+      "source_project_url": "https://git.netfilter.org/ebtables",
+      "target_group_path": "glab-forks/netfilter"
+    },
+    {
+      "name": "iptables.old-history",
+      "source_project_url": "https://git.netfilter.org/iptables.old-history",
+      "target_group_path": "glab-forks/netfilter"
+    },
+    {
+      "name": "ebtables.old-history",
+      "source_project_url": "https://git.netfilter.org/ebtables.old-history",
+      "target_group_path": "glab-forks/netfilter"
+    },
+    {
+      "name": "conntrackd-helper-tests",
+      "source_project_url": "https://git.netfilter.org/conntrackd-helper-tests",
       "target_group_path": "glab-forks/netfilter"
     }
   ]

@@ -46,6 +46,15 @@
       ],
       "target_namespace_path": "wazuh",
       "target_owner_path": "glab-forks"
+    },
+    {
+      "name": "uup-uupdump",
+      "source_group_url": "https://git.uupdump.net/uup-dump",
+      "target_branches_protect": [
+        "gitlab/mcr/main"
+      ],
+      "target_namespace_path": "uupdump",
+      "target_owner_path": "glab-forks"
     }
   ]
 }

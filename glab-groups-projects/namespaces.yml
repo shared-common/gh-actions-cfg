@@ -37,3 +37,8 @@ projects:
     target_group_path: glab-forks/sourceforge
     additional_branches: []
     additional_tags: []
+  - name: xtables-addons
+    source_project_url: https://codeberg.org/jengelh/xtables-addons
+    target_group_path: glab-forks/netfilter
+    additional_branches: []
+    additional_tags: []

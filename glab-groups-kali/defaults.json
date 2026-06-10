@@ -8,7 +8,8 @@
     "target_branches_protect": [
       "gitlab/mcr/main"
     ],
-    "batch_size": 25,
+    "batch_size": 10,
+    "max_parallel": 10,
     "force_lfs": false,
     "git_timeout_seconds": 1800,
     "gitlab_source_include_subgroups": true,

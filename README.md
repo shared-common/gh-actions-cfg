@@ -47,6 +47,7 @@ fields include `allow_blob_rewrite`, `force_lfs`, `git_timeout_seconds`,
 The `defaults` files keep the common run policy explicit:
 
 - `batch_size`: target-group-aware batch sizing that never splits one target subgroup across multiple mirror jobs
+- `max_parallel`: maximum concurrent GitHub Actions prepare and mirror shards for that wrapper
 - `mirror_pristine_tar`: mirrors detected `pristine-tar` branches or tags
 - `additional_branches`: user-managed extra branch names to mirror each run
 - `additional_tags`: user-managed extra tag names to mirror each run

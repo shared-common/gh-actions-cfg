@@ -6,7 +6,8 @@ defaults:
   additional_tags: []
   target_branches_protect:
     - gitlab/mcr/main
-  batch_size: 25
+  batch_size: 10
+  max_parallel: 10
   force_lfs: false
   git_timeout_seconds: 2400
   gitlab_source_include_subgroups: false

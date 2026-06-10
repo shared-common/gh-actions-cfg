@@ -8,7 +8,6 @@
       "target_branches_protect": [
         "gitlab/mcr/main"
       ],
-      "target_namespace_id": 134159026,
       "target_namespace_path": "openai",
       "target_owner_path": "glab-forks"
     }

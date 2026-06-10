@@ -8,7 +8,6 @@
       "target_branches_protect": [
         "gitlab/mcr/main"
       ],
-      "target_namespace_id": 134128327,
       "target_namespace_path": "labwc",
       "target_owner_path": "glab-forks"
     },
@@ -18,7 +17,6 @@
       "target_branches_protect": [
         "gitlab/mcr/main"
       ],
-      "target_namespace_id": 131839715,
       "target_namespace_path": "xanmod",
       "target_owner_path": "glab-forks"
     },
@@ -28,7 +26,6 @@
       "target_branches_protect": [
         "gitlab/mcr/main"
       ],
-      "target_namespace_id": 134128259,
       "target_namespace_path": "crowdsecurity",
       "target_owner_path": "glab-forks"
     },
@@ -38,7 +35,6 @@
       "target_branches_protect": [
         "gitlab/mcr/main"
       ],
-      "target_namespace_id": 134128472,
       "target_namespace_path": "pi-hole",
       "target_owner_path": "glab-forks"
     },
@@ -48,7 +44,6 @@
       "target_branches_protect": [
         "gitlab/mcr/main"
       ],
-      "target_namespace_id": 134128217,
       "target_namespace_path": "wazuh",
       "target_owner_path": "glab-forks"
     },
@@ -58,7 +53,6 @@
       "target_branches_protect": [
         "gitlab/mcr/main"
       ],
-      "target_namespace_id": 134173782,
       "target_namespace_path": "uupdump",
       "target_owner_path": "glab-forks"
     }

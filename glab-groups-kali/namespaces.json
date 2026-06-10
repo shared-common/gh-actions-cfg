@@ -8,7 +8,6 @@
       "target_branches_protect": [
         "gitlab/mcr/main"
       ],
-      "target_namespace_id": 134085098,
       "target_namespace_path": "kalilinux",
       "target_owner_path": "glab-forks"
     }

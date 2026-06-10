@@ -8,7 +8,6 @@
       "target_branches_protect": [
         "gitlab/mcr/main"
       ],
-      "target_namespace_id": 129604764,
       "target_namespace_path": "microsoft",
       "target_owner_path": "glab-forks"
     }

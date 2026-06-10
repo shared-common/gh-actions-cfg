@@ -1,54 +1,54 @@
 # gh-actions-cfg
 
-## Legacy configs
-
-The historical `gh-actions-glab-group/*` files remain in this repository for the
-older Python-based group sync wrappers.
-
 ## Shared group-mirror configs
 
-The new Perl/Python group mirror flow consumes per-wrapper config directories:
+The Perl/Python group mirror flow consumes per-wrapper config directories:
 
-- `glab-groups-kali/`
-- `glab-groups-debian/`
-- `glab-groups-freedesktop/`
-- `glab-groups-small/`
 - `glab-groups-android/`
 - `glab-groups-chromium/`
-- `glab-groups-hashicorp/`
-- `glab-groups-microsoft/`
-- `glab-groups-openai/`
-- `glab-groups-nvidia/`
-- `glab-groups-kde/`
+- `glab-groups-freedesktop/`
+- `glab-groups-debian/`
 - `glab-groups-gnome/`
+- `glab-groups-hashicorp/`
+- `glab-groups-kali/`
+- `glab-groups-kde/`
+- `glab-groups-microsoft/`
+- `glab-groups-nvidia/`
+- `glab-groups-openai/`
+- `glab-groups-projects/`
+- `glab-groups-small/`
 
-Each directory contains JSON files keyed by `kind`:
+Config directories can use JSON or YAML files keyed by `kind`:
 
 - `glab-groups/defaults`
 - `glab-groups/namespaces`
+- `glab-groups/projects`
 - `glab-groups/project-overrides`
 - `glab-groups/project-exclusions`
 
-The `defaults.json` files keep the common run policy explicit:
+The `defaults` files keep the common run policy explicit:
 
 - `batch_size`: target-group-aware batch sizing that never splits one target subgroup across multiple mirror jobs
 - `inventory_cache_max_age_seconds`: cached source inventory freshness window, now defaulting to 5 days
 - `mirror_pristine_tar`: mirrors detected `pristine-tar` branches or tags
 - `additional_branches`: user-managed extra branch names to mirror each run
 - `additional_tags`: user-managed extra tag names to mirror each run
-- `size_limit_bytes`: selected-ref repository budget, defaulting to 10 GiB
+- `size_limit_bytes`: selected-ref repository budget, defaulting to 9 GiB
 - `max_blob_bytes`: blob limit, defaulting to 100 MiB
 - `retry_attempts` and `retry_backoff_seconds`: bounded retry policy
 
 Each namespace entry may also set:
 
 - `target_owner_path`: checked-in target owner/group path for that specific namespace entry
-- `target_namespace_id`: checked-in target GitLab group ID for the managed target namespace root when known
 
 Each namespace or explicit project entry may also set:
 
 - `target_branches_protect`: target branch names to protect after bootstrap
-- `target_group_id` or `target_namespace_id`: checked-in GitLab group IDs for explicit-project targets or namespace roots
+
+Checked-in target GitLab group IDs are intentionally unsupported. The shared
+runtime resolves target groups from `target_owner_path` plus
+`target_namespace_path` or `target_group_path` at run time and keeps the
+resolved IDs only in the in-memory mirror-job cache.
 
 Target visibility is intentionally absent from these configs. The shared mirror
 workflow does not set group or project visibility on GitLab targets; configure
@@ -143,3 +143,9 @@ current public top-level groups and maps them beneath the relative target prefix
 `https://gitlab.gnome.org`. The shared runtime expands that source into the
 current public top-level groups and maps them beneath the relative target
 prefix `gnome/`.
+
+## Explicit projects
+
+`glab-groups-projects/namespaces.yml` carries explicit single-project mirrors
+whose destination is built as `<target_group_path>/<name>`. Those entries do
+not derive target namespace segments from the source repository URL.

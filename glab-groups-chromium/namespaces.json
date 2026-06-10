@@ -8,7 +8,6 @@
       "target_branches_protect": [
         "gitlab/mcr/main"
       ],
-      "target_namespace_id": 134196624,
       "target_namespace_path": "chromium",
       "target_owner_path": "glab-forks"
     }

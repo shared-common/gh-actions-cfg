@@ -1,0 +1,74 @@
+---
+name: validate-configs
+
+"on":
+  pull_request:
+  push:
+    branches:
+      - "mcr/**"
+  workflow_dispatch:
+
+permissions: {}
+
+concurrency:
+  group: validate-configs-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  config-contract:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    permissions:
+      contents: read
+    steps:
+      - name: Checkout central config repository
+        # actions/checkout v6.0.2
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd
+        with:
+          persist-credentials: false
+
+      - name: Run central config contract tests
+        shell: bash
+        run: |
+          set -euo pipefail
+          LC_ALL=C TZ=UTC python3 -m unittest discover -s tests -p 'test_*.py'
+
+  shared-loader:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    permissions:
+      contents: read
+    steps:
+      - name: Checkout central config repository
+        # actions/checkout v6.0.2
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd
+        with:
+          persist-credentials: false
+
+      - name: Checkout shared runtime repository
+        # actions/checkout v6.0.2
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd
+        with:
+          repository: shared-common/glab-groups-shared
+          ref: mcr/main
+          path: shared
+          persist-credentials: false
+
+      - name: Validate checked-in config directories with shared loader
+        shell: bash
+        run: |
+          set -euo pipefail
+          mapfile -t config_dirs < <(find . -mindepth 1 -maxdepth 1 -type d -name 'glab-groups-*' | sort)
+          if [ "${#config_dirs[@]}" -eq 0 ]; then
+            printf '%s\n' "no checked-in config directories found" >&2
+            exit 1
+          fi
+          LC_ALL=C TZ=UTC perl -I shared/lib -MGlabGroups=load_config_dir - "${config_dirs[@]}" <<'PERL'
+          use strict;
+          use warnings;
+
+          for my $dir (@ARGV) {
+              load_config_dir($dir);
+              print "ok $dir\n";
+          }
+          PERL

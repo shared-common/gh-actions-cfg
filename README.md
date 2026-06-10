@@ -2,6 +2,11 @@
 
 ## Shared group-mirror configs
 
+This repo is the single checked-in home for the shared mirror config contract.
+Wrapper repositories stay thin and pass only `config-path`; config-key
+validation happens here and in `shared-common/glab-groups-shared`, not in
+duplicated per-wrapper config logic.
+
 The Perl/Python group mirror flow consumes per-wrapper config directories:
 
 - `glab-groups-android/`
@@ -167,3 +172,13 @@ prefix `gnome/`.
 `glab-groups-projects/projects.yml` carries explicit single-project mirrors
 whose destination is built as `<target_group_path>/<name>`. Those entries do
 not derive target namespace segments from the source repository URL.
+
+## Validation
+
+Repo-native CI in `validate-configs.yml` validates this config repo directly
+and also checks every config directory against the current
+`shared-common/glab-groups-shared` loader.
+
+```sh
+python3 -m unittest discover -s tests -p 'test_*.py'
+```

@@ -29,7 +29,6 @@ Config directories can use JSON or YAML files keyed by `kind`:
 The `defaults` files keep the common run policy explicit:
 
 - `batch_size`: target-group-aware batch sizing that never splits one target subgroup across multiple mirror jobs
-- `inventory_cache_max_age_seconds`: cached source inventory freshness window, now defaulting to 5 days
 - `mirror_pristine_tar`: mirrors detected `pristine-tar` branches or tags
 - `additional_branches`: user-managed extra branch names to mirror each run
 - `additional_tags`: user-managed extra tag names to mirror each run

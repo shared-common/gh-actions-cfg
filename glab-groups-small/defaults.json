@@ -9,7 +9,6 @@
     "force_lfs": false,
     "git_timeout_seconds": 2400,
     "gitlab_source_include_subgroups": true,
-    "inventory_cache_max_age_seconds": 432000,
     "max_blob_bytes": 104857600,
     "mirror_pristine_tar": true,
     "read_retry_attempts": 2,

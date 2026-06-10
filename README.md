@@ -23,8 +23,26 @@ Config directories can use JSON or YAML files keyed by `kind`:
 - `glab-groups/defaults`
 - `glab-groups/namespaces`
 - `glab-groups/projects`
-- `glab-groups/project-overrides`
 - `glab-groups/project-exclusions`
+
+Each namespace-based wrapper config directory also carries:
+
+- `exclude.yml`: YAML object with `kind: glab-groups/project-exclusions`
+- `projects.yml`: YAML object with `kind: glab-groups/projects`
+
+`projects.yml` is authoritative. When one of its entries resolves to the same
+target project path that namespace discovery would produce, the shared runtime
+skips that namespace-discovered project and uses the explicit `projects.yml`
+entry instead.
+
+Each `projects.yml` item may set only the fields it wants to override. Along
+with `source_project_url` and `target_group_path`, supported optional policy
+fields include `allow_blob_rewrite`, `force_lfs`, `git_timeout_seconds`,
+`mirror_pristine_tar`, `read_retry_attempts`,
+`read_retry_backoff_seconds`, `retry_attempts`,
+`retry_backoff_seconds`, `size_limit_bytes`, `max_blob_bytes`,
+`additional_branches`, `additional_tags`, and
+`target_branches_protect`.
 
 The `defaults` files keep the common run policy explicit:
 
@@ -85,7 +103,7 @@ Each entry maps into a relative target namespace path beneath
 `target_owner_path`. GitHub-source entries authenticate through the shared
 GitHub App secrets `GH_ORG_READ_APP_ID` and `GH_ORG_READ_APP_PEM`.
 
-`glab-groups-small/projects.json` carries the full explicit Netfilter project
+`glab-groups-small/projects.yml` carries the full explicit Netfilter project
 set from the current `netfilter.org/projects/` listing. Those entries mirror
 directly from project clone URLs instead of scraping the root index, because
 `https://git.netfilter.org` is now fronted by an anti-bot challenge that makes
@@ -145,6 +163,6 @@ prefix `gnome/`.
 
 ## Explicit projects
 
-`glab-groups-projects/namespaces.yml` carries explicit single-project mirrors
+`glab-groups-projects/projects.yml` carries explicit single-project mirrors
 whose destination is built as `<target_group_path>/<name>`. Those entries do
 not derive target namespace segments from the source repository URL.

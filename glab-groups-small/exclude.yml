@@ -1,0 +1,7 @@
+# Supported exclusion keys per item:
+# - target_project_path
+# - reason
+# Empty projects list means no exclusions.
+kind: glab-groups/project-exclusions
+version: 1
+projects: []

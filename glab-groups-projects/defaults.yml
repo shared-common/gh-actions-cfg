@@ -4,11 +4,16 @@ defaults:
   allow_blob_rewrite: true
   additional_branches: []
   additional_tags: []
+  target_branches_protect:
+    - gitlab/mcr/main
   batch_size: 25
   force_lfs: false
   git_timeout_seconds: 2400
+  gitlab_source_include_subgroups: false
   max_blob_bytes: 104857600
   mirror_pristine_tar: true
+  read_retry_attempts: 2
+  read_retry_backoff_seconds: 5
   retry_attempts: 3
   retry_backoff_seconds: 2
   size_limit_bytes: 9663676416

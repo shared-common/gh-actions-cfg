@@ -1,0 +1,92 @@
+# Supported project keys per item:
+# - name
+# - source_project_url
+# - target_group_path
+# - allow_blob_rewrite: null
+# - force_lfs: null
+# - git_timeout_seconds: null
+# - gitlab_source_include_subgroups: null
+# - mirror_pristine_tar: null
+# - read_retry_attempts: null
+# - read_retry_backoff_seconds: null
+# - retry_attempts: null
+# - retry_backoff_seconds: null
+# - size_limit_bytes: null
+# - max_blob_bytes: null
+# - additional_branches: []
+# - additional_tags: []
+# - target_branches_protect: []
+# Use null or [] to inherit defaults / apply no per-project override.
+kind: glab-groups/projects
+version: 1
+projects:
+  - name: bloodhound
+    source_project_url: https://gitlab.com/kalilinux/packages/bloodhound
+    target_group_path: glab-forks/kalilinux/packages
+    force_lfs: true
+    git_timeout_seconds: 900
+  - name: burpsuite-prior2022
+    source_project_url: https://gitlab.com/kalilinux/packages/burpsuite-prior2022
+    target_group_path: glab-forks/kalilinux/packages
+    force_lfs: true
+    git_timeout_seconds: 900
+  - name: burpsuite-prior2023
+    source_project_url: https://gitlab.com/kalilinux/packages/burpsuite-prior2023
+    target_group_path: glab-forks/kalilinux/packages
+    force_lfs: true
+    git_timeout_seconds: 900
+  - name: caido
+    source_project_url: https://gitlab.com/kalilinux/packages/caido
+    target_group_path: glab-forks/kalilinux/packages
+    force_lfs: true
+    git_timeout_seconds: 900
+  - name: caido-cli
+    source_project_url: https://gitlab.com/kalilinux/packages/caido-cli
+    target_group_path: glab-forks/kalilinux/packages
+    force_lfs: true
+    git_timeout_seconds: 900
+  - name: cipheydists
+    source_project_url: https://gitlab.com/kalilinux/packages/cipheydists
+    target_group_path: glab-forks/kalilinux/packages
+    force_lfs: true
+    git_timeout_seconds: 900
+  - name: jadx
+    source_project_url: https://gitlab.com/kalilinux/packages/jadx
+    target_group_path: glab-forks/kalilinux/packages
+    force_lfs: true
+    git_timeout_seconds: 900
+  - name: joplin
+    source_project_url: https://gitlab.com/kalilinux/packages/joplin
+    target_group_path: glab-forks/kalilinux/packages
+    force_lfs: true
+    git_timeout_seconds: 900
+  - name: juice-shop
+    source_project_url: https://gitlab.com/kalilinux/packages/juice-shop
+    target_group_path: glab-forks/kalilinux/packages
+    force_lfs: true
+    git_timeout_seconds: 900
+  - name: kali-screensaver
+    source_project_url: https://gitlab.com/kalilinux/packages/kali-screensaver
+    target_group_path: glab-forks/kalilinux/packages
+    force_lfs: true
+    git_timeout_seconds: 900
+  - name: king-phisher
+    source_project_url: https://gitlab.com/kalilinux/packages/king-phisher
+    target_group_path: glab-forks/kalilinux/packages
+    force_lfs: true
+    git_timeout_seconds: 900
+  - name: libpostal
+    source_project_url: https://gitlab.com/kalilinux/packages/libpostal
+    target_group_path: glab-forks/kalilinux/packages
+    force_lfs: true
+    git_timeout_seconds: 900
+  - name: maltego-teeth
+    source_project_url: https://gitlab.com/kalilinux/packages/maltego-teeth
+    target_group_path: glab-forks/kalilinux/packages
+    force_lfs: true
+    git_timeout_seconds: 900
+  - name: burpsuite
+    source_project_url: https://gitlab.com/kalilinux/packages/burpsuite
+    target_group_path: glab-forks/kalilinux/packages
+    force_lfs: true
+    git_timeout_seconds: 900

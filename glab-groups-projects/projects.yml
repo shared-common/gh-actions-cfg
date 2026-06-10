@@ -1,3 +1,22 @@
+# Supported project keys per item:
+# - name
+# - source_project_url
+# - target_group_path
+# - allow_blob_rewrite: null
+# - force_lfs: null
+# - git_timeout_seconds: null
+# - gitlab_source_include_subgroups: null
+# - mirror_pristine_tar: null
+# - read_retry_attempts: null
+# - read_retry_backoff_seconds: null
+# - retry_attempts: null
+# - retry_backoff_seconds: null
+# - size_limit_bytes: null
+# - max_blob_bytes: null
+# - additional_branches: []
+# - additional_tags: []
+# - target_branches_protect: []
+# Use null or [] to inherit defaults / apply no per-project override.
 # Each entry is a single explicit source project. The target project path is
 # always built as <target_group_path>/<name>.
 #
@@ -17,77 +36,33 @@ projects:
   - name: darkman
     source_project_url: https://gitlab.com/WhyNotHugo/darkman
     target_group_path: glab-forks/labwc
-    additional_branches: []
-    additional_tags: []
-    target_branches_protect:
-      - gitlab/mcr/main
   - name: user-recovery-tools
     source_project_url: https://chromium.googlesource.com/chromiumos/user-recovery-tools
     target_group_path: glab-forks/google
-    additional_branches: []
-    additional_tags: []
-    target_branches_protect:
-      - gitlab/mcr/main
   - name: gptfdisk
     source_project_url: https://git.code.sf.net/p/gptfdisk/code
     target_group_path: glab-forks/sourceforge
-    additional_branches: []
-    additional_tags: []
-    target_branches_protect:
-      - gitlab/mcr/main
   - name: refind
     source_project_url: https://git.code.sf.net/p/refind/code
     target_group_path: glab-forks/sourceforge
-    additional_branches: []
-    additional_tags: []
-    target_branches_protect:
-      - gitlab/mcr/main
   - name: zsh
     source_project_url: https://git.code.sf.net/p/zsh/code
     target_group_path: glab-forks/sourceforge
-    additional_branches: []
-    additional_tags: []
-    target_branches_protect:
-      - gitlab/mcr/main
   - name: xtables-addons
     source_project_url: https://codeberg.org/jengelh/xtables-addons
     target_group_path: glab-forks/netfilter
-    additional_branches: []
-    additional_tags: []
-    target_branches_protect:
-      - gitlab/mcr/main
   - name: seatd
     source_project_url: https://git.sr.ht/~kennylevinsen/seatd
     target_group_path: glab-forks/labwc
-    additional_branches: []
-    additional_tags: []
-    target_branches_protect:
-      - gitlab/mcr/main
   - name: greetd
     source_project_url: https://git.sr.ht/~kennylevinsen/greetd
     target_group_path: glab-forks/labwc
-    additional_branches: []
-    additional_tags: []
-    target_branches_protect:
-      - gitlab/mcr/main
   - name: wlsunset
     source_project_url: https://git.sr.ht/~kennylevinsen/wlsunset
     target_group_path: glab-forks/labwc
-    additional_branches: []
-    additional_tags: []
-    target_branches_protect:
-      - gitlab/mcr/main
   - name: wldash
     source_project_url: https://git.sr.ht/~kennylevinsen/wldash
     target_group_path: glab-forks/labwc
-    additional_branches: []
-    additional_tags: []
-    target_branches_protect:
-      - gitlab/mcr/main
   - name: poweralertd
     source_project_url: https://git.sr.ht/~kennylevinsen/poweralertd
     target_group_path: glab-forks/labwc
-    additional_branches: []
-    additional_tags: []
-    target_branches_protect:
-      - gitlab/mcr/main

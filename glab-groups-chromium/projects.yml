@@ -1,0 +1,22 @@
+# Supported project keys per item:
+# - name
+# - source_project_url
+# - target_group_path
+# - allow_blob_rewrite: null
+# - force_lfs: null
+# - git_timeout_seconds: null
+# - gitlab_source_include_subgroups: null
+# - mirror_pristine_tar: null
+# - read_retry_attempts: null
+# - read_retry_backoff_seconds: null
+# - retry_attempts: null
+# - retry_backoff_seconds: null
+# - size_limit_bytes: null
+# - max_blob_bytes: null
+# - additional_branches: []
+# - additional_tags: []
+# - target_branches_protect: []
+# Use null or [] to inherit defaults / apply no per-project override.
+kind: glab-groups/projects
+version: 1
+projects: []

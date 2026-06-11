@@ -8,19 +8,19 @@ REPO_ROOT = Path(__file__).resolve().parents[1]
 CONFIG_DIRS = sorted(path for path in REPO_ROOT.glob("glab-groups-*") if path.is_dir())
 PROJECTS_ONLY_CONFIGS = {"glab-groups-projects"}
 EXPECTED_DEFAULTS = {
-    "glab-groups-android": {"batch_size": 50, "max_parallel": 2},
-    "glab-groups-chromium": {"batch_size": 50, "max_parallel": 2},
-    "glab-groups-debian": {"batch_size": 50, "max_parallel": 1},
-    "glab-groups-freedesktop": {"batch_size": 50, "max_parallel": 2},
-    "glab-groups-gnome": {"batch_size": 50, "max_parallel": 2},
-    "glab-groups-hashicorp": {"batch_size": 50, "max_parallel": 2},
-    "glab-groups-kali": {"batch_size": 50, "max_parallel": 2},
-    "glab-groups-kde": {"batch_size": 50, "max_parallel": 2},
-    "glab-groups-microsoft": {"batch_size": 50, "max_parallel": 2},
-    "glab-groups-nvidia": {"batch_size": 10, "max_parallel": 2},
-    "glab-groups-openai": {"batch_size": 25, "max_parallel": 2},
-    "glab-groups-projects": {"batch_size": 10, "max_parallel": 2},
-    "glab-groups-small": {"batch_size": 10, "max_parallel": 2},
+    "glab-groups-android": {"batch_size": 50, "max_parallel": 5},
+    "glab-groups-chromium": {"batch_size": 50, "max_parallel": 5},
+    "glab-groups-debian": {"batch_size": 50, "max_parallel": 5},
+    "glab-groups-freedesktop": {"batch_size": 50, "max_parallel": 5},
+    "glab-groups-gnome": {"batch_size": 50, "max_parallel": 5},
+    "glab-groups-hashicorp": {"batch_size": 50, "max_parallel": 5},
+    "glab-groups-kali": {"batch_size": 50, "max_parallel": 5},
+    "glab-groups-kde": {"batch_size": 50, "max_parallel": 5},
+    "glab-groups-microsoft": {"batch_size": 50, "max_parallel": 5},
+    "glab-groups-nvidia": {"batch_size": 10, "max_parallel": 5},
+    "glab-groups-openai": {"batch_size": 25, "max_parallel": 5},
+    "glab-groups-projects": {"batch_size": 10, "max_parallel": 5},
+    "glab-groups-small": {"batch_size": 10, "max_parallel": 5},
 }
 
 

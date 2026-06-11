@@ -34,6 +34,8 @@ Each namespace-based wrapper config directory also carries:
 
 - `exclude.yml`: YAML object with `kind: glab-groups/project-exclusions`
 - `projects.yml`: YAML object with `kind: glab-groups/projects`
+- optional `groups.jsonl`: one JSON string per line for explicit GitLab
+  instance-root top-level group allowlists
 
 `projects.yml` is authoritative. When one of its entries resolves to the same
 target project path that namespace discovery would produce, the shared runtime
@@ -46,7 +48,7 @@ fields include `allow_blob_rewrite`, `force_lfs`, `git_timeout_seconds`,
 `mirror_pristine_tar`, `read_retry_attempts`,
 `read_retry_backoff_seconds`, `retry_attempts`,
 `retry_backoff_seconds`, `size_limit_bytes`, `max_blob_bytes`,
-`additional_branches`, `additional_tags`, and
+`additional_branches`, `additional_tags`, and optional explicit-project
 `target_branches_protect`.
 
 The `defaults` files keep the common run policy explicit:
@@ -64,9 +66,12 @@ Each namespace entry may also set:
 
 - `target_owner_path`: checked-in target owner/group path for that specific namespace entry
 
-Each namespace or explicit project entry may also set:
+Each explicit project entry may also set:
 
-- `target_branches_protect`: target branch names to protect after bootstrap
+- `target_branches_protect`: extra target branch names to protect after push
+
+Branches listed in an explicit project's `additional_branches` are also
+protected automatically after the mirror push lands.
 
 Checked-in target GitLab group IDs are intentionally unsupported. The shared
 runtime resolves target groups from `target_owner_path` plus
@@ -87,16 +92,17 @@ visibility on the target owner/group outside scheduled mirror runs.
 ## Debian
 
 `glab-groups-debian/namespaces.json` points at the public root of
-`https://salsa.debian.org`. The shared runtime expands that source into the
-current public top-level groups and maps them beneath the relative target
-prefix `debian/`.
+`https://salsa.debian.org`, and `glab-groups-debian/groups.jsonl` pins the
+checked-in Debian team/group allowlist that should be mirrored beneath the
+relative target prefix `debian/`. This avoids mirroring unrelated public Salsa
+tenants from the whole instance root.
 
 ## Freedesktop
 
 `glab-groups-freedesktop/namespaces.json` points at the public root of
-`https://gitlab.freedesktop.org`. The shared runtime expands that source into
-the current public top-level groups and maps them beneath the relative target
-prefix `freedesktop/`.
+`https://gitlab.freedesktop.org`, and `glab-groups-freedesktop/groups.jsonl`
+pins the checked-in top-level freedesktop.org group list that maps beneath the
+relative target prefix `freedesktop/`.
 
 ## Small
 
@@ -156,16 +162,16 @@ them beneath the relative target prefix `chromium/`.
 ## KDE
 
 `glab-groups-kde/namespaces.json` points at the public root of
-`https://invent.kde.org`. The shared runtime expands that source into the
-current public top-level groups and maps them beneath the relative target prefix
-`kde/`.
+`https://invent.kde.org`, and `glab-groups-kde/groups.jsonl` pins the
+checked-in top-level KDE group list that maps beneath the relative target
+prefix `kde/`.
 
 ## GNOME
 
 `glab-groups-gnome/namespaces.json` points at the public root of
-`https://gitlab.gnome.org`. The shared runtime expands that source into the
-current public top-level groups and maps them beneath the relative target
-prefix `gnome/`.
+`https://gitlab.gnome.org`, and `glab-groups-gnome/groups.jsonl` pins the
+checked-in GNOME top-level groups that map beneath the relative target prefix
+`gnome/`.
 
 ## Explicit projects
 

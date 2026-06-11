@@ -4,8 +4,6 @@ defaults:
   allow_blob_rewrite: true
   additional_branches: []
   additional_tags: []
-  target_branches_protect:
-    - gitlab/mcr/main
   batch_size: 10
   max_parallel: 5
   force_lfs: false

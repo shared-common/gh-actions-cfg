@@ -15,21 +15,20 @@
 # - max_blob_bytes: null
 # - additional_branches: []
 # - additional_tags: []
-# - target_branches_protect: []
 # Use null or [] to inherit defaults / apply no per-project override.
 # Each entry is a single explicit source project. The target project path is
 # always built as <target_group_path>/<name>.
 #
 # Keep per-project branch or tag control inline so adding a new mirror is a
 # one-entry edit:
-# - additional_branches: extra source branches to mirror when present
+# - additional_branches: extra source branches to mirror when present; these
+#   branches are also protected on the target after push
 # - additional_tags: extra source tags to mirror when present
-# - target_branches_protect: target branches to protect after bootstrap
+# - target_branches_protect: extra target branch names to protect after push
 #
-# The source default branch always syncs to target gitlab/mcr/main. Target-only
-# branches mcr/main, mcr/feature/init, mcr/staging, and mcr/release are created
-# once when missing and are not force-synced on later runs. The checked-in
-# project entries currently protect only gitlab/mcr/main.
+# The source default branch always syncs to target gitlab/mcr/main. The shared
+# runtime no longer creates extra target-only mcr/* branches or resets project
+# default-branch protection during mirror runs.
 kind: glab-groups/projects
 version: 1
 projects:

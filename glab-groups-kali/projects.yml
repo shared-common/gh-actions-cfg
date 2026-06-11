@@ -15,7 +15,6 @@
 # - max_blob_bytes: null
 # - additional_branches: []
 # - additional_tags: []
-# - target_branches_protect: []
 # Use null or [] to inherit defaults / apply no per-project override.
 kind: glab-groups/projects
 version: 1

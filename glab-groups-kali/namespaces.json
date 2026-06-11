@@ -5,9 +5,6 @@
     {
       "name": "kalilinux-root",
       "source_group_url": "https://gitlab.com/kalilinux",
-      "target_branches_protect": [
-        "gitlab/mcr/main"
-      ],
       "target_namespace_path": "kalilinux",
       "target_owner_path": "glab-forks"
     }

@@ -5,54 +5,36 @@
     {
       "name": "github-labwc",
       "source_group_url": "https://github.com/labwc",
-      "target_branches_protect": [
-        "gitlab/mcr/main"
-      ],
       "target_namespace_path": "labwc",
       "target_owner_path": "glab-forks"
     },
     {
       "name": "gitlab-xanmod",
       "source_group_url": "https://gitlab.com/xanmod",
-      "target_branches_protect": [
-        "gitlab/mcr/main"
-      ],
       "target_namespace_path": "xanmod",
       "target_owner_path": "glab-forks"
     },
     {
       "name": "github-crowdsecurity",
       "source_group_url": "https://github.com/crowdsecurity",
-      "target_branches_protect": [
-        "gitlab/mcr/main"
-      ],
       "target_namespace_path": "crowdsecurity",
       "target_owner_path": "glab-forks"
     },
     {
       "name": "github-pi-hole",
       "source_group_url": "https://github.com/pi-hole",
-      "target_branches_protect": [
-        "gitlab/mcr/main"
-      ],
       "target_namespace_path": "pi-hole",
       "target_owner_path": "glab-forks"
     },
     {
       "name": "github-wazuh",
       "source_group_url": "https://github.com/wazuh",
-      "target_branches_protect": [
-        "gitlab/mcr/main"
-      ],
       "target_namespace_path": "wazuh",
       "target_owner_path": "glab-forks"
     },
     {
       "name": "uup-uupdump",
       "source_group_url": "https://git.uupdump.net/uup-dump",
-      "target_branches_protect": [
-        "gitlab/mcr/main"
-      ],
       "target_namespace_path": "uupdump",
       "target_owner_path": "glab-forks"
     }

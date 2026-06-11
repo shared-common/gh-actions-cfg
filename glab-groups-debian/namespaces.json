@@ -5,9 +5,6 @@
     {
       "name": "salsa-debian-root",
       "source_group_url": "https://salsa.debian.org",
-      "target_branches_protect": [
-        "gitlab/mcr/main"
-      ],
       "target_namespace_path": "debian",
       "target_owner_path": "glab-forks"
     }

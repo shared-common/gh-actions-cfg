@@ -7,6 +7,12 @@ from pathlib import Path
 REPO_ROOT = Path(__file__).resolve().parents[1]
 CONFIG_DIRS = sorted(path for path in REPO_ROOT.glob("glab-groups-*") if path.is_dir())
 PROJECTS_ONLY_CONFIGS = {"glab-groups-projects"}
+GROUP_FILTER_CONFIGS = {
+    "glab-groups-debian",
+    "glab-groups-freedesktop",
+    "glab-groups-gnome",
+    "glab-groups-kde",
+}
 EXPECTED_DEFAULTS = {
     "glab-groups-android": {"batch_size": 50, "max_parallel": 5},
     "glab-groups-chromium": {"batch_size": 50, "max_parallel": 5},
@@ -68,6 +74,11 @@ class ConfigContractTests(unittest.TestCase):
                 payload = load_structured(defaults_path)
                 self.assertEqual(payload["kind"], "glab-groups/defaults")
                 self.assert_version_is_one(payload)
+                self.assertNotIn(
+                    "target_branches_protect",
+                    payload["defaults"],
+                    "default configs must not enforce target branch protection by default",
+                )
                 expected = EXPECTED_DEFAULTS[config_dir.name]
                 self.assertEqual(int(payload["defaults"]["batch_size"]), expected["batch_size"])
                 self.assertEqual(int(payload["defaults"]["max_parallel"]), expected["max_parallel"])
@@ -76,6 +87,7 @@ class ConfigContractTests(unittest.TestCase):
         for config_dir in CONFIG_DIRS:
             with self.subTest(config=config_dir.name):
                 projects_path = config_dir / "projects.yml"
+                groups_path = config_dir / "groups.jsonl"
                 self.assertTrue(projects_path.exists(), "missing projects.yml")
                 projects_payload = load_structured(projects_path)
                 self.assertEqual(projects_payload["kind"], "glab-groups/projects")
@@ -84,6 +96,7 @@ class ConfigContractTests(unittest.TestCase):
                 if config_dir.name in PROJECTS_ONLY_CONFIGS:
                     self.assertFalse((config_dir / "namespaces.json").exists(), "projects-only config should not define namespaces.json")
                     self.assertFalse((config_dir / "exclude.yml").exists(), "projects-only config should not define exclude.yml")
+                    self.assertFalse(groups_path.exists(), "projects-only config should not define groups.jsonl")
                     continue
 
                 namespaces_path = config_dir / "namespaces.json"
@@ -95,10 +108,33 @@ class ConfigContractTests(unittest.TestCase):
                 self.assertEqual(namespaces_payload["kind"], "glab-groups/namespaces")
                 self.assert_version_is_one(namespaces_payload)
                 self.assertTrue(namespaces_payload["namespaces"], "namespaces.json must define at least one namespace")
+                for namespace in namespaces_payload["namespaces"]:
+                    self.assertNotIn(
+                        "target_branches_protect",
+                        namespace,
+                        "namespace configs must not enforce target branch protection by default",
+                    )
 
                 exclude_payload = load_structured(exclude_path)
                 self.assertEqual(exclude_payload["kind"], "glab-groups/project-exclusions")
                 self.assert_version_is_one(exclude_payload)
+
+                if config_dir.name in GROUP_FILTER_CONFIGS:
+                    self.assertTrue(groups_path.exists(), "missing groups.jsonl for explicit top-level GitLab group allowlists")
+                    entries = [
+                        json.loads(line)
+                        for line in groups_path.read_text(encoding="utf-8").splitlines()
+                        if line.strip()
+                    ]
+                    self.assertTrue(entries, "groups.jsonl must not be empty")
+                    for entry in entries:
+                        self.assertTrue(
+                            isinstance(entry, str)
+                            or (isinstance(entry, dict) and isinstance(entry.get("source_group_path"), str)),
+                            "groups.jsonl entries must be JSON strings or objects with source_group_path",
+                        )
+                else:
+                    self.assertFalse(groups_path.exists(), "unexpected groups.jsonl outside the dedicated instance-root wrappers")
 
 
 if __name__ == "__main__":

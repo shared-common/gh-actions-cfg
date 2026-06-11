@@ -7,6 +7,21 @@ from pathlib import Path
 REPO_ROOT = Path(__file__).resolve().parents[1]
 CONFIG_DIRS = sorted(path for path in REPO_ROOT.glob("glab-groups-*") if path.is_dir())
 PROJECTS_ONLY_CONFIGS = {"glab-groups-projects"}
+EXPECTED_DEFAULTS = {
+    "glab-groups-android": {"batch_size": 50, "max_parallel": 2},
+    "glab-groups-chromium": {"batch_size": 50, "max_parallel": 2},
+    "glab-groups-debian": {"batch_size": 50, "max_parallel": 1},
+    "glab-groups-freedesktop": {"batch_size": 50, "max_parallel": 2},
+    "glab-groups-gnome": {"batch_size": 50, "max_parallel": 2},
+    "glab-groups-hashicorp": {"batch_size": 50, "max_parallel": 2},
+    "glab-groups-kali": {"batch_size": 50, "max_parallel": 2},
+    "glab-groups-kde": {"batch_size": 50, "max_parallel": 2},
+    "glab-groups-microsoft": {"batch_size": 50, "max_parallel": 2},
+    "glab-groups-nvidia": {"batch_size": 10, "max_parallel": 2},
+    "glab-groups-openai": {"batch_size": 25, "max_parallel": 2},
+    "glab-groups-projects": {"batch_size": 10, "max_parallel": 2},
+    "glab-groups-small": {"batch_size": 10, "max_parallel": 2},
+}
 
 
 def load_structured(path: Path):
@@ -37,7 +52,12 @@ class ConfigContractTests(unittest.TestCase):
     def assert_version_is_one(self, payload) -> None:
         self.assertEqual(int(payload["version"]), 1)
 
-    def test_checked_in_parallelism_contract_is_ten_way(self) -> None:
+    def test_checked_in_default_parallelism_matches_safe_repo_map(self) -> None:
+        self.assertEqual(
+            {path.name for path in CONFIG_DIRS},
+            set(EXPECTED_DEFAULTS),
+            "update EXPECTED_DEFAULTS when adding or removing config directories",
+        )
         for config_dir in CONFIG_DIRS:
             with self.subTest(config=config_dir.name):
                 defaults_path = config_dir / "defaults.json"
@@ -48,8 +68,9 @@ class ConfigContractTests(unittest.TestCase):
                 payload = load_structured(defaults_path)
                 self.assertEqual(payload["kind"], "glab-groups/defaults")
                 self.assert_version_is_one(payload)
-                self.assertEqual(int(payload["defaults"]["batch_size"]), 10)
-                self.assertEqual(int(payload["defaults"]["max_parallel"]), 10)
+                expected = EXPECTED_DEFAULTS[config_dir.name]
+                self.assertEqual(int(payload["defaults"]["batch_size"]), expected["batch_size"])
+                self.assertEqual(int(payload["defaults"]["max_parallel"]), expected["max_parallel"])
 
     def test_config_directories_keep_expected_shape(self) -> None:
         for config_dir in CONFIG_DIRS:

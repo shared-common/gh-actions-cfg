@@ -9,7 +9,7 @@
       "gitlab/mcr/main"
     ],
     "batch_size": 25,
-    "max_parallel": 4,
+    "max_parallel": 2,
     "force_lfs": false,
     "git_timeout_seconds": 2400,
     "gitlab_source_include_subgroups": true,

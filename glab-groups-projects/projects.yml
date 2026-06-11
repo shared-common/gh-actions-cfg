@@ -37,7 +37,7 @@ projects:
     target_group_path: glab-forks/labwc
   - name: user-recovery-tools
     source_project_url: https://chromium.googlesource.com/chromiumos/user-recovery-tools
-    target_group_path: glab-forks/google
+    target_group_path: glab-forks/chromium
   - name: gptfdisk
     source_project_url: https://git.code.sf.net/p/gptfdisk/code
     target_group_path: glab-forks/sourceforge

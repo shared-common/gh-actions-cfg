@@ -95,14 +95,17 @@ visibility on the target owner/group outside scheduled mirror runs.
 `https://salsa.debian.org`, and `glab-groups-debian/groups.jsonl` pins the
 checked-in Debian team/group allowlist that should be mirrored beneath the
 relative target prefix `debian/`. This avoids mirroring unrelated public Salsa
-tenants from the whole instance root.
+tenants from the whole instance root. If one of those configured top-level
+groups disappears upstream, the shared planner records a warning and skips that
+target path instead of failing the whole workflow run.
 
 ## Freedesktop
 
 `glab-groups-freedesktop/namespaces.json` points at the public root of
 `https://gitlab.freedesktop.org`, and `glab-groups-freedesktop/groups.jsonl`
 pins the checked-in top-level freedesktop.org group list that maps beneath the
-relative target prefix `freedesktop/`.
+relative target prefix `freedesktop/`. Missing configured top-level groups are
+reported as warnings and skipped for that run.
 
 ## Small
 
@@ -164,14 +167,16 @@ them beneath the relative target prefix `chromium/`.
 `glab-groups-kde/namespaces.json` points at the public root of
 `https://invent.kde.org`, and `glab-groups-kde/groups.jsonl` pins the
 checked-in top-level KDE group list that maps beneath the relative target
-prefix `kde/`.
+prefix `kde/`. Missing configured top-level groups are reported as warnings and
+skipped for that run.
 
 ## GNOME
 
 `glab-groups-gnome/namespaces.json` points at the public root of
 `https://gitlab.gnome.org`, and `glab-groups-gnome/groups.jsonl` pins the
 checked-in GNOME top-level groups that map beneath the relative target prefix
-`gnome/`.
+`gnome/`. Missing configured top-level groups are reported as warnings and
+skipped for that run.
 
 ## Explicit projects
 

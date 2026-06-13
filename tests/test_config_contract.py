@@ -22,7 +22,7 @@ EXPECTED_DEFAULTS = {
     "glab-groups-hashicorp": {"batch_size": 50, "max_parallel": 5},
     "glab-groups-kali": {"batch_size": 50, "max_parallel": 5},
     "glab-groups-kde": {"batch_size": 50, "max_parallel": 5},
-    "glab-groups-microsoft": {"batch_size": 50, "max_parallel": 5},
+    "glab-groups-microsoft": {"batch_size": 50, "max_parallel": 2},
     "glab-groups-nvidia": {"batch_size": 10, "max_parallel": 5},
     "glab-groups-openai": {"batch_size": 25, "max_parallel": 5},
     "glab-groups-projects": {"batch_size": 10, "max_parallel": 5},

@@ -42,6 +42,12 @@ target project path that namespace discovery would produce, the shared runtime
 skips that namespace-discovered project and uses the explicit `projects.yml`
 entry instead.
 
+For GitLab instance-root configs that use `groups.jsonl`, each configured source
+group path is a separate discovery unit. The shared workflow creates up to 250
+discovery matrix jobs, runs no more than 10 at once, and keeps at least 10
+discovery jobs for non-empty configs so large wrappers do not serialize through
+a single source-discovery job.
+
 Each `projects.yml` item may set only the fields it wants to override. Along
 with `source_project_url` and `target_group_path`, supported optional policy
 fields include `allow_blob_rewrite`, `force_lfs`, `git_timeout_seconds`,

@@ -79,6 +79,11 @@ class ConfigContractTests(unittest.TestCase):
                     payload["defaults"],
                     "default configs must not enforce target branch protection by default",
                 )
+                self.assertNotIn(
+                    "mirror_pristine_tar",
+                    payload["defaults"],
+                    "default configs must not opt projects into pristine-tar mirroring",
+                )
                 expected = EXPECTED_DEFAULTS[config_dir.name]
                 self.assertEqual(int(payload["defaults"]["batch_size"]), expected["batch_size"])
                 self.assertEqual(int(payload["defaults"]["max_parallel"]), expected["max_parallel"])
@@ -113,6 +118,11 @@ class ConfigContractTests(unittest.TestCase):
                         "target_branches_protect",
                         namespace,
                         "namespace configs must not enforce target branch protection by default",
+                    )
+                    self.assertNotIn(
+                        "mirror_pristine_tar",
+                        namespace,
+                        "namespace configs must not opt projects into pristine-tar mirroring",
                     )
 
                 exclude_payload = load_structured(exclude_path)

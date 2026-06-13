@@ -21,6 +21,8 @@
 #
 # Keep per-project branch or tag control inline so adding a new mirror is a
 # one-entry edit:
+# - mirror_pristine_tar: when true, mirror and protect pristine-tar for that
+#   explicit project only
 # - additional_branches: extra source branches to mirror when present; these
 #   branches are also protected on the target after push
 # - additional_tags: extra source tags to mirror when present

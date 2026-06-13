@@ -45,17 +45,16 @@ entry instead.
 Each `projects.yml` item may set only the fields it wants to override. Along
 with `source_project_url` and `target_group_path`, supported optional policy
 fields include `allow_blob_rewrite`, `force_lfs`, `git_timeout_seconds`,
-`mirror_pristine_tar`, `read_retry_attempts`,
-`read_retry_backoff_seconds`, `retry_attempts`,
+`read_retry_attempts`, `read_retry_backoff_seconds`, `retry_attempts`,
 `retry_backoff_seconds`, `size_limit_bytes`, `max_blob_bytes`,
 `additional_branches`, `additional_tags`, and optional explicit-project
-`target_branches_protect`.
+`target_branches_protect`. `mirror_pristine_tar` is also supported, but only in
+`projects.yml` explicit project entries.
 
 The `defaults` files keep the common run policy explicit:
 
 - `batch_size`: target-group-aware batch sizing that never splits one target subgroup across multiple mirror jobs
 - `max_parallel`: maximum concurrent GitHub Actions prepare and mirror shards for that wrapper
-- `mirror_pristine_tar`: mirrors detected `pristine-tar` branches or tags
 - `additional_branches`: user-managed extra branch names to mirror each run
 - `additional_tags`: user-managed extra tag names to mirror each run
 - `size_limit_bytes`: selected-ref repository budget, defaulting to 9 GiB
@@ -68,6 +67,7 @@ Each namespace entry may also set:
 
 Each explicit project entry may also set:
 
+- `mirror_pristine_tar`: when `true`, mirrors the `pristine-tar` branch or tag if present and protects the target `pristine-tar` branch
 - `target_branches_protect`: extra target branch names to protect after push
 
 Branches listed in an explicit project's `additional_branches` are also
@@ -78,9 +78,15 @@ runtime resolves target groups from `target_owner_path` plus
 `target_namespace_path` or `target_group_path` at run time and keeps the
 resolved IDs only in the in-memory mirror-job cache.
 
+The top-level target owner group and each immediate wrapper subgroup such as
+`glab-forks/debian` or `glab-forks/kde` must already exist before mirror runs.
+The shared runtime creates only deeper nested subgroups beneath those
+pre-created wrapper roots.
+
 Target visibility is intentionally absent from these configs. The shared mirror
-workflow does not set group or project visibility on GitLab targets; configure
-visibility on the target owner/group outside scheduled mirror runs.
+workflow creates missing target projects and any auto-created nested subgroups
+as `public`, but it does not reconcile visibility on already-existing target
+groups or projects.
 
 ## Kali
 

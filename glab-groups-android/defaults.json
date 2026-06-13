@@ -11,7 +11,6 @@
     "git_timeout_seconds": 2400,
     "gitlab_source_include_subgroups": true,
     "max_blob_bytes": 104857600,
-    "mirror_pristine_tar": true,
     "read_retry_attempts": 2,
     "read_retry_backoff_seconds": 10,
     "retry_attempts": 2,

@@ -26,9 +26,10 @@
 # - additional_tags: extra source tags to mirror when present
 # - target_branches_protect: extra target branch names to protect after push
 #
-# The source default branch always syncs to target gitlab/mcr/main. The shared
-# runtime no longer creates extra target-only mcr/* branches or resets project
-# default-branch protection during mirror runs.
+# The source default branch always syncs to the managed target branch named by
+# the BWS secret GIT_BRANCH_GLAB_FORKS. The shared runtime no longer creates
+# extra target-only mcr/* branches or resets project default-branch protection
+# during mirror runs.
 kind: glab-groups/projects
 version: 1
 projects:

@@ -35,7 +35,7 @@
     {
       "name": "uup-uupdump",
       "source_group_url": "https://git.uupdump.net/uup-dump",
-      "target_namespace_path": "uupdump",
+      "target_namespace_path": "uup-dump",
       "target_owner_path": "glab-forks"
     }
   ]

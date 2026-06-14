@@ -13,6 +13,12 @@ GROUP_FILTER_CONFIGS = {
     "glab-groups-gnome",
     "glab-groups-kde",
 }
+EXPECTED_GROUP_FILTER_COUNTS = {
+    "glab-groups-debian": 141,
+    "glab-groups-freedesktop": 60,
+    "glab-groups-gnome": 7,
+    "glab-groups-kde": 33,
+}
 EXPECTED_DEFAULTS = {
     "glab-groups-android": {"batch_size": 50, "max_parallel": 2},
     "glab-groups-chromium": {"batch_size": 50, "max_parallel": 2},
@@ -145,12 +151,27 @@ class ConfigContractTests(unittest.TestCase):
                         if line.strip()
                     ]
                     self.assertTrue(entries, "groups.jsonl must not be empty")
+                    self.assertEqual(
+                        len(entries),
+                        EXPECTED_GROUP_FILTER_COUNTS[config_dir.name],
+                        "groups.jsonl entry count must match the checked-in top-level group allowlist",
+                    )
+                    source_group_paths = []
                     for entry in entries:
                         self.assertTrue(
                             isinstance(entry, str)
                             or (isinstance(entry, dict) and isinstance(entry.get("source_group_path"), str)),
                             "groups.jsonl entries must be JSON strings or objects with source_group_path",
                         )
+                        source_group_path = entry if isinstance(entry, str) else entry["source_group_path"]
+                        self.assertTrue(source_group_path.strip(), "groups.jsonl source group path must not be blank")
+                        self.assertNotIn("/", source_group_path, "groups.jsonl entries must stay top-level source groups")
+                        source_group_paths.append(source_group_path)
+                    self.assertEqual(
+                        len(source_group_paths),
+                        len(set(source_group_paths)),
+                        "groups.jsonl entries must not contain duplicate source groups",
+                    )
                 else:
                     self.assertFalse(groups_path.exists(), "unexpected groups.jsonl outside the dedicated instance-root wrappers")
 

@@ -111,6 +111,10 @@ tenants from the whole instance root. If one of those configured top-level
 groups disappears upstream, the shared planner records a warning and skips that
 target path instead of failing the whole workflow run.
 
+In Actions summaries, `configured_source_groups` is the `groups.jsonl` top-level
+allowlist size. `target_project_namespaces` can be larger because projects in
+allowed source subgroups are preserved as nested target namespaces.
+
 ## Freedesktop
 
 `glab-groups-freedesktop/namespaces.json` points at the public root of

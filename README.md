@@ -84,10 +84,10 @@ runtime resolves target groups from `target_owner_path` plus
 `target_namespace_path` or `target_group_path` at run time and keeps the
 resolved IDs only in the in-memory mirror-job cache.
 
-The top-level target owner group and each immediate wrapper subgroup such as
-`glab-forks/debian` or `glab-forks/kde` must already exist before mirror runs.
-The shared runtime creates only deeper nested subgroups beneath those
-pre-created wrapper roots.
+The shared runtime now walks the configured target namespace path from the
+top-level owner group down, reuses any already-existing matching groups, and
+creates missing target groups or subgroups as public namespaces when the target
+token has permission.
 
 Target visibility is intentionally absent from these configs. The shared mirror
 workflow creates missing target projects and any auto-created nested subgroups

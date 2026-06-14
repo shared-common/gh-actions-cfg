@@ -14,19 +14,19 @@ GROUP_FILTER_CONFIGS = {
     "glab-groups-kde",
 }
 EXPECTED_DEFAULTS = {
-    "glab-groups-android": {"batch_size": 50, "max_parallel": 5},
-    "glab-groups-chromium": {"batch_size": 50, "max_parallel": 5},
-    "glab-groups-debian": {"batch_size": 50, "max_parallel": 5},
-    "glab-groups-freedesktop": {"batch_size": 50, "max_parallel": 5},
-    "glab-groups-gnome": {"batch_size": 50, "max_parallel": 5},
-    "glab-groups-hashicorp": {"batch_size": 50, "max_parallel": 5},
-    "glab-groups-kali": {"batch_size": 50, "max_parallel": 5},
-    "glab-groups-kde": {"batch_size": 50, "max_parallel": 5},
+    "glab-groups-android": {"batch_size": 50, "max_parallel": 2},
+    "glab-groups-chromium": {"batch_size": 50, "max_parallel": 2},
+    "glab-groups-debian": {"batch_size": 50, "max_parallel": 2},
+    "glab-groups-freedesktop": {"batch_size": 50, "max_parallel": 2},
+    "glab-groups-gnome": {"batch_size": 50, "max_parallel": 2},
+    "glab-groups-hashicorp": {"batch_size": 50, "max_parallel": 2},
+    "glab-groups-kali": {"batch_size": 50, "max_parallel": 2},
+    "glab-groups-kde": {"batch_size": 50, "max_parallel": 2},
     "glab-groups-microsoft": {"batch_size": 50, "max_parallel": 2},
-    "glab-groups-nvidia": {"batch_size": 10, "max_parallel": 5},
-    "glab-groups-openai": {"batch_size": 25, "max_parallel": 5},
-    "glab-groups-projects": {"batch_size": 10, "max_parallel": 5},
-    "glab-groups-small": {"batch_size": 10, "max_parallel": 5},
+    "glab-groups-nvidia": {"batch_size": 10, "max_parallel": 2},
+    "glab-groups-openai": {"batch_size": 25, "max_parallel": 2},
+    "glab-groups-projects": {"batch_size": 10, "max_parallel": 2},
+    "glab-groups-small": {"batch_size": 10, "max_parallel": 2},
 }
 
 
@@ -128,6 +128,14 @@ class ConfigContractTests(unittest.TestCase):
                 exclude_payload = load_structured(exclude_path)
                 self.assertEqual(exclude_payload["kind"], "glab-groups/project-exclusions")
                 self.assert_version_is_one(exclude_payload)
+                self.assertIsInstance(exclude_payload.get("projects"), list, "exclude.yml projects must be a list")
+                for item in exclude_payload.get("source_groups", []):
+                    self.assertIsInstance(item, dict, "exclude.yml source_groups entries must be objects")
+                    self.assertIsInstance(item.get("source_group_path"), str, "exclude.yml source_groups entries must define source_group_path")
+                    self.assertTrue(item["source_group_path"].strip(), "exclude.yml source_group_path must not be blank")
+                    if "reason" in item:
+                        self.assertIsInstance(item["reason"], str, "exclude.yml source_groups reason must be a string")
+                        self.assertTrue(item["reason"].strip(), "exclude.yml source_groups reason must not be blank")
 
                 if config_dir.name in GROUP_FILTER_CONFIGS:
                     self.assertTrue(groups_path.exists(), "missing groups.jsonl for explicit top-level GitLab group allowlists")

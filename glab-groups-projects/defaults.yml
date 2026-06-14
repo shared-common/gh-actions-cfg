@@ -5,7 +5,7 @@ defaults:
   additional_branches: []
   additional_tags: []
   batch_size: 10
-  max_parallel: 5
+  max_parallel: 2
   force_lfs: false
   git_timeout_seconds: 2400
   gitlab_source_include_subgroups: false

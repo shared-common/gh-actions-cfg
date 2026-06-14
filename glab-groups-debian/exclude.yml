@@ -1,7 +1,14 @@
-# Supported exclusion keys per item:
-# - target_project_path
-# - reason
-# Empty projects list means no exclusions.
+# Supported exclusion sections:
+# - projects:
+#   - target_project_path
+#   - reason
+# - source_groups:
+#   - source_group_path
+#   - reason
+# Empty lists mean no exclusions in that section.
 kind: glab-groups/project-exclusions
 version: 1
 projects: []
+source_groups:
+  - source_group_path: debian
+    reason: Curated Debian team allowlist excludes the umbrella debian group.

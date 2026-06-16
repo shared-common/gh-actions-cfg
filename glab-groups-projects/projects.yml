@@ -68,3 +68,6 @@ projects:
   - name: poweralertd
     source_project_url: https://git.sr.ht/~kennylevinsen/poweralertd
     target_group_path: glab-forks/labwc
+  - name: tutanota
+    source_project_url: https://github.com/tutao/tutanota
+    target_group_path: glab-forks/other

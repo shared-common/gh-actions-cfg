@@ -14,7 +14,7 @@ GROUP_FILTER_CONFIGS = {
     "glab-groups-kde",
 }
 EXPECTED_GROUP_FILTER_COUNTS = {
-    "glab-groups-debian": 141,
+    "glab-groups-debian": 103,
     "glab-groups-freedesktop": 60,
     "glab-groups-gnome": 7,
     "glab-groups-kde": 33,

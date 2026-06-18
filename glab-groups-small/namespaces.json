@@ -37,6 +37,18 @@
       "source_group_url": "https://git.uupdump.net/uup-dump",
       "target_namespace_path": "uup-dump",
       "target_owner_path": "glab-forks"
+    },
+    {
+      "name": "github-nlnetlabs",
+      "source_group_url": "https://github.com/NLnetLabs",
+      "target_namespace_path": "nlnetlabs",
+      "target_owner_path": "glab-forks"
+    },
+    {
+      "name": "github-bitwarden",
+      "source_group_url": "https://github.com/bitwarden",
+      "target_namespace_path": "bitwarden",
+      "target_owner_path": "glab-forks"
     }
   ]
 }

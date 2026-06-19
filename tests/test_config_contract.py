@@ -34,6 +34,9 @@ EXPECTED_DEFAULTS = {
     "glab-groups-projects": {"batch_size": 10, "max_parallel": 2},
     "glab-groups-small": {"batch_size": 10, "max_parallel": 2},
 }
+EXPECTED_NAMESPACE_DISCOVERY_SHARDS = {
+    "glab-groups-microsoft": 10,
+}
 
 
 def load_structured(path: Path):
@@ -129,6 +132,13 @@ class ConfigContractTests(unittest.TestCase):
                         "mirror_pristine_tar",
                         namespace,
                         "namespace configs must not opt projects into pristine-tar mirroring",
+                    )
+                expected_discovery_shards = EXPECTED_NAMESPACE_DISCOVERY_SHARDS.get(config_dir.name)
+                if expected_discovery_shards is not None:
+                    self.assertEqual(
+                        int(namespaces_payload["namespaces"][0]["discovery_shards"]),
+                        expected_discovery_shards,
+                        "namespace discovery shard count must match the checked-in parallel discovery contract",
                     )
 
                 exclude_payload = load_structured(exclude_path)

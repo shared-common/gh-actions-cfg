@@ -3,6 +3,7 @@
   "version": 1,
   "namespaces": [
     {
+      "discovery_shards": 10,
       "name": "github-microsoft",
       "source_group_url": "https://github.com/microsoft",
       "target_namespace_path": "microsoft",

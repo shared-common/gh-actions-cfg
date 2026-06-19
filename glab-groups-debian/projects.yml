@@ -18,4 +18,41 @@
 # Use null or [] to inherit defaults / apply no per-project override.
 kind: glab-groups/projects
 version: 1
-projects: []
+projects:
+  - name: labwc
+    source_project_url: https://salsa.debian.org/labwc-team/labwc
+    target_group_path: glab-forks/debian/labwc-team
+    mirror_pristine_tar: true
+    additional_tags:
+      - debian/0.20.1-1
+      - upstream/0.20.1
+  - name: wlroots
+    source_project_url: https://salsa.debian.org/swaywm-team/wlroots
+    target_group_path: glab-forks/debian/swaywm-team
+    mirror_pristine_tar: true
+    additional_branches:
+      - upstream/latest
+    additional_tags:
+      - debian/0.20.1-1
+      - upstream/0.20.1
+  - name: kanshi
+    source_project_url: https://salsa.debian.org/swaywm-team/kanshi
+    target_group_path: glab-forks/debian/swaywm-team
+    mirror_pristine_tar: true
+    additional_tags:
+      - debian/1.9.0-3
+      - upstream/1.9.0
+  - name: wofi
+    source_project_url: https://salsa.debian.org/swaywm-team/wofi
+    target_group_path: glab-forks/debian/swaywm-team
+    mirror_pristine_tar: true
+    additional_tags:
+      - debian/1.5.3-1
+      - upstream/1.5.3
+  - name: waybar
+    source_project_url: https://salsa.debian.org/swaywm-team/waybar
+    target_group_path: glab-forks/debian/swaywm-team
+    mirror_pristine_tar: true
+    additional_tags:
+      - debian/0.14.0-1
+      - upstream/0.14.0

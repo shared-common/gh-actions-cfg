@@ -71,3 +71,6 @@ projects:
   - name: tutanota
     source_project_url: https://github.com/tutao/tutanota
     target_group_path: glab-forks/other
+  - name: codex-desktop-app
+    source_project_url: https://github.com/ilysenko/codex-desktop-linux
+    target_group_path: glab-forks/other

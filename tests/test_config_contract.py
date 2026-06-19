@@ -20,9 +20,9 @@ EXPECTED_GROUP_FILTER_COUNTS = {
     "glab-groups-kde": 33,
 }
 EXPECTED_DEFAULTS = {
-    "glab-groups-android": {"batch_size": 50, "max_parallel": 2},
-    "glab-groups-chromium": {"batch_size": 50, "max_parallel": 2},
-    "glab-groups-debian": {"batch_size": 50, "max_parallel": 2},
+    "glab-groups-android": {"batch_size": 50, "max_parallel": 5},
+    "glab-groups-chromium": {"batch_size": 50, "max_parallel": 5},
+    "glab-groups-debian": {"batch_size": 50, "max_parallel": 1},
     "glab-groups-freedesktop": {"batch_size": 50, "max_parallel": 2},
     "glab-groups-gnome": {"batch_size": 50, "max_parallel": 2},
     "glab-groups-hashicorp": {"batch_size": 50, "max_parallel": 2},

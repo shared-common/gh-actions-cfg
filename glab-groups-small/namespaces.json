@@ -49,6 +49,12 @@
       "source_group_url": "https://github.com/bitwarden",
       "target_namespace_path": "bitwarden",
       "target_owner_path": "glab-forks"
+    },
+    {
+      "name": "github-obsidian",
+      "source_group_url": "https://github.com/obsidianmd",
+      "target_namespace_path": "obsidian",
+      "target_owner_path": "glab-forks"
     }
   ]
 }

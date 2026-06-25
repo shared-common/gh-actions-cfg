@@ -55,6 +55,12 @@
       "source_group_url": "https://github.com/obsidianmd",
       "target_namespace_path": "obsidian",
       "target_owner_path": "glab-forks"
+    },
+    {
+      "name": "github-facebook",
+      "source_group_url": "https://github.com/facebook",
+      "target_namespace_path": "facebook",
+      "target_owner_path": "glab-forks"
     }
   ]
 }

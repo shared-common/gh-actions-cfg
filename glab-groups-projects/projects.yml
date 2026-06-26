@@ -77,3 +77,6 @@ projects:
   - name: codex-desktop-app
     source_project_url: https://github.com/ilysenko/codex-desktop-linux
     target_group_path: glab-forks/other
+  - name: wofi
+    source_project_url: https://hg.sr.ht/~scoopta/wofi
+    target_group_path: glab-forks/other

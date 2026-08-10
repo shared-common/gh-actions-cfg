@@ -7,15 +7,3 @@ version: 1
 projects:
   - target_project_path: TechnitiumSoftware/BitChatClient
     reason: archived
-
-
-
-
-
-
-kind: glab-groups/project-exclusions
-version: 1
-projects: []
-source_groups:
-  - source_group_path: debian
-    reason: Curated Debian team allowlist excludes the umbrella debian group.

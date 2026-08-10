@@ -61,6 +61,12 @@
       "source_group_url": "https://github.com/facebook",
       "target_namespace_path": "facebook",
       "target_owner_path": "glab-forks"
+    },
+    {
+      "name": "github-technitium",
+      "source_group_url": "https://github.com/technitiumsoftware",
+      "target_namespace_path": "technitiumsoftware",
+      "target_owner_path": "glab-forks"
     }
   ]
 }

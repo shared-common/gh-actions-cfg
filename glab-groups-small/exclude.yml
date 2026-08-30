@@ -5,5 +5,5 @@
 kind: glab-groups/project-exclusions
 version: 1
 projects:
-  - target_project_path: TechnitiumSoftware/BitChatClient
-    reason: archived
+  - target_project_path:
+    reason:

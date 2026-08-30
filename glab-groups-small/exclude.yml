@@ -4,6 +4,6 @@
 # Empty projects list means no exclusions.
 kind: glab-groups/project-exclusions
 version: 1
-projects:
-  - target_project_path:
-    reason:
+projects: []
+#  - target_project_path:
+#    reason:

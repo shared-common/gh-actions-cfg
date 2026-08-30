@@ -73,6 +73,12 @@
       "source_group_url": "https://gitlab.com/libvirt",
       "target_namespace_path": "libvirt",
       "target_owner_path": "glab-forks"
+    },
+    {
+      "name": "github-zabbly",
+      "source_group_url": "https://gitlab.com/zabbly",
+      "target_namespace_path": "zabbly",
+      "target_owner_path": "glab-forks"
     }
   ]
 }

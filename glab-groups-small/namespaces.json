@@ -76,8 +76,14 @@
     },
     {
       "name": "github-zabbly",
-      "source_group_url": "https://gitlab.com/zabbly",
+      "source_group_url": "https://github.com/zabbly",
       "target_namespace_path": "zabbly",
+      "target_owner_path": "glab-forks"
+    },
+    {
+      "name": "github-lxc",
+      "source_group_url": "https://github.com/lxc",
+      "target_namespace_path": "lxc",
       "target_owner_path": "glab-forks"
     }
   ]

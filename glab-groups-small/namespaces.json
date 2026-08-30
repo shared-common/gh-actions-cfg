@@ -67,6 +67,12 @@
       "source_group_url": "https://github.com/technitiumsoftware",
       "target_namespace_path": "technitiumsoftware",
       "target_owner_path": "glab-forks"
+    },
+    {
+      "name": "gitlab-libvirt",
+      "source_group_url": "https://gitlab.com/libvirt",
+      "target_namespace_path": "libvirt",
+      "target_owner_path": "glab-forks"
     }
   ]
 }

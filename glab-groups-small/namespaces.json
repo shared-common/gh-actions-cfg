@@ -85,6 +85,15 @@
       "source_group_url": "https://github.com/lxc",
       "target_namespace_path": "lxc",
       "target_owner_path": "glab-forks"
+    },
+    {
+      "name": "github-systemd",
+      "source_group_url": "https://github.com/systemd",
+      "target_namespace_path": "systemd",
+      "target_owner_path": "glab-forks"
     }
   ]
 }
+
+
+

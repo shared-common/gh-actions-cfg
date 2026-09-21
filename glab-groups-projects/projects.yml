@@ -125,3 +125,6 @@ projects:
   - name: ShadowMountPlus
     source_project_url: https://github.com/drakmor/ShadowMountPlus
     target_group_path: glab-forks/playstation
+  - name: ps5-linux-loader
+    source_project_url: https://github.com/ps5-linux/ps5-linux-loader
+    target_group_path: glab-forks/playstation

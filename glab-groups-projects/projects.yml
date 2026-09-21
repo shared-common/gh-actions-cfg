@@ -80,3 +80,6 @@ projects:
   - name: wofi
     source_project_url: https://hg.sr.ht/~scoopta/wofi
     target_group_path: glab-forks/other
+  - name: kstuff-lite
+    source_project_url: https://github.com/EchoStretch/kstuff-lite
+    target_group_path: glab-forks/playstation/echostretch

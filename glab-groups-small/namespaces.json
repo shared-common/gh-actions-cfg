@@ -91,9 +91,13 @@
       "source_group_url": "https://github.com/systemd",
       "target_namespace_path": "systemd",
       "target_owner_path": "glab-forks"
+    },
+    {
+      "name": "github-mansoor0x",
+      "source_group_url": "https://github.com/mansoor0x",
+      "target_namespace_path": "playstation/mansoor0x",
+      "target_owner_path": "glab-forks"
     }
   ]
 }
-
-
 

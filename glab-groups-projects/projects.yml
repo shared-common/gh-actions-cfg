@@ -98,6 +98,30 @@ projects:
   - name: pacbrew-repo
     source_project_url: https://github.com/ps5-payload-dev/pacbrew-repo
     target_group_path: glab-forks/playstation/ps5-payload-dev
+  - name: ps5-linux-archive
+    source_project_url: https://github.com/soniciso1/ps5-linux-archive
+    target_group_path: glab-forks/playstation/soniciso1
+  - name: ps5-new-overlay
+    source_project_url: https://github.com/smoxa/ps5-new-overlay
+    target_group_path: glab-forks/playstation/soniciso1
+  - name: PSVIETHOA-FPKG-Builder
+    source_project_url: https://github.com/smoxa/PSVIETHOA-FPKG-Builder
+    target_group_path: glab-forks/playstation
   - name: darwin-vm
     source_project_url: https://github.com/jprx/darwin-vm
     target_group_path: glab-forks/other
+  - name: PS5-FPKG-RESTORE
+    source_project_url: https://github.com/smoxa/PS5-FPKG-RESTORE
+    target_group_path: glab-forks/playstation
+  - name: raw13g.github.io
+    source_project_url: https://github.com/raw13g/raw13g.github.io
+    target_group_path: glab-forks/playstation
+  - name: ftpsrv
+    source_project_url: https://github.com/drakmor/ftpsrv
+    target_group_path: glab-forks/playstation
+  - name: ppr-patch
+    source_project_url: https://github.com/drakmor/ppr-patch
+    target_group_path: glab-forks/playstation
+  - name: ShadowMountPlus
+    source_project_url: https://github.com/drakmor/ShadowMountPlus
+    target_group_path: glab-forks/playstation

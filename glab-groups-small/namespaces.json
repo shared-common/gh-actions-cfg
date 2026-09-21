@@ -93,12 +93,6 @@
       "target_owner_path": "glab-forks"
     },
     {
-      "name": "github-mansoor0x",
-      "source_group_url": "https://github.com/mansoor0x",
-      "target_namespace_path": "playstation/mansoor0x",
-      "target_owner_path": "glab-forks"
-    },
-    {
       "name": "github-earthonion",
       "source_group_url": "https://git.etawen.dev/earthonion",
       "target_namespace_path": "playstation/earthonion",

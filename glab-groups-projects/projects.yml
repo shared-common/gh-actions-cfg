@@ -134,3 +134,6 @@ projects:
   - name: ps5-linux-loader
     source_project_url: https://github.com/ps5-linux/ps5-linux-loader
     target_group_path: glab-forks/playstation
+  - name: LibProsperoPKG
+    source_project_url: https://github.com/SvenGDK/LibProsperoPKG
+    target_group_path: glab-forks/playstation

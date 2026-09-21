@@ -104,17 +104,20 @@ projects:
   - name: P2JB
     source_project_url: https://github.com/soniciso1/P2JB
     target_group_path: glab-forks/playstation/soniciso1
+  - name: P2JB-dev
+    source_project_url: https://github.com/soniciso1/P2JB-dev
+    target_group_path: glab-forks/playstation/soniciso1
   - name: ps5-new-overlay
     source_project_url: https://github.com/smoxa/ps5-new-overlay
     target_group_path: glab-forks/playstation/soniciso1
   - name: PSVIETHOA-FPKG-Builder
-    source_project_url: https://github.com/smoxa/PSVIETHOA-FPKG-Builder
+    source_project_url: https://github.com/thanhsondev/PSVIETHOA-FPKG-Builder
     target_group_path: glab-forks/playstation
   - name: darwin-vm
     source_project_url: https://github.com/jprx/darwin-vm
     target_group_path: glab-forks/other
   - name: PS5-FPKG-RESTORE
-    source_project_url: https://github.com/smoxa/PS5-FPKG-RESTORE
+    source_project_url: https://github.com/thanhsondev/PS5-FPKG-RESTORE
     target_group_path: glab-forks/playstation
   - name: raw13g.github.io
     source_project_url: https://github.com/raw13g/raw13g.github.io

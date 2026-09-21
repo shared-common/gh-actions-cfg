@@ -83,3 +83,21 @@ projects:
   - name: kstuff-lite
     source_project_url: https://github.com/EchoStretch/kstuff-lite
     target_group_path: glab-forks/playstation/echostretch
+  - name: ps5-app-dumper
+    source_project_url: https://github.com/EchoStretch/ps5-app-dumper
+    target_group_path: glab-forks/playstation/echostretch
+  - name: pacbrew-repo
+    source_project_url: https://github.com/EchoStretch/pacbrew-repo
+    target_group_path: glab-forks/playstation/echostretch
+  - name: a53-code-exec
+    source_project_url: https://github.com/EchoStretch/a53-code-exec
+    target_group_path: glab-forks/playstation/echostretch
+  - name: elfldr
+    source_project_url: https://github.com/ps5-payload-dev/elfldr
+    target_group_path: glab-forks/playstation/ps5-payload-dev
+  - name: pacbrew-repo
+    source_project_url: https://github.com/ps5-payload-dev/pacbrew-repo
+    target_group_path: glab-forks/playstation/ps5-payload-dev
+  - name: darwin-vm
+    source_project_url: https://github.com/jprx/darwin-vm
+    target_group_path: glab-forks/other

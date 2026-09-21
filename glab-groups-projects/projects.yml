@@ -137,3 +137,15 @@ projects:
   - name: LibProsperoPKG
     source_project_url: https://github.com/SvenGDK/LibProsperoPKG
     target_group_path: glab-forks/playstation
+  - name: ps5-linux-image
+    source_project_url: https://github.com/ps5-linux/ps5-linux-image
+    target_group_path: glab-forks/playstation
+  - name: ps5-linux-tools
+    source_project_url: https://github.com/ps5-linux/ps5-linux-tools
+    target_group_path: glab-forks/playstation
+  - name: ps5-linux-mwifiex
+    source_project_url: https://github.com/ps5-linux/ps5-linux-mwifiex
+    target_group_path: glab-forks/playstation
+  - name: ps5-linux-patches
+    source_project_url: https://github.com/ps5-linux/ps5-linux-patches
+    target_group_path: glab-forks/playstation

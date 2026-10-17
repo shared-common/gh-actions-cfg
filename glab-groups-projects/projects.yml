@@ -149,3 +149,7 @@ projects:
   - name: ps5-linux-patches
     source_project_url: https://github.com/ps5-linux/ps5-linux-patches
     target_group_path: glab-forks/playstation
+  - name: calix
+    source_project_url: https://github.com/ianswope/calix
+    target_group_path: glab-forks/other
+    

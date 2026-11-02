@@ -161,3 +161,21 @@ projects:
   - name: agenda
     source_project_url: https://github.com/dahenson/agenda
     target_group_path: glab-forks/other
+  - name: scx
+    source_project_url: https://github.com/sched-ext/scx
+    target_group_path: glab-forks/sched-ext
+  - name: scx-loader
+    source_project_url: https://github.com/sched-ext/scx-loader
+    target_group_path: glab-forks/sched-ext
+  - name: sched-ext-website
+    source_project_url: https://github.com/sched-ext/sched-ext.com
+    target_group_path: glab-forks/sched-ext
+  - name: scx-scheds-packaging-deb
+    source_project_url: https://github.com/sched-ext/scx-scheds-packaging-deb
+    target_group_path: glab-forks/sched-ext
+  - name: schtest
+    source_project_url: https://github.com/sched-ext/schtest
+    target_group_path: glab-forks/sched-ext
+  - name: scx-c-examples
+    source_project_url: https://github.com/sched-ext/scx-c-examples
+    target_group_path: glab-forks/sched-ext

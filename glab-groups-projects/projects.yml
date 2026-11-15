@@ -179,3 +179,6 @@ projects:
   - name: scx-c-examples
     source_project_url: https://github.com/sched-ext/scx-c-examples
     target_group_path: glab-forks/sched-ext
+  - name: system-prompts-leaks
+    source_project_url: https://github.com/asgeirtj/system_prompts_leaks
+    target_group_path: glab-forks/other

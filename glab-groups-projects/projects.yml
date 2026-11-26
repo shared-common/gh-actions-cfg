@@ -105,18 +105,18 @@ projects:
   - name: pacbrew-repo
     source_project_url: https://github.com/ps5-payload-dev/pacbrew-repo
     target_group_path: glab-forks/playstation/ps5-payload-dev
-  - name: ps5-linux-archive
-    source_project_url: https://github.com/soniciso1/ps5-linux-archive
-    target_group_path: glab-forks/playstation/soniciso1
-  - name: P2JB
-    source_project_url: https://github.com/soniciso1/P2JB
-    target_group_path: glab-forks/playstation/soniciso1
+#  - name: ps5-linux-archive
+#    source_project_url: https://github.com/soniciso1/ps5-linux-archive
+#    target_group_path: glab-forks/playstation/soniciso1
+#  - name: P2JB
+#    source_project_url: https://github.com/soniciso1/P2JB
+#    target_group_path: glab-forks/playstation/soniciso1
   - name: ps5-linux-loader
     source_project_url: https://github.com/soniciso1/ps5-linux-loader
     target_group_path: glab-forks/playstation/soniciso1
-  - name: P2JB-dev
-    source_project_url: https://github.com/soniciso1/P2JB-dev
-    target_group_path: glab-forks/playstation/soniciso1
+#  - name: P2JB-dev
+#    source_project_url: https://github.com/soniciso1/P2JB-dev
+#    target_group_path: glab-forks/playstation/soniciso1
   - name: ps5-new-overlay
     source_project_url: https://github.com/smoxa/ps5-new-overlay
     target_group_path: glab-forks/playstation/soniciso1

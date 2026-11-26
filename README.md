@@ -209,3 +209,18 @@ and also checks every config directory against the current
 ```sh
 python3 -m unittest discover -s tests -p 'test_*.py'
 ```
+
+## Removing unavailable explicit sources
+
+Run the scanner from this repository to check one or more collections in
+parallel:
+
+```sh
+python3 scan-unavailable-repo.py
+```
+
+The scanner reports unavailable source repositories separately from
+authentication or network errors. After the scan it asks whether the
+unavailable entries should be removed. Confirming with `Y` edits only the
+corresponding active entries in each selected `projects.yml` file and writes
+the result atomically. Commented-out examples are left unchanged.

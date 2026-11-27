@@ -34,10 +34,19 @@
 # extra target-only mcr/* branches or resets project default-branch protection
 # during mirror runs.
 #
-# Inventory snapshot: 2026-11-26. Public repository discovery is best-effort.
+# Inventory snapshot: 2026-11-27. Public repository discovery is best-effort.
 # Existing project destinations are preserved, including mixed namespaces.
 # New GitHub repositories use glab-forks/playstation/<lowercase-owner>.
 # Existing source URLs are retained as supplied; no remote clone checks run.
+#
+# Explicit previous-generation-only entries have been removed from this
+# inventory.
+# The PS5 research set includes public repositories associated with the
+# HackerOne/disclosure context around TheOfficialFloW, Jordy, PS5Dev,
+# ntfargo, soniciso1, flatz, and the wider PS5 research teams.
+# GTA 6 has no public source repository. The GTA 6-related entries here are
+# the public PS5 research, Linux, hypervisor, kernel, and loader projects that
+# were discussed in that disclosure context.
 kind: glab-groups/projects
 version: 1
 projects:
@@ -190,30 +199,17 @@ projects:
     source_project_url: https://github.com/asgeirtj/system_prompts_leaks
     target_group_path: glab-forks/other
 
+  # PS5 research and responsible-disclosure projects
+  #
+  # The primary PS5/GTA 6-context sources are retained below, including
+  # ps5-linux, TheOfficialFloW/bd-jb, jordyidk/slopkit, PS5Dev's
+  # hypervisor/UMTX work, ntfargo/Relapse-Exploit, and soniciso1's
+  # hypervisor writeups. GTA 6 itself is proprietary and has no source repo
+  # that can be mirrored here.
+  #
   # Discovered PlayStation projects
   - name: chukei-dns
     source_project_url: https://github.com/Al-Azif/chukei-dns
-    target_group_path: glab-forks/playstation/al-azif
-  - name: ps4-cfw-toolkit
-    source_project_url: https://github.com/Al-Azif/ps4-cfw-toolkit
-    target_group_path: glab-forks/playstation/al-azif
-  - name: ps4-exploit-host
-    source_project_url: https://github.com/Al-Azif/ps4-exploit-host
-    target_group_path: glab-forks/playstation/al-azif
-  - name: ps4-hen
-    source_project_url: https://github.com/Al-Azif/ps4-hen
-    target_group_path: glab-forks/playstation/al-azif
-  - name: ps4-libLog
-    source_project_url: https://github.com/Al-Azif/ps4-libLog
-    target_group_path: glab-forks/playstation/al-azif
-  - name: ps4-payload-sdk
-    source_project_url: https://github.com/Al-Azif/ps4-payload-sdk
-    target_group_path: glab-forks/playstation/al-azif
-  - name: ps4-skeleton
-    source_project_url: https://github.com/Al-Azif/ps4-skeleton
-    target_group_path: glab-forks/playstation/al-azif
-  - name: ps4-vibe
-    source_project_url: https://github.com/Al-Azif/ps4-vibe
     target_group_path: glab-forks/playstation/al-azif
   - name: 1.00-13.20-webkit-exploit
     source_project_url: https://github.com/Al-Azif/1.00-13.20-webkit-exploit
@@ -242,30 +238,6 @@ projects:
   - name: ps-disc-detect
     source_project_url: https://github.com/Al-Azif/ps-disc-detect
     target_group_path: glab-forks/playstation/al-azif
-  - name: ps4-exploit-kpatches
-    source_project_url: https://github.com/Al-Azif/ps4-exploit-kpatches
-    target_group_path: glab-forks/playstation/al-azif
-  - name: ps4-hello-world
-    source_project_url: https://github.com/Al-Azif/ps4-hello-world
-    target_group_path: glab-forks/playstation/al-azif
-  - name: ps4-payload-guest
-    source_project_url: https://github.com/Al-Azif/ps4-payload-guest
-    target_group_path: glab-forks/playstation/al-azif
-  - name: ps4-payload-guest-languages
-    source_project_url: https://github.com/Al-Azif/ps4-payload-guest-languages
-    target_group_path: glab-forks/playstation/al-azif
-  - name: ps4-re-utilities
-    source_project_url: https://github.com/Al-Azif/ps4-re-utilities
-    target_group_path: glab-forks/playstation/al-azif
-  - name: ps4-wee-tools
-    source_project_url: https://github.com/Al-Azif/ps4-wee-tools
-    target_group_path: glab-forks/playstation/al-azif
-  - name: ps4debug-NG
-    source_project_url: https://github.com/Al-Azif/ps4debug-NG
-    target_group_path: glab-forks/playstation/al-azif
-  - name: psfree-lapse
-    source_project_url: https://github.com/Al-Azif/psfree-lapse
-    target_group_path: glab-forks/playstation/al-azif
   - name: save-tool
     source_project_url: https://github.com/Al-Azif/save-tool
     target_group_path: glab-forks/playstation/al-azif
@@ -293,9 +265,6 @@ projects:
   - name: Byepervisor-Reborn
     source_project_url: https://github.com/ArkSama/Byepervisor-Reborn
     target_group_path: glab-forks/playstation/arksama
-  - name: GhidraOrbis
-    source_project_url: https://github.com/ArkSama/GhidraOrbis
-    target_group_path: glab-forks/playstation/arksama
   - name: GhidraProspero
     source_project_url: https://github.com/ArkSama/GhidraProspero
     target_group_path: glab-forks/playstation/arksama
@@ -310,18 +279,6 @@ projects:
     target_group_path: glab-forks/playstation/arksama
   - name: onionHEN
     source_project_url: https://github.com/ArkSama/onionHEN
-    target_group_path: glab-forks/playstation/arksama
-  - name: ps4-bruteforcer-speedy
-    source_project_url: https://github.com/ArkSama/ps4-bruteforcer-speedy
-    target_group_path: glab-forks/playstation/arksama
-  - name: PS4-Linux-Loader
-    source_project_url: https://github.com/ArkSama/PS4-Linux-Loader
-    target_group_path: glab-forks/playstation/arksama
-  - name: PS4-PS5-Game-Patch
-    source_project_url: https://github.com/ArkSama/PS4-PS5-Game-Patch
-    target_group_path: glab-forks/playstation/arksama
-  - name: ps4jb-payloads
-    source_project_url: https://github.com/ArkSama/ps4jb-payloads
     target_group_path: glab-forks/playstation/arksama
   - name: ps5-game-file-dumper
     source_project_url: https://github.com/ArkSama/ps5-game-file-dumper
@@ -365,9 +322,6 @@ projects:
   - name: a53dump
     source_project_url: https://github.com/AsakuraFuuko/a53dump
     target_group_path: glab-forks/playstation/asakurafuuko
-  - name: GhidraOrbis
-    source_project_url: https://github.com/astrelsky/GhidraOrbis
-    target_group_path: glab-forks/playstation/astrelsky
   - name: GhidraProspero
     source_project_url: https://github.com/astrelsky/GhidraProspero
     target_group_path: glab-forks/playstation/astrelsky
@@ -389,9 +343,6 @@ projects:
   - name: BackPork
     source_project_url: https://github.com/BestPig/BackPork
     target_group_path: glab-forks/playstation/bestpig
-  - name: apollo-ps4
-    source_project_url: https://github.com/bucanero/apollo-ps4
-    target_group_path: glab-forks/playstation/bucanero
   - name: meme_dumper
     source_project_url: https://github.com/cheburek3000/meme_dumper
     target_group_path: glab-forks/playstation/cheburek3000
@@ -407,18 +358,6 @@ projects:
   - name: Playstation-4-Save-Mounter
     source_project_url: https://github.com/ChendoChap/Playstation-4-Save-Mounter
     target_group_path: glab-forks/playstation/chendochap
-  - name: pOOBs4
-    source_project_url: https://github.com/ChendoChap/pOOBs4
-    target_group_path: glab-forks/playstation/chendochap
-  - name: ps4-ipv6-uaf
-    source_project_url: https://github.com/ChendoChap/ps4-ipv6-uaf
-    target_group_path: glab-forks/playstation/chendochap
-  - name: ps4_module_loader
-    source_project_url: https://github.com/ChendoChap/ps4_module_loader
-    target_group_path: glab-forks/playstation/chendochap
-  - name: ps4debug
-    source_project_url: https://github.com/ChendoChap/ps4debug
-    target_group_path: glab-forks/playstation/chendochap
   - name: PS5-IPV6-Kernel-Exploit
     source_project_url: https://github.com/ChendoChap/PS5-IPV6-Kernel-Exploit
     target_group_path: glab-forks/playstation/chendochap
@@ -433,9 +372,6 @@ projects:
     target_group_path: glab-forks/playstation/cragson
   - name: nihonium
     source_project_url: https://github.com/cragson/nihonium
-    target_group_path: glab-forks/playstation/cragson
-  - name: OrbisView
-    source_project_url: https://github.com/cragson/OrbisView
     target_group_path: glab-forks/playstation/cragson
   - name: ProsperoEden
     source_project_url: https://github.com/cragson/ProsperoEden
@@ -455,30 +391,6 @@ projects:
   - name: IDA-ASP-Loader
     source_project_url: https://github.com/Cryptogenic/IDA-ASP-Loader
     target_group_path: glab-forks/playstation/cryptogenic
-  - name: OpenOrbis-PS4-Toolchain-1
-    source_project_url: https://github.com/Cryptogenic/OpenOrbis-PS4-Toolchain-1
-    target_group_path: glab-forks/playstation/cryptogenic
-  - name: PS4-4.05-Kernel-Exploit
-    source_project_url: https://github.com/Cryptogenic/PS4-4.05-Kernel-Exploit
-    target_group_path: glab-forks/playstation/cryptogenic
-  - name: PS4-4.0x-Code-Execution-PoC
-    source_project_url: https://github.com/Cryptogenic/PS4-4.0x-Code-Execution-PoC
-    target_group_path: glab-forks/playstation/cryptogenic
-  - name: PS4-5.05-Kernel-Exploit
-    source_project_url: https://github.com/Cryptogenic/PS4-5.05-Kernel-Exploit
-    target_group_path: glab-forks/playstation/cryptogenic
-  - name: PS4-6.20-WebKit-Code-Execution-Exploit
-    source_project_url: https://github.com/Cryptogenic/PS4-6.20-WebKit-Code-Execution-Exploit
-    target_group_path: glab-forks/playstation/cryptogenic
-  - name: PS4-KHook
-    source_project_url: https://github.com/Cryptogenic/PS4-KHook
-    target_group_path: glab-forks/playstation/cryptogenic
-  - name: PS4-Playground-3.55
-    source_project_url: https://github.com/Cryptogenic/PS4-Playground-3.55
-    target_group_path: glab-forks/playstation/cryptogenic
-  - name: ps4libdoc
-    source_project_url: https://github.com/Cryptogenic/ps4libdoc
-    target_group_path: glab-forks/playstation/cryptogenic
   - name: PS5-IPV6-Kernel-Exploit
     source_project_url: https://github.com/Cryptogenic/PS5-IPV6-Kernel-Exploit
     target_group_path: glab-forks/playstation/cryptogenic
@@ -493,12 +405,6 @@ projects:
     target_group_path: glab-forks/playstation/cryptogenic
   - name: JuSt-ROP
     source_project_url: https://github.com/CTurt/JuSt-ROP
-    target_group_path: glab-forks/playstation/cturt
-  - name: PS4-playground
-    source_project_url: https://github.com/CTurt/PS4-playground
-    target_group_path: glab-forks/playstation/cturt
-  - name: PS4-SDK
-    source_project_url: https://github.com/CTurt/PS4-SDK
     target_group_path: glab-forks/playstation/cturt
   - name: PS5-IPV6-Kernel-Exploit
     source_project_url: https://github.com/CTurt/PS5-IPV6-Kernel-Exploit
@@ -602,9 +508,6 @@ projects:
   - name: kdump_ps5
     source_project_url: https://github.com/earthonion/kdump_ps5
     target_group_path: glab-forks/playstation/earthonion
-  - name: LibOrbisPkg
-    source_project_url: https://github.com/earthonion/LibOrbisPkg
-    target_group_path: glab-forks/playstation/earthonion
   - name: module_dumper
     source_project_url: https://github.com/earthonion/module_dumper
     target_group_path: glab-forks/playstation/earthonion
@@ -626,9 +529,6 @@ projects:
   - name: Vue-mitm-poc
     source_project_url: https://github.com/earthonion/Vue-mitm-poc
     target_group_path: glab-forks/playstation/earthonion
-  - name: yt_adskip_ps4
-    source_project_url: https://github.com/earthonion/yt_adskip_ps4
-    target_group_path: glab-forks/playstation/earthonion
   - name: BD-JB-Relapse
     source_project_url: https://github.com/EchoStretch/BD-JB-Relapse
     target_group_path: glab-forks/playstation/echostretch
@@ -647,35 +547,11 @@ projects:
   - name: etaHEN-Plugins
     source_project_url: https://github.com/EchoStretch/etaHEN-Plugins
     target_group_path: glab-forks/playstation/echostretch
-  - name: GoldHEN_Cheat_Repository
-    source_project_url: https://github.com/EchoStretch/GoldHEN_Cheat_Repository
-    target_group_path: glab-forks/playstation/echostretch
   - name: kstuff
     source_project_url: https://github.com/EchoStretch/kstuff
     target_group_path: glab-forks/playstation/echostretch
   - name: kstuff-toggle
     source_project_url: https://github.com/EchoStretch/kstuff-toggle
-    target_group_path: glab-forks/playstation/echostretch
-  - name: mast1c0re
-    source_project_url: https://github.com/EchoStretch/mast1c0re
-    target_group_path: glab-forks/playstation/echostretch
-  - name: ps4-hen-vtx
-    source_project_url: https://github.com/EchoStretch/ps4-hen-vtx
-    target_group_path: glab-forks/playstation/echostretch
-  - name: ps4-linuxpayloads
-    source_project_url: https://github.com/EchoStretch/ps4-linuxpayloads
-    target_group_path: glab-forks/playstation/echostretch
-  - name: ps4-payload-sdk
-    source_project_url: https://github.com/EchoStretch/ps4-payload-sdk
-    target_group_path: glab-forks/playstation/echostretch
-  - name: ps4-todex
-    source_project_url: https://github.com/EchoStretch/ps4-todex
-    target_group_path: glab-forks/playstation/echostretch
-  - name: ps4debug
-    source_project_url: https://github.com/EchoStretch/ps4debug
-    target_group_path: glab-forks/playstation/echostretch
-  - name: ps4jb2
-    source_project_url: https://github.com/EchoStretch/ps4jb2
     target_group_path: glab-forks/playstation/echostretch
   - name: PS5-kdata-dumper
     source_project_url: https://github.com/EchoStretch/PS5-kdata-dumper
@@ -713,9 +589,6 @@ projects:
   - name: LUA-Lapse
     source_project_url: https://github.com/egycnq/LUA-Lapse
     target_group_path: glab-forks/playstation/egycnq
-  - name: Ps4-Syscon-Read-Write-Helper
-    source_project_url: https://github.com/egycnq/Ps4-Syscon-Read-Write-Helper
-    target_group_path: glab-forks/playstation/egycnq
   - name: ps5-60fps
     source_project_url: https://github.com/eladharels/ps5-60fps
     target_group_path: glab-forks/playstation/eladharels
@@ -734,9 +607,6 @@ projects:
   - name: PS5_Cheats
     source_project_url: https://github.com/etaHEN/PS5_Cheats
     target_group_path: glab-forks/playstation/etahen
-  - name: PS4-Linux-Loader
-    source_project_url: https://github.com/ethylamine/PS4-Linux-Loader
-    target_group_path: glab-forks/playstation/ethylamine
   - name: exfat2ampr
     source_project_url: https://github.com/exFAT2AMPR/exfat2ampr
     target_group_path: glab-forks/playstation/exfat2ampr
@@ -746,32 +616,11 @@ projects:
   - name: ps5-umtxdbg
     source_project_url: https://github.com/fail0verflow/ps5-umtxdbg
     target_group_path: glab-forks/playstation/fail0verflow
-  - name: ps4-kexec
-    source_project_url: https://github.com/fail0verflow/ps4-kexec
-    target_group_path: glab-forks/playstation/fail0verflow
-  - name: ps4-linux
-    source_project_url: https://github.com/fail0verflow/ps4-linux
-    target_group_path: glab-forks/playstation/fail0verflow
   - name: ida_ps5_elf_plugin
     source_project_url: https://github.com/flatz/ida_ps5_elf_plugin
     target_group_path: glab-forks/playstation/flatz
   - name: pkg_pfs_tool
     source_project_url: https://github.com/flatz/pkg_pfs_tool
-    target_group_path: glab-forks/playstation/flatz
-  - name: ps4_gl_test
-    source_project_url: https://github.com/flatz/ps4_gl_test
-    target_group_path: glab-forks/playstation/flatz
-  - name: ps4_remote_pkg_installer
-    source_project_url: https://github.com/flatz/ps4_remote_pkg_installer
-    target_group_path: glab-forks/playstation/flatz
-  - name: PPPwn
-    source_project_url: https://github.com/flatz/PPPwn
-    target_group_path: glab-forks/playstation/flatz
-  - name: ps4_payload_ldr
-    source_project_url: https://github.com/flatz/ps4_payload_ldr
-    target_group_path: glab-forks/playstation/flatz
-  - name: ps4_stub_lib_maker_v2
-    source_project_url: https://github.com/flatz/ps4_stub_lib_maker_v2
     target_group_path: glab-forks/playstation/flatz
   - name: ps5-elfldr
     source_project_url: https://github.com/flatz/ps5-elfldr
@@ -797,9 +646,6 @@ projects:
   - name: Alembic
     source_project_url: https://github.com/fthdgn-gh/Alembic
     target_group_path: glab-forks/playstation/fthdgn-gh
-  - name: ps4mount
-    source_project_url: https://github.com/gasb07/ps4mount
-    target_group_path: glab-forks/playstation/gasb07
   - name: PS5-Game-Compressor
     source_project_url: https://github.com/gcoding97/PS5-Game-Compressor
     target_group_path: glab-forks/playstation/gcoding97
@@ -812,39 +658,9 @@ projects:
   - name: Luac0re
     source_project_url: https://github.com/Gezine/Luac0re
     target_group_path: glab-forks/playstation/gezine
-  - name: PS4-P3Rfix
-    source_project_url: https://github.com/Gezine/PS4-P3Rfix
-    target_group_path: glab-forks/playstation/gezine
   - name: Y2JB
     source_project_url: https://github.com/Gezine/Y2JB
     target_group_path: glab-forks/playstation/gezine
-  - name: GoldHEN
-    source_project_url: https://github.com/GoldHEN/GoldHEN
-    target_group_path: glab-forks/playstation/goldhen
-  - name: GoldHEN.github.io
-    source_project_url: https://github.com/GoldHEN/GoldHEN.github.io
-    target_group_path: glab-forks/playstation/goldhen
-  - name: GoldHEN_Cheat_Repository
-    source_project_url: https://github.com/GoldHEN/GoldHEN_Cheat_Repository
-    target_group_path: glab-forks/playstation/goldhen
-  - name: henloader_lp
-    source_project_url: https://github.com/GoldHEN/henloader_lp
-    target_group_path: glab-forks/playstation/goldhen
-  - name: GoldHEN_Cheat_Manager
-    source_project_url: https://github.com/GoldHEN/GoldHEN_Cheat_Manager
-    target_group_path: glab-forks/playstation/goldhen
-  - name: GoldHEN_Patch_Repository
-    source_project_url: https://github.com/GoldHEN/GoldHEN_Patch_Repository
-    target_group_path: glab-forks/playstation/goldhen
-  - name: GoldHEN_Plugins_Repository
-    source_project_url: https://github.com/GoldHEN/GoldHEN_Plugins_Repository
-    target_group_path: glab-forks/playstation/goldhen
-  - name: GoldHEN_Plugins_SDK
-    source_project_url: https://github.com/GoldHEN/GoldHEN_Plugins_SDK
-    target_group_path: glab-forks/playstation/goldhen
-  - name: ps4debug
-    source_project_url: https://github.com/GoldHEN/ps4debug
-    target_group_path: glab-forks/playstation/goldhen
   - name: ps5-jar-loader
     source_project_url: https://github.com/hammer-83/ps5-jar-loader
     target_group_path: glab-forks/playstation/hammer-83
@@ -856,12 +672,6 @@ projects:
     target_group_path: glab-forks/playstation/idlesauce
   - name: kstuff-lite-int3-hook
     source_project_url: https://github.com/idlesauce/kstuff-lite-int3-hook
-    target_group_path: glab-forks/playstation/idlesauce
-  - name: ps4-eboot-dlc-patcher
-    source_project_url: https://github.com/idlesauce/ps4-eboot-dlc-patcher
-    target_group_path: glab-forks/playstation/idlesauce
-  - name: ps4jb-payloads
-    source_project_url: https://github.com/idlesauce/ps4jb-payloads
     target_group_path: glab-forks/playstation/idlesauce
   - name: PS5-Exploit-Host
     source_project_url: https://github.com/idlesauce/PS5-Exploit-Host
@@ -962,9 +772,6 @@ projects:
   - name: ps5-y2jb-autoloader
     source_project_url: https://github.com/itsPLK/ps5-y2jb-autoloader
     target_group_path: glab-forks/playstation/itsplk
-  - name: ps4debug
-    source_project_url: https://github.com/jogolden/ps4debug
-    target_group_path: glab-forks/playstation/jogolden
   - name: bdj-sdk
     source_project_url: https://github.com/john-tornblom/bdj-sdk
     target_group_path: glab-forks/playstation/john-tornblom
@@ -1040,21 +847,12 @@ projects:
   - name: ps5-date-time-sync
     source_project_url: https://github.com/kerrdec97/ps5-date-time-sync
     target_group_path: glab-forks/playstation/kerrdec97
-  - name: PSFree
-    source_project_url: https://github.com/kmeps4/PSFree
-    target_group_path: glab-forks/playstation/kmeps4
   - name: ps5-patchdl
     source_project_url: https://github.com/knutwurst/ps5-patchdl
     target_group_path: glab-forks/playstation/knutwurst
-  - name: PS4HEN_Lite
-    source_project_url: https://github.com/KrisztianKende/PS4HEN_Lite
-    target_group_path: glab-forks/playstation/krisztiankende
   - name: PS5Prxy
     source_project_url: https://github.com/LiEnby/PS5Prxy
     target_group_path: glab-forks/playstation/lienby
-  - name: apollo-ps4
-    source_project_url: https://github.com/LightningMods/apollo-ps4
-    target_group_path: glab-forks/playstation/lightningmods
   - name: BAR
     source_project_url: https://github.com/LightningMods/BAR
     target_group_path: glab-forks/playstation/lightningmods
@@ -1082,35 +880,11 @@ projects:
   - name: Itemzflow_companion
     source_project_url: https://github.com/LightningMods/Itemzflow_companion
     target_group_path: glab-forks/playstation/lightningmods
-  - name: LibOrbisPkg
-    source_project_url: https://github.com/LightningMods/LibOrbisPkg
-    target_group_path: glab-forks/playstation/lightningmods
   - name: LightningMods.github.io
     source_project_url: https://github.com/LightningMods/LightningMods.github.io
     target_group_path: glab-forks/playstation/lightningmods
   - name: online-store-installer
     source_project_url: https://github.com/LightningMods/online-store-installer
-    target_group_path: glab-forks/playstation/lightningmods
-  - name: PPPwn
-    source_project_url: https://github.com/LightningMods/PPPwn
-    target_group_path: glab-forks/playstation/lightningmods
-  - name: PS4-daemon-writeup
-    source_project_url: https://github.com/LightningMods/PS4-daemon-writeup
-    target_group_path: glab-forks/playstation/lightningmods
-  - name: PS4-Error-Code-Explorer
-    source_project_url: https://github.com/LightningMods/PS4-Error-Code-Explorer
-    target_group_path: glab-forks/playstation/lightningmods
-  - name: ps4-hen
-    source_project_url: https://github.com/LightningMods/ps4-hen
-    target_group_path: glab-forks/playstation/lightningmods
-  - name: ps4-hen-vtx-old
-    source_project_url: https://github.com/LightningMods/ps4-hen-vtx-old
-    target_group_path: glab-forks/playstation/lightningmods
-  - name: PS4-Store
-    source_project_url: https://github.com/LightningMods/PS4-Store
-    target_group_path: glab-forks/playstation/lightningmods
-  - name: ps4_payload_ldr
-    source_project_url: https://github.com/LightningMods/ps4_payload_ldr
     target_group_path: glab-forks/playstation/lightningmods
   - name: PS5-IPV6-Kernel-Exploit
     source_project_url: https://github.com/LightningMods/PS5-IPV6-Kernel-Exploit
@@ -1154,21 +928,6 @@ projects:
   - name: YarP2JB
     source_project_url: https://github.com/matem6/YarP2JB
     target_group_path: glab-forks/playstation/matem6
-  - name: LibOrbisPkg
-    source_project_url: https://github.com/maxton/LibOrbisPkg
-    target_group_path: glab-forks/playstation/maxton
-  - name: mast1c0re
-    source_project_url: https://github.com/McCaulay/mast1c0re
-    target_group_path: glab-forks/playstation/mccaulay
-  - name: mast1c0re-ps2-network-elf-loader
-    source_project_url: https://github.com/McCaulay/mast1c0re-ps2-network-elf-loader
-    target_group_path: glab-forks/playstation/mccaulay
-  - name: mast1c0re-ps2-network-game-loader
-    source_project_url: https://github.com/McCaulay/mast1c0re-ps2-network-game-loader
-    target_group_path: glab-forks/playstation/mccaulay
-  - name: mast1c0re-ps2-usb-game-loader
-    source_project_url: https://github.com/McCaulay/mast1c0re-ps2-usb-game-loader
-    target_group_path: glab-forks/playstation/mccaulay
   - name: okrager
     source_project_url: https://github.com/McCaulay/okrager
     target_group_path: glab-forks/playstation/mccaulay
@@ -1178,21 +937,12 @@ projects:
   - name: Breeze
     source_project_url: https://github.com/MiladRTX/Breeze
     target_group_path: glab-forks/playstation/miladrtx
-  - name: PS4Free
-    source_project_url: https://github.com/minyamasaki/PS4Free
-    target_group_path: glab-forks/playstation/minyamasaki
-  - name: PSFree01
-    source_project_url: https://github.com/minyamasaki/PSFree01
-    target_group_path: glab-forks/playstation/minyamasaki
   - name: ps-play
     source_project_url: https://github.com/mounirhero/ps-play
     target_group_path: glab-forks/playstation/mounirhero
   - name: etaHEN-13.60
     source_project_url: https://github.com/mushidani/etaHEN-13.60
     target_group_path: glab-forks/playstation/mushidani
-  - name: PSFree
-    source_project_url: https://github.com/Nazky/PSFree
-    target_group_path: glab-forks/playstation/nazky
   - name: PS5-Repository-List
     source_project_url: https://github.com/nexgen999/PS5-Repository-List
     target_group_path: glab-forks/playstation/nexgen999
@@ -1202,93 +952,18 @@ projects:
   - name: prosperomgr
     source_project_url: https://github.com/notmaj0r/prosperomgr
     target_group_path: glab-forks/playstation/notmaj0r
-  - name: CSSFontFace-Exploit
-    source_project_url: https://github.com/ntfargo/CSSFontFace-Exploit
-    target_group_path: glab-forks/playstation/ntfargo
   - name: Relapse-Exploit
     source_project_url: https://github.com/ntfargo/Relapse-Exploit
     target_group_path: glab-forks/playstation/ntfargo
   - name: uaf-2023-28205
     source_project_url: https://github.com/ntfargo/uaf-2023-28205
     target_group_path: glab-forks/playstation/ntfargo
-  - name: create-fself
-    source_project_url: https://github.com/OpenOrbis/create-fself
-    target_group_path: glab-forks/playstation/openorbis
-  - name: freebsd-headers
-    source_project_url: https://github.com/OpenOrbis/freebsd-headers
-    target_group_path: glab-forks/playstation/openorbis
-  - name: LibOrbisPkg
-    source_project_url: https://github.com/OpenOrbis/LibOrbisPkg
-    target_group_path: glab-forks/playstation/openorbis
-  - name: llvm
-    source_project_url: https://github.com/OpenOrbis/llvm
-    target_group_path: glab-forks/playstation/openorbis
-  - name: mira-project-archive
-    source_project_url: https://github.com/OpenOrbis/mira-project-archive
-    target_group_path: glab-forks/playstation/openorbis
-  - name: musl
-    source_project_url: https://github.com/OpenOrbis/musl
-    target_group_path: glab-forks/playstation/openorbis
-  - name: OpenOrbis-PS4-Toolchain
-    source_project_url: https://github.com/OpenOrbis/OpenOrbis-PS4-Toolchain
-    target_group_path: glab-forks/playstation/openorbis
-  - name: orbis-lib-gen
-    source_project_url: https://github.com/OpenOrbis/orbis-lib-gen
-    target_group_path: glab-forks/playstation/openorbis
-  - name: readoelf
-    source_project_url: https://github.com/OpenOrbis/readoelf
-    target_group_path: glab-forks/playstation/openorbis
-  - name: right
-    source_project_url: https://github.com/OpenOrbis/right
-    target_group_path: glab-forks/playstation/openorbis
-  - name: create-gp4
-    source_project_url: https://github.com/OpenOrbis/create-gp4
-    target_group_path: glab-forks/playstation/openorbis
-  - name: llvm-project
-    source_project_url: https://github.com/OpenOrbis/llvm-project
-    target_group_path: glab-forks/playstation/openorbis
-  - name: mira-project
-    source_project_url: https://github.com/OpenOrbis/mira-project
-    target_group_path: glab-forks/playstation/openorbis
-  - name: oosdk_libraries
-    source_project_url: https://github.com/OpenOrbis/oosdk_libraries
-    target_group_path: glab-forks/playstation/openorbis
-  - name: ps4libdoc
-    source_project_url: https://github.com/OpenOrbis/ps4libdoc
-    target_group_path: glab-forks/playstation/openorbis
-  - name: SDL-PS4
-    source_project_url: https://github.com/OpenOrbis/SDL-PS4
-    target_group_path: glab-forks/playstation/openorbis
   - name: ps5-aria2
     source_project_url: https://github.com/owendswang/ps5-aria2
     target_group_path: glab-forks/playstation/owendswang
   - name: ps5-fan-control
     source_project_url: https://github.com/owendswang/ps5-fan-control
     target_group_path: glab-forks/playstation/owendswang
-  - name: ps4-linux-loader
-    source_project_url: https://github.com/ps4-linux/ps4-linux-loader
-    target_group_path: glab-forks/playstation/ps4-linux
-  - name: ps4-linux-payloads-archive
-    source_project_url: https://github.com/ps4boot/ps4-linux-payloads-archive
-    target_group_path: glab-forks/playstation/ps4boot
-  - name: elf-loader
-    source_project_url: https://github.com/ps4dev/elf-loader
-    target_group_path: glab-forks/playstation/ps4dev
-  - name: freebsd-include-mirror
-    source_project_url: https://github.com/ps4dev/freebsd-include-mirror
-    target_group_path: glab-forks/playstation/ps4dev
-  - name: libSceGnmDriver
-    source_project_url: https://github.com/ps4dev/libSceGnmDriver
-    target_group_path: glab-forks/playstation/ps4dev
-  - name: libScePad
-    source_project_url: https://github.com/ps4dev/libScePad
-    target_group_path: glab-forks/playstation/ps4dev
-  - name: ps4sdk
-    source_project_url: https://github.com/ps4dev/ps4sdk
-    target_group_path: glab-forks/playstation/ps4dev
-  - name: ps4sdk-examples
-    source_project_url: https://github.com/ps4dev/ps4sdk-examples
-    target_group_path: glab-forks/playstation/ps4dev
   - name: bdj-ipv6-hen
     source_project_url: https://github.com/ps5-payload-dev/bdj-ipv6-hen
     target_group_path: glab-forks/playstation/ps5-payload-dev
@@ -1382,128 +1057,23 @@ projects:
   - name: PS5SDK
     source_project_url: https://github.com/PS5Dev/PS5SDK
     target_group_path: glab-forks/playstation/ps5dev
-  - name: eapdev
-    source_project_url: https://github.com/psxdev/eapdev
-    target_group_path: glab-forks/playstation/psxdev
-  - name: fmsx
-    source_project_url: https://github.com/psxdev/fmsx
-    target_group_path: glab-forks/playstation/psxdev
-  - name: luke_firmwares
-    source_project_url: https://github.com/psxdev/luke_firmwares
-    target_group_path: glab-forks/playstation/psxdev
-  - name: liborbis
-    source_project_url: https://github.com/psxdev/liborbis
-    target_group_path: glab-forks/playstation/psxdev
-  - name: OrbisEyeCam
-    source_project_url: https://github.com/psxdev/OrbisEyeCam
-    target_group_path: glab-forks/playstation/psxdev
-  - name: ps4link
-    source_project_url: https://github.com/psxdev/ps4link
-    target_group_path: glab-forks/playstation/psxdev
-  - name: ps4sdk
-    source_project_url: https://github.com/psxdev/ps4sdk
-    target_group_path: glab-forks/playstation/psxdev
   - name: ps5-dump-forge
     source_project_url: https://github.com/quer3q/ps5-dump-forge
     target_group_path: glab-forks/playstation/quer3q
   - name: PKGMerge
     source_project_url: https://github.com/RobbedColek/PKGMerge
     target_group_path: glab-forks/playstation/robbedcolek
-  - name: ps4-ksdk
-    source_project_url: https://github.com/saudid0s/ps4-ksdk
-    target_group_path: glab-forks/playstation/saudid0s
-  - name: ps4debug
-    source_project_url: https://github.com/saudid0s/ps4debug
-    target_group_path: glab-forks/playstation/saudid0s
-  - name: PS4HEN_Lite
-    source_project_url: https://github.com/saudid0s/PS4HEN_Lite
-    target_group_path: glab-forks/playstation/saudid0s
   - name: ps5-app-dumper
     source_project_url: https://github.com/saudid0s/ps5-app-dumper
     target_group_path: glab-forks/playstation/saudid0s
   - name: WebRTE
     source_project_url: https://github.com/saudid0s/WebRTE
     target_group_path: glab-forks/playstation/saudid0s
-  - name: ps4-disable-updates
-    source_project_url: https://github.com/Scene-Collective/ps4-disable-updates
-    target_group_path: glab-forks/playstation/scene-collective
-  - name: ps4-enable-browser
-    source_project_url: https://github.com/Scene-Collective/ps4-enable-browser
-    target_group_path: glab-forks/playstation/scene-collective
-  - name: ps4-enable-updates
-    source_project_url: https://github.com/Scene-Collective/ps4-enable-updates
-    target_group_path: glab-forks/playstation/scene-collective
-  - name: ps4-exit-idu
-    source_project_url: https://github.com/Scene-Collective/ps4-exit-idu
-    target_group_path: glab-forks/playstation/scene-collective
-  - name: ps4-history-blocker
-    source_project_url: https://github.com/Scene-Collective/ps4-history-blocker
-    target_group_path: glab-forks/playstation/scene-collective
-  - name: ps4-restore
-    source_project_url: https://github.com/Scene-Collective/ps4-restore
-    target_group_path: glab-forks/playstation/scene-collective
-  - name: ps4-app-dumper
-    source_project_url: https://github.com/Scene-Collective/ps4-app-dumper
-    target_group_path: glab-forks/playstation/scene-collective
-  - name: ps4-app2usb
-    source_project_url: https://github.com/Scene-Collective/ps4-app2usb
-    target_group_path: glab-forks/playstation/scene-collective
-  - name: ps4-disable-aslr
-    source_project_url: https://github.com/Scene-Collective/ps4-disable-aslr
-    target_group_path: glab-forks/playstation/scene-collective
-  - name: ps4-hen
-    source_project_url: https://github.com/Scene-Collective/ps4-hen
-    target_group_path: glab-forks/playstation/scene-collective
-  - name: ps4-hen-plugins
-    source_project_url: https://github.com/Scene-Collective/ps4-hen-plugins
-    target_group_path: glab-forks/playstation/scene-collective
-  - name: ps4-kernel-clock
-    source_project_url: https://github.com/Scene-Collective/ps4-kernel-clock
-    target_group_path: glab-forks/playstation/scene-collective
-  - name: ps4-kernel-dumper
-    source_project_url: https://github.com/Scene-Collective/ps4-kernel-dumper
-    target_group_path: glab-forks/playstation/scene-collective
-  - name: ps4-module-dumper
-    source_project_url: https://github.com/Scene-Collective/ps4-module-dumper
-    target_group_path: glab-forks/playstation/scene-collective
-  - name: ps4-payload-repo
-    source_project_url: https://github.com/Scene-Collective/ps4-payload-repo
-    target_group_path: glab-forks/playstation/scene-collective
-  - name: ps4-payload-sdk
-    source_project_url: https://github.com/Scene-Collective/ps4-payload-sdk
-    target_group_path: glab-forks/playstation/scene-collective
-  - name: ps4-permanent-uart
-    source_project_url: https://github.com/Scene-Collective/ps4-permanent-uart
-    target_group_path: glab-forks/playstation/scene-collective
-  - name: ps4-pup-decrypt
-    source_project_url: https://github.com/Scene-Collective/ps4-pup-decrypt
-    target_group_path: glab-forks/playstation/scene-collective
-  - name: ps4-todex
-    source_project_url: https://github.com/Scene-Collective/ps4-todex
-    target_group_path: glab-forks/playstation/scene-collective
-  - name: shadPS4
-    source_project_url: https://github.com/shadps4-emu/shadPS4
-    target_group_path: glab-forks/playstation/shadps4-emu
-  - name: ps4-hen-vtx
-    source_project_url: https://github.com/SiSTR0/ps4-hen-vtx
-    target_group_path: glab-forks/playstation/sistr0
   - name: 900-host
     source_project_url: https://github.com/sleirsgoevy/900-host
     target_group_path: glab-forks/playstation/sleirsgoevy
   - name: hbstore-cdn
     source_project_url: https://github.com/sleirsgoevy/hbstore-cdn
-    target_group_path: glab-forks/playstation/sleirsgoevy
-  - name: ps4-kexec
-    source_project_url: https://github.com/sleirsgoevy/ps4-kexec
-    target_group_path: glab-forks/playstation/sleirsgoevy
-  - name: ps4-libjbc
-    source_project_url: https://github.com/sleirsgoevy/ps4-libjbc
-    target_group_path: glab-forks/playstation/sleirsgoevy
-  - name: ps4-rop-8cc
-    source_project_url: https://github.com/sleirsgoevy/ps4-rop-8cc
-    target_group_path: glab-forks/playstation/sleirsgoevy
-  - name: ps4-web-activator
-    source_project_url: https://github.com/sleirsgoevy/ps4-web-activator
     target_group_path: glab-forks/playstation/sleirsgoevy
   - name: ps5-linux-loader
     source_project_url: https://github.com/sleirsgoevy/ps5-linux-loader
@@ -1517,80 +1087,8 @@ projects:
   - name: bd-jb
     source_project_url: https://github.com/sleirsgoevy/bd-jb
     target_group_path: glab-forks/playstation/sleirsgoevy
-  - name: ps4-hamachi
-    source_project_url: https://github.com/sleirsgoevy/ps4-hamachi
-    target_group_path: glab-forks/playstation/sleirsgoevy
-  - name: PS4-webkit-exploit-7.02
-    source_project_url: https://github.com/sleirsgoevy/PS4-webkit-exploit-7.02
-    target_group_path: glab-forks/playstation/sleirsgoevy
-  - name: ps4jb
-    source_project_url: https://github.com/sleirsgoevy/ps4jb
-    target_group_path: glab-forks/playstation/sleirsgoevy
-  - name: ps4jb-payloads
-    source_project_url: https://github.com/sleirsgoevy/ps4jb-payloads
-    target_group_path: glab-forks/playstation/sleirsgoevy
-  - name: ps4jb2
-    source_project_url: https://github.com/sleirsgoevy/ps4jb2
-    target_group_path: glab-forks/playstation/sleirsgoevy
   - name: belf
     source_project_url: https://github.com/SocraticBliss/belf
-    target_group_path: glab-forks/playstation/socraticbliss
-  - name: GhidraOrbisTools
-    source_project_url: https://github.com/SocraticBliss/GhidraOrbisTools
-    target_group_path: glab-forks/playstation/socraticbliss
-  - name: GhidraPS4Loader
-    source_project_url: https://github.com/SocraticBliss/GhidraPS4Loader
-    target_group_path: glab-forks/playstation/socraticbliss
-  - name: LibOrbisPkg
-    source_project_url: https://github.com/SocraticBliss/LibOrbisPkg
-    target_group_path: glab-forks/playstation/socraticbliss
-  - name: ps4-hen-vtx
-    source_project_url: https://github.com/SocraticBliss/ps4-hen-vtx
-    target_group_path: glab-forks/playstation/socraticbliss
-  - name: ps4-jailbreak-installer
-    source_project_url: https://github.com/SocraticBliss/ps4-jailbreak-installer
-    target_group_path: glab-forks/playstation/socraticbliss
-  - name: ps4-payload-sdk
-    source_project_url: https://github.com/SocraticBliss/ps4-payload-sdk
-    target_group_path: glab-forks/playstation/socraticbliss
-  - name: ps4-pup_decrypt
-    source_project_url: https://github.com/SocraticBliss/ps4-pup_decrypt
-    target_group_path: glab-forks/playstation/socraticbliss
-  - name: ps4_dec_pup_info
-    source_project_url: https://github.com/SocraticBliss/ps4_dec_pup_info
-    target_group_path: glab-forks/playstation/socraticbliss
-  - name: ps4_env_decryptor
-    source_project_url: https://github.com/SocraticBliss/ps4_env_decryptor
-    target_group_path: glab-forks/playstation/socraticbliss
-  - name: ps4_ioctl_nabber_script
-    source_project_url: https://github.com/SocraticBliss/ps4_ioctl_nabber_script
-    target_group_path: glab-forks/playstation/socraticbliss
-  - name: ps4_kernel_fixup_script
-    source_project_url: https://github.com/SocraticBliss/ps4_kernel_fixup_script
-    target_group_path: glab-forks/playstation/socraticbliss
-  - name: ps4_kernel_loader
-    source_project_url: https://github.com/SocraticBliss/ps4_kernel_loader
-    target_group_path: glab-forks/playstation/socraticbliss
-  - name: ps4_module_dumper
-    source_project_url: https://github.com/SocraticBliss/ps4_module_dumper
-    target_group_path: glab-forks/playstation/socraticbliss
-  - name: ps4_module_loader
-    source_project_url: https://github.com/SocraticBliss/ps4_module_loader
-    target_group_path: glab-forks/playstation/socraticbliss
-  - name: ps4_registry_editor
-    source_project_url: https://github.com/SocraticBliss/ps4_registry_editor
-    target_group_path: glab-forks/playstation/socraticbliss
-  - name: ps4_sflash0_tool
-    source_project_url: https://github.com/SocraticBliss/ps4_sflash0_tool
-    target_group_path: glab-forks/playstation/socraticbliss
-  - name: ps4_syscon_loader
-    source_project_url: https://github.com/SocraticBliss/ps4_syscon_loader
-    target_group_path: glab-forks/playstation/socraticbliss
-  - name: ps4_unfself
-    source_project_url: https://github.com/SocraticBliss/ps4_unfself
-    target_group_path: glab-forks/playstation/socraticbliss
-  - name: ps4libdoc
-    source_project_url: https://github.com/SocraticBliss/ps4libdoc
     target_group_path: glab-forks/playstation/socraticbliss
   - name: ESP32-S3-Hosts
     source_project_url: https://github.com/soniciso1/ESP32-S3-Hosts
@@ -1607,29 +1105,17 @@ projects:
   - name: relapse
     source_project_url: https://github.com/soniciso1/relapse
     target_group_path: glab-forks/playstation/soniciso1
-  - name: ps4-payload-sdk
-    source_project_url: https://github.com/stooged/ps4-payload-sdk
-    target_group_path: glab-forks/playstation/stooged
   - name: ps5-cooling-system-center-pro
     source_project_url: https://github.com/strongt1me/ps5-cooling-system-center-pro
     target_group_path: glab-forks/playstation/strongt1me
-  - name: PS-Multi-Tools
-    source_project_url: https://github.com/SvenGDK/PS-Multi-Tools
-    target_group_path: glab-forks/playstation/svengdk
   - name: ps5-library-browser
     source_project_url: https://github.com/sweenyxsky-oss/ps5-library-browser
     target_group_path: glab-forks/playstation/sweenyxsky-oss
-  - name: PS4-webkit-exploit-6.XX
-    source_project_url: https://github.com/synacktiv/PS4-webkit-exploit-6.XX
-    target_group_path: glab-forks/playstation/synacktiv
   - name: bd-jb
     source_project_url: https://github.com/TheOfficialFloW/bd-jb
     target_group_path: glab-forks/playstation/theofficialflow
   - name: Presentations
     source_project_url: https://github.com/TheOfficialFloW/Presentations
-    target_group_path: glab-forks/playstation/theofficialflow
-  - name: PPPwn
-    source_project_url: https://github.com/TheOfficialFloW/PPPwn
     target_group_path: glab-forks/playstation/theofficialflow
   - name: cobolt
     source_project_url: https://github.com/ufm42/cobolt
@@ -1658,12 +1144,6 @@ projects:
   - name: prospack
     source_project_url: https://github.com/unicxrn/prospack
     target_group_path: glab-forks/playstation/unicxrn
-  - name: PS4-Linux
-    source_project_url: https://github.com/X-F1REBALL-X/PS4-Linux
-    target_group_path: glab-forks/playstation/x-f1reball-x
-  - name: PPPwn_cpp
-    source_project_url: https://github.com/xfangfang/PPPwn_cpp
-    target_group_path: glab-forks/playstation/xfangfang
   - name: ps5-cleanup
     source_project_url: https://github.com/xxbneutzernamexx/ps5-cleanup
     target_group_path: glab-forks/playstation/xxbneutzernamexx

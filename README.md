@@ -200,6 +200,12 @@ skipped for that run.
 whose destination is built as `<target_group_path>/<name>`. Those entries do
 not derive target namespace segments from the source repository URL.
 
+The PlayStation inventory contains current-generation PS5 research and
+responsible-disclosure sources. Previous-generation-only entries have been
+removed. GTA 6 has no public source repository, so the GTA 6-related inventory
+is limited to public PS5 Linux, hypervisor, kernel, WebKit, loader, and
+responsible-disclosure research repositories.
+
 ## Validation
 
 Repo-native CI in `validate-configs.yml` validates this config repo directly

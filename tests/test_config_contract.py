@@ -185,6 +185,19 @@ class ConfigContractTests(unittest.TestCase):
                 else:
                     self.assertFalse(groups_path.exists(), "unexpected groups.jsonl outside the dedicated instance-root wrappers")
 
+    def test_projects_collection_excludes_previous_generation_entries_and_keeps_ps5_research_sources(self) -> None:
+        projects_text = (REPO_ROOT / "glab-groups-projects" / "projects.yml").read_text(encoding="utf-8").lower()
+        self.assertNotIn("ps4", projects_text)
+        for source_url in (
+            "https://github.com/jordyidk/slopkit",
+            "https://github.com/ntfargo/relapse-exploit",
+            "https://github.com/ps5dev/byepervisor-reborn",
+            "https://github.com/soniciso1/ps5-hv-writeups",
+            "https://github.com/theofficialflow/bd-jb",
+            "https://github.com/ps5-linux/ps5-linux-loader",
+        ):
+            self.assertIn(source_url, projects_text)
+
 
 if __name__ == "__main__":
     unittest.main()

@@ -31,7 +31,7 @@ EXPECTED_DEFAULTS = {
     "glab-groups-microsoft": {"batch_size": 50, "max_parallel": 2},
     "glab-groups-nvidia": {"batch_size": 10, "max_parallel": 2},
     "glab-groups-openai": {"batch_size": 25, "max_parallel": 2},
-    "glab-groups-projects": {"batch_size": 10, "max_parallel": 2},
+    "glab-groups-projects": {"batch_size": 2, "max_parallel": 5},
     "glab-groups-small": {"batch_size": 10, "max_parallel": 2},
 }
 EXPECTED_NAMESPACE_DISCOVERY_SHARDS = {
@@ -96,6 +96,10 @@ class ConfigContractTests(unittest.TestCase):
                 expected = EXPECTED_DEFAULTS[config_dir.name]
                 self.assertEqual(int(payload["defaults"]["batch_size"]), expected["batch_size"])
                 self.assertEqual(int(payload["defaults"]["max_parallel"]), expected["max_parallel"])
+                if config_dir.name == "glab-groups-projects":
+                    self.assertEqual(int(payload["defaults"]["mirror_timeout_seconds"]), 900)
+                    self.assertEqual(int(payload["defaults"]["source_check_timeout_seconds"]), 120)
+                    self.assertEqual(int(payload["defaults"]["source_retry_attempts"]), 2)
 
     def test_config_directories_keep_expected_shape(self) -> None:
         for config_dir in CONFIG_DIRS:
@@ -195,8 +199,16 @@ class ConfigContractTests(unittest.TestCase):
             "https://github.com/soniciso1/ps5-hv-writeups",
             "https://github.com/theofficialflow/bd-jb",
             "https://github.com/ps5-linux/ps5-linux-loader",
+            "https://github.com/echostretch/kstuff",
+            "https://github.com/echostretch/kstuff-lite",
+            "https://github.com/echostretch/y2jb",
+            "https://github.com/drakmor/shadowmountplus",
+            "https://github.com/earthonion/garlic-savemgr",
+            "https://github.com/owendswang/ps5-web-file-manager",
+            "https://github.com/kerrdec97/ps5-date-time-sync",
         ):
             self.assertIn(source_url, projects_text)
+        self.assertNotIn("playstation-4", projects_text)
 
 
 if __name__ == "__main__":

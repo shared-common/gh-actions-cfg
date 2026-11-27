@@ -5,12 +5,16 @@
 # - allow_blob_rewrite: null
 # - force_lfs: null
 # - git_timeout_seconds: null
+# - mirror_timeout_seconds: null
 # - gitlab_source_include_subgroups: null
 # - mirror_pristine_tar: null
 # - read_retry_attempts: null
 # - read_retry_backoff_seconds: null
 # - retry_attempts: null
 # - retry_backoff_seconds: null
+# - source_check_timeout_seconds: null
+# - source_retry_attempts: null
+# - source_retry_backoff_seconds: null
 # - size_limit_bytes: null
 # - max_blob_bytes: null
 # - additional_branches: []
@@ -44,6 +48,9 @@
 # The PS5 research set includes public repositories associated with the
 # HackerOne/disclosure context around TheOfficialFloW, Jordy, PS5Dev,
 # ntfargo, soniciso1, flatz, and the wider PS5 research teams.
+# It also tracks current PS5 payload and mod projects such as kstuff,
+# kstuff-lite, Y2JB, ShadowMountPlus, garlic-savemgr, PS5 Web File Manager,
+# PS5Save, LiveShell, CheatRunner, zftpd, and PS5 date/time sync.
 # GTA 6 has no public source repository. The GTA 6-related entries here are
 # the public PS5 research, Linux, hypervisor, kernel, and loader projects that
 # were discussed in that disclosure context.
@@ -354,9 +361,6 @@ projects:
     target_group_path: glab-forks/playstation/chendochap
   - name: orbital-qemu
     source_project_url: https://github.com/ChendoChap/orbital-qemu
-    target_group_path: glab-forks/playstation/chendochap
-  - name: Playstation-4-Save-Mounter
-    source_project_url: https://github.com/ChendoChap/Playstation-4-Save-Mounter
     target_group_path: glab-forks/playstation/chendochap
   - name: PS5-IPV6-Kernel-Exploit
     source_project_url: https://github.com/ChendoChap/PS5-IPV6-Kernel-Exploit
@@ -964,6 +968,36 @@ projects:
   - name: ps5-fan-control
     source_project_url: https://github.com/owendswang/ps5-fan-control
     target_group_path: glab-forks/playstation/owendswang
+  - name: ps5-web-file-manager
+    source_project_url: https://github.com/owendswang/ps5-web-file-manager
+    target_group_path: glab-forks/playstation/owendswang
+  - name: PS5Save
+    source_project_url: https://github.com/heni0xyz/PS5Save
+    target_group_path: glab-forks/playstation/heni0xyz
+  - name: LiveShell
+    source_project_url: https://github.com/ZiZc3/LiveShell
+    target_group_path: glab-forks/playstation/zizc3
+  - name: CheatRunner
+    source_project_url: https://github.com/notmaj0r/CheatRunner
+    target_group_path: glab-forks/playstation/notmaj0r
+  - name: zftpd
+    source_project_url: https://github.com/seregonwar/zftpd
+    target_group_path: glab-forks/playstation/seregonwar
+  - name: WelcomeHubActivator
+    source_project_url: https://github.com/ghost1372/WelcomeHubActivator
+    target_group_path: glab-forks/playstation/ghost1372
+  - name: ps5debug-NG
+    source_project_url: https://github.com/Pharaoh2k/ps5debug-NG
+    target_group_path: glab-forks/playstation/pharaoh2k
+  - name: ps5upload
+    source_project_url: https://github.com/phantomptr/ps5upload
+    target_group_path: glab-forks/playstation/phantomptr
+  - name: PS5-File-Explorer
+    source_project_url: https://github.com/juma-sayeh/PS5-File-Explorer
+    target_group_path: glab-forks/playstation/juma-sayeh
+  - name: BFpilot
+    source_project_url: https://github.com/ItsBlurf/BFpilot
+    target_group_path: glab-forks/playstation/itsblurf
   - name: bdj-ipv6-hen
     source_project_url: https://github.com/ps5-payload-dev/bdj-ipv6-hen
     target_group_path: glab-forks/playstation/ps5-payload-dev

@@ -51,6 +51,8 @@ a single source-discovery job.
 Each `projects.yml` item may set only the fields it wants to override. Along
 with `source_project_url` and `target_group_path`, supported optional policy
 fields include `allow_blob_rewrite`, `force_lfs`, `git_timeout_seconds`,
+`mirror_timeout_seconds`, `source_check_timeout_seconds`,
+`source_retry_attempts`, `source_retry_backoff_seconds`,
 `read_retry_attempts`, `read_retry_backoff_seconds`, `retry_attempts`,
 `retry_backoff_seconds`, `size_limit_bytes`, `max_blob_bytes`,
 `additional_branches`, `additional_tags`, and optional explicit-project
@@ -66,6 +68,10 @@ The `defaults` files keep the common run policy explicit:
 - `size_limit_bytes`: selected-ref repository budget, defaulting to 9 GiB
 - `max_blob_bytes`: blob limit, defaulting to 100 MiB
 - `retry_attempts` and `retry_backoff_seconds`: bounded retry policy
+- `source_check_timeout_seconds`, `source_retry_attempts`, and
+  `source_retry_backoff_seconds`: bounded source availability checks
+- `mirror_timeout_seconds`: complete per-repository mirror budget. A timed-out
+  repository is written as skipped so the next repository continues.
 
 Each namespace entry may also set:
 

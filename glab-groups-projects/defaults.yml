@@ -4,14 +4,18 @@ defaults:
   allow_blob_rewrite: true
   additional_branches: []
   additional_tags: []
-  batch_size: 10
-  max_parallel: 2
+  batch_size: 2
+  max_parallel: 5
   force_lfs: false
-  git_timeout_seconds: 2400
+  git_timeout_seconds: 900
+  mirror_timeout_seconds: 900
   gitlab_source_include_subgroups: false
   max_blob_bytes: 104857600
   read_retry_attempts: 2
   read_retry_backoff_seconds: 5
   retry_attempts: 3
   retry_backoff_seconds: 2
+  source_check_timeout_seconds: 120
+  source_retry_attempts: 2
+  source_retry_backoff_seconds: 3
   size_limit_bytes: 9663676416
